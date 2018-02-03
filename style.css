@@ -93,6 +93,7 @@ a {
       font-size: 100%;
   }
   #menu {
+      font-size: 80%;
       position: sticky;
       width: 100%;
       top: 0px;
