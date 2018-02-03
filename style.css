@@ -64,6 +64,7 @@ a {
     grid-column: 1;
     position: sticky;
     background-color: aquamarine;
+    text-align: center;
     top: 0;
     height: 100vh;
     box-sizing: border-box;
@@ -80,6 +81,9 @@ a {
 }
 
 @media screen and (max-width: 600px) {
+  body {
+      font-size: 80%;
+  }
   #menu {
       position: sticky;
       width: 100%;
@@ -102,7 +106,6 @@ a {
   #menu li {
       display: inline-block;
       padding-left: 10px;
-      font-size: 85%;
   }
   .figure {
       display: none;
