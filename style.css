@@ -23,6 +23,11 @@ blockquote {
 
 a {
     text-decoration: none;
+    color: blue;
+}
+
+a:visited {
+    color: blue;
 }
 
 #menu ul {
