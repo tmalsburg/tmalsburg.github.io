@@ -38,6 +38,10 @@ a {
     display: none;
 }
 
+.title {
+    display: none;
+}
+
 #grid-body {
     display: inline-grid;
     grid-template-columns: 1fr 6fr;
