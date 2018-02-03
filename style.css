@@ -60,6 +60,10 @@ a {
     margin: 0px;
 }
 
+#profilepic2 {
+    display: none;
+}
+
 #menu {
     grid-column: 1;
     position: sticky;
@@ -91,6 +95,7 @@ a {
       left: 0px;
       height: auto;
       padding: 5px;
+      text-align: left;
       grid-column: 1 / span 2;
       grid-row: 1;
   }
@@ -109,6 +114,9 @@ a {
   }
   .figure {
       display: none;
+  }
+  #profilepic2 {
+      display: block;
   }
 }
 
