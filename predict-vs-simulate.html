@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2018-02-04 Sun 19:47 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>What’s the difference between predict vs simulate in lme4?</title>
+<meta name="generator" content="Org mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script type="text/javascript">(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-65078659-1', 'auto'); ga('send', 'pageview');</script> <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_SVG"/> <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"} } }); </script>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">What’s the difference between predict vs simulate in lme4?</h1>
+<div id="grid-body">
+<div id="menu">
+
+<div class="figure">
+<p><a href="index.html" width="100%" id="profilepic1"><img src="titus_fern_canyon_small.png" alt="titus_fern_canyon_small.png" width="100%" id="profilepic1" /></a><br />
+</p>
+</div>
+<ul class="org-ul">
+<li><a href="index.html">Contact</a><br /></li>
+<li><a href="index.html#org8f55066">News</a><br /></li>
+<li><a href="index.html#org0303a35">Blog</a><br /></li>
+<li><a href="index.html#org5724d65">Publications</a><br /></li>
+<li><a href="index.html#orgdcad6e3">Software</a><br /></li>
+</ul>
+</div>
+<div id="grid-content">
+<div class="date">2015-05-27</div>
+<div id="outline-container-org56d7536" class="outline-2">
+<h2 id="org56d7536">What’s the difference between predict vs simulate in lme4?</h2>
+<div class="outline-text-2" id="text-org56d7536">
+<p>
+Most people use the <code>lme4</code> package to analyze data using mixed effects models.  However, the lme4 package also has two tremendously useful functions for the reverse process: generating new data from fitted models.  These functions are <code>predict</code> and <code>simulate</code>.  Below I will illustrate what these functions do and how they differ.<br />
+</p>
+
+<p>
+For this investigation we are going to use the <code>sleepdata</code> data set from the lme4 package.  Here is the head of the data frame:<br />
+</p>
+
+<pre class="example">
+ 
+ Reaction Days Subject
+1 249.5600    0     308
+2 258.7047    1     308
+3 250.8006    2     308
+4 321.4398    3     308
+5 356.8519    4     308
+6 414.6901    5     308
+
+</pre>
+
+<p>
+For convenience, we rename the 18 subjects with consecutive integers starting from 1:<br />
+</p>
+
+<div class="org-src-container">
+<pre class="src src-R">d <span style="color: #8f5902; font-style: italic;">&lt;-</span> sleepstudy
+d$Subject <span style="color: #8f5902; font-style: italic;">&lt;-</span> factor(rep(1:18, each=10))
+</pre>
+</div>
+
+<p>
+For predicting and simulating new data, we need parameters.  We obtain them by fitting an LMM on the original data:<br />
+</p>
+
+<div class="org-src-container">
+<pre class="src src-R">fm1 <span style="color: #8f5902; font-style: italic;">&lt;-</span> lmer(Reaction ~ Days + (Days|Subject), d)
+summary(fm1)
+</pre>
+</div>
+
+<pre class="example">
+Linear mixed model fit by REML ['lmerMod']
+Formula: Reaction ~ Days + (Days | Subject)
+   Data: d
+
+REML criterion at convergence: 1743.6
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-3.9536 -0.4634  0.0231  0.4634  5.1793 
+
+Random effects:
+ Groups   Name        Variance Std.Dev. Corr
+ Subject  (Intercept) 612.09   24.740       
+          Days         35.07    5.922   0.07
+ Residual             654.94   25.592       
+Number of obs: 180, groups:  Subject, 18
+
+Fixed effects:
+            Estimate Std. Error t value
+(Intercept)  251.405      6.825   36.84
+Days          10.467      1.546    6.77
+
+Correlation of Fixed Effects:
+     (Intr)
+Days -0.138
+</pre>
+
+<p>
+Now we add 18 new subjects to the data frame and set their <code>Reaction</code> values to <code>NA</code>.<br />
+</p>
+
+<div class="org-src-container">
+<pre class="src src-R">d <span style="color: #8f5902; font-style: italic;">&lt;-</span> rbind(sleepstudy, sleepstudy)
+d$Subject <span style="color: #8f5902; font-style: italic;">&lt;-</span> factor(rep(1:36, each=10))
+d$Reaction <span style="color: #8f5902; font-style: italic;">&lt;-</span> ifelse(d$Subject <span style="color: #8f5902; font-style: italic;">%in%</span> 19:36, <span style="color: #a40000;">NA</span>, d$Reaction)
+</pre>
+</div>
+
+<p>
+Next we predict and simulate data for the 18 old subjects and the 18 new subjects.  Note that we drop the <code>Reaction</code> column from the data frame when we call <code>simulate</code>.  This circumvents <a href="https://github.com/lme4/lme4/issues/305">bug</a> in lme4 which has recently been fixed in the development version.<br />
+</p>
+
+<div class="org-src-container">
+<pre class="src src-R">  d$predicted <span style="color: #8f5902; font-style: italic;">&lt;-</span> predict (fm1, newdata=d, allow.new.levels=T)
+  d$simulated <span style="color: #8f5902; font-style: italic;">&lt;-</span> simulate(fm1, seed=1, newdata=d[-1], re.form=<span style="color: #a40000;">NA</span>,
+                          allow.new.levels=T)$sim_1
+</pre>
+</div>
+
+<p>
+<code>predict</code> is deterministic and uses only the fixed effects and the conditional modes (where available, i.e. not for the new subjects).  <code>simulate</code> is non-deterministic because it samples random effect values for all subjects and then samples from the conditional distribution.<br />
+</p>
+
+<p>
+The graphs below show the subject means for the original data, the predicted data, and the simulated data.  We see that <code>predict</code> perfectly reproduces the subject means found in the original data.  However, the new subjects all have the same means since no conditional modes were available for them.<br />
+</p>
+
+<p>
+In the simulated data, the subject means for the old subjects are different from the means in the original data because <code>simulate</code> samples by-subject random effect values using the variance components in the fitted model.  Data for the new subjects is generated in the same way.  It should be possible to use the conditional modes for simulating data by setting <code>re.form=NULL</code>, but that produced an error message when I tried it with the current development version of lme4.<br />
+</p>
+
+<div class="org-src-container">
+<pre class="src src-R"><span style="color: #a40000;">f</span> <span style="color: #8f5902; font-style: italic;">&lt;-</span> <span style="color: #204a87;">function</span>(x, ...) {
+    plot(x, xlab=<span style="color: #8f5902; font-style: italic;">"Subject"</span>, ylim=c(0, 500), ...)
+    grid()
+}
+par(mfrow=c(1,3), mar=c(4,4,1,1))
+with(d, f(tapply(Reaction,  Subject, mean), main=<span style="color: #8f5902; font-style: italic;">"Original data"</span>, ylab=<span style="color: #8f5902; font-style: italic;">"Reaction"</span>, xlim=c(1, 36)))
+with(d, f(tapply(predicted, Subject, mean), main=<span style="color: #8f5902; font-style: italic;">"Predicted data"</span>, ylab=<span style="color: #8f5902; font-style: italic;">""</span>, col=rep(1:2, each=18)))
+with(d, f(tapply(simulated, Subject, mean), main=<span style="color: #8f5902; font-style: italic;">"Simulated data"</span>, ylab=<span style="color: #8f5902; font-style: italic;">""</span>, col=rep(1:2, each=18)))
+legend(<span style="color: #8f5902; font-style: italic;">"bottomright"</span>, pch=c(1,1), col=1:2, c(<span style="color: #8f5902; font-style: italic;">"old subjects"</span>, <span style="color: #8f5902; font-style: italic;">"new subjects"</span>), bg=<span style="color: #8f5902; font-style: italic;">"white"</span>)
+</pre>
+</div>
+
+
+<div class="figure">
+<p><img src="subject_means.png" alt="subject_means.png" /><br />
+</p>
+</div>
+
+<p>
+The following graph shows the effect of <code>Days</code> per subject in the original, the predicted, and the simulated data.  Again we see that new subjects have no random variation in the predicted data (no conditional modes available) but they do vary systematically in the simulated data where their random effect values are sampled using the relevant variance components in the fitted model.<br />
+</p>
+
+<div class="org-src-container">
+<pre class="src src-R">x <span style="color: #8f5902; font-style: italic;">&lt;-</span> with(d, as.matrix(tapply(Reaction,  list(Subject, Days), mean), ncol=9))
+y <span style="color: #8f5902; font-style: italic;">&lt;-</span> with(d, as.matrix(tapply(predicted, list(Subject, Days), mean), ncol=9))
+z <span style="color: #8f5902; font-style: italic;">&lt;-</span> with(d, as.matrix(tapply(simulated, list(Subject, Days), mean), ncol=9))
+
+<span style="color: #a40000;">f</span> <span style="color: #8f5902; font-style: italic;">&lt;-</span> <span style="color: #204a87;">function</span>(xlab=<span style="color: #8f5902; font-style: italic;">"Day"</span>, ...) {
+    plot(c(1, 10), c(0, 500), ylab=<span style="color: #8f5902; font-style: italic;">"Raction"</span>, xlab=xlab, t=<span style="color: #8f5902; font-style: italic;">"n"</span>, ...)
+    grid()
+}
+par(mfrow=c(2,3), mar=c(4,4,1,1))
+
+f(main=<span style="color: #8f5902; font-style: italic;">"Original data"</span>, <span style="color: #8f5902; font-style: italic;">""</span>)
+<span style="color: #204a87;">for</span> (i <span style="color: #204a87;">in</span> 1:18)
+  lines(x[i,])
+f(main=<span style="color: #8f5902; font-style: italic;">"Predicted data, old subjects"</span>, <span style="color: #8f5902; font-style: italic;">""</span>)
+<span style="color: #204a87;">for</span> (i <span style="color: #204a87;">in</span> 1:18)
+  lines(y[i,])
+f(main=<span style="color: #8f5902; font-style: italic;">"Predicted data, new subjects"</span>, <span style="color: #8f5902; font-style: italic;">""</span>)
+<span style="color: #204a87;">for</span> (i <span style="color: #204a87;">in</span> 19:36)
+  lines(y[i,], col=<span style="color: #8f5902; font-style: italic;">"red"</span>)
+f(main=<span style="color: #8f5902; font-style: italic;">"Original data"</span>)
+<span style="color: #204a87;">for</span> (i <span style="color: #204a87;">in</span> 1:18)
+  lines(x[i,])
+f(main=<span style="color: #8f5902; font-style: italic;">"Simulated data, old subjects"</span>)
+<span style="color: #204a87;">for</span> (i <span style="color: #204a87;">in</span> 1:18)
+  lines(z[i,])
+f(main=<span style="color: #8f5902; font-style: italic;">"Simulated data, new subjects"</span>)
+<span style="color: #204a87;">for</span> (i <span style="color: #204a87;">in</span> 19:36)
+  lines(z[i,], col=<span style="color: #8f5902; font-style: italic;">"red"</span>)
+legend(<span style="color: #8f5902; font-style: italic;">"bottomright"</span>, lty=c(1,1), col=1:2, c(<span style="color: #8f5902; font-style: italic;">"old subjects"</span>, <span style="color: #8f5902; font-style: italic;">"new subjects"</span>), bg=<span style="color: #8f5902; font-style: italic;">"white"</span>)
+</pre>
+</div>
+
+
+<div class="figure">
+<p><img src="subject_slopes.png" alt="subject_slopes.png" /><br />
+</p>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Date: 2015-05-27</p>
+<p class="date">Created: 2018-02-04 Sun 19:47</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
