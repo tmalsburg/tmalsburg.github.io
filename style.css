@@ -164,6 +164,11 @@ main {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
+iframe {
+    width: 90%;
+    max-width: 560px;
+}
+
 .btn:hover, .btn:focus {
   text-decoration: none;
 }
