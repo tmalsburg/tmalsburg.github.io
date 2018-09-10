@@ -35,6 +35,15 @@ pre {
     min-width: 0;
 }
 
+img {
+    vertical-align: middle;
+}
+
+img.thumbnail {
+    max-width: 100px;
+    max-height: 100px;
+}
+
 #profilepic1 {
     display: none;
 }
@@ -71,6 +80,10 @@ nav li {
     color: grey;
 }
 
+.timestamp {
+    color: black;
+}
+
 .title {
     display: none;
 }
@@ -94,8 +107,6 @@ main {
     @media screen and (min-width: 600px)  {
         body {
             font-size: 120%;
-        }
-        #content {
             display: inline-grid;
             grid-template-columns: 1fr 6fr;
             grid-gap: 0px;

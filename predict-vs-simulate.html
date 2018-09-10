@@ -1,13 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<!-- 2018-02-17 Sat 10:58 -->
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- 2018-09-10 Mon 18:32 -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>What’s the difference between predict vs simulate in lme4?</title>
-<meta name="generator" content="Org mode" />
+<meta name="generator" content="Org mode">
 <style type="text/css">
  <!--/*--><![CDATA[/*><!--*/
   .title  { text-align: center;
@@ -180,7 +178,6 @@
   /*]]>*/-->
 </style>
 <link rel="stylesheet" type="text/css" href="style.css" />
-<script type="text/javascript">(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-65078659-1', 'auto'); ga('send', 'pageview');</script> <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_SVG"/> <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"} } }); </script>
 <script type="text/javascript">
 /*
 @licstart  The following is the entire license notice for the
@@ -229,44 +226,82 @@ for the JavaScript code in this tag.
 </script>
 </head>
 <body>
-<div id="content">
-<h1 class="title">What’s the difference between predict vs simulate in lme4?</h1>
-<nav>
-<a href="index.html" width="100%"><img src="titus_fern_canyon_small.png" alt="titus_fern_canyon_small.png" id="profilepic1"/></a>
-<ul class="org-ul">
-<li><a href="index.html">Contact</a><br /></li>
-<li><a href="index.html#org8f55066">News</a><br /></li>
-<li><a href="index.html#org0303a35">Blog</a><br /></li>
-<li><a href="index.html#org02bf738">Publications</a><br /></li>
-<li><a href="index.html#orgdcad6e3">Software</a><br /></li>
-</ul>
+<nav id="preamble" class="status">
+<a href="index.html" width="100%"><img src="titus_fern_canyon_small.png" alt="titus_fern_canyon_small.png" id="profilepic1"/></a><ul><li><a href="index.html">Contact</a></li><li><a href="index.html#news">News</a></li><li><a href="index.html#blog">Blog</a></li><li><a href="index.html#publications">Publications</a></li><li><a href="index.html#software">Software</a></li></ul>
 </nav>
-<main>
-<div class="date">2015-05-27</div>
+<main id="content">
+<header>
+<h1 class="title">What’s the difference between predict vs simulate in lme4?</h1>
+</header>
 <div id="outline-container-org56d7536" class="outline-2">
 <h2 id="org56d7536">What’s the difference between predict vs simulate in lme4?</h2>
 <div class="outline-text-2" id="text-org56d7536">
 <p>
-Most people use the <code>lme4</code> package to analyze data using mixed effects models.  However, the lme4 package also has two tremendously useful functions for the reverse process: generating new data from fitted models.  These functions are <code>predict</code> and <code>simulate</code>.  Below I will illustrate what these functions do and how they differ.<br />
+Most people use the <code>lme4</code> package to analyze data using mixed effects models.  However, the lme4 package also has two tremendously useful functions for the reverse process: generating new data from fitted models.  These functions are <code>predict</code> and <code>simulate</code>.  Below I will illustrate what these functions do and how they differ.<br>
 </p>
 
 <p>
-For this investigation we are going to use the <code>sleepdata</code> data set from the lme4 package.  Here is the head of the data frame:<br />
+For this investigation we are going to use the <code>sleepdata</code> data set from the lme4 package.  Here is the head of the data frame:<br>
 </p>
 
-<pre class="example">
-  Reaction Days Subject
-1 249.5600    0     308
-2 258.7047    1     308
-3 250.8006    2     308
-4 321.4398    3     308
-5 356.8519    4     308
-6 414.6901    5     308
+<table>
 
-</pre>
+
+<colgroup>
+<col  class="org-right">
+
+<col  class="org-right">
+
+<col  class="org-right">
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-right">Reaction</th>
+<th scope="col" class="org-right">Days</th>
+<th scope="col" class="org-right">Subject</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-right">249.56</td>
+<td class="org-right">0</td>
+<td class="org-right">308</td>
+</tr>
+
+<tr>
+<td class="org-right">258.7047</td>
+<td class="org-right">1</td>
+<td class="org-right">308</td>
+</tr>
+
+<tr>
+<td class="org-right">250.8006</td>
+<td class="org-right">2</td>
+<td class="org-right">308</td>
+</tr>
+
+<tr>
+<td class="org-right">321.4398</td>
+<td class="org-right">3</td>
+<td class="org-right">308</td>
+</tr>
+
+<tr>
+<td class="org-right">356.8519</td>
+<td class="org-right">4</td>
+<td class="org-right">308</td>
+</tr>
+
+<tr>
+<td class="org-right">414.6901</td>
+<td class="org-right">5</td>
+<td class="org-right">308</td>
+</tr>
+</tbody>
+</table>
 
 <p>
-For convenience, we rename the 18 subjects with consecutive integers starting from 1:<br />
+For convenience, we rename the 18 subjects with consecutive integers starting from 1:<br>
 </p>
 
 <div class="org-src-container">
@@ -276,7 +311,7 @@ d$Subject <span style="color: #8f5902; font-style: italic;">&lt;-</span> factor(
 </div>
 
 <p>
-For predicting and simulating new data, we need parameters.  We obtain them by fitting an LMM on the original data:<br />
+For predicting and simulating new data, we need parameters.  We obtain them by fitting an LMM on the original data:<br>
 </p>
 
 <div class="org-src-container">
@@ -286,6 +321,7 @@ summary(fm1)
 </div>
 
 <pre class="example">
+
 Linear mixed model fit by REML ['lmerMod']
 Formula: Reaction ~ Days + (Days | Subject)
    Data: d
@@ -305,8 +341,8 @@ Number of obs: 180, groups:  Subject, 18
 
 Fixed effects:
             Estimate Std. Error t value
-(Intercept)  251.405      6.825   36.84
-Days          10.467      1.546    6.77
+(Intercept)  251.405      6.825  36.838
+Days          10.467      1.546   6.771
 
 Correlation of Fixed Effects:
      (Intr)
@@ -314,18 +350,18 @@ Days -0.138
 </pre>
 
 <p>
-Now we add 18 new subjects to the data frame and set their <code>Reaction</code> values to <code>NA</code>.<br />
+Now we add 18 new subjects to the data frame and set their <code>Reaction</code> values to <code>NA</code>.<br>
 </p>
 
 <div class="org-src-container">
 <pre class="src src-R">d <span style="color: #8f5902; font-style: italic;">&lt;-</span> rbind(sleepstudy, sleepstudy)
 d$Subject <span style="color: #8f5902; font-style: italic;">&lt;-</span> factor(rep(1:36, each=10))
-d$Reaction <span style="color: #8f5902; font-style: italic;">&lt;-</span> ifelse(d$Subject <span style="color: #8f5902; font-style: italic;">%in%</span> 19:36, <span style="color: #a40000;">NA</span>, d$Reaction)
+d$Reaction <span style="color: #8f5902; font-style: italic;">&lt;-</span> ifelse(d$Subject %in% 19:36, <span style="color: #a40000;">NA</span>, d$Reaction)
 </pre>
 </div>
 
 <p>
-Next we predict and simulate data for the 18 old subjects and the 18 new subjects.  Note that we drop the <code>Reaction</code> column from the data frame when we call <code>simulate</code>.  This circumvents <a href="https://github.com/lme4/lme4/issues/305">bug</a> in lme4 which has recently been fixed in the development version.<br />
+Next we predict and simulate data for the 18 old subjects and the 18 new subjects.  Note that we drop the <code>Reaction</code> column from the data frame when we call <code>simulate</code>.  This circumvents <a href="https://github.com/lme4/lme4/issues/305">bug</a> in lme4 which has recently been fixed in the development version.<br>
 </p>
 
 <div class="org-src-container">
@@ -336,15 +372,15 @@ Next we predict and simulate data for the 18 old subjects and the 18 new subject
 </div>
 
 <p>
-<code>predict</code> is deterministic and uses only the fixed effects and the conditional modes (where available, i.e. not for the new subjects).  <code>simulate</code> is non-deterministic because it samples random effect values for all subjects and then samples from the conditional distribution.<br />
+<code>predict</code> is deterministic and uses only the fixed effects and the conditional modes (where available, i.e. not for the new subjects).  <code>simulate</code> is non-deterministic because it samples random effect values for all subjects and then samples from the conditional distribution.<br>
 </p>
 
 <p>
-The graphs below show the subject means for the original data, the predicted data, and the simulated data.  We see that <code>predict</code> perfectly reproduces the subject means found in the original data.  However, the new subjects all have the same means since no conditional modes were available for them.<br />
+The graphs below show the subject means for the original data, the predicted data, and the simulated data.  We see that <code>predict</code> perfectly reproduces the subject means found in the original data.  However, the new subjects all have the same means since no conditional modes were available for them.<br>
 </p>
 
 <p>
-In the simulated data, the subject means for the old subjects are different from the means in the original data because <code>simulate</code> samples by-subject random effect values using the variance components in the fitted model.  Data for the new subjects is generated in the same way.  It should be possible to use the conditional modes for simulating data by setting <code>re.form=NULL</code>, but that produced an error message when I tried it with the current development version of lme4.<br />
+In the simulated data, the subject means for the old subjects are different from the means in the original data because <code>simulate</code> samples by-subject random effect values using the variance components in the fitted model.  Data for the new subjects is generated in the same way.  It should be possible to use the conditional modes for simulating data by setting <code>re.form=NULL</code>, but that produced an error message when I tried it with the current development version of lme4.<br>
 </p>
 
 <div class="org-src-container">
@@ -352,7 +388,7 @@ In the simulated data, the subject means for the old subjects are different from
     plot(x, xlab=<span style="color: #8f5902; font-style: italic;">"Subject"</span>, ylim=c(0, 500), ...)
     grid()
 }
-par(mfrow=c(1,3), mar=c(4,4,1,1))
+<span style="color: #8f5902; font-style: italic;">par</span>(mfrow=c(1,3), mar=c(4,4,1,1))
 with(d, f(tapply(Reaction,  Subject, mean), main=<span style="color: #8f5902; font-style: italic;">"Original data"</span>, ylab=<span style="color: #8f5902; font-style: italic;">"Reaction"</span>, xlim=c(1, 36)))
 with(d, f(tapply(predicted, Subject, mean), main=<span style="color: #8f5902; font-style: italic;">"Predicted data"</span>, ylab=<span style="color: #8f5902; font-style: italic;">""</span>, col=rep(1:2, each=18)))
 with(d, f(tapply(simulated, Subject, mean), main=<span style="color: #8f5902; font-style: italic;">"Simulated data"</span>, ylab=<span style="color: #8f5902; font-style: italic;">""</span>, col=rep(1:2, each=18)))
@@ -361,13 +397,13 @@ legend(<span style="color: #8f5902; font-style: italic;">"bottomright"</span>, p
 </div>
 
 
-<div class="figure">
-<p><img src="subject_means.png" alt="subject_means.png" /><br />
-</p>
-</div>
+<figure>
+<img src="subject_means.png" alt="subject_means.png"><br>
+
+</figure>
 
 <p>
-The following graph shows the effect of <code>Days</code> per subject in the original, the predicted, and the simulated data.  Again we see that new subjects have no random variation in the predicted data (no conditional modes available) but they do vary systematically in the simulated data where their random effect values are sampled using the relevant variance components in the fitted model.<br />
+The following graph shows the effect of <code>Days</code> per subject in the original, the predicted, and the simulated data.  Again we see that new subjects have no random variation in the predicted data (no conditional modes available) but they do vary systematically in the simulated data where their random effect values are sampled using the relevant variance components in the fitted model.<br>
 </p>
 
 <div class="org-src-container">
@@ -379,7 +415,7 @@ z <span style="color: #8f5902; font-style: italic;">&lt;-</span> with(d, as.matr
     plot(c(1, 10), c(0, 500), ylab=<span style="color: #8f5902; font-style: italic;">"Raction"</span>, xlab=xlab, t=<span style="color: #8f5902; font-style: italic;">"n"</span>, ...)
     grid()
 }
-par(mfrow=c(2,3), mar=c(4,4,1,1))
+<span style="color: #8f5902; font-style: italic;">par</span>(mfrow=c(2,3), mar=c(4,4,1,1))
 
 f(main=<span style="color: #8f5902; font-style: italic;">"Original data"</span>, <span style="color: #8f5902; font-style: italic;">""</span>)
 <span style="color: #204a87;">for</span> (i <span style="color: #204a87;">in</span> 1:18)
@@ -404,19 +440,12 @@ legend(<span style="color: #8f5902; font-style: italic;">"bottomright"</span>, l
 </div>
 
 
-<div class="figure">
-<p><img src="subject_slopes.png" alt="subject_slopes.png" /><br />
-</p>
-</div>
+<figure>
+<img src="subject_slopes.png" alt="subject_slopes.png"><br>
 
+</figure>
+</div>
+</div>
 </main>
-</div>
-</div>
-</div>
-<div id="postamble" class="status">
-<p class="date">Date: 2015-05-27</p>
-<p class="date">Created: 2018-02-17 Sat 10:58</p>
-<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
-</div>
 </body>
 </html>

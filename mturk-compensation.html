@@ -1,13 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<!-- 2018-02-17 Sat 10:58 -->
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- 2018-09-10 Mon 18:32 -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>How to calculate worker compensation for Amazon Mechanical Turk</title>
-<meta name="generator" content="Org mode" />
+<meta name="generator" content="Org mode">
 <style type="text/css">
  <!--/*--><![CDATA[/*><!--*/
   .title  { text-align: center;
@@ -180,7 +178,6 @@
   /*]]>*/-->
 </style>
 <link rel="stylesheet" type="text/css" href="style.css" />
-<script type="text/javascript">(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-65078659-1', 'auto'); ga('send', 'pageview');</script> <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_SVG"/> <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "AMS"} } }); </script>
 <script type="text/javascript">
 /*
 @licstart  The following is the entire license notice for the
@@ -229,79 +226,66 @@ for the JavaScript code in this tag.
 </script>
 </head>
 <body>
-<div id="content">
-<h1 class="title">How to calculate worker compensation for Amazon Mechanical Turk</h1>
-<nav>
-<a href="index.html" width="100%"><img src="titus_fern_canyon_small.png" alt="titus_fern_canyon_small.png" id="profilepic1"/></a>
-<ul class="org-ul">
-<li><a href="index.html">Contact</a><br /></li>
-<li><a href="index.html#org8f55066">News</a><br /></li>
-<li><a href="index.html#org0303a35">Blog</a><br /></li>
-<li><a href="index.html#org02bf738">Publications</a><br /></li>
-<li><a href="index.html#orgdcad6e3">Software</a><br /></li>
-</ul>
+<nav id="preamble" class="status">
+<a href="index.html" width="100%"><img src="titus_fern_canyon_small.png" alt="titus_fern_canyon_small.png" id="profilepic1"/></a><ul><li><a href="index.html">Contact</a></li><li><a href="index.html#news">News</a></li><li><a href="index.html#blog">Blog</a></li><li><a href="index.html#publications">Publications</a></li><li><a href="index.html#software">Software</a></li></ul>
 </nav>
-<main>
-<div class="date">2016-12-06</div>
+<main id="content">
+<header>
+<h1 class="title">How to calculate worker compensation for Amazon Mechanical Turk</h1>
+</header>
 <div id="outline-container-org7b7f566" class="outline-2">
 <h2 id="org7b7f566">How to calculate worker compensation for Amazon Mechanical Turk</h2>
 <div class="outline-text-2" id="text-org7b7f566">
 <p>
-<b>tl;dr:</b> When calculating the average time it takes to complete a HIT, it may be more appropriate to use the geometric mean or the median instead of the arithmetic mean.  You may otherwise spend considerably more money than necessary (in our case 50% more).<br />
+<b>tl;dr:</b> When calculating the average time it takes to complete a HIT, it may be more appropriate to use the geometric mean or the median instead of the arithmetic mean.  You may otherwise spend considerably more money than necessary (in our case 50% more).<br>
 </p>
 
-<hr />
+<hr>
 
 <p>
-We usually try to set the reward for a HIT such that participants earn $6 per hour on average, which last time we checked was the recommended amount for academic research studies on Mechanical Turk.  (<i>Update: More recently the consensus seems to be that turkers should be payed at least the federal minimum wage, which is $7.25 at the time of writing.</i>)  However, some participants take an unusually long time to complete assignments (perhaps they were interrupted?) and that has unintended consequences for the calculation of the compensation payed to workers.  Effectively, these participants make it appear as if we were paying less per hour than we actually do.  Below I will shed some light on this issue using data from a recent study run by our lab.<br />
-</p>
-
-<p>
-Overall, 1122 workers participated in the experiment and each worker participated only once.  The task was simple: Participants had to read a short passage of text (three sentences) and answer two easy questions about that passage.  This was followed by a demographics questionnaire with nine items most of which were simple yes/no questions (“Are you a citizen of the United States?”).   The whole thing could be finished in two to four minutes.  However, we set the maximum time for submission to 60 minutes so that workers wouldn’t feel rushed.<br />
+We usually try to set the reward for a HIT such that participants earn $6 per hour on average, which last time we checked was the recommended amount for academic research studies on Mechanical Turk.  (<i>Update: More recently the consensus seems to be that turkers should be payed at least the federal minimum wage, which is $7.25 at the time of writing.</i>)  However, some participants take an unusually long time to complete assignments (perhaps they were interrupted?) and that has unintended consequences for the calculation of the compensation payed to workers.  Effectively, these participants make it appear as if we were paying less per hour than we actually do.  Below I will shed some light on this issue using data from a recent study run by our lab.<br>
 </p>
 
 <p>
-The average completion time as shown by MTurk was 3 minutes and 46 seconds, not too far off from what we would expect for this task.  But let’s have a closer look at the completion times:<br />
-</p>
-
-
-<div class="figure">
-<p><img src="distribution.png" alt="distribution.png" /><br />
-</p>
-</div>
-
-<p>
-The plot shows how completion times are distributed in the data set.  We see that the vast majority of workers finished in under eight minutes.  However, there was also a smaller number of workers (about 6.5%) who took considerably longer, up to 50 minutes.  For these participants the payment per hour is of course very low, but that’s not because we offered too little money, it’s because these participants did something else during that time.<br />
+Overall, 1122 workers participated in the experiment and each worker participated only once.  The task was simple: Participants had to read a short passage of text (three sentences) and answer two easy questions about that passage.  This was followed by a demographics questionnaire with nine items most of which were simple yes/no questions (“Are you a citizen of the United States?”).   The whole thing could be finished in two to four minutes.  However, we set the maximum time for submission to 60 minutes so that workers wouldn’t feel rushed.<br>
 </p>
 
 <p>
-To show the effect of these very slow workers, we calculate the average completion time again but this time only for workers who needed less than 8 minutes to finish.  Given how simple the task was, eight minutes should easily be enough.  The average time for workers who took less than 8 minutes was 2 minutes and 33 seconds.  That’s 1 minute and 13 seconds faster than what we’ve got when we included very slow workers.  This may not seem like a big difference, but it means that normal workers took only 68% of the time that we calculated based on the complete set of workers.  A consequence is that normal workers actually made $9 per hour instead of the $6 we were aiming for.  (Whether $6 or $9 per hour are appropriate is an independent question.  Here we focus on the calculation of compensation.)<br />
+The average completion time as shown by MTurk was 3 minutes and 46 seconds, not too far off from what we would expect for this task.  But let’s have a closer look at the completion times:<br>
+</p>
+
+
+<figure>
+<img src="distribution.png" alt="distribution.png"><br>
+
+</figure>
+
+<p>
+The plot shows how completion times are distributed in the data set.  We see that the vast majority of workers finished in under eight minutes.  However, there was also a smaller number of workers (about 6.5%) who took considerably longer, up to 50 minutes.  For these participants the payment per hour is of course very low, but that’s not because we offered too little money, it’s because these participants did something else during that time.<br>
 </p>
 
 <p>
-These numbers suggest that the average completion time across all participants as shown in the MTurk interface is actually misleading.  One fix for that is to base the calculation of the compensation not on the arithmetic mean of the completion times but on the geometric mean.  The geometric mean is often more appropriate when the scale has a lower bound as is the case with completion times.¹  Effectively, the geometric mean deemphasizes outliers and gives us an average completion time that is more representative of normal workers.  In the present case, the geometric mean across all workers is 2 minutes and 21 seconds, which seems reasonable based on the numbers we've seen above: 2:21 is right were the peak is in the plot above.  An alternative to the geometric mean is to use the median of the completion times, which is 2:20 in the present case.²<br />
+To show the effect of these very slow workers, we calculate the average completion time again but this time only for workers who needed less than 8 minutes to finish.  Given how simple the task was, eight minutes should easily be enough.  The average time for workers who took less than 8 minutes was 2 minutes and 33 seconds.  That’s 1 minute and 13 seconds faster than what we’ve got when we included very slow workers.  This may not seem like a big difference, but it means that normal workers took only 68% of the time that we calculated based on the complete set of workers.  A consequence is that normal workers actually made $9 per hour instead of the $6 we were aiming for.  (Whether $6 or $9 per hour are appropriate is an independent question.  Here we focus on the calculation of compensation.)<br>
 </p>
 
 <p>
-<b>One caveat:</b> Whether the geometric mean or the arithmetic mean is more appropriate depends on whether or not there are outliers.  If the maximal time for submission is low, there can't be any extremely long completion times because those assignments would simply time out and not show up in the record.  In that case, the arithmetic mean may be more appropriate.  However, it's not advisable to set the maximal submission time too low because that may prevent some workers from submitting their results and getting compensated.<br />
+These numbers suggest that the average completion time across all participants as shown in the MTurk interface is actually misleading.  One fix for that is to base the calculation of the compensation not on the arithmetic mean of the completion times but on the geometric mean.  The geometric mean is often more appropriate when the scale has a lower bound as is the case with completion times.¹  Effectively, the geometric mean deemphasizes outliers and gives us an average completion time that is more representative of normal workers.  In the present case, the geometric mean across all workers is 2 minutes and 21 seconds, which seems reasonable based on the numbers we've seen above: 2:21 is right were the peak is in the plot above.  An alternative to the geometric mean is to use the median of the completion times, which is 2:20 in the present case.²<br>
 </p>
 
 <p>
-Footnotes:<br />
+<b>One caveat:</b> Whether the geometric mean or the arithmetic mean is more appropriate depends on whether or not there are outliers.  If the maximal time for submission is low, there can't be any extremely long completion times because those assignments would simply time out and not show up in the record.  In that case, the arithmetic mean may be more appropriate.  However, it's not advisable to set the maximal submission time too low because that may prevent some workers from submitting their results and getting compensated.<br>
+</p>
+
+<p>
+Footnotes:<br>
 </p>
 
 <ol class="org-ol">
-<li>For the present purpose, the best way to think about the geometric mean is as the arithmetic mean of the logarithmized completion times back-transformed to the original time scale.  In R, we would calculate <code>exp(mean(log(x)))</code>.<br /></li>
-<li>The median is a value that is bigger than the lower half of the values and smaller than the bigger half.<br /></li>
+<li>For the present purpose, the best way to think about the geometric mean is as the arithmetic mean of the logarithmized completion times back-transformed to the original time scale.  In R, we would calculate <code>exp(mean(log(x)))</code>.<br></li>
+<li>The median is a value that is bigger than the lower half of the values and smaller than the bigger half.<br></li>
 </ol>
-
+</div>
+</div>
 </main>
-</div>
-</div>
-</div>
-<div id="postamble" class="status">
-<p class="date">Created: 2018-02-17 Sat 10:58</p>
-<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
-</div>
 </body>
 </html>
