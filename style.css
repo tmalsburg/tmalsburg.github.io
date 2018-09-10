@@ -39,6 +39,11 @@ img {
     vertical-align: middle;
 }
 
+dd a img {
+    border: 1px;
+    border-style: solid;
+}
+
 img.thumbnail {
     max-width: 100px;
     max-height: 100px;
