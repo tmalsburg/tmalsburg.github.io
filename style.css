@@ -18,6 +18,11 @@ h3 {
     text-align: center;
 }
 
+div.bibentry {
+    padding-left: 2em;
+    text-indent: -2em;
+}
+
 blockquote {
     display: none;
 }
@@ -42,6 +47,10 @@ img {
 dd a img {
     border: 1px;
     border-style: solid;
+}
+
+dt {
+    margin-top: 2em;
 }
 
 img.thumbnail {
