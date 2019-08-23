@@ -221,3 +221,26 @@ iframe {
 .btn-primary:focus, .btn-primary.focus {
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
 }
+
+.timestamp-wrapper {
+    display: block;
+}
+.timestamp {
+    color: gray;
+    font-size: 80%;
+}
+
+div.NEWS > ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+div.NEWS > ul > li {
+  background-color: #f0f0f0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  padding-top: 5px;
+  list-style-type: none;
+  border-radius: 15px;
+}
