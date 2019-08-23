@@ -235,6 +235,11 @@ div.NEWS > ul {
   padding: 0px;
 }
 
+.address > p {
+    padding: 0px;
+    margin: 0px;
+}
+
 div.NEWS > ul > li {
   background-color: #f0f0f0;
   margin-top: 10px;
