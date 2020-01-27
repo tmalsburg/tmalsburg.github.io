@@ -8,6 +8,11 @@ body {
     margin-bottom: 1px;
 }
 
+h1 {
+    font-weight: normal;
+    font-size: 160%;
+}
+
 h2 {
     font-weight: normal;
     font-size: 150%;
@@ -16,6 +21,14 @@ h2 {
 h3 {
     font-weight: normal;
     text-align: center;
+}
+
+#affiliation {
+    margin-top: -1em;
+    margin-bottom: -2em;
+    color: gray;
+    text-align: center;
+    font-size: 90%
 }
 
 div.bibentry {
@@ -99,10 +112,6 @@ nav li {
 
 .timestamp {
     color: black;
-}
-
-.title {
-    display: none;
 }
 
 nav {
