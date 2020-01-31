@@ -45,9 +45,13 @@ a {
     color: blue;
 }
 
-a:visited {
+nav a:visited {
     color: blue;
 }
+
+/* a:visited { */
+/*     color: blue; */
+/* } */
 
 pre {
     min-width: 0;
