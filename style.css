@@ -23,6 +23,10 @@ h3 {
     text-align: center;
 }
 
+h4 {
+    margin-bottom: 0px;
+}
+
 #affiliation {
     margin-top: -1em;
     margin-bottom: -2em;
