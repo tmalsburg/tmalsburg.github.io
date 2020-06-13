@@ -50,12 +50,12 @@ a {
 }
 
 nav a:visited {
-    color: blue;
+    color: black;
 }
 
-/* a:visited { */
-/*     color: blue; */
-/* } */
+nav a {
+    color: black;
+}
 
 pre {
     min-width: 0;
@@ -128,7 +128,7 @@ nav {
     left: 0px;
     font-size: 80%;
     text-align: left;
-    background-color: aquamarine;
+    background-color: white;
     padding: 5px;
 }
 
