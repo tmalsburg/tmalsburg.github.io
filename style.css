@@ -184,7 +184,8 @@ hr {
             margin-bottom: 0.5em;
         }
         header {
-            /* border-bottom: 1.5px solid black; */
+            margin-top: 50px;
+            margin-bottom: 2em;
         }
         #profilepic1 {
             display: block;
