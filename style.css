@@ -1,5 +1,5 @@
 body {
-    font-family: Helvetica, Arial, sans;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-size: 100%;
     line-height: 1.5;
     margin: 0px;
@@ -27,12 +27,13 @@ h4 {
     margin-bottom: 0px;
 }
 
-#affiliation {
-    margin-top: -1em;
-    margin-bottom: -2em;
-    color: gray;
-    text-align: center;
-    font-size: 90%
+.title {
+    font-variant-caps: small-caps;
+    margin-bottom: -0.2em;
+}
+.subtitle {
+    font-variant-caps: small-caps;
+    font-weight: normal;
 }
 
 div.bibentry {
@@ -127,14 +128,18 @@ nav {
     top: 0px;
     left: 0px;
     font-size: 80%;
-    text-align: left;
-    background-color: white;
+    text-align: center;
+    background-color: #f0f0f0;
     padding: 5px;
 }
 
 main {
     padding: 20px;
     overflow: auto;
+}
+
+hr {
+    display: none;
 }
 
 @supports (display: inline-grid) {
@@ -151,13 +156,8 @@ main {
             text-align: center;
             font-size: inherit;
             margin: 0px;
-            padding: 0px;
-        }
-        main {
-            padding: 40px;
-            grid-column: 2;
-            grid-gap: 0px;
-            box-sizing: border-box;
+            background-color: white;
+            padding: 20px;
         }
         nav ul {
             padding: 0px;
@@ -167,6 +167,24 @@ main {
         nav li {
             display: list-item;
             padding: 0px;
+        }
+        main {
+            padding: 0px;
+            padding-right: 20px;
+            padding-top: 0px;
+            grid-column: 2;
+            grid-gap: 0px;
+            box-sizing: border-box;
+        }
+        .title {
+            text-align: left;
+        }
+        .subtitle {
+            text-align: left;
+            margin-bottom: 0.5em;
+        }
+        header {
+            border-bottom: 1.5px solid black;
         }
         #profilepic1 {
             display: block;
@@ -179,6 +197,9 @@ main {
         #profilepic2 {
             display: none;
         }
+      hr {
+          display: block;
+      }
     }
 
     @media screen and (min-width: 1000px) {
@@ -192,21 +213,22 @@ main {
 }
 
 .btn {
-  display: inline-block;
-  font-weight: 400;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  border: 1px solid transparent;
-  padding: 0.375rem 0.75rem;
-  font-size: 1rem;
-  line-height: 1.5;
-  border-radius: 0.25rem;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    font-family: Helvetica, Arial, sans;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 iframe {
@@ -215,32 +237,34 @@ iframe {
 }
 
 .btn:hover, .btn:focus {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .btn:focus, .btn.focus {
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
 }
 
 .btn-primary:hover {
-  color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
 }
 
 .btn-primary:focus, .btn-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
 }
 
 .timestamp-wrapper {
+    float: right;
     display: block;
+    text-align: right;
 }
 .timestamp {
     color: gray;
@@ -248,8 +272,8 @@ iframe {
 }
 
 div.NEWS > ul {
-  margin: 0px;
-  padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .address > p {
@@ -258,11 +282,11 @@ div.NEWS > ul {
 }
 
 div.NEWS > ul > li {
-  background-color: #f0f0f0;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 10px;
-  padding-top: 5px;
-  list-style-type: none;
-  border-radius: 15px;
+    background-color: #f0f0f0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-top: 5px;
+    list-style-type: none;
+    border-radius: 15px;
 }
