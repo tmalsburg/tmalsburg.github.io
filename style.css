@@ -11,6 +11,7 @@ body {
 h1 {
     font-weight: normal;
     font-size: 160%;
+    margin-top: 0px;
 }
 
 h2 {
@@ -93,6 +94,7 @@ img.thumbnail {
     width: 30%;
     max-width: 200px;
     display: block;
+    margin-top: 1em;
     margin-left: auto;
     margin-right: auto;
 }
