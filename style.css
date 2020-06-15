@@ -181,6 +181,7 @@ hr {
             grid-column: 2;
             grid-gap: 0px;
             box-sizing: border-box;
+            max-width: 40em;
         }
         .title {
             text-align: left;
