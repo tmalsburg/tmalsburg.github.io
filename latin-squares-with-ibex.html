@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2018-09-10 Mon 18:45 -->
+<!-- 2020-06-15 Mon 14:36 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>A potential pitfall when running Ibex experiments on Amazon Mechanical Turk</title>
@@ -160,6 +160,19 @@
   .footdef  { margin-bottom: 1em; }
   .figure { padding: 1em; }
   .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
   .inlinetask {
     padding: 10px;
     border: 2px solid gray;
@@ -181,64 +194,38 @@
 </style>
 <link rel="stylesheet" type="text/css" href="style.css" />
 <script type="text/javascript">
-/*
-@licstart  The following is the entire license notice for the
-JavaScript code in this tag.
-
-Copyright (C) 2012-2018 Free Software Foundation, Inc.
-
-The JavaScript code in this tag is free software: you can
-redistribute it and/or modify it under the terms of the GNU
-General Public License (GNU GPL) as published by the Free Software
-Foundation, either version 3 of the License, or (at your option)
-any later version.  The code is distributed WITHOUT ANY WARRANTY;
-without even the implied warranty of MERCHANTABILITY or FITNESS
-FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
-
-As additional permission under GNU GPL version 3 section 7, you
-may distribute non-source (e.g., minimized or compacted) forms of
-that code without the copy of the GNU GPL normally required by
-section 4, provided you include this license notice and a URL
-through which recipients can access the Corresponding Source.
-
-
-@licend  The above is the entire license notice
-for the JavaScript code in this tag.
-*/
+// @license magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&amp;dn=gpl-3.0.txt GPL-v3-or-Later
 <!--/*--><![CDATA[/*><!--*/
- function CodeHighlightOn(elem, id)
- {
-   var target = document.getElementById(id);
-   if(null != target) {
-     elem.cacheClassElem = elem.className;
-     elem.cacheClassTarget = target.className;
-     target.className = "code-highlighted";
-     elem.className   = "code-highlighted";
-   }
- }
- function CodeHighlightOff(elem, id)
- {
-   var target = document.getElementById(id);
-   if(elem.cacheClassElem)
-     elem.className = elem.cacheClassElem;
-   if(elem.cacheClassTarget)
-     target.className = elem.cacheClassTarget;
- }
-/*]]>*///-->
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.cacheClassElem = elem.className;
+         elem.cacheClassTarget = target.className;
+         target.className = "code-highlighted";
+         elem.className   = "code-highlighted";
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(elem.cacheClassElem)
+         elem.className = elem.cacheClassElem;
+       if(elem.cacheClassTarget)
+         target.className = elem.cacheClassTarget;
+     }
+    /*]]>*///-->
+// @license-end
 </script>
 </head>
 <body>
 <nav id="preamble" class="status">
-<a href="index.html"><img src="titus_fern_canyon_small.png" alt="titus_fern_canyon_small.png" id="profilepic1"/></a><ul><li><a href="index.html">Contact</a></li><li><a href="index.html#news">News</a></li><li><a href="index.html#blog">Blog</a></li><li><a href="index.html#publications">Publications</a></li><li><a href="index.html#software">Software</a></li></ul>
+<a href="index.html"><img src="titus_fern_canyon_small.png" alt="Photo of Titus von der Malsburg" id="profilepic1"/></a><ul id="menu"><li><a href="index.html#news">News</a></li><li><a href="index.html#contact">Contact</a></li><li><a href="index.html#bio">Bio</a></li><li><a href="index.html#publications">Publications</a></li><li><a href="index.html#technotes">Tech notes</a></li><li><a href="index.html#software">Software</a></li></ul>
 </nav>
 <main id="content">
 <header>
 <h1 class="title">A potential pitfall when running Ibex experiments on Amazon Mechanical Turk</h1>
-</header>
-<div id="outline-container-orgeab765b" class="outline-2">
-<h2 id="orgeab765b">A potential pitfall when running Ibex experiments on Amazon Mechanical Turk</h2>
-<div class="outline-text-2" id="text-orgeab765b">
-<p>
+</header><p>
 Ibex does Latin squares in a way that can potentially have serious unintended consequences in the form of spurious effects.<br>
 </p>
 
@@ -272,8 +259,6 @@ How can we obtain data sets that are prefectly balanced?  Measuring more partici
 <p>
 More generally, this issue shows that there are potential pitfalls when doing online experiments that do not exist in lab-based studies.  It is important to have these on the radar.<br>
 </p>
-</div>
-</div>
 </main>
 </body>
 </html>

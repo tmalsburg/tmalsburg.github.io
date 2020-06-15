@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2018-09-10 Mon 18:45 -->
+<!-- 2020-06-15 Mon 14:52 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>What’s the difference between predict vs simulate in lme4?</title>
@@ -158,6 +158,19 @@
   .footdef  { margin-bottom: 1em; }
   .figure { padding: 1em; }
   .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
   .inlinetask {
     padding: 10px;
     border: 2px solid gray;
@@ -179,64 +192,38 @@
 </style>
 <link rel="stylesheet" type="text/css" href="style.css" />
 <script type="text/javascript">
-/*
-@licstart  The following is the entire license notice for the
-JavaScript code in this tag.
-
-Copyright (C) 2012-2018 Free Software Foundation, Inc.
-
-The JavaScript code in this tag is free software: you can
-redistribute it and/or modify it under the terms of the GNU
-General Public License (GNU GPL) as published by the Free Software
-Foundation, either version 3 of the License, or (at your option)
-any later version.  The code is distributed WITHOUT ANY WARRANTY;
-without even the implied warranty of MERCHANTABILITY or FITNESS
-FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
-
-As additional permission under GNU GPL version 3 section 7, you
-may distribute non-source (e.g., minimized or compacted) forms of
-that code without the copy of the GNU GPL normally required by
-section 4, provided you include this license notice and a URL
-through which recipients can access the Corresponding Source.
-
-
-@licend  The above is the entire license notice
-for the JavaScript code in this tag.
-*/
+// @license magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&amp;dn=gpl-3.0.txt GPL-v3-or-Later
 <!--/*--><![CDATA[/*><!--*/
- function CodeHighlightOn(elem, id)
- {
-   var target = document.getElementById(id);
-   if(null != target) {
-     elem.cacheClassElem = elem.className;
-     elem.cacheClassTarget = target.className;
-     target.className = "code-highlighted";
-     elem.className   = "code-highlighted";
-   }
- }
- function CodeHighlightOff(elem, id)
- {
-   var target = document.getElementById(id);
-   if(elem.cacheClassElem)
-     elem.className = elem.cacheClassElem;
-   if(elem.cacheClassTarget)
-     target.className = elem.cacheClassTarget;
- }
-/*]]>*///-->
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.cacheClassElem = elem.className;
+         elem.cacheClassTarget = target.className;
+         target.className = "code-highlighted";
+         elem.className   = "code-highlighted";
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(elem.cacheClassElem)
+         elem.className = elem.cacheClassElem;
+       if(elem.cacheClassTarget)
+         target.className = elem.cacheClassTarget;
+     }
+    /*]]>*///-->
+// @license-end
 </script>
 </head>
 <body>
 <nav id="preamble" class="status">
-<a href="index.html"><img src="titus_fern_canyon_small.png" alt="titus_fern_canyon_small.png" id="profilepic1"/></a><ul><li><a href="index.html">Contact</a></li><li><a href="index.html#news">News</a></li><li><a href="index.html#blog">Blog</a></li><li><a href="index.html#publications">Publications</a></li><li><a href="index.html#software">Software</a></li></ul>
+<a href="index.html"><img src="titus_fern_canyon_small.png" alt="Photo of Titus von der Malsburg" id="profilepic1"/></a><ul id="menu"><li><a href="index.html#news">News</a></li><li><a href="index.html#contact">Contact</a></li><li><a href="index.html#bio">Bio</a></li><li><a href="index.html#publications">Publications</a></li><li><a href="index.html#technotes">Tech notes</a></li><li><a href="index.html#software">Software</a></li></ul>
 </nav>
 <main id="content">
 <header>
 <h1 class="title">What’s the difference between predict vs simulate in lme4?</h1>
-</header>
-<div id="outline-container-org56d7536" class="outline-2">
-<h2 id="org56d7536">What’s the difference between predict vs simulate in lme4?</h2>
-<div class="outline-text-2" id="text-org56d7536">
-<p>
+</header><p>
 Most people use the <code>lme4</code> package to analyze data using mixed effects models.  However, the lme4 package also has two tremendously useful functions for the reverse process: generating new data from fitted models.  These functions are <code>predict</code> and <code>simulate</code>.  Below I will illustrate what these functions do and how they differ.<br>
 </p>
 
@@ -305,8 +292,8 @@ For convenience, we rename the 18 subjects with consecutive integers starting fr
 </p>
 
 <div class="org-src-container">
-<pre class="src src-R">d <span style="color: #8f5902; font-style: italic;">&lt;-</span> sleepstudy
-d$Subject <span style="color: #8f5902; font-style: italic;">&lt;-</span> factor(rep(1:18, each=10))
+<pre class="src src-R">d &lt;- sleepstudy
+d$Subject &lt;- factor(rep(1:18, each=10))
 </pre>
 </div>
 
@@ -315,7 +302,7 @@ For predicting and simulating new data, we need parameters.  We obtain them by f
 </p>
 
 <div class="org-src-container">
-<pre class="src src-R">fm1 <span style="color: #8f5902; font-style: italic;">&lt;-</span> lmer(Reaction ~ Days + (Days|Subject), d)
+<pre class="src src-R">fm1 &lt;- lmer(Reaction ~ Days + (Days|Subject), d)
 summary(fm1)
 </pre>
 </div>
@@ -334,7 +321,7 @@ Scaled residuals:
 
 Random effects:
  Groups   Name        Variance Std.Dev. Corr
- Subject  (Intercept) 612.09   24.740       
+ Subject  (Intercept) 612.10   24.741       
           Days         35.07    5.922   0.07
  Residual             654.94   25.592       
 Number of obs: 180, groups:  Subject, 18
@@ -354,9 +341,9 @@ Now we add 18 new subjects to the data frame and set their <code>Reaction</code>
 </p>
 
 <div class="org-src-container">
-<pre class="src src-R">d <span style="color: #8f5902; font-style: italic;">&lt;-</span> rbind(sleepstudy, sleepstudy)
-d$Subject <span style="color: #8f5902; font-style: italic;">&lt;-</span> factor(rep(1:36, each=10))
-d$Reaction <span style="color: #8f5902; font-style: italic;">&lt;-</span> ifelse(d$Subject %in% 19:36, <span style="color: #a40000;">NA</span>, d$Reaction)
+<pre class="src src-R">d &lt;- rbind(sleepstudy, sleepstudy)
+d$Subject &lt;- factor(rep(1:36, each=10))
+d$Reaction &lt;- ifelse(d$Subject %in% 19:36, NA, d$Reaction)
 </pre>
 </div>
 
@@ -365,8 +352,8 @@ Next we predict and simulate data for the 18 old subjects and the 18 new subject
 </p>
 
 <div class="org-src-container">
-<pre class="src src-R">  d$predicted <span style="color: #8f5902; font-style: italic;">&lt;-</span> predict (fm1, newdata=d, allow.new.levels=T)
-  d$simulated <span style="color: #8f5902; font-style: italic;">&lt;-</span> simulate(fm1, seed=1, newdata=d[-1], re.form=<span style="color: #a40000;">NA</span>,
+<pre class="src src-R">  d$predicted &lt;- predict (fm1, newdata=d, allow.new.levels=T)
+  d$simulated &lt;- simulate(fm1, seed=1, newdata=d[-1], re.form=NA,
                           allow.new.levels=T)$sim_1
 </pre>
 </div>
@@ -384,15 +371,15 @@ In the simulated data, the subject means for the old subjects are different from
 </p>
 
 <div class="org-src-container">
-<pre class="src src-R"><span style="color: #a40000;">f</span> <span style="color: #8f5902; font-style: italic;">&lt;-</span> <span style="color: #204a87;">function</span>(x, ...) {
-    plot(x, xlab=<span style="color: #8f5902; font-style: italic;">"Subject"</span>, ylim=c(0, 500), ...)
+<pre class="src src-R">f &lt;- function(x, ...) {
+    plot(x, xlab="Subject", ylim=c(0, 500), ...)
     grid()
 }
-<span style="color: #8f5902; font-style: italic;">par</span>(mfrow=c(1,3), mar=c(4,4,1,1))
-with(d, f(tapply(Reaction,  Subject, mean), main=<span style="color: #8f5902; font-style: italic;">"Original data"</span>, ylab=<span style="color: #8f5902; font-style: italic;">"Reaction"</span>, xlim=c(1, 36)))
-with(d, f(tapply(predicted, Subject, mean), main=<span style="color: #8f5902; font-style: italic;">"Predicted data"</span>, ylab=<span style="color: #8f5902; font-style: italic;">""</span>, col=rep(1:2, each=18)))
-with(d, f(tapply(simulated, Subject, mean), main=<span style="color: #8f5902; font-style: italic;">"Simulated data"</span>, ylab=<span style="color: #8f5902; font-style: italic;">""</span>, col=rep(1:2, each=18)))
-legend(<span style="color: #8f5902; font-style: italic;">"bottomright"</span>, pch=c(1,1), col=1:2, c(<span style="color: #8f5902; font-style: italic;">"old subjects"</span>, <span style="color: #8f5902; font-style: italic;">"new subjects"</span>), bg=<span style="color: #8f5902; font-style: italic;">"white"</span>)
+par(mfrow=c(1,3), mar=c(4,4,1,1))
+with(d, f(tapply(Reaction,  Subject, mean), main="Original data", ylab="Reaction", xlim=c(1, 36)))
+with(d, f(tapply(predicted, Subject, mean), main="Predicted data", ylab="", col=rep(1:2, each=18)))
+with(d, f(tapply(simulated, Subject, mean), main="Simulated data", ylab="", col=rep(1:2, each=18)))
+legend("bottomright", pch=c(1,1), col=1:2, c("old subjects", "new subjects"), bg="white")
 </pre>
 </div>
 
@@ -407,35 +394,35 @@ The following graph shows the effect of <code>Days</code> per subject in the ori
 </p>
 
 <div class="org-src-container">
-<pre class="src src-R">x <span style="color: #8f5902; font-style: italic;">&lt;-</span> with(d, as.matrix(tapply(Reaction,  list(Subject, Days), mean), ncol=9))
-y <span style="color: #8f5902; font-style: italic;">&lt;-</span> with(d, as.matrix(tapply(predicted, list(Subject, Days), mean), ncol=9))
-z <span style="color: #8f5902; font-style: italic;">&lt;-</span> with(d, as.matrix(tapply(simulated, list(Subject, Days), mean), ncol=9))
+<pre class="src src-R">x &lt;- with(d, as.matrix(tapply(Reaction,  list(Subject, Days), mean), ncol=9))
+y &lt;- with(d, as.matrix(tapply(predicted, list(Subject, Days), mean), ncol=9))
+z &lt;- with(d, as.matrix(tapply(simulated, list(Subject, Days), mean), ncol=9))
 
-<span style="color: #a40000;">f</span> <span style="color: #8f5902; font-style: italic;">&lt;-</span> <span style="color: #204a87;">function</span>(xlab=<span style="color: #8f5902; font-style: italic;">"Day"</span>, ...) {
-    plot(c(1, 10), c(0, 500), ylab=<span style="color: #8f5902; font-style: italic;">"Raction"</span>, xlab=xlab, t=<span style="color: #8f5902; font-style: italic;">"n"</span>, ...)
+f &lt;- function(xlab="Day", ...) {
+    plot(c(1, 10), c(0, 500), ylab="Raction", xlab=xlab, t="n", ...)
     grid()
 }
-<span style="color: #8f5902; font-style: italic;">par</span>(mfrow=c(2,3), mar=c(4,4,1,1))
+par(mfrow=c(2,3), mar=c(4,4,3,1))
 
-f(main=<span style="color: #8f5902; font-style: italic;">"Original data"</span>, <span style="color: #8f5902; font-style: italic;">""</span>)
-<span style="color: #204a87;">for</span> (i <span style="color: #204a87;">in</span> 1:18)
-  lines(x[i,])
-f(main=<span style="color: #8f5902; font-style: italic;">"Predicted data, old subjects"</span>, <span style="color: #8f5902; font-style: italic;">""</span>)
-<span style="color: #204a87;">for</span> (i <span style="color: #204a87;">in</span> 1:18)
-  lines(y[i,])
-f(main=<span style="color: #8f5902; font-style: italic;">"Predicted data, new subjects"</span>, <span style="color: #8f5902; font-style: italic;">""</span>)
-<span style="color: #204a87;">for</span> (i <span style="color: #204a87;">in</span> 19:36)
-  lines(y[i,], col=<span style="color: #8f5902; font-style: italic;">"red"</span>)
-f(main=<span style="color: #8f5902; font-style: italic;">"Original data"</span>)
-<span style="color: #204a87;">for</span> (i <span style="color: #204a87;">in</span> 1:18)
-  lines(x[i,])
-f(main=<span style="color: #8f5902; font-style: italic;">"Simulated data, old subjects"</span>)
-<span style="color: #204a87;">for</span> (i <span style="color: #204a87;">in</span> 1:18)
-  lines(z[i,])
-f(main=<span style="color: #8f5902; font-style: italic;">"Simulated data, new subjects"</span>)
-<span style="color: #204a87;">for</span> (i <span style="color: #204a87;">in</span> 19:36)
-  lines(z[i,], col=<span style="color: #8f5902; font-style: italic;">"red"</span>)
-legend(<span style="color: #8f5902; font-style: italic;">"bottomright"</span>, lty=c(1,1), col=1:2, c(<span style="color: #8f5902; font-style: italic;">"old subjects"</span>, <span style="color: #8f5902; font-style: italic;">"new subjects"</span>), bg=<span style="color: #8f5902; font-style: italic;">"white"</span>)
+f(main="Original data", "")
+for (i in 1:18) lines(x[i,])
+
+f(main="Predicted data\nold subjects", "")
+for (i in 1:18) lines(y[i,])
+
+f(main="Predicted data\nnew subjects", "")
+for (i in 19:36) lines(y[i,], col="red")
+
+f(main="Original data")
+for (i in 1:18) lines(x[i,])
+
+f(main="Simulated data\nold subjects")
+for (i in 1:18) lines(z[i,])
+
+f(main="Simulated data\nnew subjects")
+for (i in 19:36) lines(z[i,], col="red")
+
+legend("bottomright", lty=c(1,1), col=1:2, c("old subjects", "new subjects"), bg="white")
 </pre>
 </div>
 
@@ -444,8 +431,6 @@ legend(<span style="color: #8f5902; font-style: italic;">"bottomright"</span>, l
 <img src="subject_slopes.png" alt="subject_slopes.png"><br>
 
 </figure>
-</div>
-</div>
 </main>
 </body>
 </html>

@@ -65,8 +65,17 @@ pre {
     min-width: 0;
 }
 
+pre.src {
+    overflow-x: auto;
+}
+
+figure {
+    text-align: center;
+}
+
 img {
     vertical-align: middle;
+    max-width: 90%;
 }
 
 dd a img {
