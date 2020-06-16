@@ -17,6 +17,7 @@ h1 {
 h2 {
     margin-top: 1.5em;
     font-weight: normal;
+    text-align: center;
     font-size: 125%;
 }
 
@@ -91,6 +92,14 @@ img.thumbnail {
     max-width: 100px;
     max-height: 100px;
     float: right;
+    border: 1px;
+    border-style: solid;
+}
+
+img.newsthumbnail {
+    float: left;
+    margin: 0.3em;
+    margin-right: 0.7em;
     border: 1px;
     border-style: solid;
 }
@@ -201,7 +210,7 @@ hr {
         }
         header {
             margin-top: 50px;
-            margin-bottom: 2em;
+            margin-bottom: -0.53em;
         }
         #profilepic1 {
             display: block;
@@ -280,7 +289,7 @@ iframe {
 
 .timestamp-wrapper {
     float: right;
-    display: block;
+    display: none;
     text-align: right;
 }
 .timestamp {
