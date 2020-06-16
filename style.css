@@ -96,9 +96,14 @@ img.thumbnail {
     border-style: solid;
 }
 
+a.newsthumbnail {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
 img.newsthumbnail {
     float: none;
-    display: block;
     margin: 0.3em;
     border: 1px;
     border-style: solid;
@@ -212,6 +217,11 @@ hr {
         header {
             margin-top: 50px;
             margin-bottom: -0.53em;
+        }
+        a.newsthumbnail {
+            display: inline;
+            text-align: left;
+            width: auto;
         }
         img.newsthumbnail {
             margin: 0.3em;
