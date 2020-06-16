@@ -97,12 +97,12 @@ img.thumbnail {
 }
 
 img.newsthumbnail {
-    float: left;
+    float: none;
+    display: block;
     margin: 0.3em;
-    margin-right: 0.7em;
     border: 1px;
     border-style: solid;
-    width: 15em;
+    width: 100%;
 }
 
 #profilepic1 {
@@ -212,6 +212,12 @@ hr {
         header {
             margin-top: 50px;
             margin-bottom: -0.53em;
+        }
+        img.newsthumbnail {
+            margin: 0.3em;
+            margin-right: 0.7em;
+            float: left;
+            width: 15em;
         }
         #profilepic1 {
             display: block;
