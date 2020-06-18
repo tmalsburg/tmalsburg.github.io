@@ -244,6 +244,7 @@ hr {
         }
       hr {
           display: block;
+          width: 60%;
       }
     }
 
