@@ -336,3 +336,11 @@ div.NEWS > ul > li {
     list-style-type: none;
     border-radius: 15px;
 }
+
+div.NEWS > ul > li > ul {
+    padding-left: 0px;
+    margin-left: 1em;
+    list-style-type: disc;
+    /* padding-left: 0px; */
+    /* list-style-position: inside; */
+}
