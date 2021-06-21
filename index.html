@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2021-04-21 Wed 13:04 -->
+<!-- 2021-06-21 Mon 11:33 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Titus von der Malsburg</title>
 <meta name="generator" content="Org Mode" />
 <style type="text/css">
- <!--/*--><![CDATA[/*><!--*/
+  #content { max-width: 60em; margin: auto; }
   .title  { text-align: center;
              margin-bottom: .2em; }
   .subtitle { text-align: center;
@@ -28,8 +28,9 @@
   #postamble p, #preamble p { font-size: 90%; margin: .2em; }
   p.verse { margin-left: 3%; }
   pre {
-    border: 1px solid #ccc;
-    box-shadow: 3px 3px 3px #eee;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
     padding: 8pt;
     font-family: monospace;
     overflow: auto;
@@ -38,21 +39,21 @@
   pre.src {
     position: relative;
     overflow: auto;
-    padding-top: 1.2em;
   }
   pre.src:before {
     display: none;
     position: absolute;
-    background-color: white;
-    top: -10px;
-    right: 10px;
+    top: -8px;
+    right: 12px;
     padding: 3px;
-    border: 1px solid black;
+    color: #555;
+    background-color: #f2f2f299;
   }
   pre.src:hover:before { display: inline; margin-top: 14px;}
   /* Languages per Org manual */
   pre.src-asymptote:before { content: 'Asymptote'; }
   pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
   pre.src-C:before { content: 'C'; }
   /* pre.src-C++ doesn't work in CSS */
   pre.src-clojure:before { content: 'Clojure'; }
@@ -188,37 +189,14 @@
   .org-info-js_search-highlight
     { background-color: #ffff00; color: #000000; font-weight: bold; }
   .org-svg { width: 90%; }
-  /*]]>*/-->
 </style>
 <link rel="stylesheet" type="text/css" href="style.css" />
-<script type="text/javascript">
-// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
-<!--/*--><![CDATA[/*><!--*/
-     function CodeHighlightOn(elem, id)
-     {
-       var target = document.getElementById(id);
-       if(null != target) {
-         elem.classList.add("code-highlighted");
-         target.classList.add("code-highlighted");
-       }
-     }
-     function CodeHighlightOff(elem, id)
-     {
-       var target = document.getElementById(id);
-       if(null != target) {
-         elem.classList.remove("code-highlighted");
-         target.classList.remove("code-highlighted");
-       }
-     }
-    /*]]>*///-->
-// @license-end
-</script>
 </head>
 <body>
 <nav id="preamble" class="status">
 <a href="index.html"><img src="titus_fern_canyon_small.png" alt="Photo of Titus von der Malsburg" id="profilepic1"/></a><hr><ul id="menu"><li><a href="index.html#news">News</a></li><li><a href="index.html#contact">Contact</a></li><li><a href="index.html#bio">Bio</a></li><li><a href="index.html#publications">Publications</a></li><li><a href="index.html#technotes">Tech notes</a></li><li><a href="index.html#software">Software</a></li></ul><hr>
 </nav>
-<main id="content">
+<main id="content" class="content">
 <header>
 <h1 class="title">Titus von der Malsburg</h1>
 <p class="subtitle">Institute of Linguistics, University of Stuttgart<br/>Dept. Brain and Cognitive Science, MIT<br/><img src="titus_fern_canyon_small.png" id="profilepic2" alt="Photo of Titus von der Malsburg"></p>
@@ -226,17 +204,27 @@
 <div id="outline-container-orgc9f468b" class="outline-2">
 <h2 id="orgc9f468b">News</h2>
 <div class="outline-text-2" id="text-orgc9f468b">
-<div class="NEWS" id="org0cddf9b">
+<div class="NEWS" id="org76b4470">
 <ul class="org-ul">
-<li><b>New job and lab:</b> I have joined the faculty at the <b>University of Stuttgart</b>, Dept. Linguistics, and will head the newly established  <b>Psycholinguistics and Cognitive Modeling Lab</b>. 🎉 Job posting for a three-year postdoc coming soon.<br></li>
-<li><b>Talk and poster at SSSR 2021</b>:<br>
+<li><b>Two contributions to AMLaP2021:</b><br>
 <ul class="org-ul">
-<li>Mézière, D., Yu, L., Reichle, E., von der Malsburg, Titus, &amp; McArthur, G. (2021). Using eye movements to predict reading comprehension scores.<br></li>
-<li>Mézière, D., Yu, L., Reichle, E., von der Malsburg, Titus, &amp; McArthur, G. (2021). Exploring recall as an ecologically-valid measure of reading comprehension.<br></li>
+<li>Long talk: Poppels, Boyce, Ajunwa, von der Malsburg, &amp; Levy. (2021). <i>Bias against "she" pronouns can be rapidly overcome by changing event expectations</i>.<br></li>
+<li>Short talk: Meziere, Yu, Reichle, von der Malsburg, &amp; McArthur. (2021). <i>Can eye movements be used to predict reading comprehension ability?</i><br></li>
 </ul></li>
+<li><p>
+<b>Dr. Anna Laurinavichyute</b> has defended her PhD dissertation.  Congratulations!<br>
+</p>
+
+<figure id="orgb4f19b1">
+<img src="anna_phd_defense.jpeg" alt="anna_phd_defense.jpeg" width="600px"><br>
+
+</figure></li>
 <li><b>New paper:</b> Parshina, O., Sekerina, I., Lopukhina, A., von der Malsburg, T. (2022).  <i>Monolingual and bilingual reading strategies in Russian: An exploratory scanpath analysis</i>.  In press at Reading Research Quarterly.<br></li>
-<li><b>New paper:</b> Wehbe, L., Blank, I. A., Shain, C., Futrell, R., Levy, R., von der Malsburg, T., Smith, N., Gibson, E., Fedorenko, E. (2021).  <i>Incremental language comprehension difficulty predicts activity in the language network but not the multiple demand network</i>.  To appear in Cerebral Cortex (<a href="http://dx.doi.org/10.1101/2020.04.15.043844">preprint</a>).<br></li>
-<li><b>Preprint</b>: Laurinavichyute, A., von der Malsburg, T. (2021).  <i>Semantic attraction in sentence processing</i>, (<a href="https://psyarxiv.com/hk9nc">preprint</a>).<br></li>
+<li><b>Current preprints</b>:<br>
+<ul class="org-ul">
+<li>Laurinavichyute, von der Malsburg. (2021).  <i>Semantic attraction in sentence processing</i>. [<a href="https://psyarxiv.com/hk9nc">PsyArXiv</a>]<br></li>
+<li>Stone, K., Vasishth, S., &amp; von der Malsburg, Titus (2021). <i>Turn the music: Do readers predict distant verb particles in German?</i> [<a href="https://psyarxiv.com/7fb5t">PsyArXiv</a>]<br></li>
+</ul></li>
 </ul>
 
 </div>
@@ -337,6 +325,16 @@ Laurinavichyute, A. and von der Malsburg, T. (2021).
 <a href="https://psyarxiv.com/hk9nc/">http</a> ]
 
 </div>
+
+<div class="bibentry" id="StoneEtAl2021MS">
+
+Stone, K., Vasishth, S., and von der Malsburg, T. (2021).
+ Turn the music: Do readers predict distant verb particles in German?
+ Under review.
+[ <a href="http://dx.doi.org/10.31234/osf.io/7fb5t">DOI</a> | 
+<a href="https://psyarxiv.com/7fb5t">http</a> ]
+
+</div>
 </div>
 </div>
 <div id="outline-container-org0a319a6" class="outline-3">
@@ -347,7 +345,8 @@ Laurinavichyute, A. and von der Malsburg, T. (2021).
 Parshina, O., Sekerina, I., Lopukhina, A., and von der Malsburg, T. (2022).
  Monolingual and bilingual reading strategies in Russian: An exploratory scanpath analysis.
  <em>Reading Research Quarterly</em>, 57(2).
-[ <a href="journal_articles_bib.html#ParshinaEtAl2022">bib</a> ]
+[ <a href="journal_articles_bib.html#ParshinaEtAl2022">bib</a> | 
+<a href="http://dx.doi.org/10.1002/rrq.414">DOI</a> ]
 
 </div>
 
@@ -357,6 +356,7 @@ Wehbe, L., Blank, I. A., Shain, C., Futrell, R., Levy, R., von der Malsburg, T.
  Incremental language comprehension difficulty predicts activity in the language network but not the multiple demand network.
  <em>Celebral Cortex</em>.
 [ <a href="journal_articles_bib.html#WehbeEtAl2021">bib</a> | 
+<a href="http://dx.doi.org/10.1093/cercor/bhab065">DOI</a> | 
 <a href="https://www.biorxiv.org/content/early/2020/04/17/2020.04.15.043844">http</a> ]
 
 </div>
@@ -537,6 +537,15 @@ Mézière, D., Yu, L., Reichle, E., von der Malsburg, T., and McArthur, G. (2021
  Using eye movements to predict reading comprehension scores.
  In Cain, K., Wood, C., Ricketts, J., and Wade-Woolley, L., editors, <em>Proceedings of the Twenty-Eighth Annual Meeting of the Society for the Scientific Study of Reading</em>. Society for the Scientific Study of Reading.
 [ <a href="talks_bib.html#MeziereEtAl2021SSSRa">bib</a> ]
+
+</div>
+
+<div class="bibentry" id="PoppelsEtAl2021AMLaP">
+
+Poppels, T., Boyce, V., Ajunwa, C., von der Malsburg, T., and Levy, R. (2021).
+ Bias against "she" pronouns can be rapidly overcome by changing event expectations.
+ In Turco, G., Thiberge, G., Pozniak, C., Poppels, T., Hemforth, B., Colonna, S., and Abeillé, A., editors, <em>Proceedings of the 27th Architectures and Mechanisms for Language Processing Conference (AMLaP)</em>, Paris, France. Université de Paris.
+[ <a href="talks_bib.html#PoppelsEtAl2021AMLaP">bib</a> ]
 
 </div>
 
@@ -774,9 +783,9 @@ von der Malsburg, T. and Vasishth, S. (2009).
 </div>
 </div>
 </div>
-<div id="outline-container-orge0146a2" class="outline-3">
-<h3 id="orge0146a2">Conference posters</h3>
-<div class="outline-text-3" id="text-orge0146a2">
+<div id="outline-container-org020334a" class="outline-3">
+<h3 id="org020334a">Conference posters and short talks</h3>
+<div class="outline-text-3" id="text-org020334a">
 <div class="bibentry" id="LaurinavichyuteMalsburg2021">
 
 Laurinavichyute, A. and von der Malsburg, T. (2021).
@@ -810,6 +819,15 @@ Mézière, D., Yu, L., Reichle, E., von der Malsburg, T., and McArthur, G. (2021
  Exploring recall as an ecologically-valid measure of reading comprehension.
  In Cain, K., Wood, C., Ricketts, J., and Wade-Woolley, L., editors, <em>Proceedings of the Twenty-Eighth Annual Meeting of the Society for the Scientific Study of Reading</em>. Society for the Scientific Study of Reading.
 [ <a href="posters_bib.html#MeziereEtAl2021SSSRb">bib</a> ]
+
+</div>
+
+<div class="bibentry" id="MeziereEtAl2021AMLaP">
+
+Meziere, D., Yu, L., Reichle, E., von der Malsburg, T., and McArthur, G. (2021).
+ Can eye movements be used to predict reading comprehension ability?
+ In Turco, G., Thiberge, G., Pozniak, C., Poppels, T., Hemforth, B., Colonna, S., and Abeillé, A., editors, <em>Proceedings of the 27th Architectures and Mechanisms for Language Processing Conference (AMLaP)</em>, Paris, France. Université de Paris.
+[ <a href="posters_bib.html#MeziereEtAl2021AMLaP">bib</a> ]
 
 </div>
 
