@@ -333,6 +333,7 @@ div.NEWS > ul > li {
     margin-bottom: 10px;
     padding: 10px;
     padding-top: 5px;
+    padding-bottom: 5px;
     list-style-type: none;
     border-radius: 15px;
 }
