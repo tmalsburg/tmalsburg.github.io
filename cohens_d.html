@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2022-09-02 Fri 17:02 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Cohen’s $d$ in linear models</title>
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body>
+<nav id="preamble" class="status">
+<a href="index.html"><img src="titus_fern_canyon_small.png" alt="Photo of Titus von der Malsburg" id="profilepic1"/></a><hr><ul id="menu"><li><a href="index.html">Contact</a></li><li><a href="index.html#news">News</a></li><li><a href="index.html#bio">Bio</a></li><li><a href="index.html#publications">Publications</a></li><li><a href="index.html#blog">Blog</a></li><li><a href="index.html#software">Software</a></li></ul><hr>
+</nav>
+<main id="content" class="content">
+<header>
+<h1 class="title">Cohen’s \(d\) in linear models</h1>
+</header><p>
+Cohen’s \(d\) is a common measure of effect size.  This short post illustrates the basic idea behind it and shows hot to calculate it for effects estimated with a simple linear regression model.<br>
+</p>
+
+<p>
+Consider a scenario with two conditions, <i>control</i> and <i>treatment</i> and some continuous outcome (e.g., weight).  Cohen’s \(d\) is then defined as:<br>
+</p>
+
+<p>
+\[
+d = \frac{\overline{x_1} - \overline{x_2}} s
+\]<br>
+</p>
+
+<p>
+where \(\overline{x_1}\) and \(\overline{x_2}\) are the means, \(s_1\) and \(s_2\) the standard deviations, and \(n_1\) and \(n_2\) are the numbers of data points of the control and treatment condition, and where<br>
+</p>
+
+<p>
+\[
+s = \sqrt{\frac{(n_1-1)s^2_1 + (n_2-1)s^2_2}{n_1+n_2 - 2}}.
+\]<br>
+</p>
+
+<p>
+The quantity \(s\) is called the <i>pooled standard deviation</i>.  The definition above may look complicated but, conceptually, \(d\) is simply the size of the effect (i.e. the difference between control and treatment, \(\overline{x_1} - \overline{x_2}\)) relative to the variance that is left in the data after accounting for that effect (\(s\)).  So the effect is  basically taken from some absolute scale (e.g., kilograms) and is put on a scale that is relative to the variability in the particular data set.<br>
+</p>
+
+<p>
+Here’s an example to illustrate this.  We use data from Annette Dobson (1990), <i>An Introduction to Generalized Linear Models</i> (p. 9, plant weight data).<br>
+</p>
+
+<div class="org-src-container">
+<pre class="src src-R">ctl    &lt;- c(4.17,5.58,5.18,6.11,4.50,4.61,5.17,4.53,5.33,5.14)
+trt    &lt;- c(4.81,4.17,4.41,3.59,5.87,3.83,6.03,4.89,4.32,4.69)
+group  &lt;- gl(2, 10, 20, labels = c("Ctl","Trt"))
+weight &lt;- c(ctl, trt)
+n      &lt;- length(weight)
+</pre>
+</div>
+
+<p>
+The by-conditions means indicate that the average weight was somewhat lower in the treatment condition than in the control condition.<br>
+</p>
+
+<div class="org-src-container">
+<pre class="src src-R">tapply(weight, group, mean)
+</pre>
+</div>
+
+<pre class="example">
+  Ctl   Trt 
+5.032 4.661
+</pre>
+
+
+<p>
+Next, we fit a simple linear model to estimate this effect.<br>
+</p>
+
+<div class="org-src-container">
+<pre class="src src-R">lm(weight ~ group) -&gt; m
+summary(m)
+</pre>
+</div>
+
+<pre class="example" id="org412ad8d">
+
+Call:
+lm(formula = weight ~ group)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-1.0710 -0.4938  0.0685  0.2462  1.3690 
+
+Coefficients:
+            Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept)   5.0320     0.2202  22.850 9.55e-15 ***
+groupTrt     -0.3710     0.3114  -1.191    0.249    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.6964 on 18 degrees of freedom
+Multiple R-squared:  0.07308,	Adjusted R-squared:  0.02158 
+F-statistic: 1.419 on 1 and 18 DF,  p-value: 0.249
+</pre>
+
+<p>
+With the default treatment coding, the intercept of this model (\(5.03\)) represents the mean weight in the control condition and the coefficient <code>groupTrt</code> (\(-0.37\)) how much smaller the weight was in the treatment condition.  Note that the effect of the treatment is non-zero but also “non-significant”.<br>
+</p>
+
+<p>
+Is this effect large or small?  Let’s calculate Cohens’ d to find out!<br>
+</p>
+
+<p>
+The overall approach is to remove the effect of the treatment from the data and to calculate the pooled standard deviation of the result (i.e. the remaining variance).  Cohen’s \(d\) is then simply \(\frac{\beta_2}{s}\) where \(\beta_2\) is the coefficient of the model that represents the effect of the treatment (<code>groupTrt</code>, the second coefficient of the model fit above).<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup><br>
+</p>
+
+<div class="org-src-container">
+<pre class="src src-R">2                   -&gt; i   # Index of the coefficient of interest
+coef(m)[i]          -&gt; b   # Coefficient 
+model.matrix(m)[,i] -&gt; xi  # The column of the design matrix representing condition
+weight - b * xi     -&gt; yr  # The data minus the effect of interest
+</pre>
+</div>
+
+<p>
+Now, <code>yr</code> is the data but with the effect of the treatment removed.  Next, we calculate the pooled standard deviation.  The recipe is now the same as for the ordinary standard deviation,<br>
+</p>
+
+<p>
+\[
+s = \sqrt{\frac{1}{n-2} \sum_i^n (x_i-\overline{x})^2},
+\]<br>
+</p>
+
+<p>
+except that we divide by \(n-2\) instead of \(n-1\).  Now, let’s do this in R and in two steps: We first calculate the sum of squared errors (the right part under the square root), and then the pooled standard deviation:<br>
+</p>
+
+<div class="org-src-container">
+<pre class="src src-R">sum((yr - mean(yr))^2) -&gt; sse
+sqrt(sse / (n-2))      -&gt; sd.pooled
+sd.pooled
+</pre>
+</div>
+
+<pre class="example">
+[1] 0.6963895
+</pre>
+
+
+<p>
+Now, Cohen’s \(d\) is simply:<br>
+</p>
+
+<div class="org-src-container">
+<pre class="src src-R">b / sd.pooled -&gt; d
+d
+</pre>
+</div>
+
+<pre class="example">
+  groupTrt 
+-0.5327478
+</pre>
+
+
+<p>
+The result, \(-0.53\), is negative because the effect is negative-going.  The magnitude (around ±0.5) is conventionally interpreted as a medium effect size.  Note, however, that while the effect is of medium size, it’s at the same time not significant.  It may be confusing to talk about the size of <i>the</i> effect when it’s not even clear whether the effect exists at all, but that’s simply a consequence of the fact that the word “effect” is doing double duty here.  We use it to describe the observed difference in the sample, but in the context of inferential statistics, we use it to refer to the hypothetical effect in the larger population which may not exist.<br>
+</p>
+
+<p>
+While the procedure above produces the correct result, there is an alternative way to calculate Cohen’s \(d\) that is perhaps conceptually a bit more transparent.  The difference is in how the pooled standard deviation is calculated.  This time we’re using the residuals of the linear model to calculate the squared errors.<br>
+</p>
+
+<div class="org-src-container">
+<pre class="src src-R">sqrt(sum(residuals(m)^2) / (n-2))
+</pre>
+</div>
+
+<pre class="example">
+[1] 0.6963895
+</pre>
+
+
+<p>
+The result is exactly the same as before.  What this illustrates is that, in this particular scenario (single regression), Cohen’s \(d\) is really just the magnitude of effect (in terms of the outcome scale) divided by the residual standard deviation, with the small difference that the standard deviation is the pooled variety (i.e. using division by \(n-2\) instead of \(n-1\)).<br>
+</p>
+
+<p>
+Note, however, that the approach using residuals won’t work in a multiple regression setting where the residual variance is going to be smaller due to the other predictors present in the model.  Nevertheless, I think this way of thinking about Cohen’s \(d\) helps understand and memorize the basic idea behind \(d\).<br>
+</p>
+
+<p>
+Finally, a word of caution: The code above is just for illustration purposes.  For serious uses, I recommend using existing R packages, e.g., the <code>effsize</code> package.  There are also different ways to calculate Cohen’s \(d\) and for mixed models (a.k.a. hierarchical / multi-level models) there is no agreed-upon method for calculating \(d\).  So the example above really just shows the simplest case.  I hope it’s nonetheless useful.<br>
+</p>
+<div id="footnotes">
+<h2 class="footnotes">Footnotes: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" class="footnum" href="#fnr.1" role="doc-backlink">1</a></sup> <div class="footpara" role="doc-footnote"><p class="footpara">For consistency with R, we start counting betas at 1, not 0.</p></div></div>
+
+
+</div>
+</div></main>
+</body>
+</html>
