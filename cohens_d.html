@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2022-09-02 Fri 17:19 -->
+<!-- 2022-09-02 Fri 17:25 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Cohen’s $d$ in simple linear regression models</title>
@@ -316,7 +316,7 @@ Is this effect large or small?  Let’s calculate Cohens’ d to find out!<br>
 </p>
 
 <p>
-The overall approach is to remove the effect of the treatment from the data and to calculate the pooled standard deviation of the result (i.e. the remaining variance).  Cohen’s \(d\) is then simply \(\frac{\beta_2}{s}\) where \(\beta_2\) is the coefficient of the model that represents the effect of the treatment (<code>groupTrt</code>, the second coefficient of the model fit above).<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup><br>
+The approach below is going to look a bit different from the definition of Cohen’s \(d\) given above, but the result is the same and I think the approach below is more instructive.  The idea is to remove the effect of the treatment from the data and to then calculate the pooled standard deviation of the remaining data.  Cohen’s \(d\) is then simply \(\frac{\beta_2}{s}\) where \(\beta_2\) is the coefficient of the model that represents the effect of the treatment (<code>groupTrt</code>, the second coefficient of the model fit above).<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup><br>
 </p>
 
 <div class="org-src-container">
