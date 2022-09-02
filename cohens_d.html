@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2022-09-02 Fri 17:25 -->
+<!-- 2022-09-02 Fri 17:28 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Cohen’s $d$ in simple linear regression models</title>
@@ -316,7 +316,7 @@ Is this effect large or small?  Let’s calculate Cohens’ d to find out!<br>
 </p>
 
 <p>
-The approach below is going to look a bit different from the definition of Cohen’s \(d\) given above, but the result is the same and I think the approach below is more instructive.  The idea is to remove the effect of the treatment from the data and to then calculate the pooled standard deviation of the remaining data.  Cohen’s \(d\) is then simply \(\frac{\beta_2}{s}\) where \(\beta_2\) is the coefficient of the model that represents the effect of the treatment (<code>groupTrt</code>, the second coefficient of the model fit above).<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup><br>
+The approach below is going to look a bit different from the conventional definition of Cohen’s \(d\) given above, but the result is the same and I think the approach below is more instructive.  The idea is to remove the effect of the treatment from the data and to then calculate the pooled standard deviation of the remaining data.  Cohen’s \(d\) is then simply \(\frac{\beta_2}{s}\) where \(\beta_2\) is the coefficient of the model that represents the effect of the treatment (<code>groupTrt</code>, the second coefficient of the model fit above).<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup><br>
 </p>
 
 <div class="org-src-container">
@@ -394,11 +394,11 @@ The result is exactly the same as before.  What this illustrates is that, in thi
 </p>
 
 <p>
-Note, however, that the approach using residuals won’t work in a multiple regression setting where the residual variance is going to be smaller due to the other predictors present in the model.  Nevertheless, I think this way of thinking about Cohen’s \(d\) helps understand and memorize the basic idea behind \(d\).<br>
+Note, however, that the approach using residuals won’t work in a multiple regression setting where the residual variance is going to be smaller due to the other predictors present in the model.  Nevertheless, I think this way of thinking about Cohen’s \(d\) helps understand and memorize the basic idea.<br>
 </p>
 
 <p>
-Finally, a word of caution: The code above is just for illustration purposes.  For serious uses, I recommend existing R packages such as the <code>effsize</code> package.  There are also different ways to calculate Cohen’s \(d\) and for mixed models (a.k.a. hierarchical / multi-level models) there is no agreed-upon method for calculating \(d\).  So the example above really just shows the simplest case.  I hope it’s nonetheless useful.<br>
+Finally, a word of caution: The code above is intended just for illustration purposes.  For serious uses, I recommend existing R packages such as the <code>effsize</code> package.  There are also different ways to calculate Cohen’s \(d\) and for mixed models (a.k.a. hierarchical / multi-level models) there is no single agreed-upon method for calculating Cohen’s \(d\).  So the example above really just shows the simplest case.  I hope it’s nonetheless useful.<br>
 </p>
 <div id="footnotes">
 <h2 class="footnotes">Footnotes: </h2>
