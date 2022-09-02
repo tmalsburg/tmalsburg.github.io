@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2022-09-02 Fri 17:10 -->
+<!-- 2022-09-02 Fri 17:16 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Cohen’s $d$ in simple linear regression models</title>
@@ -221,7 +221,7 @@
 <header>
 <h1 class="title">Cohen’s \(d\) in simple linear regression models</h1>
 </header><p>
-Cohen’s \(d\) is a common measure of effect size.  This short post illustrates the basic idea behind it and shows hot to calculate it for effects estimated with a simple linear regression model.<br>
+Cohen’s \(d\) is a common measure of effect size.  This short post illustrates the basic idea behind it and shows how to calculate it in R for effects estimated with simple linear regression models.<br>
 </p>
 
 <p>
@@ -328,7 +328,7 @@ weight - b * xi     -&gt; yr  # The data minus the effect of interest
 </div>
 
 <p>
-Now, <code>yr</code> is the data but with the effect of the treatment removed.  Next, we calculate the pooled standard deviation.  The recipe is now the same as for the ordinary standard deviation,<br>
+Now, <code>yr</code> is the data but with the effect of the treatment removed.  Next, we calculate the pooled standard deviation.  The recipe is the same as for the ordinary standard deviation, except that we divide by \(n-2\) instead of \(n-1\):<br>
 </p>
 
 <p>
@@ -338,7 +338,7 @@ s = \sqrt{\frac{1}{n-2} \sum_i^n (x_i-\overline{x})^2},
 </p>
 
 <p>
-except that we divide by \(n-2\) instead of \(n-1\).  Now, let’s do this in R and in two steps: We first calculate the sum of squared errors (the right part under the square root), and then the pooled standard deviation:<br>
+Now, let’s do this in R and in two steps: We first calculate the sum of squared errors (the right part under the square root), and then the pooled standard deviation:<br>
 </p>
 
 <div class="org-src-container">
@@ -378,7 +378,9 @@ While the procedure above produces the correct result, there is an alternative w
 </p>
 
 <div class="org-src-container">
-<pre class="src src-R">sqrt(sum(residuals(m)^2) / (n-2))
+<pre class="src src-R">sum(residuals(m)^2) -&gt; sse
+sqrt(sse / (n-2))   -&gt; sd.pooled
+sd.pooled
 </pre>
 </div>
 
@@ -396,7 +398,7 @@ Note, however, that the approach using residuals won’t work in a multiple regr
 </p>
 
 <p>
-Finally, a word of caution: The code above is just for illustration purposes.  For serious uses, I recommend using existing R packages, e.g., the <code>effsize</code> package.  There are also different ways to calculate Cohen’s \(d\) and for mixed models (a.k.a. hierarchical / multi-level models) there is no agreed-upon method for calculating \(d\).  So the example above really just shows the simplest case.  I hope it’s nonetheless useful.<br>
+Finally, a word of caution: The code above is just for illustration purposes.  For serious uses, I recommend existing R packages such as the <code>effsize</code> package.  There are also different ways to calculate Cohen’s \(d\) and for mixed models (a.k.a. hierarchical / multi-level models) there is no agreed-upon method for calculating \(d\).  So the example above really just shows the simplest case.  I hope it’s nonetheless useful.<br>
 </p>
 <div id="footnotes">
 <h2 class="footnotes">Footnotes: </h2>
