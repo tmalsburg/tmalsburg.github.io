@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2022-09-02 Fri 17:33 -->
+<!-- 2022-09-02 Fri 21:10 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Cohen’s $d$ in simple linear regression models</title>
@@ -262,7 +262,7 @@ n      &lt;- length(weight)
 </div>
 
 <p>
-The by-conditions means indicate that the average weight was somewhat lower in the treatment condition than in the control condition.<br>
+The by-conditions means and the plot below show that the average weight was somewhat lower in the treatment condition than in the control condition.  The standard deviation in the treatment condition (red) was also higher than in the control condition (blue).<br>
 </p>
 
 <div class="org-src-container">
@@ -276,6 +276,13 @@ The by-conditions means indicate that the average weight was somewhat lower in t
 </pre>
 
 
+
+<figure id="org163baf6">
+<img src="plots/paKMP0.png" alt="paKMP0.png"><br>
+
+</figure>
+
+
 <p>
 Next, we fit a simple linear model to estimate this effect.<br>
 </p>
@@ -286,7 +293,7 @@ summary(m)
 </pre>
 </div>
 
-<pre class="example" id="org412ad8d">
+<pre class="example" id="orgf6aa09c">
 
 Call:
 lm(formula = weight ~ group)
@@ -328,7 +335,7 @@ weight - b * xi     -&gt; yr  # The data minus the effect of interest
 </div>
 
 <p>
-Now, <code>yr</code> is the data but with the effect of the treatment removed.  Next, we calculate the pooled standard deviation.  The recipe is the same as for the ordinary standard deviation, except that we divide by \(n-2\) instead of \(n-1\):<br>
+The variable <code>yr</code> now contains the data but with the effect of the treatment removed.  Next, we calculate the pooled standard deviation.  The recipe is the same as for the ordinary standard deviation, except that we divide by \(n-2\) instead of \(n-1\):<br>
 </p>
 
 <p>
@@ -338,7 +345,7 @@ s = \sqrt{\frac{1}{n-2} \sum_i^n (x_i-\overline{x})^2},
 </p>
 
 <p>
-Now, let’s do this in R and in two steps: We first calculate the sum of squared errors (the right part under the square root), and then the pooled standard deviation:<br>
+We’ll do this in two steps: First, we calculate the sum of squared errors (the right part under the square root), and then the pooled standard deviation:<br>
 </p>
 
 <div class="org-src-container">
@@ -390,7 +397,7 @@ sd.pooled
 
 
 <p>
-The result is exactly the same as before.  What this illustrates is that, in this particular scenario (single regression), Cohen’s \(d\) is really just the magnitude of effect (in terms of the outcome scale) divided by the residual standard deviation, with the small difference that the standard deviation is the pooled variety (i.e. using division by \(n-2\) instead of \(n-1\)).<br>
+The result is exactly the same as before.  What this illustrates is that, in this particular scenario (single regression), Cohen’s \(d\) is really just the magnitude of the effect (in terms of the outcome scale) divided by the residual standard deviation, with the small difference that the standard deviation is the pooled variety (i.e. using division by \(n-2\) instead of \(n-1\)).<br>
 </p>
 
 <p>
