@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2022-09-02 Fri 21:10 -->
+<!-- 2022-09-03 Sat 20:45 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Cohen’s $d$ in simple linear regression models</title>
@@ -230,22 +230,26 @@ Consider a scenario with two conditions, <i>control</i> and <i>treatment</i> and
 
 <p>
 \[
-d = \frac{\overline{x_1} - \overline{x_2}} s
+d = \frac{\overline{x_1} - \overline{x_2}}{s}
 \]<br>
 </p>
 
 <p>
-where \(\overline{x_1}\) and \(\overline{x_2}\) are the means, \(s_1\) and \(s_2\) the standard deviations, and \(n_1\) and \(n_2\) are the numbers of data points of the control and treatment condition, and where<br>
+where \(\overline{x_1}\) and \(\overline{x_2}\) are the means of the conditions and<br>
 </p>
 
 <p>
 \[
-s = \sqrt{\frac{(n_1-1)s^2_1 + (n_2-1)s^2_2}{n_1+n_2 - 2}}.
+s = \sqrt{\frac{(n_1-1)s^2_1 + (n_2-1)s^2_2}{n_1+n_2 - 2}}
 \]<br>
 </p>
 
 <p>
-The quantity \(s\) is called the <i>pooled standard deviation</i>.  The definition above may look complicated but, conceptually, \(d\) is simply the size of the effect (i.e. the difference between control and treatment, \(\overline{x_1} - \overline{x_2}\)) relative to the variance that is left in the data after accounting for that effect (\(s\)).  So the effect is  basically taken from some absolute scale (e.g., kilograms) and is put on a scale that is relative to the variability in the particular data set.<br>
+with \(s_1\) and \(s_2\) being the standard deviations and \(n_1\) and \(n_2\) the numbers of data points of the two conditions.<br>
+</p>
+
+<p>
+The quantity \(s\) is called the <i>pooled standard deviation</i>.  Its definition above may not look terribly transparent, but conceptually \(d\) is simply the size of the effect (i.e. the difference between control and treatment, \(\overline{x_1} - \overline{x_2}\)) relative to the variance that is left in the data after accounting for that effect.  So the effect is basically taken from some absolute scale (e.g., kilograms) and is put on a scale that is relative to the variability in the particular data set.<br>
 </p>
 
 <p>
@@ -262,7 +266,7 @@ n      &lt;- length(weight)
 </div>
 
 <p>
-The by-conditions means and the plot below show that the average weight was somewhat lower in the treatment condition than in the control condition.  The standard deviation in the treatment condition (red) was also higher than in the control condition (blue).<br>
+The by-conditions means and the plot below show that the average weight was somewhat lower in the treatment condition than in the control condition.<br>
 </p>
 
 <div class="org-src-container">
@@ -276,12 +280,15 @@ The by-conditions means and the plot below show that the average weight was some
 </pre>
 
 
+<p>
+The standard deviation in the treatment condition (red) was also higher than in the control condition (blue).<br>
+</p>
 
-<figure id="org163baf6">
+
+<figure id="org772069a">
 <img src="plots/paKMP0.png" alt="paKMP0.png"><br>
 
 </figure>
-
 
 <p>
 Next, we fit a simple linear model to estimate this effect.<br>
@@ -293,7 +300,7 @@ summary(m)
 </pre>
 </div>
 
-<pre class="example" id="orgf6aa09c">
+<pre class="example" id="org656414d">
 
 Call:
 lm(formula = weight ~ group)
@@ -315,15 +322,15 @@ F-statistic: 1.419 on 1 and 18 DF,  p-value: 0.249
 </pre>
 
 <p>
-With the default treatment coding, the intercept of this model (\(5.03\)) represents the mean weight in the control condition and the coefficient <code>groupTrt</code> (\(-0.37\)) how much smaller the weight was in the treatment condition.  Note that the effect of the treatment is non-zero but also “non-significant”.<br>
+With the default treatment coding, the intercept of this model (\(5.03\)) represents the mean weight in the control condition and the coefficient <code>groupTrt</code> (\(-0.37\)) how much smaller the weight was in the treatment condition.  Note that the effect of the treatment is non-zero but at the same time non-significant.<br>
 </p>
 
 <p>
-Is this effect large or small?  Let’s calculate Cohen’s \(d\) to find out!<br>
+Is this effect small or large?  Let’s calculate Cohen’s \(d\) to find out!<br>
 </p>
 
 <p>
-The approach below is going to look a bit different from the conventional definition of Cohen’s \(d\) given above, but the result is the same and I think the approach below is more instructive.  The idea is to remove the effect of the treatment from the data and to then calculate the pooled standard deviation of the remaining data.  Cohen’s \(d\) is then simply \(\frac{\beta_2}{s}\) where \(\beta_2\) is the coefficient of the model that represents the effect of the treatment (<code>groupTrt</code>, the second coefficient of the model fit above).<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup><br>
+The approach below is going to look a bit different from the conventional definition of Cohen’s \(d\) given above, but the result is the same and I think the approach below is more instructive.  The idea is the following:  We remove the effect of the treatment from the data and then we calculate the pooled standard deviation of the remaining data.  Cohen’s \(d\) is then simply \(\frac{\beta_2}{s}\) where \(\beta_2\) is the coefficient of the model that represents the effect of the treatment (<code>groupTrt</code>, the second coefficient of the model fit above).<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup><br>
 </p>
 
 <div class="org-src-container">
@@ -335,7 +342,7 @@ weight - b * xi     -&gt; yr  # The data minus the effect of interest
 </div>
 
 <p>
-The variable <code>yr</code> now contains the data but with the effect of the treatment removed.  Next, we calculate the pooled standard deviation.  The recipe is the same as for the ordinary standard deviation, except that we divide by \(n-2\) instead of \(n-1\):<br>
+The variable <code>yr</code> now contains the data but without the effect of the treatment.  Next, we calculate the pooled standard deviation.  The recipe is the same as for the ordinary standard deviation, except that we divide by \(n-2\) instead of \(n-1\) (this is done to prevent bias):<br>
 </p>
 
 <p>
@@ -377,11 +384,11 @@ d
 
 
 <p>
-The result, \(-0.53\), is negative because the effect is negative-going.  The magnitude (around ±0.5) is conventionally interpreted as a medium effect size.  Note, however, that while the effect is of medium size, it’s at the same time not significant.  It may be confusing to talk about the size of <i>the</i> effect when it’s not even clear whether the effect exists at all, but that’s simply a consequence of the fact that the word “effect” is doing double duty here.  We use it to describe the observed difference in the sample, but in the context of inferential statistics, we use it to refer to the hypothetical effect in the larger population which may not exist.<br>
+The result, \(-0.53\), is negative because the effect is negative-going.  The magnitude (around ±0.5) is conventionally interpreted as a medium effect size.  Note, however, that while the effect is of medium size, it’s at the same time not significant.  It may be confusing to talk about the size of <i>the</i> effect when it’s not even clear whether the effect exists at all, but that’s simply a consequence of the fact that the word “effect” is doing double duty here.  We use it to describe the observed difference in the sample, but in the context of inferential statistics, we use it for the hypothetical effect in the larger population, which may not exist.<br>
 </p>
 
 <p>
-While the procedure above produces the correct result, there is an alternative way to calculate Cohen’s \(d\) that is perhaps conceptually a bit more transparent.  The difference is in how the pooled standard deviation is calculated.  This time we’re using the residuals of the linear model to calculate the squared errors.<br>
+While the procedure above produces the correct result, there is an alternative way to calculate Cohen’s \(d\) that is perhaps conceptually even more transparent.  The difference is in how the pooled standard deviation is calculated.  This time we’re using the residuals of the linear model to calculate the squared errors.<br>
 </p>
 
 <div class="org-src-container">
@@ -397,15 +404,15 @@ sd.pooled
 
 
 <p>
-The result is exactly the same as before.  What this illustrates is that, in this particular scenario (single regression), Cohen’s \(d\) is really just the magnitude of the effect (in terms of the outcome scale) divided by the residual standard deviation, with the small difference that the standard deviation is the pooled variety (i.e. using division by \(n-2\) instead of \(n-1\)).<br>
+The result is exactly the same as before.  What this illustrates is that, in this particular scenario (single regression), Cohen’s \(d\) is really just the magnitude of the effect (in terms of the outcome scale) divided by the residual standard deviation, with the small difference that the standard deviation is the pooled variety, i.e. using division by \(n-2\) instead of \(n-1\), which makes the estimate unbiased.<br>
 </p>
 
 <p>
-Note, however, that the approach using residuals won’t work in a multiple regression setting where the residual variance is going to be smaller due to the other predictors present in the model.  Nevertheless, I hope that this way of thinking about Cohen’s \(d\) helps understand and memorize the basic idea.<br>
+Note, however, that the approach using residuals won’t work in a multiple regression setting where the residual variance is going to be smaller due to the other predictors present in the model.  Nevertheless, I hope that this way of thinking about Cohen’s \(d\) helps to understand and memorize the basic idea.<br>
 </p>
 
 <p>
-Finally, a word of caution: The code above is intended just for illustration purposes.  For serious uses, I recommend existing R packages such as the <code>effsize</code> package.  There are also different ways to calculate Cohen’s \(d\) and for mixed models (a.k.a. hierarchical / multi-level models) there is no single agreed-upon method for calculating Cohen’s \(d\).  So the example above really just shows the simplest case.<br>
+Finally, a word of caution: The code above is intended just for illustration purposes.  For serious uses, I recommend existing R packages such as the <code>effsize</code> package.  There are also different ways to calculate Cohen’s \(d\) and for mixed models (a.k.a. hierarchical / multi-level models) there is no single agreed-upon method for calculating Cohen’s \(d\) (see <a href="http://jakewestfall.org/blog/index.php/2016/03/25/five-different-cohens-d-statistics-for-within-subject-designs/">here</a> for an interesting blog post about this issue).  So the example above really just shows the simplest case.<br>
 </p>
 <div id="footnotes">
 <h2 class="footnotes">Footnotes: </h2>
