@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2022-09-05 Mon 09:56 -->
+<!-- 2022-09-05 Mon 10:03 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Cohen’s $d$ in simple linear regression models</title>
@@ -285,7 +285,7 @@ The standard deviation in the treatment condition (red) was also higher than in 
 </p>
 
 
-<figure id="org656414d">
+<figure id="org7d532cc">
 <img src="plots/paKMP0.png" alt="paKMP0.png"><br>
 
 </figure>
@@ -300,7 +300,7 @@ summary(m)
 </pre>
 </div>
 
-<pre class="example" id="orge410354">
+<pre class="example" id="orgde097e1">
 
 Call:
 lm(formula = weight ~ group)
@@ -334,20 +334,20 @@ The approach below is going to look a bit different from the conventional defini
 </p>
 
 <div class="org-src-container">
-<pre class="src src-R">2                   -&gt; i   # Index of the coefficient of interest
-coef(m)[i]          -&gt; b   # Coefficient 
-model.matrix(m)[,i] -&gt; xi  # The column of the design matrix representing condition
-weight - b * xi     -&gt; yr  # The data minus the effect of interest
+<pre class="src src-R">2                   -&gt; i  # Index of the coefficient of interest
+coef(m)[i]          -&gt; b  # Coefficient
+model.matrix(m)[,i] -&gt; x  # The column of the design matrix representing condition
+weight - b * x      -&gt; y  # The data minus the effect of interest
 </pre>
 </div>
 
 <p>
-The variable <code>yr</code> now contains the data but without the effect of the treatment.  Next, we calculate the pooled standard deviation.  The recipe is the same as for the ordinary standard deviation, except that we divide by \(n-2\) instead of \(n-1\) (this is done to prevent bias):<br>
+The variable <code>y</code> now contains the data but without the effect of the treatment.  Next, we calculate the pooled standard deviation.  The recipe is the same as for the ordinary standard deviation, except that we divide by \(n-2\) instead of \(n-1\) (this is done to prevent bias):<br>
 </p>
 
 <p>
 \[
-s = \sqrt{\frac{1}{n-2} \sum_i^n (x_i-\overline{x})^2},
+s = \sqrt{\frac{1}{n-2} \sum_i^n (y_i-\overline{y})^2},
 \]<br>
 </p>
 
@@ -356,8 +356,8 @@ We’ll do this in two steps: First, we calculate the sum of squared errors (the
 </p>
 
 <div class="org-src-container">
-<pre class="src src-R">sum((yr - mean(yr))^2) -&gt; sse
-sqrt(sse / (n-2))      -&gt; sd.pooled
+<pre class="src src-R">sum((y - mean(y))^2) -&gt; sse
+sqrt(sse / (n-2))    -&gt; sd.pooled
 sd.pooled
 </pre>
 </div>
