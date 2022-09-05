@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2022-09-03 Sat 20:45 -->
+<!-- 2022-09-05 Mon 09:56 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Cohen’s $d$ in simple linear regression models</title>
@@ -245,11 +245,11 @@ s = \sqrt{\frac{(n_1-1)s^2_1 + (n_2-1)s^2_2}{n_1+n_2 - 2}}
 </p>
 
 <p>
-with \(s_1\) and \(s_2\) being the standard deviations and \(n_1\) and \(n_2\) the numbers of data points of the two conditions.<br>
+with \(s_1\) and \(s_2\) being the standard deviations and \(n_1\) and \(n_2\) the numbers of data points of the two conditions.  The quantity \(s\) is called the <i>pooled standard deviation</i>.<br>
 </p>
 
 <p>
-The quantity \(s\) is called the <i>pooled standard deviation</i>.  Its definition above may not look terribly transparent, but conceptually \(d\) is simply the size of the effect (i.e. the difference between control and treatment, \(\overline{x_1} - \overline{x_2}\)) relative to the variance that is left in the data after accounting for that effect.  So the effect is basically taken from some absolute scale (e.g., kilograms) and is put on a scale that is relative to the variability in the particular data set.<br>
+The definition above may not look terribly transparent, but conceptually \(d\) is simply the size of the effect (i.e. the difference between control and treatment, \(\overline{x_1} - \overline{x_2}\)) relative to the variance that is left in the data after accounting for that effect.  So the effect is basically taken from some absolute scale (e.g., kilograms) and is put on a scale that is relative to the variability in the particular data set.<br>
 </p>
 
 <p>
@@ -285,7 +285,7 @@ The standard deviation in the treatment condition (red) was also higher than in 
 </p>
 
 
-<figure id="org772069a">
+<figure id="org656414d">
 <img src="plots/paKMP0.png" alt="paKMP0.png"><br>
 
 </figure>
@@ -300,7 +300,7 @@ summary(m)
 </pre>
 </div>
 
-<pre class="example" id="org656414d">
+<pre class="example" id="orge410354">
 
 Call:
 lm(formula = weight ~ group)
