@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2022-09-05 Mon 10:05 -->
+<!-- 2022-09-05 Mon 10:20 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Cohen’s $d$ in simple linear regression models</title>
@@ -259,7 +259,7 @@ Here’s an example to illustrate this.  We use data from Annette Dobson (1990),
 <div class="org-src-container">
 <pre class="src src-R">ctl    &lt;- c(4.17,5.58,5.18,6.11,4.50,4.61,5.17,4.53,5.33,5.14)
 trt    &lt;- c(4.81,4.17,4.41,3.59,5.87,3.83,6.03,4.89,4.32,4.69)
-group  &lt;- gl(2, 10, 20, labels = c("Ctl","Trt"))
+group  &lt;- gl(2, 10, 20, labels=c("Ctl", "Trt"))
 weight &lt;- c(ctl, trt)
 n      &lt;- length(weight)
 </pre>
@@ -285,7 +285,7 @@ The standard deviation in the treatment condition (red) was also higher than in 
 </p>
 
 
-<figure id="org6bceb84">
+<figure id="org99f01b1">
 <img src="plots/paKMP0.png" alt="paKMP0.png"><br>
 
 </figure>
@@ -300,7 +300,7 @@ summary(m)
 </pre>
 </div>
 
-<pre class="example" id="org99f01b1">
+<pre class="example" id="orgfaec292">
 
 Call:
 lm(formula = weight ~ group)
