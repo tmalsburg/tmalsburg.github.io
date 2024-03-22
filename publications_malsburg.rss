@@ -1847,8 +1847,7 @@
 <item>
   <title>Scanpaths in reading are informative about sentence processing</title>
   <author>von der Malsburg, Titus, Vasishth, S., &amp; Kliegl, R.</author>
-  <description><![CDATA[<p>von der Malsburg, Titus, Vasishth, S., &amp; Kliegl, R. (2012). Scanpaths in reading are informative about sentence processing. In P. B. Michael Carl, &amp; K. K. Choudhary, Proceedings of the First Workshop on Eye-tracking and Natural Language Processing (pp. 37–53). Mumbai, India: The COLING 2012 organizing committee.</p><p><b>BibTeX:</b><pre>@inproceedings{MalsburgEtAl2012Coling,
-  sortname = {Malsburg},
+  <description><![CDATA[<p>von der Malsburg, Titus, Vasishth, S., &amp; Kliegl, R. (2012). Scanpaths in reading are informative about sentence processing. In P. B. Michael Carl, &amp; K. K. Choudhary, Proceedings of the First Workshop on Eye-tracking and Natural Language Processing (pp. 37–53). Mumbai, India: The COLING 2012 organizing committee.</p><p><b>Abstract:</b> Scanpaths, sequences of fixations of the eyes, have historically played an important role in eyetracking research but their use has remained highly limited until recently. Here, we summarize earlier research and argue that scanpaths are a valuable source of information for reading research, specifically in the study of sentence comprehension. We also discuss a freely available, open source scanpath analysis method that we used to evaluate theoretical claims about human parsing and about how the parser guides the eyes during reading. This scanpath analysis is shown to yield new information that was missed when traditional approaches were used to study theories about eye guidance during garden-pathing. We also show how relatively subtle scanpath effects can be detected when we report the scanpath analysis of a large eyetracking corpus. In sum, we argue that scanpath analyses are likely to serve as an increasingly important tool in reading research, and perhaps also in other areas where eyetracking is used, e.g., in studies using the visual world paradigm.</p><p><b>BibTeX:</b><pre>@inproceedings{MalsburgEtAl2012Coling,
   author = {{von der Malsburg}, Titus and Shravan Vasishth and Kliegl, Reinhold},
   title = {Scanpaths in reading are informative about sentence processing},
   booktitle = {{Proceedings of the First Workshop on Eye-tracking and Natural Language Processing}},
@@ -1857,9 +1856,12 @@
   pages = {37--53},
   address = {Mumbai, India},
   publisher = {The COLING 2012 organizing committee},
+  sortname = {Malsburg},
+  url = {https://aclanthology.org/W12-4904/},
+  abstract = {Scanpaths, sequences of fixations of the eyes, have historically played an important role in eyetracking research but their use has remained highly limited until recently. Here, we summarize earlier research and argue that scanpaths are a valuable source of information for reading research, specifically in the study of sentence comprehension. We also discuss a freely available, open source scanpath analysis method that we used to evaluate theoretical claims about human parsing and about how the parser guides the eyes during reading. This scanpath analysis is shown to yield new information that was missed when traditional approaches were used to study theories about eye guidance during garden-pathing. We also show how relatively subtle scanpath effects can be detected when we report the scanpath analysis of a large eyetracking corpus. In sum, we argue that scanpath analyses are likely to serve as an increasingly important tool in reading research, and perhaps also in other areas where eyetracking is used, e.g., in studies using the visual world paradigm.},
 }
 </pre></p>]]></description>
-  <link></link>
+  <link>https://aclanthology.org/W12-4904/</link>
   <guid>MalsburgEtAl2012Coling</guid>
 </item>
 <item>
