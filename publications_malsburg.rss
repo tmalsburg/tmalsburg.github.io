@@ -219,8 +219,6 @@
   <author>von der Malsburg, Titus, &amp; Vasishth, S.</author>
   <description>von der Malsburg, Titus, &amp; Vasishth, S. (2011). What is the scanpath signature of syntactic reanalysis? Journal of Memory and Language, 65(2), 109–127. http://dx.doi.org/10.1016/j.jml.2011.02.004
 
-Which repair strategy does the language system deploy when it gets garden-pathed, and what can regressive eye movements in reading tell us about reanalysis strategies? Several influential eye-tracking studies on syntactic reanalysis (Frazier \&amp; Rayner, 1982; Meseguer, Carreiras, \&amp; Clifton, 2002; Mitchell, Shen, Green, \&amp; Hodgson, 2008) have addressed this question by examining scanpaths, i.e., sequential patterns of eye fixations. However, in the absence of a suitable method for analyzing scanpaths, these studies relied on simplified dependent measures that are arguably ambiguous and hard to interpret. We address the theoretical question of repair strategy by developing a new method that quantifies scanpath similarity. Our method reveals several distinct fixation strategies associated with reanalysis that went undetected in a previously published data set (Meseguer et al., 2002). One prevalent pattern suggests re-parsing of the sentence, a strategy that has been discussed in the literature (Frazier \&amp; Rayner, 1982); however, readers differed tremendously in how they orchestrated the various fixation strategies. Our results suggest that the human parsing system non-deterministically adopts different strategies when confronted with the disambiguating material in garden-path sentences.
-
 @article{MalsburgVasishth2011,
   sortname = {Malsburg},
   author = {{von der Malsburg}, Titus and Shravan Vasishth},
@@ -236,7 +234,7 @@ Which repair strategy does the language system deploy when it gets garden-pathed
   keywords = {eye movements, method, parsing, scanpaths, syntactic reanalysis},
 }
 </description>
-  <link>https://tmalsburg.github.io/MalsburgVasishth2011.pdf</link>
+  <link></link>
   <guid>MalsburgVasishth2011</guid>
 </item>
 <item>
@@ -265,8 +263,6 @@ Which repair strategy does the language system deploy when it gets garden-pathed
   <author>Marusch, T., von der Malsburg, Titus, Bastiaanse, R., &amp; Burchert, F.</author>
   <description>Marusch, T., von der Malsburg, Titus, Bastiaanse, R., &amp; Burchert, F. (2012). Tense morphology in german agrammatism: The production of regular, irregular and mixed verbs. The Mental Lexicon, 7(3), 351–380. http://dx.doi.org/10.1075/ml.7.3.05mar
 
-This study investigates tense morphology in agrammatic aphasia and the predictions of two accounts on processing of regular and irregular verbs: the Dual Mechanism model, that is, for aphasic data, the Declarative/Procedural model, and the Single Mechanism approach. The production of regular, irregular and mixed verbs in the present, simple past and past participle (present perfect) was tested in German by means of a sentence completion task with a group of seven speakers with agrammatic aphasia. The results show a difference between regular verbs and irregular verbs. Mixed verbs were equally difficult as irregular verbs. A frequency effect was found for irregular verbs but not for regular and mixed verbs. A significant difference among the correctness scores for present tense and simple past forms was found. Simple past and past participle were significantly more difficult than present tense. Error types were characterized by pure infinitive responses and time reference errors. Neither of the above accounts is sufficient to explain these results. Correctness scores and error patterns for mixed verbs suggest that such minor lexical patterns can be useful in finding new evidence in the debate on morphological processing. The findings also highlight time reference as well as language specific characteristics need to be taken into consideration.
-
 @article{MaruschEtAl2012,
   author = {Marusch, Tina and {von der Malsburg}, Titus and Bastiaanse, Roelien and Burchert, Frank},
   title = {Tense morphology in German agrammatism: {The} production of regular, irregular and mixed verbs},
@@ -282,7 +278,7 @@ This study investigates tense morphology in agrammatic aphasia and the predictio
   abstract = {This study investigates tense morphology in agrammatic aphasia and the predictions of two accounts on processing of regular and irregular verbs: the Dual Mechanism model, that is, for aphasic data, the Declarative/Procedural model, and the Single Mechanism approach. The production of regular, irregular and mixed verbs in the present, simple past and past participle (present perfect) was tested in German by means of a sentence completion task with a group of seven speakers with agrammatic aphasia. The results show a difference between regular verbs and irregular verbs. Mixed verbs were equally difficult as irregular verbs. A frequency effect was found for irregular verbs but not for regular and mixed verbs. A significant difference among the correctness scores for present tense and simple past forms was found. Simple past and past participle were significantly more difficult than present tense. Error types were characterized by pure infinitive responses and time reference errors. Neither of the above accounts is sufficient to explain these results. Correctness scores and error patterns for mixed verbs suggest that such minor lexical patterns can be useful in finding new evidence in the debate on morphological processing. The findings also highlight time reference as well as language specific characteristics need to be taken into consideration.},
 }
 </description>
-  <link>http://dx.doi.org/10.1075/ml.7.3.05mar</link>
+  <link></link>
   <guid>MaruschEtAl2012</guid>
 </item>
 <item>
@@ -330,8 +326,6 @@ This study investigates tense morphology in agrammatic aphasia and the predictio
   <author>von der Malsburg, Titus</author>
   <description>von der Malsburg, Titus (2012). Scanpath phenomena in reading: An investigation of scanpath effects in syntactic ambiguity resolution and in general reading (Doctoral dissertation). University of Potsdam, .
 
-A pioneering study in reading research \cite{FrazierRayner1982} demonstrated that scanpaths, sequences of fixations of the eyes, are informative about sentence processing mechanisms. Nevertheless, analyses of scanpaths have not gained much traction in reading research. We conjecture that one reason contributing to this state of affairs is the relative difficulty of analyzing scanpaths and a lack of suitable analytical tools. Most studies used simplifying measures such as the probability of a regressive eye movement on a critical word of the sentence. Although this approach has been successful in many cases, there are research question that have resisted these conventional methods. One such question is: how does the human sentence processor recover when a word indicates that the interpretation of a sentence maintained so far is incorrect? To attack this problem, we developed a new method for analyzing scanpath patterns and showed that re-processing of the sentence is a common strategy---a possibility that had been dismissed in earlier literature \cite{FrazierRayner1982}. However, it appears that rereading is not the only available strategy and that readers differ quite a lot in how they orchestrate various strategies. Our experimental data suggests that working memory capacity is one factor influencing the choice of processing strategies. We also used the proposed scanpath method to examine a large corpus of eye movements recorded for a varied set of relatively simple German sentences. This analysis recovered scanpath effects predicted by the literature on aging, sentence processing, and oculo-motor control. The analysis also found new factors determining scanpath trajectories, thus showing that the scanpath method is a valid and productive tool for reading research and perhaps eye movement research in general.
-
 @phdthesis{Malsburg2012,
   sortname = {Malsburg},
   author = {{von der Malsburg}, Titus},
@@ -367,32 +361,9 @@ A pioneering study in reading research \cite{FrazierRayner1982} demonstrated tha
   <guid>KobeleEtAl2012AMLaP</guid>
 </item>
 <item>
-  <title>Decomposing electric brain potentials for audification on a matrix of speakers</title>
-  <author>von der Malsburg, Titus, &amp; Illing, C.</author>
-  <description>von der Malsburg, Titus, &amp; Illing, C. (2013). Decomposing electric brain potentials for audification on a matrix of speakers. In M. Verdicchio, &amp; M. Carvalhais, Proceedings of the first conference on Computation, Communication, Aesthetics and X (pp. 305–307). Bergamo, Italy: The xCoAx 2013 organizing committee.
-
-@inproceedings{MalsburgIlling2013xCoAx,
-  sortname = {Malsburg},
-  author = {{von der Malsburg}, Titus and Illing, Christoph},
-  title = {Decomposing electric brain potentials for audification on a matrix of speakers},
-  booktitle = {{Proceedings of the first conference on Computation, Communication, Aesthetics and X}},
-  year = {2013},
-  editor = {Mario Verdicchio and Miguel Carvalhais},
-  pages = {305-307},
-  month = {jun},
-  address = {Bergamo, Italy},
-  publisher = {The xCoAx 2013 organizing committee},
-}
-</description>
-  <link></link>
-  <guid>MalsburgIlling2013xCoAx</guid>
-</item>
-<item>
   <title>What eye movements can tell us about sentence comprehension</title>
   <author>Vasishth, S., von der Malsburg, Titus, &amp; Engelmann, F.</author>
   <description>Vasishth, S., von der Malsburg, Titus, &amp; Engelmann, F. (2013). What eye movements can tell us about sentence comprehension. Wiley Interdisciplinary Reviews: Cognitive Science, 4(2), 125–134. http://dx.doi.org/10.1002/wcs.1209
-
-Eye movement data have proven to be very useful for investigating human sentence processing. Eyetracking research has addressed a wide range of questions, such as recovery mechanisms following garden-pathing, the timing of processes driving comprehension, the role of anticipation and expectation in parsing, the role of semantic, pragmatic, and prosodic information, and so on. However, there are some limitations regarding the inferences that can be made on the basis of eye movements. One relates to the nontrivial interaction between parsing and the eye movement control system which complicates the interpretation of eye movement data. Detailed computational models that integrate parsing with eye movement control theories have the potential to unpack the complexity of eye movement data and can therefore aid in the interpretation of eye movements. Another limitation is the difficulty of capturing spatiotemporal patterns in eye movements using the traditional word-based eyetracking measures. Recent research has demonstrated the relevance of these patterns and has shown how they can be analyzed. In this review, we focus on reading, and present examples demonstrating how eye movement data reveal what events unfold when the parser runs into difficulty, and how the parsing system interacts with eye movement control. WIREs Cogn Sci 2013, 4:125–134. doi: 10.1002/wcs.1209For further resources related to this article, please visit the WIREs website.
 
 @article{VasishthEtAl2013,
   author = {Vasishth, Shravan and {von der Malsburg}, Titus and Engelmann, Felix},
@@ -409,7 +380,7 @@ Eye movement data have proven to be very useful for investigating human sentence
   abstract = {Eye movement data have proven to be very useful for investigating human sentence processing. Eyetracking research has addressed a wide range of questions, such as recovery mechanisms following garden-pathing, the timing of processes driving comprehension, the role of anticipation and expectation in parsing, the role of semantic, pragmatic, and prosodic information, and so on. However, there are some limitations regarding the inferences that can be made on the basis of eye movements. One relates to the nontrivial interaction between parsing and the eye movement control system which complicates the interpretation of eye movement data. Detailed computational models that integrate parsing with eye movement control theories have the potential to unpack the complexity of eye movement data and can therefore aid in the interpretation of eye movements. Another limitation is the difficulty of capturing spatiotemporal patterns in eye movements using the traditional word-based eyetracking measures. Recent research has demonstrated the relevance of these patterns and has shown how they can be analyzed. In this review, we focus on reading, and present examples demonstrating how eye movement data reveal what events unfold when the parser runs into difficulty, and how the parsing system interacts with eye movement control. WIREs Cogn Sci 2013, 4:125–134. doi: 10.1002/wcs.1209For further resources related to this article, please visit the WIREs website.},
 }
 </description>
-  <link>http://dx.doi.org/10.1002/wcs.1209</link>
+  <link></link>
   <guid>VasishthEtAl2013</guid>
 </item>
 <item>
@@ -436,8 +407,6 @@ Eye movement data have proven to be very useful for investigating human sentence
   <author>Metzner, P., von der Malsburg, Titus, Vasishth, S., &amp; Rösler, F.</author>
   <description>Metzner, P., von der Malsburg, Titus, Vasishth, S., &amp; Rösler, F. (2013). Oscillatory brain dynamics differ between natural reading and serial presentation. In K. Holmqvist, F. Mulvey, &amp; R. Johansson, Proceedings of the 17th European Conference on Eye Movements (ECEM) (pp. 187). Lund, Sweden: Journal of Eye Movement Research.
 
-Recent research (Dimigen et al., JEP:G, 2011; Kretzschmar et al., NeuroReport, 2009) shows that fixation-related potentials (FRPs) yield similar results as brain potentials recorded during rapid serial visual presentation (RSVP). We conducted an experiment to see if this correspondence also holds for oscillatory brain dynamics. Participants (N=48) read true (&amp;quot;The Thames flows through London&amp;quot;) and false factual statements (&amp;quot;The Hudson flows through London&amp;quot;). Such violations are known to elicit an N400, a negative-going deflection with a peak around 400 ms, and increased theta and gamma activity (Hagoort, Science, 2004). As expected, we see an N400 in the FRP and increased fixation durations and regression rates in the eye movement record. Moreover, a cluster-permutation test (Maris \&amp; Oostenveld, J Neurosci Methods, 2007) for fixation-related power spectra shows synchronization in the delta range (1-3 Hz) and desynchronization in the upper alpha range (11-13 Hz) but no theta or gamma effects. This is at odds with prior findings and suggests that fixation-related oscillatory EEG changes are not fully comparable to those observed in RSVP. One reason for the diverging results may lie in different processing demands: In RSVP, readers must retrieve earlier parts of the sentence from memory because they cannot make regressions.
-
 @inproceedings{MetznerEtAl2013ECEM,
   author = {Metzner, Paul and {von der Malsburg}, Titus and Vasishth, Shravan and Rösler, Frank},
   title = {Oscillatory brain dynamics differ between natural reading and serial presentation},
@@ -460,8 +429,6 @@ Recent research (Dimigen et al., JEP:G, 2011; Kretzschmar et al., NeuroReport, 2
   <author>Metzner, P., von der Malsburg, Titus, Vasishth, S., &amp; Rösler, F.</author>
   <description>Metzner, P., von der Malsburg, Titus, Vasishth, S., &amp; Rösler, F. (2013). World-knowledge violations elicit different rhythmic brain activity in natural reading and serial presentation. In C. Frenck-Mestre, F. Alario, N. Nguyen, P. Blache, &amp; C. Meunier, Proceedings of the 19th Architectures and Mechanisms for Language Processing Conference (AMLaP) (pp. 32). Marseilles, France: Aix-Marseille Université.
 
-Recent studies (Dimigen et al., JEP:G, 2011; Kretzschmar et al., NeuroReport, 2009) demonstrated the feasibility of investigating fixation-related potentials (FRPs) and that the results are similar to brain potentials recorded during rapid serial visual presentation (RSVP). We conducted an experiment to assess if this correspondence also holds for rhythmic brain activity. To pit our results against ults gained with RSVP, the experiment used sentences that are known to produce reliable effects both in the time domain and in the frequency domain (Hagoort, Science, 2004). Participants (N=48) read freely through true (&amp;apos;The Thames flows through London&amp;apos;) and false statements (&amp;apos;The Hudson flows through London&amp;apos;). Hagoort et al. report an N400, a negative-going deflection in the ERP with a peak around 400 ms, as well as increased theta (4-7 Hz) and gamma (30-70 Hz) activity. During our experiment, participants&amp;apos; eye movements were monitored and their EEG was recorded from 32 electrodes and later evaluated contingent to the first fixation on the critical word. We analyzed the canonical eye-tracking measures with linear mixed-effects models and the EEG with cluster-permutation tests (Maris \&amp; Oostenveld, J Neurosci Methods, 2007) to control for multiple comparisons. As expected, we observed a negativity in the FRP with a centro-parietal distribution and a peak latency of approximately 400 ms. Also as expected, this N400 lined up with increased first fixation durations, gaze durations, and regression rates in the eye movement record (Dambacher \&amp; Kliegl, Brain Res, 2007). Crucially, fixation-related power spectra showed synchronization in the delta range (1-3 Hz) at central electrodes and desynchronization in the upper alpha range (11-13 Hz) at occipito-parietal sites relative to a pre-fixation baseline. None of these effects is reported by Hagoort et al. which suggests that fixation-related EEG changes are at least not fully comparable to those observed in RSVP. One reason for the diverging results could lie in different processing demands: In RSVP, readers must retrieve earlier parts of the sentence from working memory because they cannot make regressions. Increased theta activity reflects this more effortful memory access (Klimesch, Brain Res Rev, 1999). In natural reading, readers can easily move their eyes back to resolve the processing difficulty which facilitates memory access. Our findings question the comparability of results acquired with serial presentation vs. natural reading.
-
 @inproceedings{MetznerEtAl2013AMLaP,
   author = {Metzner, Paul and {von der Malsburg}, Titus and Vasishth, Shravan and Rösler, Frank},
   title = {World-knowledge violations elicit different rhythmic brain activity in natural reading and serial presentation},
@@ -481,8 +448,6 @@ Recent studies (Dimigen et al., JEP:G, 2011; Kretzschmar et al., NeuroReport, 20
   <title>Tempusmorphologie bei deutschen Agrammatikern: Die Sprachproduktion von regulären, irregulären und gemischten Verben</title>
   <author>Marusch, T., von der Malsburg, Titus, Bastiaanse, R., &amp; Burchert, F.</author>
   <description>Marusch, T., von der Malsburg, Titus, Bastiaanse, R., &amp; Burchert, F. (2013). Tempusmorphologie bei deutschen Agrammatikern: Die Sprachproduktion von regulären, irregulären und gemischten Verben. In , Spektrum Patholinguistik (pp. 219–223). Potsdam, Germany: Universitätsverlag Potsdam.
-
-Seit langem wird debattiert, wie reguläre und irreguläre Vergangenheitsformen repräsentiert und verarbeitet werden (Rumelhart \&amp; McClelland, 1986; Pinker \&amp; Prince, 1988). Das Dual- Mechanism-Modell (DMM; Pinker \&amp; Prince, 1988; Clahsen, 1999) nimmt an, dass reguläre und irreguläre Formen von zwei verschiedenen Mechanismen verarbeitet werden. Vertreter des Single-Mechanism Ansatzes gehen alternativ von einem einzigen Mechanismus aus, der sowohl der Verarbeitung von regulären als auch irregulären Verben dient.
 
 @inproceedings{MaruschEtAl2013,
   author = {Marusch, Tina and {von der Malsburg}, Titus and Bastiaanse, Roelien and Burchert, Frank},
@@ -505,8 +470,6 @@ Seit langem wird debattiert, wie reguläre und irreguläre Vergangenheitsformen 
   <author>von der Malsburg, Titus, &amp; Vasishth, S.</author>
   <description>von der Malsburg, Titus, &amp; Vasishth, S. (2013). Scanpaths reveal syntactic underspecification and reanalysis strategies. Language and Cognitive Processes, 28(10), 1545–1578. http://dx.doi.org/10.1080/01690965.2012.728232
 
-What theories best characterize the parsing processes triggered upon encountering ambiguity, and what effects do these processes have on eye movement patterns in reading? The present eye-tracking study, which investigated processing of attachment ambiguities of an adjunct in Spanish, suggests that readers sometimes underspecify attachment to save memory resources, consistent with the good-enough account of parsing. Our results confirm a surprising prediction of the good-enough account: high-capacity readers commit to an attachment decision more often than low-capacity participants, leading to more errors and a greater need to reanalyze in garden-path sentences. These results emerged only when we separated functionally different types of regressive eye movements using a scanpath analysis; conventional eye-tracking measures alone would have led to different conclusions. The scanpath analysis also showed that rereading was the dominant strategy for recovering from garden-pathing. Our results may also have broader implications for models of reading processes: reanalysis effects in eye movements occurred late, which suggests that the coupling of oculo-motor control and the parser may not always be as tight as assumed in current computational models of eye movements control in reading.
-
 @article{MalsburgVasishth2013,
   sortname = {Malsburg},
   author = {{von der Malsburg}, Titus and Vasishth, Shravan},
@@ -522,15 +485,34 @@ What theories best characterize the parsing processes triggered upon encounterin
   doi = {10.1080/01690965.2012.728232},
 }
 </description>
-  <link>https://tmalsburg.github.io/MalsburgVasishth2013.pdf</link>
+  <link></link>
   <guid>MalsburgVasishth2013</guid>
+</item>
+<item>
+  <title>Decomposing electric brain potentials for audification on a matrix of speakers</title>
+  <author>von der Malsburg, Titus, &amp; Illing, C.</author>
+  <description>von der Malsburg, Titus, &amp; Illing, C. (2013). Decomposing electric brain potentials for audification on a matrix of speakers. In M. Verdicchio, &amp; M. Carvalhais, Proceedings of the first conference on Computation, Communication, Aesthetics and X (pp. 305–307). Bergamo, Italy: The xCoAx 2013 organizing committee.
+
+@inproceedings{MalsburgIlling2013xCoAx,
+  sortname = {Malsburg},
+  author = {{von der Malsburg}, Titus and Illing, Christoph},
+  title = {Decomposing electric brain potentials for audification on a matrix of speakers},
+  booktitle = {{Proceedings of the first conference on Computation, Communication, Aesthetics and X}},
+  year = {2013},
+  editor = {Mario Verdicchio and Miguel Carvalhais},
+  pages = {305-307},
+  month = {jun},
+  address = {Bergamo, Italy},
+  publisher = {The xCoAx 2013 organizing committee},
+}
+</description>
+  <link></link>
+  <guid>MalsburgIlling2013xCoAx</guid>
 </item>
 <item>
   <title>Scanpaths in reading are tractable and informative</title>
   <author>von der Malsburg, Titus, Vasishth, S., &amp; Kliegl, R.</author>
   <description>von der Malsburg, Titus, Vasishth, S., &amp; Kliegl, R. (2013). Scanpaths in reading are tractable and informative. In K. Holmqvist, F. Mulvey, &amp; R. Johansson, Proceedings of the 17th European Conference on Eye Movements (ECEM) (pp. 132). Lund, Sweden: Journal of Eye Movement Research.
-
-Pioneering work in reading research has shown that scanpaths in reading can be informative about sentences processing (Frazier, Rayner, 1982). Nevertheless, scanpaths have not gained much traction in reading research. One reason for that may have been a lack of suitable analytical tools. Here, we summarize three recent studies in which we used a new scanpath measure to analyze gaze data from two experimental studies (von der Malsburg, Vasishth, 2011, 2012) and one corpus study (von der Malsburg, Kliegl, Vasishth, under revision). The experiments investigated how readers process temporarily ambiguous sentences. We showed that readers do not always commit to one of the alternative interpretations, and that readers with low working-memory capacity do so less often. Contrary to what was reported earlier, we found that reparsing instead of targeted repair is a common strategy to recover from incorrect interpretations. Interestingly, these results did not emerge in an analysis using traditional word-based eyetracking measures showing their limitations. In the corpus study, we demonstrated how syntax, oculomotor constraints, and age of reader jointly determine the regularity of scanpaths. We argue that, taken together, these results establish the scanpath as an informative and tractable object of investigation in reading research.
 
 @inproceedings{MalsburgEtAl2013ECEM_scanpaths,
   sortname = {Malsburg},
@@ -554,8 +536,6 @@ Pioneering work in reading research has shown that scanpaths in reading can be i
   <title>Co-registration of eye movements and brain potentials as a tool for research on reading and language comprehension</title>
   <author>von der Malsburg, Titus, Metzner, P., Vasishth, S., &amp; Rösler, F.</author>
   <description>von der Malsburg, Titus, Metzner, P., Vasishth, S., &amp; Rösler, F. (2013). Co-registration of eye movements and brain potentials as a tool for research on reading and language comprehension. In K. Holmqvist, F. Mulvey, &amp; R. Johansson, Proceedings of the 17th European Conference on Eye Movements (ECEM) (pp. 462). Lund, Sweden: Journal of Eye Movement Research.
-
-Recent research demonstrated the feasibility of analyzing fixation-related brain potentials (FRPs) recorded during natural reading (Kretzschmar et al., 2009; Dimigen et al., 2011). Two questions arise from these studies: (1) Are effects observed with fixation-triggered EEG signals comparable to those observed in standard RSVP designs? (2) Does the combined analysis of EEG and fixation data provide additional insights into reading and comprehension processes that are not available with either method alone? Both above-mentioned studies used material known to robustly elicit strong N400 effects. The present study (N=50) examined responses to a more subtle manipulation representative of common experimental designs: we manipulated the distance between anaphoric expressions (pronouns, verb ellipsis) and their antecedents. Differences were examined using a non-parametric Monte Carlo test (Maris \&amp; Oostenveld, 2007). Increased distance of the antecedent elicited an early frontocentral negativity in response to verb ellipses (88ms-134ms, p&amp;lt;0.001) and a negativity at frontocentral and parietal electrodes on the words following pronouns (98ms-186ms, p&amp;lt;0.001). We discuss these results in the context of earlier findings and argue that adopting FRP-methodology requires factoring in complex visuomotor contingencies that are not yet fully understood and that evoke ERP effects different from those seen in RSVP designs.
 
 @inproceedings{MalsburgEtAl2013ECEM_coreg,
   sortname = {Malsburg},
@@ -680,102 +660,8 @@ Recent research demonstrated the feasibility of analyzing fixation-related brain
   url = {http://zkm.de/en/event/2014/12/produced-at-ima},
 }
 </description>
-  <link>http://zkm.de/en/event/2014/12/produced-at-ima</link>
-  <guid>IllingMalsburg2014</guid>
-</item>
-<item>
-  <title>False-positive rates in eyetracking studies with multiple dependent measures</title>
-  <author>von der Malsburg, Titus, &amp; Angele, B.</author>
-  <description>von der Malsburg, Titus, &amp; Angele, B. (2015). False-positive rates in eyetracking studies with multiple dependent measures. In E. Kaiser, T. Mintz, R. Pancheva, &amp; J. Zevin, Proceedings of the 28th Annual CUNY Conference on Human Sentence Processing (pp. ). Los Angeles, CA, USA: University of Southern California.
-
-@inproceedings{MalsburgAngele2015CUNY,
-  sortname = {Malsburg},
-  author = {{von der Malsburg}, Titus and Angele, Bernhard},
-  title = {False-positive rates in eyetracking studies with multiple dependent measures},
-  booktitle = {{Proceedings of the 28th Annual {CUNY} Conference on Human Sentence Processing}},
-  year = {2015},
-  editor = {Elsi Kaiser and Toby Mintz and Roumyana Pancheva and Jason Zevin},
-  month = {mar},
-  address = {Los Angeles, CA, USA},
-  publisher = {University of Southern California},
-  keywords = {reading, method, false positives, Bonferroni correction},
-}
-</description>
   <link></link>
-  <guid>MalsburgAngele2015CUNY</guid>
-</item>
-<item>
-  <title>Brain Decomposition</title>
-  <author>Illing, C., &amp; von der Malsburg, Titus</author>
-  <description>Illing, C., &amp; von der Malsburg, Titus (2015). Brain Decomposition.
-
-@misc{IllingMalsburg2015,
-  author = {Illing, Christoph and {von der Malsburg}, Titus},
-  title = {Brain Decomposition},
-  howpublished = {Einraumhaus C/O, Mannheim, Germany. 17--26 Apr. 2015},
-  month = {apr},
-  year = {2015},
-  day = {17},
-  url = {http://www.einraumhaus.com/},
-}
-</description>
-  <link>http://www.einraumhaus.com/</link>
-  <guid>IllingMalsburg2015</guid>
-</item>
-<item>
-  <title>Py-Span-Task: A software for testing working memory span</title>
-  <author>von der Malsburg, Titus</author>
-  <description>von der Malsburg, Titus (2015). Py-Span-Task: A software for testing working memory span.
-
-@misc{Malsburg2015PySpanTask,
-  sortname = {Malsburg},
-  author = {{von der Malsburg}, Titus},
-  title = {{Py-Span-Task}: {A} software for testing working memory span},
-  month = {jun},
-  year = {2015},
-  doi = {10.5281/zenodo.18238},
-  url = {http://dx.doi.org/10.5281/zenodo.18238},
-  keywords = {working memory; working memory capacity; software; psychometric testing; reading span; operation span},
-}
-</description>
-  <link>http://dx.doi.org/10.5281/zenodo.18238</link>
-  <guid>Malsburg2015PySpanTask</guid>
-</item>
-<item>
-  <title>Scanpath: An R package for analyzing scanpaths</title>
-  <author>von der Malsburg, Titus</author>
-  <description>von der Malsburg, Titus (2015). Scanpath: An R package for analyzing scanpaths.
-
-@misc{Malsburg2015Scanpath,
-  sortname = {Malsburg},
-  author = {{von der Malsburg}, Titus},
-  title = {{Scanpath: An R} package for analyzing scanpaths},
-  month = {oct},
-  year = {2015},
-  doi = {10.5281/zenodo.31800},
-  keywords = {eye movements, scanpaths, eye-tracking, R},
-}
-</description>
-  <link>http://dx.doi.org/10.5281/zenodo.31800</link>
-  <guid>Malsburg2015Scanpath</guid>
-</item>
-<item>
-  <title>Saccades: An R package for detecting fixations in raw eye tracking data</title>
-  <author>von der Malsburg, Titus</author>
-  <description>von der Malsburg, Titus (2015). Saccades: An R package for detecting fixations in raw eye tracking data.
-
-@misc{Malsburg2015Saccades,
-  author = {{von der Malsburg}, Titus},
-  title = {Saccades: {An R} package for detecting fixations in raw eye tracking data},
-  month = {oct},
-  year = {2015},
-  sortname = {malsburg},
-  doi = {10.5281/zenodo.31799},
-  keywords = {eye movements; eye-tracking; fixation detection; signal processing; saccade detection; R},
-}
-</description>
-  <link>http://dx.doi.org/10.5281/zenodo.31799</link>
-  <guid>Malsburg2015Saccades</guid>
+  <guid>IllingMalsburg2014</guid>
 </item>
 <item>
   <title>Keith Rayner eye movements in reading data collection</title>
@@ -791,15 +677,13 @@ Recent research demonstrated the feasibility of analyzing fixation-related brain
   doi = {10.6075/J0JW8BSV},
 }
 </description>
-  <link>http://library.ucsd.edu/dc/collection/bb95920960</link>
+  <link></link>
   <guid>RaynerEtAl2015</guid>
 </item>
 <item>
   <title>Brain responses to world-knowledge violations: A comparison of stimulus- and fixation-triggered event-related potentials and neural oscillations</title>
   <author>Metzner, P., von der Malsburg, Titus, Vasishth, S., &amp; Rösler, F.</author>
   <description>Metzner, P., von der Malsburg, Titus, Vasishth, S., &amp; Rösler, F. (2015). Brain responses to world-knowledge violations: A comparison of stimulus- and fixation-triggered event-related potentials and neural oscillations. Journal of Cognitive Neuroscience, 27(5), 1017–1028. http://dx.doi.org/10.1162/jocn_a_00731
-
-Recent research has shown that brain potentials time-locked to fixations in natural reading can be similar to brain potentials recorded during rapid serial visual presentation (RSVP). We attempted two replications of Hagoort, Hald, Bastiaansen, and Petersson [Hagoort, P., Hald, L., Bastiaansen, M., \&amp; Petersson, K. M. Integration of word meaning and world knowledge in language comprehension. Science, 304, 438–441, 2004] to determine whether this correspondence also holds for oscillatory brain responses. Hagoort et al. reported an N400 effect and synchronization in the theta and gamma range following world knowledge violations. Our first experiment (n = 32) used RSVP and replicated both the N400 effect in the ERPs and the power increase in the theta range in the time–frequency domain. In the second experiment (n = 49), participants read the same materials freely while their eye movements and their EEG were monitored. First fixation durations, gaze durations, and regression rates were increased, and the ERP showed an N400 effect. An analysis of time–frequency representations showed synchronization in the delta range (1–3 Hz) and desynchronization in the upper alpha range (11–13 Hz) but no theta or gamma effects. The results suggest that oscillatory EEG changes elicited by world knowledge violations are different in natural reading and RSVP. This may reflect differences in how representations are constructed and retrieved from memory in the two presentation modes.
 
 @article{MetznerEtAl2015N400,
   author = {Metzner, Paul and {von der Malsburg}, Titus and Vasishth, Shravan and Rösler, Frank},
@@ -814,7 +698,7 @@ Recent research has shown that brain potentials time-locked to fixations in natu
   abstract = {Recent research has shown that brain potentials time-locked to fixations in natural reading can be similar to brain potentials recorded during rapid serial visual presentation (RSVP). We attempted two replications of Hagoort, Hald, Bastiaansen, and Petersson [Hagoort, P., Hald, L., Bastiaansen, M., \& Petersson, K. M. Integration of word meaning and world knowledge in language comprehension. Science, 304, 438–441, 2004] to determine whether this correspondence also holds for oscillatory brain responses. Hagoort et al. reported an N400 effect and synchronization in the theta and gamma range following world knowledge violations. Our first experiment (n = 32) used RSVP and replicated both the N400 effect in the ERPs and the power increase in the theta range in the time–frequency domain. In the second experiment (n = 49), participants read the same materials freely while their eye movements and their EEG were monitored. First fixation durations, gaze durations, and regression rates were increased, and the ERP showed an N400 effect. An analysis of time–frequency representations showed synchronization in the delta range (1–3 Hz) and desynchronization in the upper alpha range (11–13 Hz) but no theta or gamma effects. The results suggest that oscillatory EEG changes elicited by world knowledge violations are different in natural reading and RSVP. This may reflect differences in how representations are constructed and retrieved from memory in the two presentation modes.},
 }
 </description>
-  <link>http://dx.doi.org/10.1162/jocn_a_00731</link>
+  <link></link>
   <guid>MetznerEtAl2015N400</guid>
 </item>
 <item>
@@ -881,8 +765,6 @@ Recent research has shown that brain potentials time-locked to fixations in natu
   <author>von der Malsburg, Titus, Kliegl, R., &amp; Vasishth, S.</author>
   <description>von der Malsburg, Titus, Kliegl, R., &amp; Vasishth, S. (2015). Determinants of scanpath regularity in reading. Cognitive Science, 39(7), 1675–1703. http://dx.doi.org/10.1111/cogs.12208
 
-Scanpaths have played an important role in classic research on reading behavior. Nevertheless, they have largely been neglected in later research—perhaps also due to a lack of suitable analytical tools. Recently, von der Malsburg and Vasishth (2011) proposed a new measure for quantifying differences between scanpaths and demonstrated that this measure can recover effects that were missed with the traditional eyetracking measures. However, the sentences used in that study were difficult to process and scanpath effects accordingly strong. The purpose of the present study was to test the validity, sensitivity, and scope of applicability of the scanpath measure using simple sentences that are typically read straight from left to right. We derived predictions for the regularity of scanpaths from the literature on oculomotor control, sentences processing, and cognitive aging and tested these predictions using the scanpath measure and a large database of eye movements (N=230). All predictions were confirmed: sentences with short words and syntactically more difficult sentences elicited more irregular scanpaths. Also, older readers produced more irregular scanpaths than younger readers. In addition, we found an effect that was not reported earlier: syntax had a smaller influence on the eye movements of older readers than on those of young readers. We discuss this interaction of syntactic parsing cost with age in terms of shifts in processing strategies and a decline of executive control as readers age. Overall, our results demonstrate the validity and sensitivity of the scanpath measure and thus establish it as a productive and versatile tool for reading research.
-
 @article{MalsburgEtAl2015,
   sortname = {Malsburg},
   author = {{von der Malsburg}, Titus and Kliegl, Reinhold and Vasishth, Shravan},
@@ -897,8 +779,29 @@ Scanpaths have played an important role in classic research on reading behavior.
   abstract = {Scanpaths have played an important role in classic research on reading behavior. Nevertheless, they have largely been neglected in later research—perhaps also due to a lack of suitable analytical tools. Recently, von der Malsburg and Vasishth (2011) proposed a new measure for quantifying differences between scanpaths and demonstrated that this measure can recover effects that were missed with the traditional eyetracking measures. However, the sentences used in that study were difficult to process and scanpath effects accordingly strong. The purpose of the present study was to test the validity, sensitivity, and scope of applicability of the scanpath measure using simple sentences that are typically read straight from left to right. We derived predictions for the regularity of scanpaths from the literature on oculomotor control, sentences processing, and cognitive aging and tested these predictions using the scanpath measure and a large database of eye movements (N=230). All predictions were confirmed: sentences with short words and syntactically more difficult sentences elicited more irregular scanpaths. Also, older readers produced more irregular scanpaths than younger readers. In addition, we found an effect that was not reported earlier: syntax had a smaller influence on the eye movements of older readers than on those of young readers. We discuss this interaction of syntactic parsing cost with age in terms of shifts in processing strategies and a decline of executive control as readers age. Overall, our results demonstrate the validity and sensitivity of the scanpath measure and thus establish it as a productive and versatile tool for reading research.},
 }
 </description>
-  <link>http://dx.doi.org/10.1111/cogs.12208</link>
+  <link></link>
   <guid>MalsburgEtAl2015</guid>
+</item>
+<item>
+  <title>False-positive rates in eyetracking studies with multiple dependent measures</title>
+  <author>von der Malsburg, Titus, &amp; Angele, B.</author>
+  <description>von der Malsburg, Titus, &amp; Angele, B. (2015). False-positive rates in eyetracking studies with multiple dependent measures. In E. Kaiser, T. Mintz, R. Pancheva, &amp; J. Zevin, Proceedings of the 28th Annual CUNY Conference on Human Sentence Processing (pp. ). Los Angeles, CA, USA: University of Southern California.
+
+@inproceedings{MalsburgAngele2015CUNY,
+  sortname = {Malsburg},
+  author = {{von der Malsburg}, Titus and Angele, Bernhard},
+  title = {False-positive rates in eyetracking studies with multiple dependent measures},
+  booktitle = {{Proceedings of the 28th Annual {CUNY} Conference on Human Sentence Processing}},
+  year = {2015},
+  editor = {Elsi Kaiser and Toby Mintz and Roumyana Pancheva and Jason Zevin},
+  month = {mar},
+  address = {Los Angeles, CA, USA},
+  publisher = {University of Southern California},
+  keywords = {reading, method, false positives, Bonferroni correction},
+}
+</description>
+  <link></link>
+  <guid>MalsburgAngele2015CUNY</guid>
 </item>
 <item>
   <title>The rules of statistics make no exception for reading research: False positive rates in eyetracking studies of reading behavior</title>
@@ -919,6 +822,79 @@ Scanpaths have played an important role in classic research on reading behavior.
 </description>
   <link></link>
   <guid>MalsburgAngele2015AMLaP</guid>
+</item>
+<item>
+  <title>Scanpath: An R package for analyzing scanpaths</title>
+  <author>von der Malsburg, Titus</author>
+  <description>von der Malsburg, Titus (2015). Scanpath: An R package for analyzing scanpaths.
+
+@misc{Malsburg2015Scanpath,
+  sortname = {Malsburg},
+  author = {{von der Malsburg}, Titus},
+  title = {{Scanpath: An R} package for analyzing scanpaths},
+  month = {oct},
+  year = {2015},
+  doi = {10.5281/zenodo.31800},
+  keywords = {eye movements, scanpaths, eye-tracking, R},
+}
+</description>
+  <link></link>
+  <guid>Malsburg2015Scanpath</guid>
+</item>
+<item>
+  <title>Saccades: An R package for detecting fixations in raw eye tracking data</title>
+  <author>von der Malsburg, Titus</author>
+  <description>von der Malsburg, Titus (2015). Saccades: An R package for detecting fixations in raw eye tracking data.
+
+@misc{Malsburg2015Saccades,
+  author = {{von der Malsburg}, Titus},
+  title = {Saccades: {An R} package for detecting fixations in raw eye tracking data},
+  month = {oct},
+  year = {2015},
+  sortname = {malsburg},
+  doi = {10.5281/zenodo.31799},
+  keywords = {eye movements; eye-tracking; fixation detection; signal processing; saccade detection; R},
+}
+</description>
+  <link></link>
+  <guid>Malsburg2015Saccades</guid>
+</item>
+<item>
+  <title>Py-Span-Task: A software for testing working memory span</title>
+  <author>von der Malsburg, Titus</author>
+  <description>von der Malsburg, Titus (2015). Py-Span-Task: A software for testing working memory span.
+
+@misc{Malsburg2015PySpanTask,
+  sortname = {Malsburg},
+  author = {{von der Malsburg}, Titus},
+  title = {{Py-Span-Task}: {A} software for testing working memory span},
+  month = {jun},
+  year = {2015},
+  doi = {10.5281/zenodo.18238},
+  url = {http://dx.doi.org/10.5281/zenodo.18238},
+  keywords = {working memory; working memory capacity; software; psychometric testing; reading span; operation span},
+}
+</description>
+  <link></link>
+  <guid>Malsburg2015PySpanTask</guid>
+</item>
+<item>
+  <title>Brain Decomposition</title>
+  <author>Illing, C., &amp; von der Malsburg, Titus</author>
+  <description>Illing, C., &amp; von der Malsburg, Titus (2015). Brain Decomposition.
+
+@misc{IllingMalsburg2015,
+  author = {Illing, Christoph and {von der Malsburg}, Titus},
+  title = {Brain Decomposition},
+  howpublished = {Einraumhaus C/O, Mannheim, Germany. 17--26 Apr. 2015},
+  month = {apr},
+  year = {2015},
+  day = {17},
+  url = {http://www.einraumhaus.com/},
+}
+</description>
+  <link></link>
+  <guid>IllingMalsburg2015</guid>
 </item>
 <item>
   <title>False-positive rates in eyetracking studies with multiple dependent measures</title>
@@ -963,8 +939,6 @@ Scanpaths have played an important role in classic research on reading behavior.
   <author>Angele, B., &amp; von der Malsburg, Titus</author>
   <description>Angele, B., &amp; von der Malsburg, Titus (2015). False positives in standard analyses of eye movements in reading. In U. Ansorge, T. Ditye, A. Florack, &amp; H. Leder, Proceedings of the 18th European Conference on Eye Movements (ECEM) (pp. ). Vienna, Austria: Journal of Eye Movement Research.
 
-Standard analyses of eye movements in reading test a set of canonical dependent measures calculated for multiple regions. Although the resulting multiple comparisons increase the rate of false positive results, it is accepted standard practice not to correct for that. We investigated false positives rates through computer simulations and tested how much statistical power has to be sacrificed to control them. In 100.000 iterations, we generated six realistic data sets of eye movements for a hypothetical experiment with typical parameters. The true effect sizes of the manipulation ranged from 0 ms to 40 ms. Four standard measures were analyzed using linear mixed models: first fixation duration, gaze duration, go-past time, and total viewing time. In the data sets with no true effect, the rate of false positives was 12.1%, i.e. much higher than the conventionally accepted 5%. A Bonferroni correction reduced false positives to 3.2% and was therefore slightly more conservative than required. The reduction in power due to the Bonferroni correction was moderate, e.g., from 90% to 75% for effect sizes of 5 ms. Contrary to conventional wisdom, the Bonferroni correction seems to be an appropriate tool for controlling false positives in reading experiments.
-
 @inproceedings{AngeleMalsburg2015ECEM,
   author = {Angele, Bernhard and {von der Malsburg}, Titus},
   title = {False positives in standard analyses of eye movements in reading},
@@ -980,26 +954,6 @@ Standard analyses of eye movements in reading test a set of canonical dependent 
 </description>
   <link></link>
   <guid>AngeleMalsburg2015ECEM</guid>
-</item>
-<item>
-  <title>Multiple comparisons and false positive rates in eye tracking studies of reading behaviour</title>
-  <author>Angele, B., &amp; von der Malsburg, Titus</author>
-  <description>Angele, B., &amp; von der Malsburg, Titus (2016). Multiple comparisons and false positive rates in eye tracking studies of reading behaviour. In M. T. Bajo, Proceedings of the International Meeting of the Psychonomic Society (pp. 112). Granada, Spain: Psychonomic Society.
-
-@inproceedings{AngeleMalsburg2016Psychonomics,
-  author = {Bernhard Angele and {von der Malsburg}, Titus},
-  title = {Multiple Comparisons and False Positive Rates in Eye Tracking Studies of Reading Behaviour},
-  booktitle = {{Proceedings of the International Meeting of the Psychonomic Society}},
-  year = {2016},
-  editor = {Bajo, Maria Teresa},
-  pages = {112},
-  month = {apr},
-  address = {Granada, Spain},
-  publisher = {Psychonomic Society},
-}
-</description>
-  <link></link>
-  <guid>AngeleMalsburg2016Psychonomics</guid>
 </item>
 <item>
   <title>Dissociating influences of parafoveal and foveal information on reading: Forced fixations and comprehension.</title>
@@ -1045,8 +999,6 @@ Standard analyses of eye movements in reading test a set of canonical dependent 
   <author>Metzner, P., von der Malsburg, Titus, Vasishth, S., &amp; Rösler, F.</author>
   <description>Metzner, P., von der Malsburg, Titus, Vasishth, S., &amp; Rösler, F. (2016). The importance of reading naturally: Evidence from combined recordings of eye movements and electric brain potentials. Cognitive Science, 41(S6), 1232–1263. http://dx.doi.org/10.1111/cogs.12384
 
-How important is the ability to freely control eye movements for reading comprehension? And how does the parser make use of this freedom? We investigated these questions using coregistration of eye movements and event-related brain potentials (ERPs) while participants read either freely or in a computer-controlled word-by-word format (also known as RSVP). Word-by-word presentation and natural reading both elicited qualitatively similar ERP effects in response to syntactic and semantic violations (N400 and P600 effects). Comprehension was better in free reading but only in trials in which the eyes regressed to previous material upon encountering the anomaly. A more fine-grained ERP analysis revealed that these regressions were strongly associated with the well-known P600 effect. In trials without regressions, we instead found sustained centro-parietal negativities starting at around 320 ms post-onset, however, these negativities were only found when the violation occurred in sentence-final position. Taken together, these results suggest that the sentence processing system engages in strategic choices: In response to words that don’t match built-up expectations, it can either explore alternative interpretations (reflected by regressions, P600 effects, and good comprehension) or pursue a &amp;quot;good-enough&amp;quot; processing strategy that tolerates a deficient interpretation (reflected by progressive saccades, sustained negativities, and relatively poor comprehension).
-
 @article{MetznerEtAl2016,
   author = {Metzner, Paul and {von der Malsburg}, Titus and Vasishth, Shravan and Rösler, Frank},
   title = {The importance of reading naturally: {Evidence} from combined recordings of eye movements and electric brain potentials},
@@ -1060,28 +1012,68 @@ How important is the ability to freely control eye movements for reading compreh
   abstract = {How important is the ability to freely control eye movements for reading comprehension? And how does the parser make use of this freedom? We investigated these questions using coregistration of eye movements and event-related brain potentials (ERPs) while participants read either freely or in a computer-controlled word-by-word format (also known as RSVP). Word-by-word presentation and natural reading both elicited qualitatively similar ERP effects in response to syntactic and semantic violations (N400 and P600 effects). Comprehension was better in free reading but only in trials in which the eyes regressed to previous material upon encountering the anomaly. A more fine-grained ERP analysis revealed that these regressions were strongly associated with the well-known P600 effect. In trials without regressions, we instead found sustained centro-parietal negativities starting at around 320 ms post-onset, however, these negativities were only found when the violation occurred in sentence-final position. Taken together, these results suggest that the sentence processing system engages in strategic choices: In response to words that don’t match built-up expectations, it can either explore alternative interpretations (reflected by regressions, P600 effects, and good comprehension) or pursue a "good-enough" processing strategy that tolerates a deficient interpretation (reflected by progressive saccades, sustained negativities, and relatively poor comprehension).},
 }
 </description>
-  <link>http://dx.doi.org/10.1111/cogs.12384</link>
+  <link></link>
   <guid>MetznerEtAl2016</guid>
 </item>
 <item>
-  <title>The president gave her inauguration speech: explicit belief and implicit expectations in language production and comprehension</title>
-  <author>von der Malsburg, Titus, Poppels, T., &amp; Levy, R.</author>
-  <description>von der Malsburg, Titus, Poppels, T., &amp; Levy, R. (2017). The president gave her inauguration speech: explicit belief and implicit expectations in language production and comprehension. In M. Baptista, &amp; A. Coetzee, 91th Annual Meeting of the Linguistics Society of America (pp. ). Austin, Texas: Linguistic Society of America.
+  <title>Multiple comparisons and false positive rates in eye tracking studies of reading behaviour</title>
+  <author>Angele, B., &amp; von der Malsburg, Titus</author>
+  <description>Angele, B., &amp; von der Malsburg, Titus (2016). Multiple comparisons and false positive rates in eye tracking studies of reading behaviour. In M. T. Bajo, Proceedings of the International Meeting of the Psychonomic Society (pp. 112). Granada, Spain: Psychonomic Society.
 
-@inproceedings{MalsburgEtAl2017LSA,
-  sortname = {Malsburg},
-  author = {{von der Malsburg}, Titus and Poppels, Till and Levy, Roger},
-  title = {The president gave her inauguration speech: Explicit belief and implicit expectations in language production and comprehension},
-  booktitle = {{91th Annual Meeting of the Linguistics Society of America}},
-  year = {2017},
-  editor = {Marlyse Baptista and Andries Coetzee},
-  month = {jan},
-  address = {Austin, Texas},
-  publisher = {Linguistic Society of America},
+@inproceedings{AngeleMalsburg2016Psychonomics,
+  author = {Bernhard Angele and {von der Malsburg}, Titus},
+  title = {Multiple Comparisons and False Positive Rates in Eye Tracking Studies of Reading Behaviour},
+  booktitle = {{Proceedings of the International Meeting of the Psychonomic Society}},
+  year = {2016},
+  editor = {Bajo, Maria Teresa},
+  pages = {112},
+  month = {apr},
+  address = {Granada, Spain},
+  publisher = {Psychonomic Society},
 }
 </description>
   <link></link>
-  <guid>MalsburgEtAl2017LSA</guid>
+  <guid>AngeleMalsburg2016Psychonomics</guid>
+</item>
+<item>
+  <title>Automatic reading (obfuscation)</title>
+  <author>Schurer, B., &amp; von der Malsburg, Titus</author>
+  <description>Schurer, B., &amp; von der Malsburg, Titus (2017). Automatic reading (obfuscation). In L. Ribas, &amp; R. Taveira, Proceedings of the fifth conference on Computation, Communication, Aesthetics and X (pp. ). Lisbon, Portugal: The xCoAx 2017 organizing committee.
+
+@inproceedings{SchurerMalsburg2017xCoAx,
+  author = {Schurer, Bernd and {von der Malsburg}, Titus},
+  title = {Automatic Reading (Obfuscation)},
+  booktitle = {{Proceedings of the fifth conference on Computation, Communication, Aesthetics and X}},
+  year = {2017},
+  editor = {Luísa Ribas and Rogério Taveira},
+  month = {sep},
+  address = {Lisbon, Portugal},
+  publisher = {The xCoAx 2017 organizing committee},
+  abstract = {During reading, we rapidly construct meaning from sequences of rather cryptic symbols. A multitude of processes are involved in making meaning happen, however, most of them are conveniently tucked away from the reader’s conscious experience allowing them to read effortlessly without having to worry about any of the practicalities such as where to place the gaze next and for how long. The present work reflects on the marvelous feat that is reading. In an experiment-like situation, we create a perceptual short-circuit that unlocks the otherwise unconscious processes involved in reading. To this end, the test subject is exposed to a written libretto while a computer tracks their eye movements and translates them to sound in real time. The artistic implementation is based on parametric synthesis (“mapping”) and model-based sonification.},
+}
+</description>
+  <link></link>
+  <guid>SchurerMalsburg2017xCoAx</guid>
+</item>
+<item>
+  <title>The impact of forced fixations on word recognition: dissociation of oculomotor behavior and linguistic processing</title>
+  <author>Schotter, L., Leinenger, M., &amp; von der Malsburg, Titus</author>
+  <description>Schotter, L., Leinenger, M., &amp; von der Malsburg, Titus (2017). The impact of forced fixations on word recognition: dissociation of oculomotor behavior and linguistic processing. In H. Deubel, A. Nuthmann, S. Martinez-Conde, R. Radach, S. Everling, &amp; U. Ettinger, Proceedings of the 19th European Conference on Eye Movements (ECEM) (pp. ). Wuppertal, Germany: Journal of Eye Movement Research.
+
+@inproceedings{SchotterEtAl2017ECEM,
+  author = {Schotter, Liz and Leinenger, Mallorie and {von der Malsburg}, Titus},
+  title = {The impact of forced fixations on word recognition: Dissociation of oculomotor behavior and linguistic processing},
+  booktitle = {{Proceedings of the 19th European Conference on Eye Movements (ECEM)}},
+  year = {2017},
+  editor = {Heiner Deubel and Antje Nuthmann and Susanna Martinez-Conde and Ralph Radach and Stefan Everling and Ulrich Ettinger},
+  month = {aug},
+  address = {Wuppertal, Germany},
+  publisher = {Journal of Eye Movement Research},
+  venue = {Bergische Universität Wuppertal},
+}
+</description>
+  <link></link>
+  <guid>SchotterEtAl2017ECEM</guid>
 </item>
 <item>
   <title>Parafoveal and foveal information serve different purposes in reading: parafoveal is used for saccade programming, foveal for comprehension</title>
@@ -1124,25 +1116,24 @@ How important is the ability to freely control eye movements for reading compreh
   <guid>MorganEtAl2017CUNY</guid>
 </item>
 <item>
-  <title>The president will give her inauguration speech: explicit belief and implicit expectations in language production and comprehension</title>
+  <title>The president gave her inauguration speech: explicit belief and implicit expectations in language production and comprehension</title>
   <author>von der Malsburg, Titus, Poppels, T., &amp; Levy, R.</author>
-  <description>von der Malsburg, Titus, Poppels, T., &amp; Levy, R. (2017). The president will give her inauguration speech: explicit belief and implicit expectations in language production and comprehension. In E. Gibson, I. Blank, E. Fedorenko, R. Futrell, M. Kline, &amp; R. Ryskin, Proceedings of the 30th Annual CUNY Conference on Human Sentence Processing (pp. ). Boston, MA, USA: Massachusetts Institute of Technology.
+  <description>von der Malsburg, Titus, Poppels, T., &amp; Levy, R. (2017). The president gave her inauguration speech: explicit belief and implicit expectations in language production and comprehension. In M. Baptista, &amp; A. Coetzee, 91th Annual Meeting of the Linguistics Society of America (pp. ). Austin, Texas: Linguistic Society of America.
 
-@inproceedings{MalsburgEtAl2017CUNY,
-  author = {{von der Malsburg}, Titus and Poppels, Till and Levy, Roger},
-  title = {The president will give her inauguration speech: Explicit belief and implicit expectations in language production and comprehension},
-  booktitle = {{Proceedings of the 30th Annual {CUNY} Conference on Human Sentence Processing}},
-  year = {2017},
-  editor = {Edward Gibson and Idan Blank and Evelina Fedorenko and Richard Futrell and Melissa Kline and Rachel Ryskin},
-  month = {mar},
-  address = {Boston, MA, USA},
-  publisher = {Massachusetts Institute of Technology},
+@inproceedings{MalsburgEtAl2017LSA,
   sortname = {Malsburg},
-  keywords = {sentence processing, language production, gender stereotypes, pronouns, expectation},
+  author = {{von der Malsburg}, Titus and Poppels, Till and Levy, Roger},
+  title = {The president gave her inauguration speech: Explicit belief and implicit expectations in language production and comprehension},
+  booktitle = {{91th Annual Meeting of the Linguistics Society of America}},
+  year = {2017},
+  editor = {Marlyse Baptista and Andries Coetzee},
+  month = {jan},
+  address = {Austin, Texas},
+  publisher = {Linguistic Society of America},
 }
 </description>
   <link></link>
-  <guid>MalsburgEtAl2017CUNY</guid>
+  <guid>MalsburgEtAl2017LSA</guid>
 </item>
 <item>
   <title>The president gave her inauguration speech. No, they didn’t! The interaction of explicit world knowledge, implicit gender stereotypes, and discourse expectations</title>
@@ -1166,53 +1157,30 @@ How important is the ability to freely control eye movements for reading compreh
   <guid>MalsburgEtAl2017DETEC</guid>
 </item>
 <item>
-  <title>The impact of forced fixations on word recognition: dissociation of oculomotor behavior and linguistic processing</title>
-  <author>Schotter, L., Leinenger, M., &amp; von der Malsburg, Titus</author>
-  <description>Schotter, L., Leinenger, M., &amp; von der Malsburg, Titus (2017). The impact of forced fixations on word recognition: dissociation of oculomotor behavior and linguistic processing. In H. Deubel, A. Nuthmann, S. Martinez-Conde, R. Radach, S. Everling, &amp; U. Ettinger, Proceedings of the 19th European Conference on Eye Movements (ECEM) (pp. ). Wuppertal, Germany: Journal of Eye Movement Research.
+  <title>The president will give her inauguration speech: explicit belief and implicit expectations in language production and comprehension</title>
+  <author>von der Malsburg, Titus, Poppels, T., &amp; Levy, R.</author>
+  <description>von der Malsburg, Titus, Poppels, T., &amp; Levy, R. (2017). The president will give her inauguration speech: explicit belief and implicit expectations in language production and comprehension. In E. Gibson, I. Blank, E. Fedorenko, R. Futrell, M. Kline, &amp; R. Ryskin, Proceedings of the 30th Annual CUNY Conference on Human Sentence Processing (pp. ). Boston, MA, USA: Massachusetts Institute of Technology.
 
-@inproceedings{SchotterEtAl2017ECEM,
-  author = {Schotter, Liz and Leinenger, Mallorie and {von der Malsburg}, Titus},
-  title = {The impact of forced fixations on word recognition: Dissociation of oculomotor behavior and linguistic processing},
-  booktitle = {{Proceedings of the 19th European Conference on Eye Movements (ECEM)}},
+@inproceedings{MalsburgEtAl2017CUNY,
+  author = {{von der Malsburg}, Titus and Poppels, Till and Levy, Roger},
+  title = {The president will give her inauguration speech: Explicit belief and implicit expectations in language production and comprehension},
+  booktitle = {{Proceedings of the 30th Annual {CUNY} Conference on Human Sentence Processing}},
   year = {2017},
-  editor = {Heiner Deubel and Antje Nuthmann and Susanna Martinez-Conde and Ralph Radach and Stefan Everling and Ulrich Ettinger},
-  month = {aug},
-  address = {Wuppertal, Germany},
-  publisher = {Journal of Eye Movement Research},
-  venue = {Bergische Universität Wuppertal},
+  editor = {Edward Gibson and Idan Blank and Evelina Fedorenko and Richard Futrell and Melissa Kline and Rachel Ryskin},
+  month = {mar},
+  address = {Boston, MA, USA},
+  publisher = {Massachusetts Institute of Technology},
+  sortname = {Malsburg},
+  keywords = {sentence processing, language production, gender stereotypes, pronouns, expectation},
 }
 </description>
   <link></link>
-  <guid>SchotterEtAl2017ECEM</guid>
-</item>
-<item>
-  <title>Automatic reading (obfuscation)</title>
-  <author>Schurer, B., &amp; von der Malsburg, Titus</author>
-  <description>Schurer, B., &amp; von der Malsburg, Titus (2017). Automatic reading (obfuscation). In L. Ribas, &amp; R. Taveira, Proceedings of the fifth conference on Computation, Communication, Aesthetics and X (pp. ). Lisbon, Portugal: The xCoAx 2017 organizing committee.
-
-During reading, we rapidly construct meaning from sequences of rather cryptic symbols. A multitude of processes are involved in making meaning happen, however, most of them are conveniently tucked away from the reader’s conscious experience allowing them to read effortlessly without having to worry about any of the practicalities such as where to place the gaze next and for how long. The present work reflects on the marvelous feat that is reading. In an experiment-like situation, we create a perceptual short-circuit that unlocks the otherwise unconscious processes involved in reading. To this end, the test subject is exposed to a written libretto while a computer tracks their eye movements and translates them to sound in real time. The artistic implementation is based on parametric synthesis (“mapping”) and model-based sonification.
-
-@inproceedings{SchurerMalsburg2017xCoAx,
-  author = {Schurer, Bernd and {von der Malsburg}, Titus},
-  title = {Automatic Reading (Obfuscation)},
-  booktitle = {{Proceedings of the fifth conference on Computation, Communication, Aesthetics and X}},
-  year = {2017},
-  editor = {Luísa Ribas and Rogério Taveira},
-  month = {sep},
-  address = {Lisbon, Portugal},
-  publisher = {The xCoAx 2017 organizing committee},
-  abstract = {During reading, we rapidly construct meaning from sequences of rather cryptic symbols. A multitude of processes are involved in making meaning happen, however, most of them are conveniently tucked away from the reader’s conscious experience allowing them to read effortlessly without having to worry about any of the practicalities such as where to place the gaze next and for how long. The present work reflects on the marvelous feat that is reading. In an experiment-like situation, we create a perceptual short-circuit that unlocks the otherwise unconscious processes involved in reading. To this end, the test subject is exposed to a written libretto while a computer tracks their eye movements and translates them to sound in real time. The artistic implementation is based on parametric synthesis (“mapping”) and model-based sonification.},
-}
-</description>
-  <link></link>
-  <guid>SchurerMalsburg2017xCoAx</guid>
+  <guid>MalsburgEtAl2017CUNY</guid>
 </item>
 <item>
   <title>False positives and other statistical errors in standard analyses of eye movements in reading</title>
   <author>von der Malsburg, Titus, &amp; Angele, B.</author>
   <description>von der Malsburg, Titus, &amp; Angele, B. (2017). False positives and other statistical errors in standard analyses of eye movements in reading. Journal of Memory and Language, 94(), 119–133. http://dx.doi.org/10.1016/j.jml.2016.10.003
-
-In research on eye movements in reading, it is common to analyze a number of canonical dependent measures to study how the effects of a manipulation unfold over time. Although this gives rise to the well-known multiple comparisons problem, i.e.~an inflated probability that the null hypothesis is incorrectly rejected (Type I error), it is accepted standard practice not to apply any correction procedures. Instead, there is a widespread belief that corrections are not necessary because the increase in false positives is too small to matter. To our knowledge, no formal argument has ever been presented to justify this assumption. Here, we report a computational investigation of this issue using Monte Carlo simulations. Our results show that, contrary to conventional wisdom, false positives are increased to unacceptable levels when no corrections are applied. Our simulations also show that counter-measures like the Bonferroni correction keep false positives in check while reducing statistical power only moderately. Hence, there is little reason why such corrections should not be made a standard requirement. Further, we discuss two statistical illusions that can arise when statistical power is too low, and we show how power can be improved to prevent these illusions. In sum, our work renders a detailed picture of the various types of statistical errors than can occur in studies of reading behavior and we give concrete guidance about how these errors can be avoided.
 
 @article{MalsburgAngele2017,
   sortname = {Malsburg},
@@ -1228,28 +1196,26 @@ In research on eye movements in reading, it is common to analyze a number of can
   abstract = {In research on eye movements in reading, it is common to analyze a number of canonical dependent measures to study how the effects of a manipulation unfold over time. Although this gives rise to the well-known multiple comparisons problem, i.e.~an inflated probability that the null hypothesis is incorrectly rejected (Type I error), it is accepted standard practice not to apply any correction procedures. Instead, there is a widespread belief that corrections are not necessary because the increase in false positives is too small to matter. To our knowledge, no formal argument has ever been presented to justify this assumption. Here, we report a computational investigation of this issue using Monte Carlo simulations. Our results show that, contrary to conventional wisdom, false positives are increased to unacceptable levels when no corrections are applied. Our simulations also show that counter-measures like the Bonferroni correction keep false positives in check while reducing statistical power only moderately. Hence, there is little reason why such corrections should not be made a standard requirement. Further, we discuss two statistical illusions that can arise when statistical power is too low, and we show how power can be improved to prevent these illusions. In sum, our work renders a detailed picture of the various types of statistical errors than can occur in studies of reading behavior and we give concrete guidance about how these errors can be avoided.},
 }
 </description>
-  <link>https://tmalsburg.github.io/MalsburgAngele2017.pdf</link>
+  <link></link>
   <guid>MalsburgAngele2017</guid>
 </item>
 <item>
-  <title>This is the structure that we wonder why anyone produces it: Resumptive pronouns in English hinder comprehension</title>
+  <title>This is the structure that we wonder why anyone produces it: Resumptive pronouns in English hinder sentence comprehension</title>
   <author>Morgan, A., von der Malsburg, Titus, Ferreira, V., &amp; Wittenberg, E.</author>
-  <description>Morgan, A., von der Malsburg, Titus, Ferreira, V., &amp; Wittenberg, E. (2018). This is the structure that we wonder why anyone produces it: Resumptive pronouns in English hinder comprehension. In M. Pickering, M. Crocker, R. Hartsuiker, V. Ferreira, H. Branagan, &amp; R. Mishra, Proceedings of the 1th Architectures and Mechanisms for Language Processing Conference - Asia (pp. ). Hyderabad, Telangana, India: University of Hyderabad.
+  <description>Morgan, A., von der Malsburg, Titus, Ferreira, V., &amp; Wittenberg, E. (2018). This is the structure that we wonder why anyone produces it: Resumptive pronouns in English hinder sentence comprehension. In , California Meeting on Psycholinguistics (CAMP) (pp. ). Los Angeles, USA: UC Los Angeles.
 
-@inproceedings{MorganEtAl2018AMLaPAsia,
-  author = {Morgan, Adam and {von der Malsburg}, Titus and Victor Ferreira and Eva Wittenberg},
-  title = {This is the structure that we wonder why anyone produces it: {Resumptive} pronouns in {English} hinder comprehension},
-  booktitle = {{Proceedings of the 1th Architectures and Mechanisms for Language Processing Conference - {Asia}}},
+@inproceedings{MorganEtAl2018CAMP,
+  author = {Morgan, Adam and {von der Malsburg}, Titus and Ferreira, Victor and Wittenberg, Eva},
+  title = {This is the Structure that We Wonder Why Anyone Produces it: {Resumptive} Pronouns in {English} Hinder Sentence Comprehension},
+  booktitle = {{California Meeting on Psycholinguistics ({CAMP})}},
   year = {2018},
-  editor = {Martin Pickering and Matthew Crocker and Robert Hartsuiker and Vic Ferreira and Holly Branagan and Ramesh Mishra},
-  month = {feb},
-  address = {Hyderabad, Telangana, India},
-  publisher = {University of Hyderabad},
-  keywords = {resumption, pronouns, syntactic islands, filler-gap},
+  address = {Los Angeles, USA},
+  publisher = {UC Los Angeles},
+  editors = {Elsi Kaiser and Jesse Harris},
 }
 </description>
   <link></link>
-  <guid>MorganEtAl2018AMLaPAsia</guid>
+  <guid>MorganEtAl2018CAMP</guid>
 </item>
 <item>
   <title>Expectations and prediction in sentence comprehension: German particle verbs as a test case</title>
@@ -1272,84 +1238,45 @@ In research on eye movements in reading, it is common to analyze a number of can
   <guid>StoneEtAl2018CUNY</guid>
 </item>
 <item>
-  <title>This is the structure that we wonder why anyone produces it: Resumptive pronouns in English hinder comprehension</title>
-  <author>Morgan, A., von der Malsburg, Titus, Ferreira, V., &amp; Wittenberg, E.</author>
-  <description>Morgan, A., von der Malsburg, Titus, Ferreira, V., &amp; Wittenberg, E. (2018). This is the structure that we wonder why anyone produces it: Resumptive pronouns in English hinder comprehension. In F. Ferreira, J. Henderson, T. Swaab, &amp; M. Traxler, Proceedings of the 31th Annual CUNY Conference on Human Sentence Processing (pp. ). Davis, CA, USA: UC Davis.
+  <title>When your mind ignores what your eyes see: How forced fixations lead to comprehension illusions in reading</title>
+  <author>Schotter, E., Leinenger, M., &amp; von der Malsburg, Titus</author>
+  <description>Schotter, E., Leinenger, M., &amp; von der Malsburg, Titus (2018). When your mind ignores what your eyes see: How forced fixations lead to comprehension illusions in reading. Psychonomic Bulletin \&amp; Review, 25(5), 1884–1890. http://dx.doi.org/10.3758/s13423-017-1356-y
 
-@inproceedings{MorganEtAl2018CUNY,
-  author = {Adam Morgan and {von der Malsburg}, Titus and Victor Ferreira and Eva Wittenberg},
-  title = {This is the structure that we wonder why anyone produces it: {Resumptive} pronouns in {English} hinder comprehension},
-  booktitle = {{Proceedings of the 31th Annual {CUNY} Conference on Human Sentence Processing}},
+@article{SchotterEtAl2018b,
+  author = {Schotter, Elizabeth and Leinenger, Mallorie and {von der Malsburg}, Titus},
+  title = {When Your Mind Ignores What Your Eyes See: {How} Forced Fixations Lead to Comprehension Illusions in Reading},
+  journal = {Psychonomic Bulletin \& Review},
   year = {2018},
-  editor = {Fernanda Ferreira and John Henderson and Tamara Swaab and Matt Traxler},
-  month = {mar},
-  address = {Davis, CA, USA},
-  publisher = {UC Davis},
-  keywords = {sentence comprehension, sentence production, resumption, resumptive pronouns},
+  volume = {25},
+  number = {5},
+  pages = {1884--1890},
+  abstract = {The phenomenon of forced fixations suggests that readers sometimes fixate a word (due to oculomotor constraints) even though they intended to skip it (due to parafoveal cognitive-linguistic processing). We investigate whether this leads readers to look directly at a word but not pay attention to it. We used a gaze-contingent boundary paradigm to dissociate parafoveal and foveal information (e.g., the word phone changed to scarf once the reader's eyes moved to it) and asked questions about the sentence to determine which one the reader encoded. When the word was skipped or fixated only briefly (i.e., up to 100 ms) readers were more likely to report reading the parafoveal than the fixated word, suggesting that there are cases in which readers look directly at a word but their minds ignore it, leading to the illusion of reading something they did not fixate.},
+  doi = {10.3758/s13423-017-1356-y},
 }
 </description>
   <link></link>
-  <guid>MorganEtAl2018CUNY</guid>
+  <guid>SchotterEtAl2018b</guid>
 </item>
 <item>
-  <title>Agreement attraction in grammatical sentences</title>
-  <author>Laurinavichyute, A., &amp; von der Malsburg, Titus</author>
-  <description>Laurinavichyute, A., &amp; von der Malsburg, Titus (2018). Agreement attraction in grammatical sentences. In F. Ferreira, J. Henderson, T. Swaab, &amp; M. Traxler, Proceedings of the 31th Annual CUNY Conference on Human Sentence Processing (pp. ). Davis, CA, USA: UC Davis.
+  <title>Forced fixations, trans-saccadic integration, and word recognition: Evidence for a hybrid mechanism of saccade triggering in reading</title>
+  <author>Schotter, E., von der Malsburg, Titus, &amp; Leinenger, M.</author>
+  <description>Schotter, E., von der Malsburg, Titus, &amp; Leinenger, M. (2018). Forced fixations, trans-saccadic integration, and word recognition: Evidence for a hybrid mechanism of saccade triggering in reading. Journal of Experimental Psychology: Learning, Memory, and Cognition, 45(5), 677–688. http://dx.doi.org/10.1037/xlm0000617
 
-@inproceedings{LaurinavichyuteMalsburg2018CUNY2,
-  author = {Anna Laurinavichyute and {von der Malsburg}, Titus},
-  title = {Agreement attraction in grammatical sentences},
-  booktitle = {{Proceedings of the 31th Annual {CUNY} Conference on Human Sentence Processing}},
+@article{SchotterEtAl2018,
+  author = {Schotter, Elizabeth and {von der Malsburg}, Titus and Leinenger, Mallorie},
+  title = {Forced Fixations, Trans-saccadic Integration, and Word Recognition: {Evidence} for a Hybrid Mechanism of Saccade Triggering in Reading},
+  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
   year = {2018},
-  editor = {Fernanda Ferreira and John Henderson and Tamara Swaab and Matt Traxler},
-  month = {mar},
-  address = {Davis, CA, USA},
-  publisher = {UC Davis},
-  keywords = {agreement attraction, sentence comprehension},
+  volume = {45},
+  number = {5},
+  pages = {677-688},
+  abstract = {Recent studies using the gaze-contingent boundary paradigm reported a reversed preview benefit – shorter fixations on a target word when an unrelated preview was easier to process than the fixated target (Schotter \& Leinenger, 2016). This is explained via forced fixations – short fixations on words that would ideally be skipped (because lexical processing has progressed enough) but could not be because saccade planning reached a point of no return. This contrasts with accounts of preview effects via trans-saccadic integration – shorter fixations on a target word when the preview is more similar to it (see Cutter, Drieghe, \& Liversedge, 2015). Additionally, if the previewed word – not the fixated target – determines subsequent eye movements, is it also this word that enters the linguistic processing stream? We tested these accounts by having 24 subjects read 150 sentences in the boundary paradigm in which both the preview and target were initially plausible but later one, both, or neither became implausible, providing an opportunity to probe which one was linguistically encoded. In an intervening buffer region, both words were plausible, providing an opportunity to investigate trans-saccadic integration. The frequency of the previewed word affected progressive saccades (i.e., forced fixations) as well as when trans-saccadic integration failure increased regressions, but, only the implausibility of the target word affected semantic encoding. These data support a hybrid account of saccadic control (Reingold, Reichle, Glaholt, \& Sheridan, 2012) driven by incomplete (often parafoveal) word recognition, which occurs prior to complete (often foveal) word recognition.},
+  doi = {10.1037/xlm0000617},
+  url = {https://osf.io/c5bmd/},
 }
 </description>
   <link></link>
-  <guid>LaurinavichyuteMalsburg2018CUNY2</guid>
-</item>
-<item>
-  <title>Semantic attraction in sentence processing</title>
-  <author>Laurinavichyute, A., &amp; von der Malsburg, Titus</author>
-  <description>Laurinavichyute, A., &amp; von der Malsburg, Titus (2018). Semantic attraction in sentence processing. In F. Ferreira, J. Henderson, T. Swaab, &amp; M. Traxler, Proceedings of the 31th Annual CUNY Conference on Human Sentence Processing (pp. ). Davis, CA, USA: UC Davis.
-
-@inproceedings{LaurinavichyuteMalsburg2018CUNY1,
-  author = {Anna Laurinavichyute and {von der Malsburg}, Titus},
-  title = {Semantic attraction in sentence processing},
-  booktitle = {{Proceedings of the 31th Annual {CUNY} Conference on Human Sentence Processing}},
-  year = {2018},
-  editor = {Fernanda Ferreira and John Henderson and Tamara Swaab and Matt Traxler},
-  month = {mar},
-  address = {Davis, CA, USA},
-  publisher = {UC Davis},
-  keywords = {agreement attraction, sentence production, semantics},
-}
-</description>
-  <link></link>
-  <guid>LaurinavichyuteMalsburg2018CUNY1</guid>
-</item>
-<item>
-  <title>Implicit gender biases in the production and comprehension of pronominal references</title>
-  <author>Boyce, V., von der Malsburg, Titus, Poppels, T., &amp; Levy, R.</author>
-  <description>Boyce, V., von der Malsburg, Titus, Poppels, T., &amp; Levy, R. (2018). Implicit gender biases in the production and comprehension of pronominal references. In F. Ferreira, J. Henderson, T. Swaab, &amp; M. Traxler, Proceedings of the 31th Annual CUNY Conference on Human Sentence Processing (pp. ). Davis, CA, USA: UC Davis.
-
-@inproceedings{BoyceEtAl2018CUNY,
-  author = {Veronica Boyce and {von der Malsburg}, Titus and Poppels, Till and Roger Levy},
-  title = {Implicit gender biases in the production and comprehension of pronominal references},
-  booktitle = {{Proceedings of the 31th Annual {CUNY} Conference on Human Sentence Processing}},
-  year = {2018},
-  editor = {Fernanda Ferreira and John Henderson and Tamara Swaab and Matt Traxler},
-  month = {mar},
-  address = {Davis, CA, USA},
-  publisher = {UC Davis},
-  keywords = {gender bias, gender stereotypes, pronouns, production, comprehension},
-}
-</description>
-  <link></link>
-  <guid>BoyceEtAl2018CUNY</guid>
+  <guid>SchotterEtAl2018</guid>
 </item>
 <item>
   <title>Agreement attraction in german SOV structures: An ERP study</title>
@@ -1370,6 +1297,46 @@ In research on eye movements in reading, it is common to analyze a number of can
 </description>
   <link></link>
   <guid>SchaeferEtAl2018AMLaP</guid>
+</item>
+<item>
+  <title>This is the structure that we wonder why anyone produces it: Resumptive pronouns in English hinder comprehension</title>
+  <author>Morgan, A., von der Malsburg, Titus, Ferreira, V., &amp; Wittenberg, E.</author>
+  <description>Morgan, A., von der Malsburg, Titus, Ferreira, V., &amp; Wittenberg, E. (2018). This is the structure that we wonder why anyone produces it: Resumptive pronouns in English hinder comprehension. In F. Ferreira, J. Henderson, T. Swaab, &amp; M. Traxler, Proceedings of the 31th Annual CUNY Conference on Human Sentence Processing (pp. ). Davis, CA, USA: UC Davis.
+
+@inproceedings{MorganEtAl2018CUNY,
+  author = {Adam Morgan and {von der Malsburg}, Titus and Victor Ferreira and Eva Wittenberg},
+  title = {This is the structure that we wonder why anyone produces it: {Resumptive} pronouns in {English} hinder comprehension},
+  booktitle = {{Proceedings of the 31th Annual {CUNY} Conference on Human Sentence Processing}},
+  year = {2018},
+  editor = {Fernanda Ferreira and John Henderson and Tamara Swaab and Matt Traxler},
+  month = {mar},
+  address = {Davis, CA, USA},
+  publisher = {UC Davis},
+  keywords = {sentence comprehension, sentence production, resumption, resumptive pronouns},
+}
+</description>
+  <link></link>
+  <guid>MorganEtAl2018CUNY</guid>
+</item>
+<item>
+  <title>This is the structure that we wonder why anyone produces it: Resumptive pronouns in English hinder comprehension</title>
+  <author>Morgan, A., von der Malsburg, Titus, Ferreira, V., &amp; Wittenberg, E.</author>
+  <description>Morgan, A., von der Malsburg, Titus, Ferreira, V., &amp; Wittenberg, E. (2018). This is the structure that we wonder why anyone produces it: Resumptive pronouns in English hinder comprehension. In M. Pickering, M. Crocker, R. Hartsuiker, V. Ferreira, H. Branagan, &amp; R. Mishra, Proceedings of the 1th Architectures and Mechanisms for Language Processing Conference - Asia (pp. ). Hyderabad, Telangana, India: University of Hyderabad.
+
+@inproceedings{MorganEtAl2018AMLaPAsia,
+  author = {Morgan, Adam and {von der Malsburg}, Titus and Victor Ferreira and Eva Wittenberg},
+  title = {This is the structure that we wonder why anyone produces it: {Resumptive} pronouns in {English} hinder comprehension},
+  booktitle = {{Proceedings of the 1th Architectures and Mechanisms for Language Processing Conference - {Asia}}},
+  year = {2018},
+  editor = {Martin Pickering and Matthew Crocker and Robert Hartsuiker and Vic Ferreira and Holly Branagan and Ramesh Mishra},
+  month = {feb},
+  address = {Hyderabad, Telangana, India},
+  publisher = {University of Hyderabad},
+  keywords = {resumption, pronouns, syntactic islands, filler-gap},
+}
+</description>
+  <link></link>
+  <guid>MorganEtAl2018AMLaPAsia</guid>
 </item>
 <item>
   <title>English resumptive pronouns do not help the comprehender</title>
@@ -1413,6 +1380,46 @@ In research on eye movements in reading, it is common to analyze a number of can
   <guid>MalsburgEtAl2018AMLaP</guid>
 </item>
 <item>
+  <title>Agreement attraction in grammatical sentences</title>
+  <author>Laurinavichyute, A., &amp; von der Malsburg, Titus</author>
+  <description>Laurinavichyute, A., &amp; von der Malsburg, Titus (2018). Agreement attraction in grammatical sentences. In F. Ferreira, J. Henderson, T. Swaab, &amp; M. Traxler, Proceedings of the 31th Annual CUNY Conference on Human Sentence Processing (pp. ). Davis, CA, USA: UC Davis.
+
+@inproceedings{LaurinavichyuteMalsburg2018CUNY2,
+  author = {Anna Laurinavichyute and {von der Malsburg}, Titus},
+  title = {Agreement attraction in grammatical sentences},
+  booktitle = {{Proceedings of the 31th Annual {CUNY} Conference on Human Sentence Processing}},
+  year = {2018},
+  editor = {Fernanda Ferreira and John Henderson and Tamara Swaab and Matt Traxler},
+  month = {mar},
+  address = {Davis, CA, USA},
+  publisher = {UC Davis},
+  keywords = {agreement attraction, sentence comprehension},
+}
+</description>
+  <link></link>
+  <guid>LaurinavichyuteMalsburg2018CUNY2</guid>
+</item>
+<item>
+  <title>Semantic attraction in sentence processing</title>
+  <author>Laurinavichyute, A., &amp; von der Malsburg, Titus</author>
+  <description>Laurinavichyute, A., &amp; von der Malsburg, Titus (2018). Semantic attraction in sentence processing. In F. Ferreira, J. Henderson, T. Swaab, &amp; M. Traxler, Proceedings of the 31th Annual CUNY Conference on Human Sentence Processing (pp. ). Davis, CA, USA: UC Davis.
+
+@inproceedings{LaurinavichyuteMalsburg2018CUNY1,
+  author = {Anna Laurinavichyute and {von der Malsburg}, Titus},
+  title = {Semantic attraction in sentence processing},
+  booktitle = {{Proceedings of the 31th Annual {CUNY} Conference on Human Sentence Processing}},
+  year = {2018},
+  editor = {Fernanda Ferreira and John Henderson and Tamara Swaab and Matt Traxler},
+  month = {mar},
+  address = {Davis, CA, USA},
+  publisher = {UC Davis},
+  keywords = {agreement attraction, sentence production, semantics},
+}
+</description>
+  <link></link>
+  <guid>LaurinavichyuteMalsburg2018CUNY1</guid>
+</item>
+<item>
   <title>Semantic attraction in sentence processing</title>
   <author>Laurinavichyute, A., &amp; von der Malsburg, Titus</author>
   <description>Laurinavichyute, A., &amp; von der Malsburg, Titus (2018). Semantic attraction in sentence processing. In P. Knoeferle, Proceedings of the 24th Architectures and Mechanisms for Language Processing Conference (AMLaP) (pp. ). Berlin, Germany: Humboldt Universität Berlin.
@@ -1433,67 +1440,42 @@ In research on eye movements in reading, it is common to analyze a number of can
   <guid>LaurinavichyuteMalsburg2018AMLaP</guid>
 </item>
 <item>
-  <title>This is the structure that we wonder why anyone produces it: Resumptive pronouns in English hinder sentence comprehension</title>
-  <author>Morgan, A., von der Malsburg, Titus, Ferreira, V., &amp; Wittenberg, E.</author>
-  <description>Morgan, A., von der Malsburg, Titus, Ferreira, V., &amp; Wittenberg, E. (2018). This is the structure that we wonder why anyone produces it: Resumptive pronouns in English hinder sentence comprehension. In , California Meeting on Psycholinguistics (CAMP) (pp. ). Los Angeles, USA: UC Los Angeles.
+  <title>Implicit gender biases in the production and comprehension of pronominal references</title>
+  <author>Boyce, V., von der Malsburg, Titus, Poppels, T., &amp; Levy, R.</author>
+  <description>Boyce, V., von der Malsburg, Titus, Poppels, T., &amp; Levy, R. (2018). Implicit gender biases in the production and comprehension of pronominal references. In F. Ferreira, J. Henderson, T. Swaab, &amp; M. Traxler, Proceedings of the 31th Annual CUNY Conference on Human Sentence Processing (pp. ). Davis, CA, USA: UC Davis.
 
-@inproceedings{MorganEtAl2018CAMP,
-  author = {Morgan, Adam and {von der Malsburg}, Titus and Ferreira, Victor and Wittenberg, Eva},
-  title = {This is the Structure that We Wonder Why Anyone Produces it: {Resumptive} Pronouns in {English} Hinder Sentence Comprehension},
-  booktitle = {{California Meeting on Psycholinguistics ({CAMP})}},
+@inproceedings{BoyceEtAl2018CUNY,
+  author = {Veronica Boyce and {von der Malsburg}, Titus and Poppels, Till and Roger Levy},
+  title = {Implicit gender biases in the production and comprehension of pronominal references},
+  booktitle = {{Proceedings of the 31th Annual {CUNY} Conference on Human Sentence Processing}},
   year = {2018},
-  address = {Los Angeles, USA},
-  publisher = {UC Los Angeles},
-  editors = {Elsi Kaiser and Jesse Harris},
+  editor = {Fernanda Ferreira and John Henderson and Tamara Swaab and Matt Traxler},
+  month = {mar},
+  address = {Davis, CA, USA},
+  publisher = {UC Davis},
+  keywords = {gender bias, gender stereotypes, pronouns, production, comprehension},
 }
 </description>
   <link></link>
-  <guid>MorganEtAl2018CAMP</guid>
+  <guid>BoyceEtAl2018CUNY</guid>
 </item>
 <item>
-  <title>When your mind ignores what your eyes see: How forced fixations lead to comprehension illusions in reading</title>
-  <author>Schotter, E., Leinenger, M., &amp; von der Malsburg, Titus</author>
-  <description>Schotter, E., Leinenger, M., &amp; von der Malsburg, Titus (2018). When your mind ignores what your eyes see: How forced fixations lead to comprehension illusions in reading. Psychonomic Bulletin \&amp; Review, 25(5), 1884–1890. http://dx.doi.org/10.3758/s13423-017-1356-y
+  <title>Comprehenders generate long-distance predictions during reading: erp evidence from verb-particle constructions</title>
+  <author>Stone, K., Vasishth, S., &amp; von der Malsburg, Titus</author>
+  <description>Stone, K., Vasishth, S., &amp; von der Malsburg, Titus (2019). Comprehenders generate long-distance predictions during reading: erp evidence from verb-particle constructions. In M. Whelpton, J. Jalbert, A. Beretta, S. Sigurjónsdóttir, Þ. Eyþórsson, Ó. Jóhannesson, A. Shaw, …, Proceedings of Psycholinguistics in Iceland -- Parsing and Prediction (pp. ). Reykjavík, Iceland: University of Iceland.
 
-The phenomenon of forced fixations suggests that readers sometimes fixate a word (due to oculomotor constraints) even though they intended to skip it (due to parafoveal cognitive-linguistic processing). We investigate whether this leads readers to look directly at a word but not pay attention to it. We used a gaze-contingent boundary paradigm to dissociate parafoveal and foveal information (e.g., the word phone changed to scarf once the reader&amp;apos;s eyes moved to it) and asked questions about the sentence to determine which one the reader encoded. When the word was skipped or fixated only briefly (i.e., up to 100 ms) readers were more likely to report reading the parafoveal than the fixated word, suggesting that there are cases in which readers look directly at a word but their minds ignore it, leading to the illusion of reading something they did not fixate.
-
-@article{SchotterEtAl2018b,
-  author = {Schotter, Elizabeth and Leinenger, Mallorie and {von der Malsburg}, Titus},
-  title = {When Your Mind Ignores What Your Eyes See: {How} Forced Fixations Lead to Comprehension Illusions in Reading},
-  journal = {Psychonomic Bulletin \& Review},
-  year = {2018},
-  volume = {25},
-  number = {5},
-  pages = {1884--1890},
-  abstract = {The phenomenon of forced fixations suggests that readers sometimes fixate a word (due to oculomotor constraints) even though they intended to skip it (due to parafoveal cognitive-linguistic processing). We investigate whether this leads readers to look directly at a word but not pay attention to it. We used a gaze-contingent boundary paradigm to dissociate parafoveal and foveal information (e.g., the word phone changed to scarf once the reader's eyes moved to it) and asked questions about the sentence to determine which one the reader encoded. When the word was skipped or fixated only briefly (i.e., up to 100 ms) readers were more likely to report reading the parafoveal than the fixated word, suggesting that there are cases in which readers look directly at a word but their minds ignore it, leading to the illusion of reading something they did not fixate.},
-  doi = {10.3758/s13423-017-1356-y},
+@inproceedings{StoneEtAl2019PIPP,
+  author = {Kate Stone and Shravan Vasishth and {von der Malsburg}, Titus},
+  title = {Comprehenders generate long-distance predictions during reading: ERP evidence from verb-particle constructions},
+  booktitle = {{Proceedings of Psycholinguistics in {Iceland} -- Parsing and Prediction}},
+  year = {2019},
+  editor = {Matthew Whelpton and Joseph Jalbert and Alan Beretta and Sigríður Sigurjónsdóttir and Þórhallur Eyþórsson and Ómar Jóhannesson and Alec Shaw and Íris Edda Nowenstein},
+  address = {Reykjavík, Iceland},
+  publisher = {University of Iceland},
 }
 </description>
-  <link>http://dx.doi.org/10.3758/s13423-017-1356-y</link>
-  <guid>SchotterEtAl2018b</guid>
-</item>
-<item>
-  <title>Forced fixations, trans-saccadic integration, and word recognition: Evidence for a hybrid mechanism of saccade triggering in reading</title>
-  <author>Schotter, E., von der Malsburg, Titus, &amp; Leinenger, M.</author>
-  <description>Schotter, E., von der Malsburg, Titus, &amp; Leinenger, M. (2018). Forced fixations, trans-saccadic integration, and word recognition: Evidence for a hybrid mechanism of saccade triggering in reading. Journal of Experimental Psychology: Learning, Memory, and Cognition, 45(5), 677–688. http://dx.doi.org/10.1037/xlm0000617
-
-Recent studies using the gaze-contingent boundary paradigm reported a reversed preview benefit – shorter fixations on a target word when an unrelated preview was easier to process than the fixated target (Schotter \&amp; Leinenger, 2016). This is explained via forced fixations – short fixations on words that would ideally be skipped (because lexical processing has progressed enough) but could not be because saccade planning reached a point of no return. This contrasts with accounts of preview effects via trans-saccadic integration – shorter fixations on a target word when the preview is more similar to it (see Cutter, Drieghe, \&amp; Liversedge, 2015). Additionally, if the previewed word – not the fixated target – determines subsequent eye movements, is it also this word that enters the linguistic processing stream? We tested these accounts by having 24 subjects read 150 sentences in the boundary paradigm in which both the preview and target were initially plausible but later one, both, or neither became implausible, providing an opportunity to probe which one was linguistically encoded. In an intervening buffer region, both words were plausible, providing an opportunity to investigate trans-saccadic integration. The frequency of the previewed word affected progressive saccades (i.e., forced fixations) as well as when trans-saccadic integration failure increased regressions, but, only the implausibility of the target word affected semantic encoding. These data support a hybrid account of saccadic control (Reingold, Reichle, Glaholt, \&amp; Sheridan, 2012) driven by incomplete (often parafoveal) word recognition, which occurs prior to complete (often foveal) word recognition.
-
-@article{SchotterEtAl2018,
-  author = {Schotter, Elizabeth and {von der Malsburg}, Titus and Leinenger, Mallorie},
-  title = {Forced Fixations, Trans-saccadic Integration, and Word Recognition: {Evidence} for a Hybrid Mechanism of Saccade Triggering in Reading},
-  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition},
-  year = {2018},
-  volume = {45},
-  number = {5},
-  pages = {677-688},
-  abstract = {Recent studies using the gaze-contingent boundary paradigm reported a reversed preview benefit – shorter fixations on a target word when an unrelated preview was easier to process than the fixated target (Schotter \& Leinenger, 2016). This is explained via forced fixations – short fixations on words that would ideally be skipped (because lexical processing has progressed enough) but could not be because saccade planning reached a point of no return. This contrasts with accounts of preview effects via trans-saccadic integration – shorter fixations on a target word when the preview is more similar to it (see Cutter, Drieghe, \& Liversedge, 2015). Additionally, if the previewed word – not the fixated target – determines subsequent eye movements, is it also this word that enters the linguistic processing stream? We tested these accounts by having 24 subjects read 150 sentences in the boundary paradigm in which both the preview and target were initially plausible but later one, both, or neither became implausible, providing an opportunity to probe which one was linguistically encoded. In an intervening buffer region, both words were plausible, providing an opportunity to investigate trans-saccadic integration. The frequency of the previewed word affected progressive saccades (i.e., forced fixations) as well as when trans-saccadic integration failure increased regressions, but, only the implausibility of the target word affected semantic encoding. These data support a hybrid account of saccadic control (Reingold, Reichle, Glaholt, \& Sheridan, 2012) driven by incomplete (often parafoveal) word recognition, which occurs prior to complete (often foveal) word recognition.},
-  doi = {10.1037/xlm0000617},
-  url = {https://osf.io/c5bmd/},
-}
-</description>
-  <link>https://osf.io/c5bmd/</link>
-  <guid>SchotterEtAl2018</guid>
+  <link></link>
+  <guid>StoneEtAl2019PIPP</guid>
 </item>
 <item>
   <title>ERP evidence for long-distance lexical predictions in German particle verb constructions</title>
@@ -1553,6 +1535,25 @@ Recent studies using the gaze-contingent boundary paradigm reported a reversed p
   <guid>LaurinavichyuteMalsburg2019CUNY</guid>
 </item>
 <item>
+  <title>Female gender is consistently under-expressed in pronoun production and under-inferred in comprehension</title>
+  <author>Boyce, V., von der Malsburg, Titus, Poppels, T., &amp; Levy, R.</author>
+  <description>Boyce, V., von der Malsburg, Titus, Poppels, T., &amp; Levy, R. (2019). Female gender is consistently under-expressed in pronoun production and under-inferred in comprehension. In R. Pancheva, &amp; K. Iskarous, 93th Annual Meeting of the Linguistics Society of America (pp. ). New York, NY, USA: Linguistic Society of America.
+
+@inproceedings{BoyceEtAl2019LSA,
+  author = {Veronica Boyce and {von der Malsburg}, Titus and Till Poppels and Roger Levy},
+  title = {Female gender is consistently under-expressed in pronoun production and under-inferred in comprehension},
+  booktitle = {{93th Annual Meeting of the Linguistics Society of America}},
+  year = {2019},
+  editor = {Roumyana Pancheva and Khalil Iskarous},
+  address = {New York, NY, USA},
+  publisher = {Linguistic Society of America},
+  abstract = {Language production and comprehension draw on wide-ranging knowledge and beliefs, including general world knowledge and contextually variable information. Pronominal references to role nouns with diverse gender biases provide a window into the interplay of these sources of information: violations of stereotypical gender elicit surprise (e.g., referring to a surgeon as she), but comprehenders can accommodate to non-stereotypical genders within discourse. In two experiments, we investigate how gender expectations are reflected in production and comprehension of pronominal references to role nouns. Our results indicate that female gender is consistently underused in English pronoun production, and under-inferred in English pronoun comprehension.},
+}
+</description>
+  <link></link>
+  <guid>BoyceEtAl2019LSA</guid>
+</item>
+<item>
   <title>Remember ‘him’, forget ‘her’: Gender bias in the comprehension of pronominal referents</title>
   <author>Boyce, V., von der Malsburg, Titus, Poppels, T., &amp; Levy, R.</author>
   <description>Boyce, V., von der Malsburg, Titus, Poppels, T., &amp; Levy, R. (2019). Remember ‘him’, forget ‘her’: Gender bias in the comprehension of pronominal referents. In E. Colunga, A. Kim, L. Michaelis, &amp; B. Narasimhan, Proceedings of the 32th Annual CUNY Conference on Human Sentence Processing (pp. ). Boulder, CO, USA: University of Colorado Boulder.
@@ -1572,73 +1573,6 @@ Recent studies using the gaze-contingent boundary paradigm reported a reversed p
   <guid>BoyceEtAl2019CUNY</guid>
 </item>
 <item>
-  <title>Comprehenders generate long-distance predictions during reading: erp evidence from verb-particle constructions</title>
-  <author>Stone, K., Vasishth, S., &amp; von der Malsburg, Titus</author>
-  <description>Stone, K., Vasishth, S., &amp; von der Malsburg, Titus (2019). Comprehenders generate long-distance predictions during reading: erp evidence from verb-particle constructions. In M. Whelpton, J. Jalbert, A. Beretta, S. Sigurjónsdóttir, Þ. Eyþórsson, Ó. Jóhannesson, A. Shaw, …, Proceedings of Psycholinguistics in Iceland -- Parsing and Prediction (pp. ). Reykjavík, Iceland: University of Iceland.
-
-@inproceedings{StoneEtAl2019PIPP,
-  author = {Kate Stone and Shravan Vasishth and {von der Malsburg}, Titus},
-  title = {Comprehenders generate long-distance predictions during reading: ERP evidence from verb-particle constructions},
-  booktitle = {{Proceedings of Psycholinguistics in {Iceland} -- Parsing and Prediction}},
-  year = {2019},
-  editor = {Matthew Whelpton and Joseph Jalbert and Alan Beretta and Sigríður Sigurjónsdóttir and Þórhallur Eyþórsson and Ómar Jóhannesson and Alec Shaw and Íris Edda Nowenstein},
-  address = {Reykjavík, Iceland},
-  publisher = {University of Iceland},
-}
-</description>
-  <link></link>
-  <guid>StoneEtAl2019PIPP</guid>
-</item>
-<item>
-  <title>Female gender is consistently under-expressed in pronoun production and under-inferred in comprehension</title>
-  <author>Boyce, V., von der Malsburg, Titus, Poppels, T., &amp; Levy, R.</author>
-  <description>Boyce, V., von der Malsburg, Titus, Poppels, T., &amp; Levy, R. (2019). Female gender is consistently under-expressed in pronoun production and under-inferred in comprehension. In R. Pancheva, &amp; K. Iskarous, 93th Annual Meeting of the Linguistics Society of America (pp. ). New York, NY, USA: Linguistic Society of America.
-
-Language production and comprehension draw on wide-ranging knowledge and beliefs, including general world knowledge and contextually variable information. Pronominal references to role nouns with diverse gender biases provide a window into the interplay of these sources of information: violations of stereotypical gender elicit surprise (e.g., referring to a surgeon as she), but comprehenders can accommodate to non-stereotypical genders within discourse. In two experiments, we investigate how gender expectations are reflected in production and comprehension of pronominal references to role nouns. Our results indicate that female gender is consistently underused in English pronoun production, and under-inferred in English pronoun comprehension.
-
-@inproceedings{BoyceEtAl2019LSA,
-  author = {Veronica Boyce and {von der Malsburg}, Titus and Till Poppels and Roger Levy},
-  title = {Female gender is consistently under-expressed in pronoun production and under-inferred in comprehension},
-  booktitle = {{93th Annual Meeting of the Linguistics Society of America}},
-  year = {2019},
-  editor = {Roumyana Pancheva and Khalil Iskarous},
-  address = {New York, NY, USA},
-  publisher = {Linguistic Society of America},
-  abstract = {Language production and comprehension draw on wide-ranging knowledge and beliefs, including general world knowledge and contextually variable information. Pronominal references to role nouns with diverse gender biases provide a window into the interplay of these sources of information: violations of stereotypical gender elicit surprise (e.g., referring to a surgeon as she), but comprehenders can accommodate to non-stereotypical genders within discourse. In two experiments, we investigate how gender expectations are reflected in production and comprehension of pronominal references to role nouns. Our results indicate that female gender is consistently underused in English pronoun production, and under-inferred in English pronoun comprehension.},
-}
-</description>
-  <link></link>
-  <guid>BoyceEtAl2019LSA</guid>
-</item>
-<item>
-  <title>Implicit gender bias in linguistic descriptions for expected events: The cases of the 2016 United States and 2017 United Kingdom elections</title>
-  <author>von der Malsburg, Titus, Poppels, T., &amp; Levy, R. P.</author>
-  <description>von der Malsburg, Titus, Poppels, T., &amp; Levy, R. P. (2020). Implicit gender bias in linguistic descriptions for expected events: The cases of the 2016 United States and 2017 United Kingdom elections. Psychological Science, 31(2), 115–128. http://dx.doi.org/10.1177/0956797619890619
-
-Gender stereotypes influence subjective beliefs about the world, and this is reflected in our use of language. But do gender biases in language transparently reflect subjective beliefs? Or is the process of translating thought to language itself biased? During the 2016 United States (N = 24,863) and 2017 United Kingdom (N = 2,609) electoral campaigns, we compared participants? beliefs about the gender of the next head of government with their use and interpretation of pronouns referring to the next head of government. In the United States, even when the female candidate was expected to win, she pronouns were rarely produced and induced substantial comprehension disruption. In the United Kingdom, where the incumbent female candidate was heavily favored, she pronouns were preferred in production but yielded no comprehension advantage. These and other findings suggest that the language system itself is a source of implicit biases above and beyond previously known biases, such as those measured by the Implicit Association Test.
-
-@article{MalsburgEtAl2020,
-  sortname = {Malsburg},
-  author = {{von der Malsburg}, Titus and Poppels, Till and Levy, Roger P.},
-  title = {Implicit Gender Bias in Linguistic Descriptions for Expected Events: {The} Cases of the 2016 {United States} and 2017 {United Kingdom} Elections},
-  journal = {Psychological Science},
-  year = {2020},
-  volume = {31},
-  number = {2},
-  pages = {115-128},
-  month = {jan},
-  day = {08},
-  publisher = {SAGE Publications Inc},
-  abstract = {Gender stereotypes influence subjective beliefs about the world, and this is reflected in our use of language. But do gender biases in language transparently reflect subjective beliefs? Or is the process of translating thought to language itself biased? During the 2016 United States (N = 24,863) and 2017 United Kingdom (N = 2,609) electoral campaigns, we compared participants? beliefs about the gender of the next head of government with their use and interpretation of pronouns referring to the next head of government. In the United States, even when the female candidate was expected to win, she pronouns were rarely produced and induced substantial comprehension disruption. In the United Kingdom, where the incumbent female candidate was heavily favored, she pronouns were preferred in production but yielded no comprehension advantage. These and other findings suggest that the language system itself is a source of implicit biases above and beyond previously known biases, such as those measured by the Implicit Association Test.},
-  issn = {0956-7976},
-  doi = {10.1177/0956797619890619},
-  url = {https://tmalsburg.github.io/MalsburgEtAl2020.pdf},
-}
-</description>
-  <link>https://tmalsburg.github.io/MalsburgEtAl2020.pdf</link>
-  <guid>MalsburgEtAl2020</guid>
-</item>
-<item>
   <title>Contextual constraint and the frontal post-N400 positivity: A large-sample, pre-registered ERP study</title>
   <author>Stone, K., von der Malsburg, Titus, &amp; Vasishth, S.</author>
   <description>Stone, K., von der Malsburg, Titus, &amp; Vasishth, S. (2020). Contextual constraint and the frontal post-N400 positivity: A large-sample, pre-registered ERP study. In M. Breen, B. Dillon, L. Frazier, J. Kingston, S. Momma, &amp; A. Staub, Proceedings of the 33th Annual CUNY Conference on Human Sentence Processing (pp. ). Amherst MA, USA: University of Massachusetts, Amherst.
@@ -1656,6 +1590,25 @@ Gender stereotypes influence subjective beliefs about the world, and this is ref
 </description>
   <link></link>
   <guid>StoneEtAl2020CUNY</guid>
+</item>
+<item>
+  <title>The effect of decay and lexical uncertainty on processing long-distance dependencies</title>
+  <author>Stone, K., von der Malsburg, Titus, &amp; Vasishth, S.</author>
+  <description>Stone, K., von der Malsburg, Titus, &amp; Vasishth, S. (2020). The effect of decay and lexical uncertainty on processing long-distance dependencies. PeerJ, (), 8–10438. http://dx.doi.org/10.31219/osf.io/xrm43
+
+@article{StoneEtAl2020,
+  author = {Kate Stone and {von der Malsburg}, Titus and Shravan Vasishth},
+  title = {The effect of decay and lexical uncertainty on processing long-distance dependencies},
+  journal = {PeerJ},
+  year = {2020},
+  pages = {8:e10438},
+  doi = {10.31219/osf.io/xrm43},
+  url = {https://peerj.com/articles/10438/},
+  abstract = {To make sense of a sentence, a reader must keep track of dependent relationships between words, such as between a verb and its particle (e.g. turn the music down). In languages such as German, verb-particle dependencies often span long distances, with the particle only appearing at the end of the clause. This means that it may be necessary to process a large amount of intervening sentence material before the full verb of the sentence is known. To facilitate processing, previous studies have shown that readers can preactivate the lexical information of neighbouring upcoming words, but less is known about whether such preactivation can be sustained over longer distances. We asked the question, do readers preactivate lexical information about long-distance verb particles? In one self-paced reading and one eye tracking experiment, we delayed the appearance of an obligatory verb particle that varied only in the predictability of its lexical identity. We additionally manipulated the length of the delay in order to test two contrasting accounts of dependency processing: that increased distance between dependent elements may sharpen expectation of the distant word and facilitate its processing (an antilocality effect), or that it may slow processing via temporal activation decay (a locality effect). We isolated decay by delaying the particle with a neutral noun modifier containing no information about the identity of the upcoming particle, and no known sources of interference or working memory load. Under the assumption that readers would preactivate the lexical representations of plausible verb particles, we hypothesised that a smaller number of plausible particles would lead to stronger preactivation of each particle, and thus higher predictability of the target. This in turn should have made predictable target particles more resistant to the effects of decay than less predictable target particles. The eye tracking experiment provided evidence that higher predictability did facilitate reading times, but found evidence against any effect of decay or its interaction with predictability. The self-paced reading study provided evidence against any effect of predictability or temporal decay, or their interaction. In sum, we provide evidence from eye movements that readers preactivate long-distance lexical content and that adding neutral sentence information does not induce detectable decay of this activation. The findings are consistent with accounts suggesting that delaying dependency resolution may only affect processing if the intervening information either confirms expectations or adds to working memory load, and that temporal activation decay alone may not be a major predictor of processing time.},
+}
+</description>
+  <link></link>
+  <guid>StoneEtAl2020</guid>
 </item>
 <item>
   <title>Reading strategies in monolingual adults and children vs. bilingual heritage and l2 speakers of Russian: a scanpath analysis</title>
@@ -1678,6 +1631,67 @@ Gender stereotypes influence subjective beliefs about the world, and this is ref
   <guid>ParshinaEtAl2020AMLaP</guid>
 </item>
 <item>
+  <title>Quadruplex negatio invertit? The on-line processing of depth charge sentences</title>
+  <author>Paape, D., Vasishth, S., &amp; von der Malsburg, Titus</author>
+  <description>Paape, D., Vasishth, S., &amp; von der Malsburg, Titus (2020). Quadruplex negatio invertit? The on-line processing of depth charge sentences. Journal of Semantics, 37(4), 509–555. http://dx.doi.org/10.1093/jos/ffaa009
+
+@article{PaapeEtAl2020,
+  author = {Paape, Dario and Vasishth, Shravan and {von der Malsburg}, Titus},
+  title = {Quadruplex negatio invertit? {The} on-line processing of depth charge sentences},
+  journal = {Journal of Semantics},
+  year = {2020},
+  volume = {37},
+  number = {4},
+  pages = {509-555},
+  url = {https://academic.oup.com/jos/article/37/4/509/5924260},
+  doi = {10.1093/jos/ffaa009},
+  abstract = {So-called “depth charge” sentences (No head injury is too trivial to be ignored) are interpreted by the vast majority of speakers to mean the opposite of what their compositional semantics would dictate. The semantic inversion that is observed for sentences of this type is the strongest and most persistent linguistic illusion known to the field ( Wason & Reich, 1979). However, it has recently been argued that the preferred interpretation arises not because of a prevailing failure of the processing system, but rather because the non-compositional meaning is grammaticalized in the form of a stored construction ( Cook & Stevenson, 2010; Fortuin, 2014). In a series of five experiments, we investigate whether the depth charge effect is better explained by processing failure due to memory overload (the overloading hypothesis) or by the existence of an underlying grammaticalized construction with two available meanings (the ambiguity hypothesis). To our knowledge, our experiments are the first to explore the on-line processing profile of depth charge sentences. Overall, the data are consistent with specific variants of the ambiguity and overloading hypotheses while providing evidence against other variants. As an extension of the overloading hypothesis, we suggest two heuristic processes that may ultimately yield the incorrect reading when compositional processing is suspended for strategic reasons.},
+}
+</description>
+  <link></link>
+  <guid>PaapeEtAl2020</guid>
+</item>
+<item>
+  <title>Shared syntax between comprehension and production: Multi-paradigm evidence that resumptive pronouns hinder comprehension</title>
+  <author>Morgan, A. M., von der Malsburg, Titus, Ferreira, V. S., &amp; Wittenberg, E.</author>
+  <description>Morgan, A. M., von der Malsburg, Titus, Ferreira, V. S., &amp; Wittenberg, E. (2020). Shared syntax between comprehension and production: Multi-paradigm evidence that resumptive pronouns hinder comprehension. Cognition, 205(), 104417. http://dx.doi.org/10.1016/j.cognition.2020.104417
+
+@article{MorganEtAl2020,
+  author = {Adam M. Morgan and {von der Malsburg}, Titus and Victor S. Ferreira and Eva Wittenberg},
+  title = {Shared syntax between comprehension and production: {Multi-paradigm} evidence that resumptive pronouns hinder comprehension},
+  journal = {Cognition},
+  year = {2020},
+  volume = {205},
+  pages = {104417},
+  issn = {0010-0277},
+  doi = {10.1016/j.cognition.2020.104417},
+  url = {https://tmalsburg.github.io/MorganEtAl2020.pdf},
+  keywords = {Syntax, Resumptive pronouns, Language comprehension, Language production, Eyetracking, Multi-paradigm self-replication},
+  abstract = {Language comprehension and production are generally assumed to use the same representations, but resumption poses a problem for this view: This structure is regularly produced, but judged highly unacceptable. Production-based solutions to this paradox explain resumption in terms of processing pressures, whereas the Facilitation Hypothesis suggests resumption is produced to help listeners comprehend. Previous research purported to support the Facilitation Hypothesis did not test its keystone prediction: that resumption improves accuracy of interpretation. Here, we test this prediction directly, controlling for factors that previous work did not. Results show that resumption in fact hinders comprehension in the same sentences that native speakers produced, a finding which replicated across four high-powered experiments with varying paradigms: sentence-picture matching (N=300), self-paced reading (N=96), visual world eye-tracking (N=96), and multiple-choice comprehension question (N=150). These findings are consistent with production-based accounts, indicating that comprehension and production may indeed share representations, although our findings point toward a limit on the degree of overlap. Methodologically speaking, the findings highlight the importance of measuring interpretation when studying comprehension.},
+}
+</description>
+  <link></link>
+  <guid>MorganEtAl2020</guid>
+</item>
+<item>
+  <title>A comparison of three reading comprehension tests using eye movements</title>
+  <author>Mézière, D., Yu, L., Reichle, E., von der Malsburg, Titus, &amp; McArthur, G.</author>
+  <description>Mézière, D., Yu, L., Reichle, E., von der Malsburg, Titus, &amp; McArthur, G. (2020). A comparison of three reading comprehension tests using eye movements. In C. Connor, Proceedings of the Twenty-Seventh Annual Meeting of the Society for the Scientific Study of Reading (pp. ). Irvine, CA 92616-5999 USA: Society for the Scientific Study of Reading.
+
+@inproceedings{MeziereEtAl2020SSSR,
+  author = {Diane Mézière and Lili Yu and Erik Reichle and {von der Malsburg}, Titus and Genevieve McArthur},
+  title = {A comparison of three reading comprehension tests using eye movements},
+  booktitle = {{Proceedings of the Twenty-Seventh Annual Meeting of the Society for the Scientific Study of Reading}},
+  year = {2020},
+  editor = {Carol Connor},
+  address = {Irvine, CA 92616-5999 USA},
+  publisher = {Society for the Scientific Study of Reading},
+}
+</description>
+  <link></link>
+  <guid>MeziereEtAl2020SSSR</guid>
+</item>
+<item>
   <title>Using eye movements to index reading comprehension ability</title>
   <author>Mézière, D., Yu, L., Reichle, E., von der Malsburg, Titus, &amp; McArthur, G.</author>
   <description>Mézière, D., Yu, L., Reichle, E., von der Malsburg, Titus, &amp; McArthur, G. (2020). Using eye movements to index reading comprehension ability. In T. {von der Malsburg}, S. Vasishth, &amp; I. Wartenburger, Proceedings of the 26th Architectures and Mechanisms for Language Processing Conference (AMLaP) (pp. ). Potsdam, Germany: Universität Potsdam.
@@ -1696,6 +1710,32 @@ Gender stereotypes influence subjective beliefs about the world, and this is ref
 </description>
   <link></link>
   <guid>MeziereEtAl2020AMLaP</guid>
+</item>
+<item>
+  <title>Implicit gender bias in linguistic descriptions for expected events: The cases of the 2016 United States and 2017 United Kingdom elections</title>
+  <author>von der Malsburg, Titus, Poppels, T., &amp; Levy, R. P.</author>
+  <description>von der Malsburg, Titus, Poppels, T., &amp; Levy, R. P. (2020). Implicit gender bias in linguistic descriptions for expected events: The cases of the 2016 United States and 2017 United Kingdom elections. Psychological Science, 31(2), 115–128. http://dx.doi.org/10.1177/0956797619890619
+
+@article{MalsburgEtAl2020,
+  sortname = {Malsburg},
+  author = {{von der Malsburg}, Titus and Poppels, Till and Levy, Roger P.},
+  title = {Implicit Gender Bias in Linguistic Descriptions for Expected Events: {The} Cases of the 2016 {United States} and 2017 {United Kingdom} Elections},
+  journal = {Psychological Science},
+  year = {2020},
+  volume = {31},
+  number = {2},
+  pages = {115-128},
+  month = {jan},
+  day = {08},
+  publisher = {SAGE Publications Inc},
+  abstract = {Gender stereotypes influence subjective beliefs about the world, and this is reflected in our use of language. But do gender biases in language transparently reflect subjective beliefs? Or is the process of translating thought to language itself biased? During the 2016 United States (N = 24,863) and 2017 United Kingdom (N = 2,609) electoral campaigns, we compared participants? beliefs about the gender of the next head of government with their use and interpretation of pronouns referring to the next head of government. In the United States, even when the female candidate was expected to win, she pronouns were rarely produced and induced substantial comprehension disruption. In the United Kingdom, where the incumbent female candidate was heavily favored, she pronouns were preferred in production but yielded no comprehension advantage. These and other findings suggest that the language system itself is a source of implicit biases above and beyond previously known biases, such as those measured by the Implicit Association Test.},
+  issn = {0956-7976},
+  doi = {10.1177/0956797619890619},
+  url = {https://tmalsburg.github.io/MalsburgEtAl2020.pdf},
+}
+</description>
+  <link></link>
+  <guid>MalsburgEtAl2020</guid>
 </item>
 <item>
   <title>The Lewis and Vasishth model predicts agreement and semantic attraction effects in acceptability judgments, but not in response times</title>
@@ -1722,8 +1762,6 @@ Gender stereotypes influence subjective beliefs about the world, and this is ref
   <author>Bianchi, B., Loredo, R., Carden, J., Jaichenco, V., von der Malsburg, Titus, Shalom, D., &amp; Kamienkowski, J.</author>
   <description>Bianchi, B., Loredo, R., Carden, J., Jaichenco, V., von der Malsburg, Titus, Shalom, D., &amp; Kamienkowski, J. (2020). Different sources of predictions during natural reading: an EEG and eye-tracking co-registration study. Journal of Vision, 20(11), 1308–1308. http://dx.doi.org/10.1167/jov.20.11.1308
 
-During reading our brain predicts upcoming words. If predictions are correct, words can be processed faster when they are finally fixated. It has been amply shown that Predictability (the variable that estimates the probability of guessing the next word) have an impact on how we move our eyes across the text and that it modulates brain potentials associated with word processing. On the one side, more predictable words are fixated for shorter periods of time than less predictable words. On the other side, more predictable words correspond to less N400 amplitude. This knowledge comes from separated EEG and eye movement experiments, but in the last few years, co-registration experiments enabled us to test these hypotheses together in more natural contexts. With the aim of investigating different sources of predictions during reading, in previous studies, we showed that mnemonic predictions (i.e. predictions performed purely on long term memory, like when reading a proverb or a song lyric) and predictions done purely on the linguistic context have different impact, both on gaze duration and on the N400. Here, we asked participants to read proverbs and common sentences while we recorded EEG and eye movements simultaneously. Firstly, we analysed brain activity aligned to fixation onset (fixation-related potential, FRPs) showing differences between Proverbs and Common sentences in late potentials evoked by low- and high-Predictable words. Secondly, we analysed oscillations aligned to fixation onset (fixation-related spectral perturbations, FRSPs) showing differences between sentence type only in low-frequency bands after 200ms. These results extend our knowledge of the differences between the mechanisms involved in the prediction of the following word.
-
 @article{BianchiEtAl2020VSS,
   author = {Bianchi, Bruno and Loredo, Rodrigo and Carden, Julia and Jaichenco, Virginia and {von der Malsburg}, Titus and Shalom, Diego and Kamienkowski, Juan},
   title = {Different sources of predictions during natural reading: an {EEG} and Eye-Tracking co-registration study},
@@ -1739,85 +1777,138 @@ During reading our brain predicts upcoming words. If predictions are correct, wo
   abstract = {During reading our brain predicts upcoming words. If predictions are correct, words can be processed faster when they are finally fixated. It has been amply shown that Predictability (the variable that estimates the probability of guessing the next word) have an impact on how we move our eyes across the text and that it modulates brain potentials associated with word processing. On the one side, more predictable words are fixated for shorter periods of time than less predictable words. On the other side, more predictable words correspond to less N400 amplitude. This knowledge comes from separated EEG and eye movement experiments, but in the last few years, co-registration experiments enabled us to test these hypotheses together in more natural contexts. With the aim of investigating different sources of predictions during reading, in previous studies, we showed that mnemonic predictions (i.e. predictions performed purely on long term memory, like when reading a proverb or a song lyric) and predictions done purely on the linguistic context have different impact, both on gaze duration and on the N400. Here, we asked participants to read proverbs and common sentences while we recorded EEG and eye movements simultaneously. Firstly, we analysed brain activity aligned to fixation onset (fixation-related potential, FRPs) showing differences between Proverbs and Common sentences in late potentials evoked by low- and high-Predictable words. Secondly, we analysed oscillations aligned to fixation onset (fixation-related spectral perturbations, FRSPs) showing differences between sentence type only in low-frequency bands after 200ms. These results extend our knowledge of the differences between the mechanisms involved in the prediction of the following word.},
 }
 </description>
-  <link>http://dx.doi.org/10.1167/jov.20.11.1308</link>
+  <link></link>
   <guid>BianchiEtAl2020VSS</guid>
 </item>
 <item>
-  <title>The effect of decay and lexical uncertainty on processing long-distance dependencies</title>
-  <author>Stone, K., von der Malsburg, Titus, &amp; Vasishth, S.</author>
-  <description>Stone, K., von der Malsburg, Titus, &amp; Vasishth, S. (2020). The effect of decay and lexical uncertainty on processing long-distance dependencies. PeerJ, (), 8–10438. http://dx.doi.org/10.31219/osf.io/xrm43
+  <title>Agreement attraction in grammatical sentences arises only in the good-enough processing mode</title>
+  <author>Laurinavichyute, A., &amp; von der Malsburg, Titus</author>
+  <description>Laurinavichyute, A., &amp; von der Malsburg, Titus (2021). Agreement attraction in grammatical sentences arises only in the good-enough processing mode. In , Proceedings of Linguistic Illusions in Sentence Processing 2021 (pp. ). Konstanz, Germany: .
 
-@article{StoneEtAl2020,
-  author = {Kate Stone and {von der Malsburg}, Titus and Shravan Vasishth},
-  title = {The effect of decay and lexical uncertainty on processing long-distance dependencies},
-  journal = {PeerJ},
-  year = {2020},
-  pages = {8:e10438},
-  doi = {10.31219/osf.io/xrm43},
-  url = {https://osf.io/xrm43/},
+@inproceedings{LaurinvichyuteMalsburg2021LISP,
+  author = {Laurinavichyute, Anna and {von der Malsburg}, Titus},
+  title = {Agreement attraction in grammatical sentences arises only in the good-enough processing mode},
+  booktitle = {{Proceedings of Linguistic Illusions in Sentence Processing 2021}},
+  year = {2021},
+  address = {Konstanz, Germany},
+  organization = {Universität Konstanz},
+  editors = {Anna Czypionka and Theo Marinis},
 }
 </description>
-  <link>https://osf.io/xrm43/</link>
-  <guid>StoneEtAl2020</guid>
+  <link></link>
+  <guid>LaurinvichyuteMalsburg2021LISP</guid>
 </item>
 <item>
-  <title>Quadruplex negatio invertit? The on-line processing of depth charge sentences</title>
-  <author>Paape, D., Vasishth, S., &amp; von der Malsburg, Titus</author>
-  <description>Paape, D., Vasishth, S., &amp; von der Malsburg, Titus (2020). Quadruplex negatio invertit? The on-line processing of depth charge sentences. Journal of Semantics, 37(4), 509–555. http://dx.doi.org/10.1093/jos/ffaa009
-
-@article{PaapeEtAl2020,
-  author = {Paape, Dario and Vasishth, Shravan and {von der Malsburg}, Titus},
-  title = {Quadruplex negatio invertit? {The} on-line processing of depth charge sentences},
-  journal = {Journal of Semantics},
-  year = {2020},
-  volume = {37},
-  number = {4},
-  pages = {509-555},
-  url = {https://psyarxiv.com/uw64a/},
-  doi = {10.1093/jos/ffaa009},
-}
-</description>
-  <link>https://psyarxiv.com/uw64a/</link>
-  <guid>PaapeEtAl2020</guid>
-</item>
-<item>
-  <title>Shared syntax between comprehension and production: Multi-paradigm evidence that resumptive pronouns hinder comprehension</title>
-  <author>Morgan, A. M., von der Malsburg, Titus, Ferreira, V. S., &amp; Wittenberg, E.</author>
-  <description>Morgan, A. M., von der Malsburg, Titus, Ferreira, V. S., &amp; Wittenberg, E. (2020). Shared syntax between comprehension and production: Multi-paradigm evidence that resumptive pronouns hinder comprehension. Cognition, 205(), 104417. http://dx.doi.org/10.1016/j.cognition.2020.104417
-
-@article{MorganEtAl2020,
-  author = {Adam M. Morgan and {von der Malsburg}, Titus and Victor S. Ferreira and Eva Wittenberg},
-  title = {Shared syntax between comprehension and production: {Multi-paradigm} evidence that resumptive pronouns hinder comprehension},
-  journal = {Cognition},
-  year = {2020},
-  volume = {205},
-  pages = {104417},
-  issn = {0010-0277},
-  doi = {10.1016/j.cognition.2020.104417},
-  url = {https://tmalsburg.github.io/MorganEtAl2020.pdf},
-  keywords = {Syntax, Resumptive pronouns, Language comprehension, Language production, Eyetracking, Multi-paradigm self-replication},
-}
-</description>
-  <link>https://tmalsburg.github.io/MorganEtAl2020.pdf</link>
-  <guid>MorganEtAl2020</guid>
-</item>
-<item>
-  <title>A comparison of three reading comprehension tests using eye movements</title>
+  <title>Can eye movements be used to predict reading comprehension ability?</title>
   <author>Mézière, D., Yu, L., Reichle, E., von der Malsburg, Titus, &amp; McArthur, G.</author>
-  <description>Mézière, D., Yu, L., Reichle, E., von der Malsburg, Titus, &amp; McArthur, G. (2020). A comparison of three reading comprehension tests using eye movements. In C. Connor, Proceedings of the Twenty-Seventh Annual Meeting of the Society for the Scientific Study of Reading (pp. ). Irvine, CA 92616-5999 USA: Society for the Scientific Study of Reading.
+  <description>Mézière, D., Yu, L., Reichle, E., von der Malsburg, Titus, &amp; McArthur, G. (2021). Can eye movements be used to predict reading comprehension ability? In G. Turco, G. Thiberge, C. Pozniak, T. Poppels, B. Hemforth, S. Colonna, &amp; A. Abeillé, Proceedings of the 27th Architectures and Mechanisms for Language Processing Conference (AMLaP) (pp. ). Paris, France: Université de Paris.
 
-@inproceedings{MeziereEtAl2020SSSR,
+@inproceedings{MeziereEtAl2021AMLaP,
   author = {Diane Mézière and Lili Yu and Erik Reichle and {von der Malsburg}, Titus and Genevieve McArthur},
-  title = {A comparison of three reading comprehension tests using eye movements},
-  booktitle = {{Proceedings of the Twenty-Seventh Annual Meeting of the Society for the Scientific Study of Reading}},
-  year = {2020},
-  editor = {Carol Connor},
-  address = {Irvine, CA 92616-5999 USA},
+  title = {Can eye movements be used to predict reading comprehension ability?},
+  booktitle = {{Proceedings of the 27th Architectures and Mechanisms for Language Processing Conference ({AMLaP})}},
+  year = {2021},
+  editor = {Giuseppina Turco and Gabriel Thiberge and Céline Pozniak and Till Poppels and Barbara Hemforth and Saveria Colonna and Anne Abeillé},
+  month = {sep},
+  address = {Paris, France},
+  publisher = {Université de Paris},
+  keywords = {eye movements, reading comprehension, reading assessment},
+}
+</description>
+  <link></link>
+  <guid>MeziereEtAl2021AMLaP</guid>
+</item>
+<item>
+  <title>Bias against &amp;quot;she&amp;quot; pronouns can be rapidly overcome by changing event expectations</title>
+  <author>Poppels, T., Boyce, V., Ajunwa, C., von der Malsburg, Titus, &amp; Levy, R.</author>
+  <description>Poppels, T., Boyce, V., Ajunwa, C., von der Malsburg, Titus, &amp; Levy, R. (2021). Bias against &amp;quot;she&amp;quot; pronouns can be rapidly overcome by changing event expectations. In G. Turco, G. Thiberge, C. Pozniak, T. Poppels, B. Hemforth, S. Colonna, &amp; A. Abeillé, Proceedings of the 27th Architectures and Mechanisms for Language Processing Conference (AMLaP) (pp. ). Paris, France: Université de Paris.
+
+@inproceedings{PoppelsEtAl2021AMLaP,
+  author = {Till Poppels and Veronica Boyce and Chelsea Ajunwa and {von der Malsburg}, Titus and Roger Levy},
+  title = {Bias against "she" pronouns can be rapidly overcome by changing event expectations},
+  booktitle = {{Proceedings of the 27th Architectures and Mechanisms for Language Processing Conference ({AMLaP})}},
+  year = {2021},
+  editor = {Giuseppina Turco and Gabriel Thiberge and Céline Pozniak and Till Poppels and Barbara Hemforth and Saveria Colonna and Anne Abeillé},
+  month = {sep},
+  address = {Paris, France},
+  publisher = {Université de Paris},
+  keywords = {implicit bias, linguistic bias, reference, gender stereotypes},
+}
+</description>
+  <link></link>
+  <guid>PoppelsEtAl2021AMLaP</guid>
+</item>
+<item>
+  <title>Exploring recall as an ecologically-valid measure of reading comprehension</title>
+  <author>Mézière, D., Yu, L., Reichle, E., von der Malsburg, Titus, &amp; McArthur, G.</author>
+  <description>Mézière, D., Yu, L., Reichle, E., von der Malsburg, Titus, &amp; McArthur, G. (2021). Exploring recall as an ecologically-valid measure of reading comprehension. In K. Cain, C. Wood, J. Ricketts, &amp; L. Wade-Woolley, Proceedings of the Twenty-Eighth Annual Meeting of the Society for the Scientific Study of Reading (pp. ). : Society for the Scientific Study of Reading.
+
+@inproceedings{MeziereEtAl2021SSSRb,
+  author = {Diane Mézière and Lili Yu and Erik Reichle and {von der Malsburg}, Titus and Genevieve McArthur},
+  title = {Exploring recall as an ecologically-valid measure of reading comprehension},
+  booktitle = {{Proceedings of the Twenty-Eighth Annual Meeting of the Society for the Scientific Study of Reading}},
+  year = {2021},
+  editor = {Kate Cain and Clare Wood and Jessie Ricketts and Lesly Wade-Woolley},
   publisher = {Society for the Scientific Study of Reading},
 }
 </description>
   <link></link>
-  <guid>MeziereEtAl2020SSSR</guid>
+  <guid>MeziereEtAl2021SSSRb</guid>
+</item>
+<item>
+  <title>Using eye movements to predict reading comprehension scores</title>
+  <author>Mézière, D., Yu, L., Reichle, E., von der Malsburg, Titus, &amp; McArthur, G.</author>
+  <description>Mézière, D., Yu, L., Reichle, E., von der Malsburg, Titus, &amp; McArthur, G. (2021). Using eye movements to predict reading comprehension scores. In K. Cain, C. Wood, J. Ricketts, &amp; L. Wade-Woolley, Proceedings of the Twenty-Eighth Annual Meeting of the Society for the Scientific Study of Reading (pp. ). : Society for the Scientific Study of Reading.
+
+@inproceedings{MeziereEtAl2021SSSRa,
+  author = {Diane Mézière and Lili Yu and Erik Reichle and {von der Malsburg}, Titus and Genevieve McArthur},
+  title = {Using eye movements to predict reading comprehension scores},
+  booktitle = {{Proceedings of the Twenty-Eighth Annual Meeting of the Society for the Scientific Study of Reading}},
+  year = {2021},
+  editor = {Kate Cain and Clare Wood and Jessie Ricketts and Lesly Wade-Woolley},
+  publisher = {Society for the Scientific Study of Reading},
+}
+</description>
+  <link></link>
+  <guid>MeziereEtAl2021SSSRa</guid>
+</item>
+<item>
+  <title>Monolingual and heritage bilingual strategies in reading in Russian</title>
+  <author>Parshina, O., Sekerina, I., Lopukhina, A., &amp; von der Malsburg, Titus</author>
+  <description>Parshina, O., Sekerina, I., Lopukhina, A., &amp; von der Malsburg, Titus (2021). Monolingual and heritage bilingual strategies in reading in Russian. In A. Andrychowicz-Trojanowska, I. Banasiak, S. Bonacchi, A. Borowska, M. Kaliska, D. Kudła, A. Leńko-Szymańska, …, Proceedings of the 13th International Symposium on Bilingualism (ISB13) (pp. ). Warsaw, Poland: University of Warsaw.
+
+@inproceedings{ParshinaEtAl2021ISB,
+  author = {Olga Parshina and Irina Sekerina and Lopukhina, Anastasiya and {von der Malsburg}, Titus},
+  title = {Monolingual and Heritage Bilingual Strategies in Reading in {Russian}},
+  booktitle = {{Proceedings of the 13th International Symposium on Bilingualism ({ISB13})}},
+  year = {2021},
+  editor = {Agnieszka Andrychowicz-Trojanowska and Ilona Banasiak and Silvia Bonacchi and Anna Borowska and Marta Kaliska and Dominik Kudła and Agnieszka Leńko-Szymańska and Edyta Maciejak and Katarzyna Malesa and Magdalena Olpińska-Szkiełko and Piotr Romanowski and Małgorzata Szupica-Pyrzanowska and Magda Żelazowska-Sobczyk},
+  month = {jul},
+  address = {Warsaw, Poland},
+  publisher = {University of Warsaw},
+  keywords = {scanpaths, reading, Russian, heritage speakers, L2 speakers, children, reading strategies},
+}
+</description>
+  <link></link>
+  <guid>ParshinaEtAl2021ISB</guid>
+</item>
+<item>
+  <title>Incremental language comprehension difficulty predicts activity in the language network but not the multiple demand network</title>
+  <author>Wehbe, L., Blank, I. A., Shain, C., Futrell, R., Levy, R., von der Malsburg, Titus, Smith, N., …</author>
+  <description>Wehbe, L., Blank, I. A., Shain, C., Futrell, R., Levy, R., von der Malsburg, Titus, Smith, N., … (2021). Incremental language comprehension difficulty predicts activity in the language network but not the multiple demand network. Cerebral Cortex, (), . http://dx.doi.org/10.1093/cercor/bhab065
+
+@article{WehbeEtAl2021,
+  author = {Wehbe, Leila and Blank, Idan A and Shain, Cory and Futrell, Richard and Levy, Roger and {von der Malsburg}, Titus and Smith, Nathaniel and Gibson, Edward and Fedorenko, Evelina},
+  title = {Incremental language comprehension difficulty predicts activity in the language network but not the multiple demand network},
+  journal = {Cerebral Cortex},
+  year = {2021},
+  doi = {10.1093/cercor/bhab065},
+  url = {https://www.biorxiv.org/content/early/2020/04/17/2020.04.15.043844},
+  abstract = {What role do domain-general executive functions play in human language comprehension? To address this question, we examine the relationship between behavioral measures of comprehension and neural activity in the domain-general “multiple demand” (MD) network, which has been linked to constructs like attention, working memory, inhibitory control, and selection, and implicated in diverse goal-directed behaviors. Specifically, fMRI data collected during naturalistic story listening are compared to theory-neutral measures of online comprehension difficulty and incremental processing load (reading times and eye-fixation durations). Critically, to ensure that variance in these measures is driven by features of the linguistic stimulus rather than reflecting participant-or trial-level variability, the neuroimaging and behavioral datasets were collected in non-overlapping samples. We find no behavioral-neural link in functionally localized MD regions; instead, this link is found in the domain-specific, fronto-temporal “core language network”, in both left hemispheric areas and their right hemispheric homologues. These results argue against strong involvement of domain-general executive circuits in language comprehension.},
+}
+</description>
+  <link></link>
+  <guid>WehbeEtAl2021</guid>
 </item>
 <item>
   <title>Bias against “she” pronouns can be rapidly overcome by changing event expectations</title>
@@ -1877,154 +1968,6 @@ During reading our brain predicts upcoming words. If predictions are correct, wo
   <guid>LaurinavichyuteMalsburg2021</guid>
 </item>
 <item>
-  <title>Monolingual and heritage bilingual strategies in reading in Russian</title>
-  <author>Parshina, O., Sekerina, I., Lopukhina, A., &amp; von der Malsburg, Titus</author>
-  <description>Parshina, O., Sekerina, I., Lopukhina, A., &amp; von der Malsburg, Titus (2021). Monolingual and heritage bilingual strategies in reading in Russian. In A. Andrychowicz-Trojanowska, I. Banasiak, S. Bonacchi, A. Borowska, M. Kaliska, D. Kudła, A. Leńko-Szymańska, …, Proceedings of the 13th International Symposium on Bilingualism (ISB13) (pp. ). Warsaw, Poland: University of Warsaw.
-
-@inproceedings{ParshinaEtAl2021ISB,
-  author = {Olga Parshina and Irina Sekerina and Lopukhina, Anastasiya and {von der Malsburg}, Titus},
-  title = {Monolingual and Heritage Bilingual Strategies in Reading in {Russian}},
-  booktitle = {{Proceedings of the 13th International Symposium on Bilingualism ({ISB13})}},
-  year = {2021},
-  editor = {Agnieszka Andrychowicz-Trojanowska and Ilona Banasiak and Silvia Bonacchi and Anna Borowska and Marta Kaliska and Dominik Kudła and Agnieszka Leńko-Szymańska and Edyta Maciejak and Katarzyna Malesa and Magdalena Olpińska-Szkiełko and Piotr Romanowski and Małgorzata Szupica-Pyrzanowska and Magda Żelazowska-Sobczyk},
-  month = {jul},
-  address = {Warsaw, Poland},
-  publisher = {University of Warsaw},
-  keywords = {scanpaths, reading, Russian, heritage speakers, L2 speakers, children, reading strategies},
-}
-</description>
-  <link></link>
-  <guid>ParshinaEtAl2021ISB</guid>
-</item>
-<item>
-  <title>Can eye movements be used to predict reading comprehension ability?</title>
-  <author>Mézière, D., Yu, L., Reichle, E., von der Malsburg, Titus, &amp; McArthur, G.</author>
-  <description>Mézière, D., Yu, L., Reichle, E., von der Malsburg, Titus, &amp; McArthur, G. (2021). Can eye movements be used to predict reading comprehension ability? In G. Turco, G. Thiberge, C. Pozniak, T. Poppels, B. Hemforth, S. Colonna, &amp; A. Abeillé, Proceedings of the 27th Architectures and Mechanisms for Language Processing Conference (AMLaP) (pp. ). Paris, France: Université de Paris.
-
-@inproceedings{MeziereEtAl2021AMLaP,
-  author = {Diane Mézière and Lili Yu and Erik Reichle and {von der Malsburg}, Titus and Genevieve McArthur},
-  title = {Can eye movements be used to predict reading comprehension ability?},
-  booktitle = {{Proceedings of the 27th Architectures and Mechanisms for Language Processing Conference ({AMLaP})}},
-  year = {2021},
-  editor = {Giuseppina Turco and Gabriel Thiberge and Céline Pozniak and Till Poppels and Barbara Hemforth and Saveria Colonna and Anne Abeillé},
-  month = {sep},
-  address = {Paris, France},
-  publisher = {Université de Paris},
-  keywords = {eye movements, reading comprehension, reading assessment},
-}
-</description>
-  <link></link>
-  <guid>MeziereEtAl2021AMLaP</guid>
-</item>
-<item>
-  <title>Bias against &amp;quot;she&amp;quot; pronouns can be rapidly overcome by changing event expectations</title>
-  <author>Poppels, T., Boyce, V., Ajunwa, C., von der Malsburg, Titus, &amp; Levy, R.</author>
-  <description>Poppels, T., Boyce, V., Ajunwa, C., von der Malsburg, Titus, &amp; Levy, R. (2021). Bias against &amp;quot;she&amp;quot; pronouns can be rapidly overcome by changing event expectations. In G. Turco, G. Thiberge, C. Pozniak, T. Poppels, B. Hemforth, S. Colonna, &amp; A. Abeillé, Proceedings of the 27th Architectures and Mechanisms for Language Processing Conference (AMLaP) (pp. ). Paris, France: Université de Paris.
-
-@inproceedings{PoppelsEtAl2021AMLaP,
-  author = {Till Poppels and Veronica Boyce and Chelsea Ajunwa and {von der Malsburg}, Titus and Roger Levy},
-  title = {Bias against "she" pronouns can be rapidly overcome by changing event expectations},
-  booktitle = {{Proceedings of the 27th Architectures and Mechanisms for Language Processing Conference ({AMLaP})}},
-  year = {2021},
-  editor = {Giuseppina Turco and Gabriel Thiberge and Céline Pozniak and Till Poppels and Barbara Hemforth and Saveria Colonna and Anne Abeillé},
-  month = {sep},
-  address = {Paris, France},
-  publisher = {Université de Paris},
-  keywords = {implicit bias, linguistic bias, reference, gender stereotypes},
-}
-</description>
-  <link></link>
-  <guid>PoppelsEtAl2021AMLaP</guid>
-</item>
-<item>
-  <title>Agreement attraction in grammatical sentences arises only in the good-enough processing mode</title>
-  <author>Laurinavichyute, A., &amp; von der Malsburg, Titus</author>
-  <description>Laurinavichyute, A., &amp; von der Malsburg, Titus (2021). Agreement attraction in grammatical sentences arises only in the good-enough processing mode. In , Proceedings of Linguistic Illusions in Sentence Processing 2021 (pp. ). Konstanz, Germany: .
-
-@inproceedings{LaurinvichyuteMalsburg2021LISP,
-  author = {Laurinavichyute, Anna and {von der Malsburg}, Titus},
-  title = {Agreement attraction in grammatical sentences arises only in the good-enough processing mode},
-  booktitle = {{Proceedings of Linguistic Illusions in Sentence Processing 2021}},
-  year = {2021},
-  address = {Konstanz, Germany},
-  organization = {Universität Konstanz},
-  editors = {Anna Czypionka and Theo Marinis},
-}
-</description>
-  <link></link>
-  <guid>LaurinvichyuteMalsburg2021LISP</guid>
-</item>
-<item>
-  <title>Exploring recall as an ecologically-valid measure of reading comprehension</title>
-  <author>Mézière, D., Yu, L., Reichle, E., von der Malsburg, Titus, &amp; McArthur, G.</author>
-  <description>Mézière, D., Yu, L., Reichle, E., von der Malsburg, Titus, &amp; McArthur, G. (2021). Exploring recall as an ecologically-valid measure of reading comprehension. In K. Cain, C. Wood, J. Ricketts, &amp; L. Wade-Woolley, Proceedings of the Twenty-Eighth Annual Meeting of the Society for the Scientific Study of Reading (pp. ). : Society for the Scientific Study of Reading.
-
-@inproceedings{MeziereEtAl2021SSSRb,
-  author = {Diane Mézière and Lili Yu and Erik Reichle and {von der Malsburg}, Titus and Genevieve McArthur},
-  title = {Exploring recall as an ecologically-valid measure of reading comprehension},
-  booktitle = {{Proceedings of the Twenty-Eighth Annual Meeting of the Society for the Scientific Study of Reading}},
-  year = {2021},
-  editor = {Kate Cain and Clare Wood and Jessie Ricketts and Lesly Wade-Woolley},
-  publisher = {Society for the Scientific Study of Reading},
-}
-</description>
-  <link></link>
-  <guid>MeziereEtAl2021SSSRb</guid>
-</item>
-<item>
-  <title>Using eye movements to predict reading comprehension scores</title>
-  <author>Mézière, D., Yu, L., Reichle, E., von der Malsburg, Titus, &amp; McArthur, G.</author>
-  <description>Mézière, D., Yu, L., Reichle, E., von der Malsburg, Titus, &amp; McArthur, G. (2021). Using eye movements to predict reading comprehension scores. In K. Cain, C. Wood, J. Ricketts, &amp; L. Wade-Woolley, Proceedings of the Twenty-Eighth Annual Meeting of the Society for the Scientific Study of Reading (pp. ). : Society for the Scientific Study of Reading.
-
-@inproceedings{MeziereEtAl2021SSSRa,
-  author = {Diane Mézière and Lili Yu and Erik Reichle and {von der Malsburg}, Titus and Genevieve McArthur},
-  title = {Using eye movements to predict reading comprehension scores},
-  booktitle = {{Proceedings of the Twenty-Eighth Annual Meeting of the Society for the Scientific Study of Reading}},
-  year = {2021},
-  editor = {Kate Cain and Clare Wood and Jessie Ricketts and Lesly Wade-Woolley},
-  publisher = {Society for the Scientific Study of Reading},
-}
-</description>
-  <link></link>
-  <guid>MeziereEtAl2021SSSRa</guid>
-</item>
-<item>
-  <title>Incremental language comprehension difficulty predicts activity in the language network but not the multiple demand network</title>
-  <author>Wehbe, L., Blank, I. A., Shain, C., Futrell, R., Levy, R., von der Malsburg, Titus, Smith, N., …</author>
-  <description>Wehbe, L., Blank, I. A., Shain, C., Futrell, R., Levy, R., von der Malsburg, Titus, Smith, N., … (2021). Incremental language comprehension difficulty predicts activity in the language network but not the multiple demand network. Cerebral Cortex, (), . http://dx.doi.org/10.1093/cercor/bhab065
-
-@article{WehbeEtAl2021,
-  author = {Wehbe, Leila and Blank, Idan A and Shain, Cory and Futrell, Richard and Levy, Roger and {von der Malsburg}, Titus and Smith, Nathaniel and Gibson, Edward and Fedorenko, Evelina},
-  title = {Incremental language comprehension difficulty predicts activity in the language network but not the multiple demand network},
-  journal = {Cerebral Cortex},
-  year = {2021},
-  doi = {10.1093/cercor/bhab065},
-  url = {https://www.biorxiv.org/content/early/2020/04/17/2020.04.15.043844},
-}
-</description>
-  <link>https://www.biorxiv.org/content/early/2020/04/17/2020.04.15.043844</link>
-  <guid>WehbeEtAl2021</guid>
-</item>
-<item>
-  <title>An entropy-based approach to measuring morphological productivity</title>
-  <author>Pankratz, E., von der Malsburg, Titus, &amp; Vasishth, S.</author>
-  <description>Pankratz, E., von der Malsburg, Titus, &amp; Vasishth, S. (2022). An entropy-based approach to measuring morphological productivity. In C. Maienborn, &amp; M. Averintseva-Klisch, 44st Annual Conference of the German Linguistic Society (pp. ). Tübingen, Germany: .
-
-@inproceedings{PankratzEtAl2022DGfS,
-  author = {Elizabeth Pankratz and {von der Malsburg}, Titus and Shravan Vasishth},
-  title = {An entropy-based approach to measuring morphological productivity},
-  booktitle = {{44st Annual Conference of the German Linguistic Society}},
-  year = {2022},
-  editor = {Claudia Maienborn and Maria Averintseva-Klisch},
-  month = {feb},
-  address = {Tübingen, Germany},
-  organization = {University of Tübingen},
-}
-</description>
-  <link></link>
-  <guid>PankratzEtAl2022DGfS</guid>
-</item>
-<item>
   <title>Scanpath regularity as a measure of reading comprehension ability</title>
   <author>Mézière, D., Yu, L., Reichle, E., von der Malsburg, Titus, &amp; McArthur, G.</author>
   <description>Mézière, D., Yu, L., Reichle, E., von der Malsburg, Titus, &amp; McArthur, G. (2022). Scanpath regularity as a measure of reading comprehension ability. In N. McIntyre, I. Coombs, A. Peters, T. Törmänen, &amp; L. Catrysse, Proceedings of the EARLI Special Interest Group on Online Measures of Learning Processes (SIG27) (pp. ). Southampton, England: University of Southampton.
@@ -2070,25 +2013,48 @@ During reading our brain predicts upcoming words. If predictions are correct, wo
   title = {Shannon entropy is a more comprehensive and principled morphological productivity measure than the standard alternatives},
   year = {2022},
   url = {https://psyarxiv.com/vkyug},
+  abstract = {Existing corpus-based measures of morphological productivity all exhibit problematic dependences on sample size. Here, we show that another measure, the Shannon entropy of a type frequency distribution, has a different relationship with sample size, one that allows meaningful analysis in a wider range of circumstances. Once the sample gets large enough, entropy stabilises at interpretable values. In contrast to the existing measures, this behaviour allows the entropy scores of samples of different sizes to be sensibly compared. Entropy's stabilisation is due to an intriguing property of type frequency distributions, namely their self-similarity: even when sample size changes, the shape of the distribution itself does not. We also include empirical comparisons of entropy to three standard productivity measures—type count, potential productivity, and S—and provide a tentative conceptual validation of entropy as a productivity measure, showing with a Bayesian regression model that entropy picks up on important aspects of what it means for a morpheme to be productive.},
 }
 </description>
-  <link>https://psyarxiv.com/vkyug</link>
+  <link></link>
   <guid>PankratzEtAl2022MS</guid>
+</item>
+<item>
+  <title>An entropy-based approach to measuring morphological productivity</title>
+  <author>Pankratz, E., von der Malsburg, Titus, &amp; Vasishth, S.</author>
+  <description>Pankratz, E., von der Malsburg, Titus, &amp; Vasishth, S. (2022). An entropy-based approach to measuring morphological productivity. In C. Maienborn, &amp; M. Averintseva-Klisch, 44st Annual Conference of the German Linguistic Society (pp. ). Tübingen, Germany: .
+
+@inproceedings{PankratzEtAl2022DGfS,
+  author = {Elizabeth Pankratz and {von der Malsburg}, Titus and Shravan Vasishth},
+  title = {An entropy-based approach to measuring morphological productivity},
+  booktitle = {{44st Annual Conference of the German Linguistic Society}},
+  year = {2022},
+  editor = {Claudia Maienborn and Maria Averintseva-Klisch},
+  month = {feb},
+  address = {Tübingen, Germany},
+  organization = {University of Tübingen},
+}
+</description>
+  <link></link>
+  <guid>PankratzEtAl2022DGfS</guid>
 </item>
 <item>
   <title>Does entropy modulate the prediction of German long-distance verb particles?</title>
   <author>Stone, K., Vasishth, S., &amp; von der Malsburg, Titus</author>
-  <description>Stone, K., Vasishth, S., &amp; von der Malsburg, Titus (2022). Does entropy modulate the prediction of German long-distance verb particles? PLOS ONE, (), .
+  <description>Stone, K., Vasishth, S., &amp; von der Malsburg, Titus (2022). Does entropy modulate the prediction of German long-distance verb particles? PLOS ONE, (), . http://dx.doi.org/10.1371/journal.pone.0267813
 
 @article{StoneEtAl2022,
   author = {Kate Stone and Shravan Vasishth and {von der Malsburg}, Titus},
   title = {Does entropy modulate the prediction of {German} long-distance verb particles?},
   journal = {PLOS ONE},
   year = {2022},
-  url = {https://psyarxiv.com/7fb5t},
+  month = {aug},
+  url = {https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0267813},
+  doi = {10.1371/journal.pone.0267813},
+  abstract = {In this paper we examine the effect of uncertainty on readers’ predictions about meaning. In particular, we were interested in how uncertainty might influence the likelihood of committing to a specific sentence meaning. We conducted two event-related potential (ERP) experiments using particle verbs such as turn down and manipulated uncertainty by constraining the context such that readers could be either highly certain about the identity of a distant verb particle, such as turn the bed […] down, or less certain due to competing particles, such as turn the music […] up/down. The study was conducted in German, where verb particles appear clause-finally and may be separated from the verb by a large amount of material. We hypothesised that this separation would encourage readers to predict the particle, and that high certainty would make prediction of a specific particle more likely than lower certainty. If a specific particle was predicted, this would reflect a strong commitment to sentence meaning that should incur a higher processing cost if the prediction is wrong. If a specific particle was less likely to be predicted, commitment should be weaker and the processing cost of a wrong prediction lower. If true, this could suggest that uncertainty discourages predictions via an unacceptable cost-benefit ratio. However, given the clear predictions made by the literature, it was surprisingly unclear whether the uncertainty manipulation affected the two ERP components studied, the N400 and the PNP. Bayes factor analyses showed that evidence for our a priori hypothesised effect sizes was inconclusive, although there was decisive evidence against a priori hypothesised effect sizes larger than 1 V for the N400 and larger than 3 V for the PNP. We attribute the inconclusive finding to the properties of verb-particle dependencies that differ from the verb-noun dependencies in which the N400 and PNP are often studied.},
 }
 </description>
-  <link>https://psyarxiv.com/7fb5t</link>
+  <link></link>
   <guid>StoneEtAl2022</guid>
 </item>
 <item>
@@ -2103,10 +2069,12 @@ During reading our brain predicts upcoming words. If predictions are correct, wo
   year = {2022},
   volume = {57},
   number = {2},
+  url = {https://ila.onlinelibrary.wiley.com/doi/abs/10.1002/rrq.414},
   doi = {10.1002/rrq.414},
+  abstract = {In the present study, we used a scanpath approach to investigate reading processes and factors that can shape them in monolingual Russian-speaking adults, 8-year-old children, and bilingual Russian-speaking readers. We found that monolingual adults’ eye movement patterns exhibited a fluent scanpath reading process, representing effortless processing of the written material: They read straight from left to right at a fast pace, skipped words, and regressed rarely. Both high-proficiency heritage-language speakers’ and second graders’ eye movement patterns exhibited an intermediate scanpath reading process, characterized by a slower pace, longer fixations, an absence of word skipping, and short regressive saccades. Second-language learners and low-proficiency heritage-language speakers exhibited a beginner reading process that involved the slowest pace, even longer fixations, no word skipping, and frequent rereading of the whole sentence and of particular words. We suggest that unlike intermediate readers who use the respective process to resolve local processing difficulties (e.g., word recognition failure), beginner readers, in addition, experience global-level challenges in semantic and morphosyntactic information integration. Proficiency in Russian for heritage-language speakers and comprehension scores for second-language learners were the only individual difference factors predictive of the scanpath reading process adopted by bilingual speakers. Overall, the scanpath analysis revealed qualitative differences in scanpath reading processes among various groups of readers and thus adds a qualitative dimension to the conventional quantitative evaluation of word-level eye-tracking measures.},
 }
 </description>
-  <link>http://dx.doi.org/10.1002/rrq.414</link>
+  <link></link>
   <guid>ParshinaEtAl2022</guid>
 </item>
 <item>
@@ -2124,50 +2092,11 @@ During reading our brain predicts upcoming words. If predictions are correct, wo
   pages = {e13086},
   doi = {10.1111/cogs.13086},
   url = {https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/cogs.13086},
-}
-</description>
-  <link>https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/cogs.13086</link>
-  <guid>LaurinavichyuteMalsburg2022</guid>
-</item>
-<item>
-  <title>Agreement attraction effects depend on the processing goal</title>
-  <author>Laurinavichyute, A., Yadav, H., von der Malsburg, Titus, &amp; Vasishth, S.</author>
-  <description>Laurinavichyute, A., Yadav, H., von der Malsburg, Titus, &amp; Vasishth, S. (2023). Agreement attraction effects depend on the processing goal. In T. Warren, S. Fraundorf, M. W. Dickey, N. Tokowicz, &amp; S. Wiener, Proceedings of the 36th Annual Conference on Human Sentence Processing (pp. ). Pittsburgh, USA: University of Pittsburgh.
-
-@inproceedings{LaurinavichyuteEtAl2023HSP,
-  author = {Anna Laurinavichyute and Himanshu Yadav and {von der Malsburg}, Titus and Shravan Vasishth},
-  title = {Agreement attraction effects depend on the processing goal},
-  booktitle = {{Proceedings of the 36th Annual Conference on Human Sentence Processing}},
-  year = {2023},
-  editor = {Tessa Warren and Scott Fraundorf and Michael Walsh Dickey and Natasha Tokowicz and Seth Wiener},
-  month = {mar},
-  address = {Pittsburgh, USA},
-  publisher = {University of Pittsburgh},
-  keywords = {agreement attraction, sentence comprehension, task effects, task demands},
+  abstract = {Agreement attraction is a cross-linguistic phenomenon where a verb occasionally agrees not with its subject, as required by grammar, but instead with an unrelated noun (“The key to the cabinets were…”). Despite the clear violation of grammatical rules, comprehenders often rate these sentences as acceptable. Contenders for explaining agreement attraction fall into two broad classes: Morphosyntactic accounts specifically designed to explain agreement attraction, and more general sentence processing models, such as the Lewis and Vasishth model, which explain attraction as a consequence of how linguistic structure is stored and accessed in content-addressable memory. In the present research, we disambiguate between these two classes by testing a surprising prediction made by the Lewis and Vasishth model but not by the morphosyntactic accounts, namely, that attraction should not be limited to morphosyntax, but that semantic features of unrelated nouns equally induce attraction. A recent study by Cunnings and Sturt provided initial evidence that this may be the case. Here, we report three single-trial experiments in English that compared semantic and agreement attraction and tested whether and how the two interact. All three experiments showed strong semantically induced attraction effects closely mirroring agreement attraction effects. We complement these results with computational simulations which confirmed that the Lewis and Vasishth model can faithfully reproduce the observed results. In sum, our findings suggest that attraction is a more general phenomenon than is commonly believed, and therefore favor more general sentence processing models, such as the Lewis and Vasishth model.},
 }
 </description>
   <link></link>
-  <guid>LaurinavichyuteEtAl2023HSP</guid>
-</item>
-<item>
-  <title>Neural bases of predictions during natural reading of known statements: an electroencephalography and eye movements co-registration study</title>
-  <author>Bianchi, B., Loredo, R., Fonseca, M. d., Carden, J., Jaichenco, V., von der Malsburg, Titus, Shalom, D. E., …</author>
-  <description>Bianchi, B., Loredo, R., Fonseca, M. d., Carden, J., Jaichenco, V., von der Malsburg, Titus, Shalom, D. E., … (2023). Neural bases of predictions during natural reading of known statements: an electroencephalography and eye movements co-registration study. Neuroscience, 519(), 131–146. http://dx.doi.org/10.1016/j.neuroscience.2023.03.024
-
-@article{BianchiEtAl2023,
-  author = {Bruno Bianchi and Rodrigo Loredo and María da Fonseca and Julia Carden and Virginia Jaichenco and {von der Malsburg}, Titus and Diego E. Shalom and Juan Kamienkowski},
-  title = {Neural Bases of Predictions During Natural Reading of Known Statements: An Electroencephalography and Eye Movements Co-registration Study},
-  journal = {Neuroscience},
-  year = {2023},
-  volume = {519},
-  pages = {131--146},
-  month = {may},
-  doi = {10.1016/j.neuroscience.2023.03.024},
-  publisher = {Elsevier {BV}},
-}
-</description>
-  <link>http://dx.doi.org/10.1016/j.neuroscience.2023.03.024</link>
-  <guid>BianchiEtAl2023</guid>
+  <guid>LaurinavichyuteMalsburg2022</guid>
 </item>
 <item>
   <title>Dependency length minimization in SOV languages: A bounded rationality view</title>
@@ -2210,8 +2139,6 @@ During reading our brain predicts upcoming words. If predictions are correct, wo
   <author>Laurinavichyute, A., Yadav, H., von der Malsburg, Titus, &amp; Vasishth, S.</author>
   <description>Laurinavichyute, A., Yadav, H., von der Malsburg, Titus, &amp; Vasishth, S. (2023). The role of goal in sentence processing. In M. Carreiras, C. Martin, A. Stoehr, I. Quiñones, S. Mancini, A. Carrión-Castillo, E. Kapnoula, …, Proceedings of the 29th Architectures and Mechanisms for Language Processing Conference (AMLaP) (pp. ). San Sebastián, Spain: Basque Center on Cognition, Brain, and Language.
 
-The role of goal has largely been ignored in sentence processing research, presumably because (morpho-)syntactic processing is assumed to be invariant to goal, which is not necessarily true. In a series of four single-trial self-paced reading experiments manipulating task and sentence grammaticality, we show that: 1) in grammatical sentences like 1a and 1b, no effect is observed at the verb when participants expect to answer comprehension questions, but a slowdown in condition 1b (attraction effect) arises when participants expect to judge acceptability; 2) in ungrammatical sentences like 1c and 1d, agreement attraction (speedup at the verb+1 in 1d) is present irrespective of the task, but the effect changes direction at the verb+2 when participants expect to judge sentence acceptability. Typically-observed reading time effects (attraction in 1c vs. 1d, no effect in 1a vs. 1b) occur when the goal is answering comprehension questions but disappear when the goal is acceptability judgment. Instead, judgment-typical effects appear. Overall, agreement attraction demonstrates a surprising degree of task-dependency. 1. (a) The candidate that the lobbyist openly supports ... (b) The candidates that the lobbyist openly supports ... (c) The candidate that the lobbyist openly *support ... (d) The candidates that the lobbyist openly *support ...
-
 @inproceedings{LaurinavichyuteEtAl2023AMLaP,
   author = {Anna Laurinavichyute and Himanshu Yadav and {von der Malsburg, Titus} and Shravan Vasishth},
   title = {The role of goal in sentence processing},
@@ -2242,9 +2169,10 @@ The role of goal has largely been ignored in sentence processing research, presu
   organization = {Cognitive Science Society},
   publisher = {Cognitive Science Society},
   url = {https://escholarship.org/uc/item/85q7x1nd},
+  abstract = {The principle of dependency length minimization, which seeks to keep syntactically related words close in a sentence, is thought to universally shape the structure of human languages for effective communication. However, the extent to which dependency length minimization is applied in human language systems is not yet fully understood. Preverbally, the placement of long-before-short constituents and post-verbally, short-before-long constituents are known to minimize overall dependency length of a sentence. In this study, we test the hypothesis that placing only the shortest preverbal constituent next to the main-verb explains word order preferences in Hindi (a SOV language) as opposed to the global minimization of dependency length. We characterize this approach as a least-effort strategy because it is a cost-effective way to shorten all dependencies between the verb and its preverbal dependencies. As such, this approach is consistent with the bounded-rationality perspective according to which decision making is governed by `fast but frugal’ heuristics rather than by a search for optimal solutions. Consistent with this idea, our results indicate that actual corpus sentences in the Hindi-Urdu Treebank corpus are better explained by the least effort strategy than by global minimization of dependency lengths. Additionally, for the task of distinguishing corpus sentences from counterfactual variants, we find that the dependency length and constituent length of the constituent closest to the main verb is a much better predictor of whether a sentence appeared in the corpus than total dependency length. Overall, our work sheds light on the role of cognitive resource constraints in shaping natural languages.},
 }
 </description>
-  <link>https://escholarship.org/uc/item/85q7x1nd</link>
+  <link></link>
   <guid>RanjanMalsburg2023CogSci</guid>
 </item>
 <item>
@@ -2266,6 +2194,26 @@ The role of goal has largely been ignored in sentence processing research, presu
   <guid>MeziereEtAl2023SSSR</guid>
 </item>
 <item>
+  <title>Agreement attraction effects depend on the processing goal</title>
+  <author>Laurinavichyute, A., Yadav, H., von der Malsburg, Titus, &amp; Vasishth, S.</author>
+  <description>Laurinavichyute, A., Yadav, H., von der Malsburg, Titus, &amp; Vasishth, S. (2023). Agreement attraction effects depend on the processing goal. In T. Warren, S. Fraundorf, M. W. Dickey, N. Tokowicz, &amp; S. Wiener, Proceedings of the 36th Annual Conference on Human Sentence Processing (pp. ). Pittsburgh, USA: University of Pittsburgh.
+
+@inproceedings{LaurinavichyuteEtAl2023HSP,
+  author = {Anna Laurinavichyute and Himanshu Yadav and {von der Malsburg}, Titus and Shravan Vasishth},
+  title = {Agreement attraction effects depend on the processing goal},
+  booktitle = {{Proceedings of the 36th Annual Conference on Human Sentence Processing}},
+  year = {2023},
+  editor = {Tessa Warren and Scott Fraundorf and Michael Walsh Dickey and Natasha Tokowicz and Seth Wiener},
+  month = {mar},
+  address = {Pittsburgh, USA},
+  publisher = {University of Pittsburgh},
+  keywords = {agreement attraction, sentence comprehension, task effects, task demands},
+}
+</description>
+  <link></link>
+  <guid>LaurinavichyuteEtAl2023HSP</guid>
+</item>
+<item>
   <title>Scanpath regularity as an index of reading comprehension</title>
   <author>Mézière, D. C., Yu, L., McArthur, G., Reichle, E. D., &amp; von der Malsburg, Titus</author>
   <description>Mézière, D. C., Yu, L., McArthur, G., Reichle, E. D., &amp; von der Malsburg, Titus (2023). Scanpath regularity as an index of reading comprehension. Scientific Studies of Reading, 0(0), 1–22. http://dx.doi.org/10.1080/10888438.2023.2232063
@@ -2280,10 +2228,32 @@ The role of goal has largely been ignored in sentence processing research, presu
   pages = {1-22},
   publisher = {Routledge},
   doi = {10.1080/10888438.2023.2232063},
+  abstract = {Purpose: Recent research on the potential of using eye-tracking to measure reading comprehension ability suggests that the relationship between standard eye-tracking measures and reading comprehension is influenced by differences in task demands between comprehension assessments. We compared standard eye-tracking measures and scanpath regularity as predictors of reading comprehension scores. Method: We used a dataset in which 79 participants (mean age: 22 years, 82\% females, 76\% monolingual English speakers) were administered three widely-used reading comprehension assessments with varying task demands while their eye movements were monitored: the York Assessment of Reading for Comprehension; (YARC), the Gray Oral Reading Test; (GORT-5), and the sentence comprehension subtest of the Wide Range Achievement Test; (WRAT-4). Results: Results showed that scanpath regularity measures, similarly to standard eye-tracking measures, were influenced by differences in task demands between the three tests. Nevertheless, both types of eye-tracking measures made unique contributions as predictors of comprehension and the best set of predictors included both standard eye-tracking measures and at least one scanpath measure across tests. Conclusion: The results provide evidence that scanpaths capture differences in eye-movement patterns missed by standard eye-tracking measures. Overall, the results highlight the effect of task demands on eye-movement behavior and suggest that reading goals and task demands need to be considered when interpreting eye-tracking data.},
 }
 </description>
-  <link>http://dx.doi.org/10.1080/10888438.2023.2232063</link>
+  <link></link>
   <guid>MeziereEtAl2023b</guid>
+</item>
+<item>
+  <title>Neural bases of predictions during natural reading of known statements: an electroencephalography and eye movements co-registration study</title>
+  <author>Bianchi, B., Loredo, R., Fonseca, M. d., Carden, J., Jaichenco, V., von der Malsburg, Titus, Shalom, D. E., …</author>
+  <description>Bianchi, B., Loredo, R., Fonseca, M. d., Carden, J., Jaichenco, V., von der Malsburg, Titus, Shalom, D. E., … (2023). Neural bases of predictions during natural reading of known statements: an electroencephalography and eye movements co-registration study. Neuroscience, 519(), 131–146. http://dx.doi.org/10.1016/j.neuroscience.2023.03.024
+
+@article{BianchiEtAl2023,
+  author = {Bruno Bianchi and Rodrigo Loredo and María da Fonseca and Julia Carden and Virginia Jaichenco and {von der Malsburg}, Titus and Diego E. Shalom and Juan Kamienkowski},
+  title = {Neural Bases of Predictions During Natural Reading of Known Statements: An Electroencephalography and Eye Movements Co-registration Study},
+  journal = {Neuroscience},
+  year = {2023},
+  volume = {519},
+  pages = {131--146},
+  month = {may},
+  doi = {10.1016/j.neuroscience.2023.03.024},
+  publisher = {Elsevier {BV}},
+  abstract = {Predictions of incoming words performed during reading have an impact on how the reader moves their eyes and on the electrical brain potentials. Eye tracking (ET) experiments show that less predictable words are ﬁxated for longer periods of times. Electroencephalography (EEG) experiments show that these words elicit a more negative potential around 400 ms (N400) after the word onset when reading one word at a time (foveated reading). Nevertheless, there was no N400 potential during the foveated reading of previously known sentences (memory-encoded), which suggests that the prediction of words from memory-encoded sentences is based on diﬀerent mechanisms than predictions performed on common sentences. Here, we performed an ET-EEG co-registration experiment where participants read common and memory-encoded sentences. Our results show that the N400 potential disappear when the reader recognises the sentence. Furthermore, time–frequency analyses show a larger alpha lateralisation and a beta power increase for memory-encoded sentences. This suggests a more distributed attention and an active maintenance of the cognitive set, in concordance to the predictive coding framework.},
+}
+</description>
+  <link></link>
+  <guid>BianchiEtAl2023</guid>
 </item>
 <item>
   <title>Using eye-tracking measures to predict reading comprehension</title>
@@ -2300,10 +2270,52 @@ The role of goal has largely been ignored in sentence processing research, presu
   pages = {425-449},
   doi = {10.1002/rrq.498},
   url = {https://ila.onlinelibrary.wiley.com/doi/abs/10.1002/rrq.498},
+  abstract = {This study examined the potential of eye-tracking as a tool for assessing reading comprehension. We administered three widely used reading comprehension tests with varying task demands to 79 typical adult readers while monitoring their eye movements. In the York Assessment of Reading for Comprehension (YARC), participants were given passages of text to read silently, followed by comprehension questions. In the Gray Oral Reading Test (GORT-5), participants were given passages of text to read aloud, followed by comprehension questions. In the sentence comprehension subtest of the Wide Range Achievement Test (WRAT-4), participants were asked to provide a missing word in sentences that they read silently (i.e., a cloze task). Linear models predicting comprehension scores from eye-tracking measures yielded different results for the three tests. Eye-tracking measures explained significantly more variance than reading-speed data for the YARC (four times better), GORT (three times better), and the WRAT (1.3 time better). Importantly, there was no common strong predictor for all three tests. These results support growing recognition that reading comprehension tests do not measure the same cognitive processes, and that participants adapt their reading strategies to the tests' varying task demands. This study also suggests that eye-tracking may provide a useful alternative for measuring reading comprehension.},
 }
 </description>
-  <link>https://ila.onlinelibrary.wiley.com/doi/abs/10.1002/rrq.498</link>
+  <link></link>
   <guid>MeziereEtAl2023</guid>
+</item>
+<item>
+  <title>Towards a psycholinguistic model of bracketing paradoxes</title>
+  <author>Prysłopska, A., &amp; von der Malsburg, Titus</author>
+  <description>Prysłopska, A., &amp; von der Malsburg, Titus (2024). Towards a psycholinguistic model of bracketing paradoxes. In J. Boland, J. Brennan, L. Levinson, R. Lewis, &amp; S. Namboodiripad, Proceedings of the 37th Annual Conference on Human Sentence Processing (pp. ). Ann Arbor, USA: University of Michigan Ann Arbor.
+
+@inproceedings{PryslopskaMalsburg2024HSP,
+  author = {Anna Prysłopska and {von der Malsburg}, Titus},
+  title = {Towards a psycholinguistic model of bracketing paradoxes},
+  booktitle = {{Proceedings of the 37th Annual Conference on Human Sentence Processing}},
+  year = {2024},
+  month = {may},
+  editor = {Julie Boland and Jon Brennan and Lisa Levinson and Rick Lewis and Savithry Namboodiripad},
+  address = {Ann Arbor, USA},
+  organization = {University of Michigan Ann Arbor},
+  publisher = {University of Michigan Ann Arbor},
+}
+</description>
+  <link></link>
+  <guid>PryslopskaMalsburg2024HSP</guid>
+</item>
+<item>
+  <title>Towards a psycholinguistic model of bracketing paradoxes</title>
+  <author>Prysłopska, A., &amp; von der Malsburg, Titus</author>
+  <description>Prysłopska, A., &amp; von der Malsburg, Titus (2024). Towards a psycholinguistic model of bracketing paradoxes. In A. Papafragou, &amp; F. Schwarz, Proceedings of Experiments in Linguistic Meaning (pp. ). Philadelphia, PA 19104-6228: Linguistic Society of America.
+
+@inproceedings{PryslopskaMalsburg2024ELM,
+  author = {Anna Prysłopska and {von der Malsburg}, Titus},
+  title = {Towards a psycholinguistic model of bracketing paradoxes},
+  booktitle = {{Proceedings of Experiments in Linguistic Meaning}},
+  year = {2024},
+  month = {jun},
+  editor = {Anna Papafragou and Florian Schwarz},
+  number = {3},
+  address = {Philadelphia, PA 19104-6228},
+  organization = {University of Pennsylvania},
+  publisher = {Linguistic Society of America},
+}
+</description>
+  <link></link>
+  <guid>PryslopskaMalsburg2024ELM</guid>
 </item>
 <item>
   <title>Agreement attraction effects depend on the goal of processing</title>
@@ -2366,47 +2378,6 @@ The role of goal has largely been ignored in sentence processing research, presu
   <guid>RanjanMalsburg2024LE</guid>
 </item>
 <item>
-  <title>Towards a psycholinguistic model of bracketing paradoxes</title>
-  <author>Prysłopska, A., &amp; von der Malsburg, Titus</author>
-  <description>Prysłopska, A., &amp; von der Malsburg, Titus (2024). Towards a psycholinguistic model of bracketing paradoxes. In J. Boland, J. Brennan, L. Levinson, R. Lewis, &amp; S. Namboodiripad, Proceedings of the 37th Annual Conference on Human Sentence Processing (pp. ). Ann Arbor, USA: University of Michigan Ann Arbor.
-
-@inproceedings{PryslopskaMalsburg2024HSP,
-  author = {Anna Prysłopska and {von der Malsburg}, Titus},
-  title = {Towards a psycholinguistic model of bracketing paradoxes},
-  booktitle = {{Proceedings of the 37th Annual Conference on Human Sentence Processing}},
-  year = {2024},
-  month = {may},
-  editor = {Julie Boland and Jon Brennan and Lisa Levinson and Rick Lewis and Savithry Namboodiripad},
-  address = {Ann Arbor, USA},
-  organization = {University of Michigan Ann Arbor},
-  publisher = {University of Michigan Ann Arbor},
-}
-</description>
-  <link></link>
-  <guid>PryslopskaMalsburg2024HSP</guid>
-</item>
-<item>
-  <title>Towards a psycholinguistic model of bracketing paradoxes</title>
-  <author>Prysłopska, A., &amp; von der Malsburg, Titus</author>
-  <description>Prysłopska, A., &amp; von der Malsburg, Titus (2024). Towards a psycholinguistic model of bracketing paradoxes. In A. Papafragou, &amp; F. Schwarz, Proceedings of Experiments in Linguistic Meaning (pp. ). Philadelphia, PA 19104-6228: Linguistic Society of America.
-
-@inproceedings{PryslopskaMalsburg2024ELM,
-  author = {Anna Prysłopska and {von der Malsburg}, Titus},
-  title = {Towards a psycholinguistic model of bracketing paradoxes},
-  booktitle = {{Proceedings of Experiments in Linguistic Meaning}},
-  year = {2024},
-  month = {jun},
-  editor = {Anna Papafragou and Florian Schwarz},
-  number = {3},
-  address = {Philadelphia, PA 19104-6228},
-  organization = {University of Pennsylvania},
-  publisher = {Linguistic Society of America},
-}
-</description>
-  <link></link>
-  <guid>PryslopskaMalsburg2024ELM</guid>
-</item>
-<item>
   <title>The role of conversational principles in cognitive biases: The case of overprecision in interval estimation</title>
   <author>Meyer, M., &amp; von der Malsburg, Titus</author>
   <description>Meyer, M., &amp; von der Malsburg, Titus (2024). The role of conversational principles in cognitive biases: The case of overprecision in interval estimation. Unpublished manuscript.
@@ -2416,6 +2387,7 @@ The role of goal has largely been ignored in sentence processing research, presu
   title = {The Role of Conversational Principles in Cognitive Biases: {The} Case of Overprecision in Interval Estimation},
   year = {2024},
   pubstate = {submitted},
+  abstract = {Conversational principles such as Grice's maxim of Quantity (roughly: be informative) are essential to our ability to communicate efficiently. Due to their ubiquitous nature in language-based communication, they may interfere in a large variety of other cognitive tasks which at first glance may not seem linguistic in nature. Here, we report three experiments that investigated the role of the Quantity maxim in the overconfidence bias in interval estimation (also referred to as overprecision). Experiment 1 (N=309) used a chat paradigm to bias participants against providing the most informative answer, as would be required by Quantity, resulting in a reduced overprecision bias. Experiment 2 (N=322) and Experiment 3 (N=309) tested whether this effect depends on explicit social cues, specifically, the presence of a conversational partner. Both experiments replicated Experiment 1 in the absence of a full conversational context, thus showing that linguistic cues alone are sufficient. Taken together, these results suggest that conversational principles – extensively studied in linguistics, but largely ignored in research on cognitive biases – play an important role in the overprecision bias and, as we argue, likely in other biases as well.},
 }
 </description>
   <link></link>
@@ -2432,9 +2404,10 @@ The role of goal has largely been ignored in sentence processing research, presu
   journal = {Journal of Memory and Language},
   year = {2024},
   url = {https://psyarxiv.com/n75vc/},
+  abstract = {This study evaluates two broad classes of language processing accounts that make predictions for sentences like “The admirer of the singer(s) apparently thinks…”. Feature distortion accounts predict increased processing difficulty at the verb in sentences with a plural distractor noun ('singers') while similarity-based interference accounts predict the opposite: increased difficulty in sentences with singular distractor noun ('singer'). Neither of these effects was reliably observed in earlier research, and the Bayesian meta-analysis of 31 published studies reported here is almost perfectly inconclusive. An explanation may be that both effects occur simultaneously and therefore mask each other. To test this idea, we conducted three single-trial self-paced reading experiments (N₁=4,296, N₂=3,920, N₃=3,559) which orthogonally manipulated agreement attraction and inhibitory interference. Surprisingly, all three experiments produced evidence for agreement attraction but none for inhibitory interference, which supports feature distortion but not similarity-based interference accounts. Experiment 4 (N₄=3,535) tested the role of the expected task by preparing participants for a comprehension question (vs. acceptability judgment in Experiments 1–3). It showed neither agreement attraction nor inhibitory interference effects. Our findings demonstrate that agreement attraction effects can arise in grammatical sentences – contra earlier research – but also that these effects crucially depend on the task. This explains inconsistent results in prior research and supports the feature distortion as the driving forces behind attraction effects in grammatical sentences.},
 }
 </description>
-  <link>https://psyarxiv.com/n75vc/</link>
+  <link></link>
   <guid>LaurinavichyuteMalsburg2024</guid>
 </item>
 </channel>
