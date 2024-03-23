@@ -2,6 +2,7 @@
 <rss version="2.0">
 <channel>
 <title>Titus von der Malsburg’s publications</title>
+<link>https://tmalsburg.github.io/</link>
 <item>
   <title>The role of conversational principles in cognitive biases: The case of overprecision in interval estimation</title>
   <author>Meyer, M., &amp; von der Malsburg, Titus</author>
@@ -13,6 +14,8 @@
   abstract = {Conversational principles such as Grice's maxim of Quantity (roughly: be informative) are essential to our ability to communicate efficiently. Due to their ubiquitous nature in language-based communication, they may interfere in a large variety of other cognitive tasks which at first glance may not seem linguistic in nature. Here, we report three experiments that investigated the role of the Quantity maxim in the overconfidence bias in interval estimation (also referred to as overprecision). Experiment 1 (N=309) used a chat paradigm to bias participants against providing the most informative answer, as would be required by Quantity, resulting in a reduced overprecision bias. Experiment 2 (N=322) and Experiment 3 (N=309) tested whether this effect depends on explicit social cues, specifically, the presence of a conversational partner. Both experiments replicated Experiment 1 in the absence of a full conversational context, thus showing that linguistic cues alone are sufficient. Taken together, these results suggest that conversational principles – extensively studied in linguistics, but largely ignored in research on cognitive biases – play an important role in the overprecision bias and, as we argue, likely in other biases as well.},
 }
 </pre></p>]]></description>
+  <pubDate>Sun, 01 Dec 2024 00:00:00 GMT</pubDate>
+  <category>unpublished</category>
   <guid>MeyerMalsburg2024MS</guid>
 </item>
 <item>
@@ -33,6 +36,8 @@
 }
 </pre></p>]]></description>
   <link>https://www.sciencedirect.com/science/article/pii/S0749596X24000287</link>
+  <pubDate>Thu, 01 Aug 2024 00:00:00 GMT</pubDate>
+  <category>article</category>
   <guid>LaurinavichyuteMalsburg2024</guid>
 </item>
 <item>
@@ -51,6 +56,8 @@
   publisher = {Linguistic Society of America},
 }
 </pre></p>]]></description>
+  <pubDate>Sat, 01 Jun 2024 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>PryslopskaMalsburg2024ELM</guid>
 </item>
 <item>
@@ -68,6 +75,8 @@
   publisher = {University of Michigan Ann Arbor},
 }
 </pre></p>]]></description>
+  <pubDate>Wed, 01 May 2024 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>PryslopskaMalsburg2024HSP</guid>
 </item>
 <item>
@@ -85,6 +94,8 @@
   publisher = {University of Potsdam},
 }
 </pre></p>]]></description>
+  <pubDate>Thu, 01 Feb 2024 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>LaurinavichyuteEtAl2024LE</guid>
 </item>
 <item>
@@ -102,6 +113,8 @@
   publisher = {University of Potsdam},
 }
 </pre></p>]]></description>
+  <pubDate>Thu, 01 Feb 2024 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>PryslopskaMalsburg2024LE</guid>
 </item>
 <item>
@@ -119,6 +132,8 @@
   publisher = {University of Potsdam},
 }
 </pre></p>]]></description>
+  <pubDate>Thu, 01 Feb 2024 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>RanjanMalsburg2024LE</guid>
 </item>
 <item>
@@ -137,6 +152,8 @@
   publisher = {Indian Institute of Technology Kanpur},
 }
 </pre></p>]]></description>
+  <pubDate>Fri, 01 Dec 2023 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>RanjanMalsburg2023SAFAL</guid>
 </item>
 <item>
@@ -149,6 +166,8 @@
   pubstate = {submitted},
 }
 </pre></p>]]></description>
+  <pubDate>Fri, 01 Dec 2023 00:00:00 GMT</pubDate>
+  <category>unpublished</category>
   <guid>HoleMalsburg2023MS</guid>
 </item>
 <item>
@@ -166,6 +185,8 @@
   abstract = {The role of goal has largely been ignored in sentence processing research, presumably because (morpho-)syntactic processing is assumed to be invariant to goal, which is not necessarily true. In a series of four single-trial self-paced reading experiments manipulating task and sentence grammaticality, we show that: 1) in grammatical sentences like 1a and 1b, no effect is observed at the verb when participants expect to answer comprehension questions, but a slowdown in condition 1b (attraction effect) arises when participants expect to judge acceptability; 2) in ungrammatical sentences like 1c and 1d, agreement attraction (speedup at the verb+1 in 1d) is present irrespective of the task, but the effect changes direction at the verb+2 when participants expect to judge sentence acceptability. Typically-observed reading time effects (attraction in 1c vs. 1d, no effect in 1a vs. 1b) occur when the goal is answering comprehension questions but disappear when the goal is acceptability judgment. Instead, judgment-typical effects appear. Overall, agreement attraction demonstrates a surprising degree of task-dependency. 1. (a) The candidate that the lobbyist openly supports ... (b) The candidates that the lobbyist openly supports ... (c) The candidate that the lobbyist openly *support ... (d) The candidates that the lobbyist openly *support ...},
 }
 </pre></p>]]></description>
+  <pubDate>Fri, 01 Dec 2023 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>LaurinavichyuteEtAl2023AMLaP</guid>
 </item>
 <item>
@@ -185,6 +206,8 @@
 }
 </pre></p>]]></description>
   <link>https://escholarship.org/uc/item/85q7x1nd</link>
+  <pubDate>Fri, 01 Dec 2023 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>RanjanMalsburg2023CogSci</guid>
 </item>
 <item>
@@ -200,6 +223,8 @@
   publisher = {Society for the Scientific Study of Reading},
 }
 </pre></p>]]></description>
+  <pubDate>Fri, 01 Dec 2023 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>MeziereEtAl2023SSSR</guid>
 </item>
 <item>
@@ -219,6 +244,8 @@
 }
 </pre></p>]]></description>
   <link>http://dx.doi.org/10.1080/10888438.2023.2232063</link>
+  <pubDate>Fri, 01 Dec 2023 00:00:00 GMT</pubDate>
+  <category>article</category>
   <guid>MeziereEtAl2023b</guid>
 </item>
 <item>
@@ -238,6 +265,8 @@
 }
 </pre></p>]]></description>
   <link>https://ila.onlinelibrary.wiley.com/doi/abs/10.1002/rrq.498</link>
+  <pubDate>Fri, 01 Dec 2023 00:00:00 GMT</pubDate>
+  <category>article</category>
   <guid>MeziereEtAl2023</guid>
 </item>
 <item>
@@ -257,6 +286,8 @@
 }
 </pre></p>]]></description>
   <link>http://dx.doi.org/10.1016/j.neuroscience.2023.03.024</link>
+  <pubDate>Mon, 01 May 2023 00:00:00 GMT</pubDate>
+  <category>article</category>
   <guid>BianchiEtAl2023</guid>
 </item>
 <item>
@@ -274,6 +305,8 @@
   keywords = {agreement attraction, sentence comprehension, task effects, task demands},
 }
 </pre></p>]]></description>
+  <pubDate>Wed, 01 Mar 2023 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>LaurinavichyuteEtAl2023HSP</guid>
 </item>
 <item>
@@ -289,6 +322,8 @@
   publisher = {University of Southampton},
 }
 </pre></p>]]></description>
+  <pubDate>Thu, 01 Dec 2022 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>MeziereEtAl2022SIG27</guid>
 </item>
 <item>
@@ -304,6 +339,8 @@
   publisher = {University of Leicester},
 }
 </pre></p>]]></description>
+  <pubDate>Thu, 01 Dec 2022 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>MeziereEtAl2022ECEM</guid>
 </item>
 <item>
@@ -318,6 +355,8 @@
 }
 </pre></p>]]></description>
   <link>https://psyarxiv.com/vkyug</link>
+  <pubDate>Thu, 01 Dec 2022 00:00:00 GMT</pubDate>
+  <category>unpublished</category>
   <guid>PankratzEtAl2022MS</guid>
 </item>
 <item>
@@ -336,6 +375,8 @@
 }
 </pre></p>]]></description>
   <link>https://ila.onlinelibrary.wiley.com/doi/abs/10.1002/rrq.414</link>
+  <pubDate>Thu, 01 Dec 2022 00:00:00 GMT</pubDate>
+  <category>article</category>
   <guid>ParshinaEtAl2022</guid>
 </item>
 <item>
@@ -355,6 +396,8 @@
 }
 </pre></p>]]></description>
   <link>https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/cogs.13086</link>
+  <pubDate>Thu, 01 Dec 2022 00:00:00 GMT</pubDate>
+  <category>article</category>
   <guid>LaurinavichyuteMalsburg2022</guid>
 </item>
 <item>
@@ -372,6 +415,8 @@
 }
 </pre></p>]]></description>
   <link>https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0267813</link>
+  <pubDate>Mon, 01 Aug 2022 00:00:00 GMT</pubDate>
+  <category>article</category>
   <guid>StoneEtAl2022</guid>
 </item>
 <item>
@@ -388,6 +433,8 @@
   organization = {University of Tübingen},
 }
 </pre></p>]]></description>
+  <pubDate>Tue, 01 Feb 2022 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>PankratzEtAl2022DGfS</guid>
 </item>
 <item>
@@ -403,6 +450,8 @@
   editors = {Anna Czypionka and Theo Marinis},
 }
 </pre></p>]]></description>
+  <pubDate>Wed, 01 Dec 2021 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>LaurinvichyuteMalsburg2021LISP</guid>
 </item>
 <item>
@@ -417,6 +466,8 @@
   publisher = {Society for the Scientific Study of Reading},
 }
 </pre></p>]]></description>
+  <pubDate>Wed, 01 Dec 2021 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>MeziereEtAl2021SSSRb</guid>
 </item>
 <item>
@@ -431,6 +482,8 @@
   publisher = {Society for the Scientific Study of Reading},
 }
 </pre></p>]]></description>
+  <pubDate>Wed, 01 Dec 2021 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>MeziereEtAl2021SSSRa</guid>
 </item>
 <item>
@@ -447,6 +500,8 @@
 }
 </pre></p>]]></description>
   <link>https://www.biorxiv.org/content/early/2020/04/17/2020.04.15.043844</link>
+  <pubDate>Wed, 01 Dec 2021 00:00:00 GMT</pubDate>
+  <category>article</category>
   <guid>WehbeEtAl2021</guid>
 </item>
 <item>
@@ -464,6 +519,8 @@
   keywords = {eye movements, reading comprehension, reading assessment},
 }
 </pre></p>]]></description>
+  <pubDate>Wed, 01 Sep 2021 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>MeziereEtAl2021AMLaP</guid>
 </item>
 <item>
@@ -481,6 +538,8 @@
   keywords = {implicit bias, linguistic bias, reference, gender stereotypes},
 }
 </pre></p>]]></description>
+  <pubDate>Wed, 01 Sep 2021 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>PoppelsEtAl2021AMLaP</guid>
 </item>
 <item>
@@ -498,6 +557,8 @@
   keywords = {scanpaths, reading, Russian, heritage speakers, L2 speakers, children, reading strategies},
 }
 </pre></p>]]></description>
+  <pubDate>Thu, 01 Jul 2021 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>ParshinaEtAl2021ISB</guid>
 </item>
 <item>
@@ -514,6 +575,8 @@
   publisher = {University of Pennsylvania},
 }
 </pre></p>]]></description>
+  <pubDate>Mon, 01 Mar 2021 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>PoppelsEtAl2021CUNY</guid>
 </item>
 <item>
@@ -530,6 +593,8 @@
   publisher = {University of Pennsylvania},
 }
 </pre></p>]]></description>
+  <pubDate>Mon, 01 Mar 2021 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>MeziereEtAl2021CUNY</guid>
 </item>
 <item>
@@ -546,6 +611,8 @@
   publisher = {University of Pennsylvania},
 }
 </pre></p>]]></description>
+  <pubDate>Mon, 01 Mar 2021 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>LaurinavichyuteMalsburg2021</guid>
 </item>
 <item>
@@ -563,6 +630,8 @@
 }
 </pre></p>]]></description>
   <link>https://peerj.com/articles/10438/</link>
+  <pubDate>Tue, 01 Dec 2020 00:00:00 GMT</pubDate>
+  <category>article</category>
   <guid>StoneEtAl2020</guid>
 </item>
 <item>
@@ -582,6 +651,8 @@
 }
 </pre></p>]]></description>
   <link>https://academic.oup.com/jos/article/37/4/509/5924260</link>
+  <pubDate>Tue, 01 Dec 2020 00:00:00 GMT</pubDate>
+  <category>article</category>
   <guid>PaapeEtAl2020</guid>
 </item>
 <item>
@@ -602,6 +673,8 @@
 }
 </pre></p>]]></description>
   <link>https://tmalsburg.github.io/MorganEtAl2020.pdf</link>
+  <pubDate>Tue, 01 Dec 2020 00:00:00 GMT</pubDate>
+  <category>article</category>
   <guid>MorganEtAl2020</guid>
 </item>
 <item>
@@ -617,6 +690,8 @@
   publisher = {Society for the Scientific Study of Reading},
 }
 </pre></p>]]></description>
+  <pubDate>Tue, 01 Dec 2020 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>MeziereEtAl2020SSSR</guid>
 </item>
 <item>
@@ -638,6 +713,8 @@
 }
 </pre></p>]]></description>
   <link>http://dx.doi.org/10.1167/jov.20.11.1308</link>
+  <pubDate>Thu, 01 Oct 2020 00:00:00 GMT</pubDate>
+  <category>article</category>
   <guid>BianchiEtAl2020VSS</guid>
 </item>
 <item>
@@ -655,6 +732,8 @@
   keywords = {scanpaths, reading, Russian, heritage speakers, L2 speakers, children, reading strategies},
 }
 </pre></p>]]></description>
+  <pubDate>Tue, 01 Sep 2020 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>ParshinaEtAl2020AMLaP</guid>
 </item>
 <item>
@@ -672,6 +751,8 @@
   keywords = {reading strategy, comprehension, diagnostics},
 }
 </pre></p>]]></description>
+  <pubDate>Tue, 01 Sep 2020 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>MeziereEtAl2020AMLaP</guid>
 </item>
 <item>
@@ -689,6 +770,8 @@
   keywords = {agreement attraction, semantic attraction, lewis-vasishth model},
 }
 </pre></p>]]></description>
+  <pubDate>Tue, 01 Sep 2020 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>LaurinavichyuteMalsburg2020AMLaP</guid>
 </item>
 <item>
@@ -705,6 +788,8 @@
   publisher = {University of Massachusetts, Amherst},
 }
 </pre></p>]]></description>
+  <pubDate>Sun, 01 Mar 2020 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>StoneEtAl2020CUNY</guid>
 </item>
 <item>
@@ -729,6 +814,8 @@
 }
 </pre></p>]]></description>
   <link>https://tmalsburg.github.io/MalsburgEtAl2020.pdf</link>
+  <pubDate>Wed, 01 Jan 2020 00:00:00 GMT</pubDate>
+  <category>article</category>
   <guid>MalsburgEtAl2020</guid>
 </item>
 <item>
@@ -744,6 +831,8 @@
   publisher = {University of Iceland},
 }
 </pre></p>]]></description>
+  <pubDate>Sun, 01 Dec 2019 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>StoneEtAl2019PIPP</guid>
 </item>
 <item>
@@ -760,6 +849,8 @@
   abstract = {Language production and comprehension draw on wide-ranging knowledge and beliefs, including general world knowledge and contextually variable information. Pronominal references to role nouns with diverse gender biases provide a window into the interplay of these sources of information: violations of stereotypical gender elicit surprise (e.g., referring to a surgeon as she), but comprehenders can accommodate to non-stereotypical genders within discourse. In two experiments, we investigate how gender expectations are reflected in production and comprehension of pronominal references to role nouns. Our results indicate that female gender is consistently underused in English pronoun production, and under-inferred in English pronoun comprehension.},
 }
 </pre></p>]]></description>
+  <pubDate>Sun, 01 Dec 2019 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>BoyceEtAl2019LSA</guid>
 </item>
 <item>
@@ -776,6 +867,8 @@
   publisher = {University of Colorado Boulder},
 }
 </pre></p>]]></description>
+  <pubDate>Fri, 01 Mar 2019 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>StoneEtAl2019CUNY</guid>
 </item>
 <item>
@@ -792,6 +885,8 @@
   publisher = {University of Colorado Boulder},
 }
 </pre></p>]]></description>
+  <pubDate>Fri, 01 Mar 2019 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>SchaeferEtAl2019CUNY</guid>
 </item>
 <item>
@@ -808,6 +903,8 @@
   publisher = {University of Colorado Boulder},
 }
 </pre></p>]]></description>
+  <pubDate>Fri, 01 Mar 2019 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>LaurinavichyuteMalsburg2019CUNY</guid>
 </item>
 <item>
@@ -824,6 +921,8 @@
   publisher = {University of Colorado Boulder},
 }
 </pre></p>]]></description>
+  <pubDate>Fri, 01 Mar 2019 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>BoyceEtAl2019CUNY</guid>
 </item>
 <item>
@@ -839,6 +938,8 @@
   editors = {Elsi Kaiser and Jesse Harris},
 }
 </pre></p>]]></description>
+  <pubDate>Sat, 01 Dec 2018 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>MorganEtAl2018CAMP</guid>
 </item>
 <item>
@@ -857,6 +958,8 @@
 }
 </pre></p>]]></description>
   <link>http://dx.doi.org/10.3758/s13423-017-1356-y</link>
+  <pubDate>Sat, 01 Dec 2018 00:00:00 GMT</pubDate>
+  <category>article</category>
   <guid>SchotterEtAl2018b</guid>
 </item>
 <item>
@@ -876,6 +979,8 @@
 }
 </pre></p>]]></description>
   <link>https://osf.io/c5bmd/</link>
+  <pubDate>Sat, 01 Dec 2018 00:00:00 GMT</pubDate>
+  <category>article</category>
   <guid>SchotterEtAl2018</guid>
 </item>
 <item>
@@ -893,6 +998,8 @@
   keywords = {sentence processing},
 }
 </pre></p>]]></description>
+  <pubDate>Sat, 01 Sep 2018 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>SchaeferEtAl2018AMLaP</guid>
 </item>
 <item>
@@ -910,6 +1017,8 @@
   keywords = {sentence processing, resumption, comprehension},
 }
 </pre></p>]]></description>
+  <pubDate>Sat, 01 Sep 2018 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>MorganEtAl2018AMLaP</guid>
 </item>
 <item>
@@ -928,6 +1037,8 @@
   keywords = {sentence processing},
 }
 </pre></p>]]></description>
+  <pubDate>Sat, 01 Sep 2018 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>MalsburgEtAl2018AMLaP</guid>
 </item>
 <item>
@@ -945,6 +1056,8 @@
   keywords = {sentence processing},
 }
 </pre></p>]]></description>
+  <pubDate>Sat, 01 Sep 2018 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>LaurinavichyuteMalsburg2018AMLaP</guid>
 </item>
 <item>
@@ -962,6 +1075,8 @@
   keywords = {prediction, sentence comprehension, particle verbs},
 }
 </pre></p>]]></description>
+  <pubDate>Thu, 01 Mar 2018 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>StoneEtAl2018CUNY</guid>
 </item>
 <item>
@@ -979,6 +1094,8 @@
   keywords = {sentence comprehension, sentence production, resumption, resumptive pronouns},
 }
 </pre></p>]]></description>
+  <pubDate>Thu, 01 Mar 2018 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>MorganEtAl2018CUNY</guid>
 </item>
 <item>
@@ -996,6 +1113,8 @@
   keywords = {agreement attraction, sentence comprehension},
 }
 </pre></p>]]></description>
+  <pubDate>Thu, 01 Mar 2018 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>LaurinavichyuteMalsburg2018CUNY2</guid>
 </item>
 <item>
@@ -1013,6 +1132,8 @@
   keywords = {agreement attraction, sentence production, semantics},
 }
 </pre></p>]]></description>
+  <pubDate>Thu, 01 Mar 2018 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>LaurinavichyuteMalsburg2018CUNY1</guid>
 </item>
 <item>
@@ -1030,6 +1151,8 @@
   keywords = {gender bias, gender stereotypes, pronouns, production, comprehension},
 }
 </pre></p>]]></description>
+  <pubDate>Thu, 01 Mar 2018 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>BoyceEtAl2018CUNY</guid>
 </item>
 <item>
@@ -1047,6 +1170,8 @@
   keywords = {resumption, pronouns, syntactic islands, filler-gap},
 }
 </pre></p>]]></description>
+  <pubDate>Thu, 01 Feb 2018 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>MorganEtAl2018AMLaPAsia</guid>
 </item>
 <item>
@@ -1067,6 +1192,8 @@
 }
 </pre></p>]]></description>
   <link>https://tmalsburg.github.io/MalsburgAngele2017.pdf</link>
+  <pubDate>Fri, 01 Dec 2017 00:00:00 GMT</pubDate>
+  <category>article</category>
   <guid>MalsburgAngele2017</guid>
 </item>
 <item>
@@ -1084,6 +1211,8 @@
   abstract = {During reading, we rapidly construct meaning from sequences of rather cryptic symbols. A multitude of processes are involved in making meaning happen, however, most of them are conveniently tucked away from the reader’s conscious experience allowing them to read effortlessly without having to worry about any of the practicalities such as where to place the gaze next and for how long. The present work reflects on the marvelous feat that is reading. In an experiment-like situation, we create a perceptual short-circuit that unlocks the otherwise unconscious processes involved in reading. To this end, the test subject is exposed to a written libretto while a computer tracks their eye movements and translates them to sound in real time. The artistic implementation is based on parametric synthesis (“mapping”) and model-based sonification.},
 }
 </pre></p>]]></description>
+  <pubDate>Fri, 01 Sep 2017 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>SchurerMalsburg2017xCoAx</guid>
 </item>
 <item>
@@ -1101,6 +1230,8 @@
   venue = {Bergische Universität Wuppertal},
 }
 </pre></p>]]></description>
+  <pubDate>Tue, 01 Aug 2017 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>SchotterEtAl2017ECEM</guid>
 </item>
 <item>
@@ -1119,6 +1250,8 @@
   publisher = {Max Planck Institute for Psycholinguistics},
 }
 </pre></p>]]></description>
+  <pubDate>Thu, 01 Jun 2017 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>MalsburgEtAl2017DETEC</guid>
 </item>
 <item>
@@ -1136,6 +1269,8 @@
   keywords = {reading, oculomotor control, parafoveal preview, lexical access},
 }
 </pre></p>]]></description>
+  <pubDate>Wed, 01 Mar 2017 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>SchotterEtAl2017CUNY</guid>
 </item>
 <item>
@@ -1153,6 +1288,8 @@
   keywords = {sentence processing, resumptive pronouns, local coherence},
 }
 </pre></p>]]></description>
+  <pubDate>Wed, 01 Mar 2017 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>MorganEtAl2017CUNY</guid>
 </item>
 <item>
@@ -1171,6 +1308,8 @@
   keywords = {sentence processing, language production, gender stereotypes, pronouns, expectation},
 }
 </pre></p>]]></description>
+  <pubDate>Wed, 01 Mar 2017 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>MalsburgEtAl2017CUNY</guid>
 </item>
 <item>
@@ -1188,6 +1327,8 @@
   publisher = {Linguistic Society of America},
 }
 </pre></p>]]></description>
+  <pubDate>Sun, 01 Jan 2017 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>MalsburgEtAl2017LSA</guid>
 </item>
 <item>
@@ -1205,6 +1346,8 @@
   venue = {Bizkaia Aretoa, Bilbao},
 }
 </pre></p>]]></description>
+  <pubDate>Thu, 01 Dec 2016 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>MorganEtAl2016AMLaP</guid>
 </item>
 <item>
@@ -1224,6 +1367,8 @@
 }
 </pre></p>]]></description>
   <link>http://dx.doi.org/10.1111/cogs.12384</link>
+  <pubDate>Thu, 01 Dec 2016 00:00:00 GMT</pubDate>
+  <category>article</category>
   <guid>MetznerEtAl2016</guid>
 </item>
 <item>
@@ -1240,6 +1385,8 @@
   publisher = {Psychonomic Society},
 }
 </pre></p>]]></description>
+  <pubDate>Tue, 01 Nov 2016 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>SchotterEtAl2016Psychonomics</guid>
 </item>
 <item>
@@ -1257,6 +1404,8 @@
   publisher = {Psychonomic Society},
 }
 </pre></p>]]></description>
+  <pubDate>Fri, 01 Apr 2016 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>AngeleMalsburg2016Psychonomics</guid>
 </item>
 <item>
@@ -1272,6 +1421,8 @@
 }
 </pre></p>]]></description>
   <link>http://library.ucsd.edu/dc/collection/bb95920960</link>
+  <pubDate>Tue, 01 Dec 2015 00:00:00 GMT</pubDate>
+  <category>misc</category>
   <guid>RaynerEtAl2015</guid>
 </item>
 <item>
@@ -1291,6 +1442,8 @@
 }
 </pre></p>]]></description>
   <link>http://dx.doi.org/10.1162/jocn_a_00731</link>
+  <pubDate>Tue, 01 Dec 2015 00:00:00 GMT</pubDate>
+  <category>article</category>
   <guid>MetznerEtAl2015N400</guid>
 </item>
 <item>
@@ -1307,6 +1460,8 @@
   publisher = {University of Southern California},
 }
 </pre></p>]]></description>
+  <pubDate>Tue, 01 Dec 2015 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>MalsburgEtAl2015CUNY</guid>
 </item>
 <item>
@@ -1324,6 +1479,8 @@
   keywords = {literature, reading, comprehension, metaphor, eye-tracking, self-paced reading},
 }
 </pre></p>]]></description>
+  <pubDate>Tue, 01 Dec 2015 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>MalsburgEtAl2015AMLaP-Fleming</guid>
 </item>
 <item>
@@ -1341,6 +1498,8 @@
   keywords = {reading, method, adaptation, rsvp, self-paced reading, online study, sentence comprehension},
 }
 </pre></p>]]></description>
+  <pubDate>Tue, 01 Dec 2015 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>MalsburgEtAl2015AMLaP</guid>
 </item>
 <item>
@@ -1361,6 +1520,8 @@
 }
 </pre></p>]]></description>
   <link>http://dx.doi.org/10.1111/cogs.12208</link>
+  <pubDate>Tue, 01 Dec 2015 00:00:00 GMT</pubDate>
+  <category>article</category>
   <guid>MalsburgEtAl2015</guid>
 </item>
 <item>
@@ -1378,6 +1539,8 @@
   keywords = {reading, method, false positives, Bonferroni correction},
 }
 </pre></p>]]></description>
+  <pubDate>Tue, 01 Dec 2015 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>MalsburgAngele2015AMLaP</guid>
 </item>
 <item>
@@ -1394,6 +1557,8 @@
   keywords = {reading, method, false positives, Bonferroni correction},
 }
 </pre></p>]]></description>
+  <pubDate>Tue, 01 Dec 2015 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>AngeleMalsburg2015SymPsych</guid>
 </item>
 <item>
@@ -1410,6 +1575,8 @@
   publisher = {DePaul University, Chicago},
 }
 </pre></p>]]></description>
+  <pubDate>Tue, 01 Dec 2015 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>AngeleMalsburg2015Psychonomics</guid>
 </item>
 <item>
@@ -1428,6 +1595,8 @@
   venue = {University of Vienna},
 }
 </pre></p>]]></description>
+  <pubDate>Tue, 01 Dec 2015 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>AngeleMalsburg2015ECEM</guid>
 </item>
 <item>
@@ -1444,6 +1613,8 @@
 }
 </pre></p>]]></description>
   <link>http://dx.doi.org/10.5281/zenodo.31800</link>
+  <pubDate>Thu, 01 Oct 2015 00:00:00 GMT</pubDate>
+  <category>misc</category>
   <guid>Malsburg2015Scanpath</guid>
 </item>
 <item>
@@ -1460,6 +1631,8 @@
 }
 </pre></p>]]></description>
   <link>http://dx.doi.org/10.5281/zenodo.31799</link>
+  <pubDate>Thu, 01 Oct 2015 00:00:00 GMT</pubDate>
+  <category>misc</category>
   <guid>Malsburg2015Saccades</guid>
 </item>
 <item>
@@ -1477,6 +1650,8 @@
 }
 </pre></p>]]></description>
   <link>http://dx.doi.org/10.5281/zenodo.18238</link>
+  <pubDate>Mon, 01 Jun 2015 00:00:00 GMT</pubDate>
+  <category>misc</category>
   <guid>Malsburg2015PySpanTask</guid>
 </item>
 <item>
@@ -1493,6 +1668,8 @@
 }
 </pre></p>]]></description>
   <link>http://www.einraumhaus.com/</link>
+  <pubDate>Wed, 01 Apr 2015 00:00:00 GMT</pubDate>
+  <category>misc</category>
   <guid>IllingMalsburg2015</guid>
 </item>
 <item>
@@ -1511,6 +1688,8 @@
   keywords = {reading, method, false positives, Bonferroni correction},
 }
 </pre></p>]]></description>
+  <pubDate>Sun, 01 Mar 2015 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>MalsburgAngele2015CUNY</guid>
 </item>
 <item>
@@ -1525,6 +1704,8 @@
   publisher = {Society for the Neurobiology of Language},
 }
 </pre></p>]]></description>
+  <pubDate>Mon, 01 Dec 2014 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>MetznerEtAl2014SNL</guid>
 </item>
 <item>
@@ -1540,6 +1721,8 @@
   publisher = {Ohio State University},
 }
 </pre></p>]]></description>
+  <pubDate>Mon, 01 Dec 2014 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>MetznerEtAl2014CUNY</guid>
 </item>
 <item>
@@ -1556,6 +1739,8 @@
   publisher = {University of Edinburgh},
 }
 </pre></p>]]></description>
+  <pubDate>Mon, 01 Dec 2014 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>MetznerEtAl2014AMLaP</guid>
 </item>
 <item>
@@ -1569,6 +1754,8 @@
   year = {2014},
 }
 </pre></p>]]></description>
+  <pubDate>Mon, 01 Dec 2014 00:00:00 GMT</pubDate>
+  <category>misc</category>
   <guid>MalsburgIlling2014</guid>
 </item>
 <item>
@@ -1586,6 +1773,8 @@
   publisher = {Ohio State University},
 }
 </pre></p>]]></description>
+  <pubDate>Mon, 01 Dec 2014 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>MalsburgEtAl2014CUNY</guid>
 </item>
 <item>
@@ -1602,6 +1791,8 @@
 }
 </pre></p>]]></description>
   <link>http://zkm.de/en/event/2014/12/produced-at-ima</link>
+  <pubDate>Mon, 01 Dec 2014 00:00:00 GMT</pubDate>
+  <category>misc</category>
   <guid>IllingMalsburg2014</guid>
 </item>
 <item>
@@ -1623,6 +1814,8 @@
 }
 </pre></p>]]></description>
   <link>http://dx.doi.org/10.1002/wcs.1209</link>
+  <pubDate>Sun, 01 Dec 2013 00:00:00 GMT</pubDate>
+  <category>article</category>
   <guid>VasishthEtAl2013</guid>
 </item>
 <item>
@@ -1639,6 +1832,8 @@
   publisher = {University of South Carolina},
 }
 </pre></p>]]></description>
+  <pubDate>Sun, 01 Dec 2013 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>PaapeEtAl2013CUNY</guid>
 </item>
 <item>
@@ -1658,6 +1853,8 @@
   venue = {Lund University},
 }
 </pre></p>]]></description>
+  <pubDate>Sun, 01 Dec 2013 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>MetznerEtAl2013ECEM</guid>
 </item>
 <item>
@@ -1675,6 +1872,8 @@
   abstract = {Recent studies (Dimigen et al., JEP:G, 2011; Kretzschmar et al., NeuroReport, 2009) demonstrated the feasibility of investigating fixation-related potentials (FRPs) and that the results are similar to brain potentials recorded during rapid serial visual presentation (RSVP). We conducted an experiment to assess if this correspondence also holds for rhythmic brain activity. To pit our results against ults gained with RSVP, the experiment used sentences that are known to produce reliable effects both in the time domain and in the frequency domain (Hagoort, Science, 2004). Participants (N=48) read freely through true ('The Thames flows through London') and false statements ('The Hudson flows through London'). Hagoort et al. report an N400, a negative-going deflection in the ERP with a peak around 400 ms, as well as increased theta (4-7 Hz) and gamma (30-70 Hz) activity. During our experiment, participants' eye movements were monitored and their EEG was recorded from 32 electrodes and later evaluated contingent to the first fixation on the critical word. We analyzed the canonical eye-tracking measures with linear mixed-effects models and the EEG with cluster-permutation tests (Maris &amp; Oostenveld, J Neurosci Methods, 2007) to control for multiple comparisons. As expected, we observed a negativity in the FRP with a centro-parietal distribution and a peak latency of approximately 400 ms. Also as expected, this N400 lined up with increased first fixation durations, gaze durations, and regression rates in the eye movement record (Dambacher &amp; Kliegl, Brain Res, 2007). Crucially, fixation-related power spectra showed synchronization in the delta range (1-3 Hz) at central electrodes and desynchronization in the upper alpha range (11-13 Hz) at occipito-parietal sites relative to a pre-fixation baseline. None of these effects is reported by Hagoort et al. which suggests that fixation-related EEG changes are at least not fully comparable to those observed in RSVP. One reason for the diverging results could lie in different processing demands: In RSVP, readers must retrieve earlier parts of the sentence from working memory because they cannot make regressions. Increased theta activity reflects this more effortful memory access (Klimesch, Brain Res Rev, 1999). In natural reading, readers can easily move their eyes back to resolve the processing difficulty which facilitates memory access. Our findings question the comparability of results acquired with serial presentation vs. natural reading.},
 }
 </pre></p>]]></description>
+  <pubDate>Sun, 01 Dec 2013 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>MetznerEtAl2013AMLaP</guid>
 </item>
 <item>
@@ -1693,6 +1892,8 @@
   abstract = {Seit langem wird debattiert, wie reguläre und irreguläre Vergangenheitsformen repräsentiert und verarbeitet werden (Rumelhart &amp; McClelland, 1986; Pinker &amp; Prince, 1988). Das Dual- Mechanism-Modell (DMM; Pinker &amp; Prince, 1988; Clahsen, 1999) nimmt an, dass reguläre und irreguläre Formen von zwei verschiedenen Mechanismen verarbeitet werden. Vertreter des Single-Mechanism Ansatzes gehen alternativ von einem einzigen Mechanismus aus, der sowohl der Verarbeitung von regulären als auch irregulären Verben dient.},
 }
 </pre></p>]]></description>
+  <pubDate>Sun, 01 Dec 2013 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>MaruschEtAl2013</guid>
 </item>
 <item>
@@ -1714,6 +1915,8 @@
 }
 </pre></p>]]></description>
   <link>https://tmalsburg.github.io/MalsburgVasishth2013.pdf</link>
+  <pubDate>Sun, 01 Dec 2013 00:00:00 GMT</pubDate>
+  <category>article</category>
   <guid>MalsburgVasishth2013</guid>
 </item>
 <item>
@@ -1734,6 +1937,8 @@
   venue = {Lund University},
 }
 </pre></p>]]></description>
+  <pubDate>Sun, 01 Dec 2013 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>MalsburgEtAl2013ECEM_scanpaths</guid>
 </item>
 <item>
@@ -1754,6 +1959,8 @@
   venue = {Lund University},
 }
 </pre></p>]]></description>
+  <pubDate>Sun, 01 Dec 2013 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>MalsburgEtAl2013ECEM_coreg</guid>
 </item>
 <item>
@@ -1772,6 +1979,8 @@
   publisher = {The xCoAx 2013 organizing committee},
 }
 </pre></p>]]></description>
+  <pubDate>Sat, 01 Jun 2013 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>MalsburgIlling2013xCoAx</guid>
 </item>
 <item>
@@ -1792,6 +2001,8 @@
 }
 </pre></p>]]></description>
   <link>https://aclanthology.org/W12-4904/</link>
+  <pubDate>Sat, 01 Dec 2012 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>MalsburgEtAl2012Coling</guid>
 </item>
 <item>
@@ -1809,6 +2020,8 @@
   publisher = {CUNY Graduate School and University Center},
 }
 </pre></p>]]></description>
+  <pubDate>Sat, 01 Dec 2012 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>MalsburgEtAl2012CUNY</guid>
 </item>
 <item>
@@ -1825,6 +2038,8 @@
   keywords = {reading, eye movements, scanpaths, parsing, reanalysis, individual differences, working memory},
 }
 </pre></p>]]></description>
+  <pubDate>Sat, 01 Dec 2012 00:00:00 GMT</pubDate>
+  <category>phdthesis</category>
   <guid>Malsburg2012</guid>
 </item>
 <item>
@@ -1842,6 +2057,8 @@
   venue = {Riva del Garda, Italy},
 }
 </pre></p>]]></description>
+  <pubDate>Sat, 01 Dec 2012 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>KobeleEtAl2012AMLaP</guid>
 </item>
 <item>
@@ -1863,6 +2080,8 @@
 }
 </pre></p>]]></description>
   <link>http://dx.doi.org/10.1075/ml.7.3.05mar</link>
+  <pubDate>Thu, 01 Nov 2012 00:00:00 GMT</pubDate>
+  <category>article</category>
   <guid>MaruschEtAl2012</guid>
 </item>
 <item>
@@ -1878,6 +2097,8 @@
   organization = {{Basque Center on Cognition, Brain and Language}},
 }
 </pre></p>]]></description>
+  <pubDate>Thu, 01 Dec 2011 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>MalsburgVasishth2011XSymp</guid>
 </item>
 <item>
@@ -1895,6 +2116,8 @@
   publisher = {Stanford University},
 }
 </pre></p>]]></description>
+  <pubDate>Thu, 01 Dec 2011 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>MalsburgVasishth2011CUNY</guid>
 </item>
 <item>
@@ -1916,6 +2139,8 @@
 }
 </pre></p>]]></description>
   <link>https://tmalsburg.github.io/MalsburgVasishth2011.pdf</link>
+  <pubDate>Thu, 01 Dec 2011 00:00:00 GMT</pubDate>
+  <category>article</category>
   <guid>MalsburgVasishth2011</guid>
 </item>
 <item>
@@ -1934,6 +2159,8 @@
   venue = {Université de Provence, Marseilles, France},
 }
 </pre></p>]]></description>
+  <pubDate>Thu, 01 Dec 2011 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>MalsburgEtAl2011ECEM</guid>
 </item>
 <item>
@@ -1950,6 +2177,8 @@
   publisher = {New York University},
 }
 </pre></p>]]></description>
+  <pubDate>Wed, 01 Dec 2010 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>VasishthEtAl2010CUNY</guid>
 </item>
 <item>
@@ -1967,6 +2196,8 @@
   publisher = {New York University},
 }
 </pre></p>]]></description>
+  <pubDate>Wed, 01 Dec 2010 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>MalsburgVasishth2010CUNY</guid>
 </item>
 <item>
@@ -1984,6 +2215,8 @@
   venue = {University of Southampton},
 }
 </pre></p>]]></description>
+  <pubDate>Tue, 01 Dec 2009 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>MalsburgVasishth2009ECEM</guid>
 </item>
 <item>
@@ -1999,6 +2232,8 @@
   organization = {Evolutionary Linguistics Association},
 }
 </pre></p>]]></description>
+  <pubDate>Tue, 01 Dec 2009 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>MalsburgVasishth2009Cortona</guid>
 </item>
 <item>
@@ -2015,6 +2250,8 @@
   publisher = {University of California, Davis},
 }
 </pre></p>]]></description>
+  <pubDate>Tue, 01 Dec 2009 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>MalsburgVasishth2009CUNY</guid>
 </item>
 <item>
@@ -2031,6 +2268,8 @@
   organization = {Association for Computational Linguistics},
 }
 </pre></p>]]></description>
+  <pubDate>Tue, 01 Dec 2009 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>MalsburgEtAl2009SIGDIAL</guid>
 </item>
 <item>
@@ -2048,6 +2287,8 @@
   venue = {University of Southampton},
 }
 </pre></p>]]></description>
+  <pubDate>Tue, 01 Dec 2009 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>Malsburg2009ECEM</guid>
 </item>
 <item>
@@ -2065,6 +2306,8 @@
   publisher = {University of North Caroline at Chapel Hill},
 }
 </pre></p>]]></description>
+  <pubDate>Mon, 01 Dec 2008 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>MalsburgVasishth2008CUNY</guid>
 </item>
 <item>
@@ -2082,6 +2325,8 @@
   venue = {University of Potsdam},
 }
 </pre></p>]]></description>
+  <pubDate>Sat, 01 Dec 2007 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
   <guid>MalsburgVasishth2007ECEM</guid>
 </item>
 </channel>
