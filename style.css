@@ -169,6 +169,9 @@ hr {
             box-sizing: border-box;
             max-width: 40em;
         }
+        h1 {
+            margin-top: 4.5rem;
+        }
         .title {
             text-align: left;
         }
@@ -465,7 +468,7 @@ h1 {
     font-size: 2.25rem;
     font-weight: 500;
     line-height: 2.7rem;
-    margin-top: 4.5rem;
+    margin-top: 1.5rem;
 }
 h2 {
     font-size: 1.575rem;
