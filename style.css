@@ -5,6 +5,9 @@ body {
     height: 100%;
     margin-bottom: 1px;
 }
+header {
+    margin-bottom: -1.5em;
+}
 
 .title {
     margin-bottom: -0.2em;
@@ -468,7 +471,7 @@ h1 {
     font-size: 2.25rem;
     font-weight: 500;
     line-height: 2.7rem;
-    margin-top: 1.5rem;
+    margin-top: 0rem;
 }
 h2 {
     font-size: 1.575rem;
@@ -563,7 +566,7 @@ sub {
 /*     padding: 36px; */
 /* } */
 p,ul,ol,dl,blockquote,hr,pre,table,form,fieldset,figure,address {
-    margin-bottom: 1.85625rem;
+    /* margin-bottom: 1.85625rem; */
 }
 /* section { */
 /*     margin-left: auto; */
