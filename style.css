@@ -292,9 +292,13 @@ div.NEWS > ul {
     padding: 0px;
 }
 
-.address > p {
-    padding: 0px;
+address {
+    font-style: normal;
+}
+
+address > p {
     margin: 0px;
+    padding: 0px;
 }
 
 div.NEWS > ul > li {
