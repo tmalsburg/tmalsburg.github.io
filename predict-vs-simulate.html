@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2024-03-23 Sat 14:15 -->
+<!-- 2024-03-28 Thu 10:07 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>What’s the difference between predict vs simulate in lme4?</title>
+<title>Predict vs simulate in lme4</title>
 <meta name="generator" content="Org Mode" />
 <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
 <nav id="preamble" class="status">
-<a href="index.html"><img src="titus_fern_canyon_small.png" alt="Photo of Titus von der Malsburg" id="profilepic1"/></a><ul id="menu"><li><a href="index.html">Contact</a></li><li><a href="index.html#news">News</a></li><li><a href="index.html#bio">Bio</a></li><li><a href="index.html#lab">Lab</a></li><li><a href="index.html#publications">Publications</a></li><li><a href="index.html#blog">Blog</a></li><li><a href="index.html#software">Software</a></li></ul>
+<a href="index.html"><img src="titus_fern_canyon_small.png" alt="Photo of Titus von der Malsburg" id="profilepic1"/></a><ul id="menu"><li><a href="index.html">Contact</a></li><li><a href="index.html#news">News</a></li><li><a href="index.html#bio">Bio</a></li><li><a href="index.html#lab">Lab</a></li><li><a href="index.html#blog">Blog</a></li><li><a href="index.html#software">Software</a></li><li><a href="index.html#publications">Publications</a></li></ul>
 </nav>
 <main id="content" class="content">
 <header>
-<h1 class="title">What’s the difference between predict vs simulate in lme4?</h1>
+<h1 class="title">Predict vs simulate in lme4</h1>
 </header><p>
 Most people use the <code>lme4</code> package to analyze data using mixed effects models.  However, the lme4 package also has two tremendously useful functions for the reverse process: generating new data from fitted models.  These functions are <code>predict</code> and <code>simulate</code>.  Below I will illustrate what these functions do and how they differ.<br>
 </p>
@@ -99,7 +99,7 @@ summary(fm1)
 </pre>
 </div>
 
-<pre class="example" id="org5053828">
+<pre class="example" id="orgc283d46">
 Linear mixed model fit by REML ['lmerMod']
 Formula: Reaction ~ Days + (Days | Subject)
    Data: d
@@ -175,7 +175,7 @@ legend("bottomright", pch=c(1,1), col=1:2, c("old subjects", "new subjects"), bg
 </div>
 
 
-<figure id="orgbe0e023">
+<figure id="org332e685">
 <img src="subject_means.png" alt="subject_means.png"><br>
 
 </figure>
@@ -218,7 +218,7 @@ legend("bottomright", lty=c(1,1), col=1:2, c("old subjects", "new subjects"), bg
 </div>
 
 
-<figure id="orgc283d46">
+<figure id="org8ca08d1">
 <img src="subject_slopes.png" alt="subject_slopes.png"><br>
 
 </figure>
