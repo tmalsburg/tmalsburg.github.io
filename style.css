@@ -216,7 +216,7 @@ hr {
     }
 
     @media screen and (min-width: 1000px) {
-        #grid-contact {
+        .grid-contact {
             width: 100%;
             display: inline-grid;
             grid-template-columns: auto auto auto;
