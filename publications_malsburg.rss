@@ -60,7 +60,7 @@
 <item>
   <title>Eye movements from a ‘read-only’ task predict reading comprehension as measured by recall</title>
   <author>Mézière, D., Yu, L., von der Malsburg, Titus, Reichle, E., &amp; McArthur, G.</author>
-  <description><![CDATA[<p>Mézière, D., Yu, L., von der Malsburg, Titus, Reichle, E., &amp; McArthur, G. (2024). Eye movements from a ‘read-only’ task predict reading comprehension as measured by recall. In R. Reilly, &amp; R. Radach, Proceedings of the 22th European Conference on Eye Movements (ECEM) (pp. ). : Journal of Eye Movement Research.</p><p><b>BibTeX:</b><pre>@inproceedings{MeziereEtAl2024,
+  <description><![CDATA[<p>Mézière, D., Yu, L., von der Malsburg, Titus, Reichle, E., &amp; McArthur, G. (2024). Eye movements from a ‘read-only’ task predict reading comprehension as measured by recall. In R. Reilly, &amp; R. Radach, Proceedings of the 22th European Conference on Eye Movements (ECEM) (pp. ). : Journal of Eye Movement Research.</p><p><b>BibTeX:</b><pre>@inproceedings{MeziereEtAl2024ECEM,
   author = {Mézière, Diane and Yu, Lili and {von der Malsburg}, Titus and Reichle, Erik and McArthur, Genivieve},
   title = {Eye movements from a ‘read-only’ task predict reading comprehension as measured by recall},
   booktitle = {{Proceedings of the 22th European Conference on Eye Movements (ECEM)}},
@@ -73,12 +73,12 @@
 </pre></p>]]></description>
   <pubDate>Thu, 01 Aug 2024 00:00:00 GMT</pubDate>
   <category>inproceedings</category>
-  <guid>MeziereEtAl2024</guid>
+  <guid>MeziereEtAl2024ECEM</guid>
 </item>
 <item>
   <title>Concurrent comparison of EyeLink 1000+ and TRACKPixx3 on a benchmark test battery</title>
   <author>Prysłopska, A., Ehinger, B., &amp; von der Malsburg, Titus</author>
-  <description><![CDATA[<p>Prysłopska, A., Ehinger, B., &amp; von der Malsburg, Titus (2024). Concurrent comparison of EyeLink 1000+ and TRACKPixx3 on a benchmark test battery. In R. Reilly, &amp; R. Radach, Proceedings of the 22th European Conference on Eye Movements (ECEM) (pp. ). : Journal of Eye Movement Research.</p><p><b>BibTeX:</b><pre>@inproceedings{PryslopskaEtAl2024,
+  <description><![CDATA[<p>Prysłopska, A., Ehinger, B., &amp; von der Malsburg, Titus (2024). Concurrent comparison of EyeLink 1000+ and TRACKPixx3 on a benchmark test battery. In R. Reilly, &amp; R. Radach, Proceedings of the 22th European Conference on Eye Movements (ECEM) (pp. ). : Journal of Eye Movement Research.</p><p><b>BibTeX:</b><pre>@inproceedings{PryslopskaEtAl2024ECEM,
   author = {Prysłopska, Anna and Ehinger, Benedikt and {von der Malsburg}, Titus},
   title = {Concurrent Comparison of {EyeLink 1000+ and TRACKPixx3} on a Benchmark Test Battery},
   booktitle = {{Proceedings of the 22th European Conference on Eye Movements (ECEM)}},
@@ -91,7 +91,7 @@
 </pre></p>]]></description>
   <pubDate>Thu, 01 Aug 2024 00:00:00 GMT</pubDate>
   <category>inproceedings</category>
-  <guid>PryslopskaEtAl2024</guid>
+  <guid>PryslopskaEtAl2024ECEM</guid>
 </item>
 <item>
   <title>Agreement attraction in grammatical sentences and the role of the task</title>
