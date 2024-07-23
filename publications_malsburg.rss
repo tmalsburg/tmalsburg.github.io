@@ -32,11 +32,11 @@
   address = {Rotterdam, Netherlands},
   organization = {Cognitive Science Society},
   publisher = {Cognitive Science Society},
-  url = {https://osf.io/preprints/psyarxiv/6b34d},
+  url = {https://escholarship.org/uc/item/93z854zx},
   abstract = {Some German adjective-compound-noun constructions (‘severe storm.warning’) exhibit a bracketing paradox where an adjective semantically modifies the first noun N1 instead of the grammatically required last noun N2 thus violating compositionality. We present two experiments that examined the interpretation of nominal compounds and bracketing paradoxes. Experiment 1 showed that the semantic match of N1 and the adjective has a significant impact on the acceptability of Adj-N1N2 constructions. Experiment 2 probed the participants’ adjective attachment choices as well as the relationship between and attachment and acceptability: While N2 attachments were most common, many constructions received mixed and some consistently bracketing paradox interpretations. High ratings for Adj-N2 were predictive of N2 attachment, but high Adj-N1 ratings led to bracketing paradox interpretations. These results are partially against grammatical expectations and suggest competition between the nouns for modification, likely due to semantic and/or pragmatic factors.},
 }
 </pre></p>]]></description>
-  <link>https://osf.io/preprints/psyarxiv/6b34d</link>
+  <link>https://escholarship.org/uc/item/93z854zx</link>
   <pubDate>Sun, 01 Dec 2024 00:00:00 GMT</pubDate>
   <category>inproceedings</category>
   <guid>PryslopskaMalsburg2024CogSci</guid>
@@ -53,8 +53,10 @@
   address = {Rotterdam, Netherlands},
   organization = {Cognitive Science Society},
   publisher = {Cognitive Science Society},
+  url = {https://escholarship.org/uc/item/0120d8t1},
 }
 </pre></p>]]></description>
+  <link>https://escholarship.org/uc/item/0120d8t1</link>
   <pubDate>Sun, 01 Dec 2024 00:00:00 GMT</pubDate>
   <category>inproceedings</category>
   <guid>RanjanMalsburg2024CogSci</guid>
@@ -494,11 +496,14 @@
 <item>
   <title>Does entropy modulate the prediction of German long-distance verb particles?</title>
   <author>Stone, K., Vasishth, S., &amp; von der Malsburg, Titus</author>
-  <description><![CDATA[<p>Stone, K., Vasishth, S., &amp; von der Malsburg, Titus (2022). Does entropy modulate the prediction of German long-distance verb particles? PLOS ONE, (), . http://dx.doi.org/10.1371/journal.pone.0267813</p><p><b>Abstract:</b> In this paper we examine the effect of uncertainty on readers’ predictions about meaning. In particular, we were interested in how uncertainty might influence the likelihood of committing to a specific sentence meaning. We conducted two event-related potential (ERP) experiments using particle verbs such as turn down and manipulated uncertainty by constraining the context such that readers could be either highly certain about the identity of a distant verb particle, such as turn the bed […] down, or less certain due to competing particles, such as turn the music […] up/down. The study was conducted in German, where verb particles appear clause-finally and may be separated from the verb by a large amount of material. We hypothesised that this separation would encourage readers to predict the particle, and that high certainty would make prediction of a specific particle more likely than lower certainty. If a specific particle was predicted, this would reflect a strong commitment to sentence meaning that should incur a higher processing cost if the prediction is wrong. If a specific particle was less likely to be predicted, commitment should be weaker and the processing cost of a wrong prediction lower. If true, this could suggest that uncertainty discourages predictions via an unacceptable cost-benefit ratio. However, given the clear predictions made by the literature, it was surprisingly unclear whether the uncertainty manipulation affected the two ERP components studied, the N400 and the PNP. Bayes factor analyses showed that evidence for our a priori hypothesised effect sizes was inconclusive, although there was decisive evidence against a priori hypothesised effect sizes larger than 1 V for the N400 and larger than 3 V for the PNP. We attribute the inconclusive finding to the properties of verb-particle dependencies that differ from the verb-noun dependencies in which the N400 and PNP are often studied.</p><p><b>BibTeX:</b><pre>@article{StoneEtAl2022,
+  <description><![CDATA[<p>Stone, K., Vasishth, S., &amp; von der Malsburg, Titus (2022). Does entropy modulate the prediction of German long-distance verb particles? PLOS ONE, 17(8), 0267813. http://dx.doi.org/10.1371/journal.pone.0267813</p><p><b>Abstract:</b> In this paper we examine the effect of uncertainty on readers’ predictions about meaning. In particular, we were interested in how uncertainty might influence the likelihood of committing to a specific sentence meaning. We conducted two event-related potential (ERP) experiments using particle verbs such as turn down and manipulated uncertainty by constraining the context such that readers could be either highly certain about the identity of a distant verb particle, such as turn the bed […] down, or less certain due to competing particles, such as turn the music […] up/down. The study was conducted in German, where verb particles appear clause-finally and may be separated from the verb by a large amount of material. We hypothesised that this separation would encourage readers to predict the particle, and that high certainty would make prediction of a specific particle more likely than lower certainty. If a specific particle was predicted, this would reflect a strong commitment to sentence meaning that should incur a higher processing cost if the prediction is wrong. If a specific particle was less likely to be predicted, commitment should be weaker and the processing cost of a wrong prediction lower. If true, this could suggest that uncertainty discourages predictions via an unacceptable cost-benefit ratio. However, given the clear predictions made by the literature, it was surprisingly unclear whether the uncertainty manipulation affected the two ERP components studied, the N400 and the PNP. Bayes factor analyses showed that evidence for our a priori hypothesised effect sizes was inconclusive, although there was decisive evidence against a priori hypothesised effect sizes larger than 1 V for the N400 and larger than 3 V for the PNP. We attribute the inconclusive finding to the properties of verb-particle dependencies that differ from the verb-noun dependencies in which the N400 and PNP are often studied.</p><p><b>BibTeX:</b><pre>@article{StoneEtAl2022,
   author = {Kate Stone and Shravan Vasishth and {von der Malsburg}, Titus},
   title = {Does entropy modulate the prediction of {German} long-distance verb particles?},
   journal = {PLOS ONE},
   year = {2022},
+  volume = {17},
+  number = {8},
+  pages = {e0267813},
   month = {aug},
   url = {https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0267813},
   doi = {10.1371/journal.pone.0267813},
@@ -578,24 +583,6 @@
   <guid>MeziereEtAl2021SSSRa</guid>
 </item>
 <item>
-  <title>Incremental language comprehension difficulty predicts activity in the language network but not the multiple demand network</title>
-  <author>Wehbe, L., Blank, I. A., Shain, C., Futrell, R., Levy, R., von der Malsburg, Titus, Smith, N., …</author>
-  <description><![CDATA[<p>Wehbe, L., Blank, I. A., Shain, C., Futrell, R., Levy, R., von der Malsburg, Titus, Smith, N., … (2021). Incremental language comprehension difficulty predicts activity in the language network but not the multiple demand network. Cerebral Cortex, (), . http://dx.doi.org/10.1093/cercor/bhab065</p><p><b>Abstract:</b> What role do domain-general executive functions play in human language comprehension? To address this question, we examine the relationship between behavioral measures of comprehension and neural activity in the domain-general “multiple demand” (MD) network, which has been linked to constructs like attention, working memory, inhibitory control, and selection, and implicated in diverse goal-directed behaviors. Specifically, fMRI data collected during naturalistic story listening are compared to theory-neutral measures of online comprehension difficulty and incremental processing load (reading times and eye-fixation durations). Critically, to ensure that variance in these measures is driven by features of the linguistic stimulus rather than reflecting participant-or trial-level variability, the neuroimaging and behavioral datasets were collected in non-overlapping samples. We find no behavioral-neural link in functionally localized MD regions; instead, this link is found in the domain-specific, fronto-temporal “core language network”, in both left hemispheric areas and their right hemispheric homologues. These results argue against strong involvement of domain-general executive circuits in language comprehension.</p><p><b>BibTeX:</b><pre>@article{WehbeEtAl2021,
-  author = {Wehbe, Leila and Blank, Idan A and Shain, Cory and Futrell, Richard and Levy, Roger and {von der Malsburg}, Titus and Smith, Nathaniel and Gibson, Edward and Fedorenko, Evelina},
-  title = {Incremental language comprehension difficulty predicts activity in the language network but not the multiple demand network},
-  journal = {Cerebral Cortex},
-  year = {2021},
-  doi = {10.1093/cercor/bhab065},
-  url = {https://www.biorxiv.org/content/early/2020/04/17/2020.04.15.043844},
-  abstract = {What role do domain-general executive functions play in human language comprehension? To address this question, we examine the relationship between behavioral measures of comprehension and neural activity in the domain-general “multiple demand” (MD) network, which has been linked to constructs like attention, working memory, inhibitory control, and selection, and implicated in diverse goal-directed behaviors. Specifically, fMRI data collected during naturalistic story listening are compared to theory-neutral measures of online comprehension difficulty and incremental processing load (reading times and eye-fixation durations). Critically, to ensure that variance in these measures is driven by features of the linguistic stimulus rather than reflecting participant-or trial-level variability, the neuroimaging and behavioral datasets were collected in non-overlapping samples. We find no behavioral-neural link in functionally localized MD regions; instead, this link is found in the domain-specific, fronto-temporal “core language network”, in both left hemispheric areas and their right hemispheric homologues. These results argue against strong involvement of domain-general executive circuits in language comprehension.},
-}
-</pre></p>]]></description>
-  <link>https://www.biorxiv.org/content/early/2020/04/17/2020.04.15.043844</link>
-  <pubDate>Wed, 01 Dec 2021 00:00:00 GMT</pubDate>
-  <category>article</category>
-  <guid>WehbeEtAl2021</guid>
-</item>
-<item>
   <title>Can eye movements be used to predict reading comprehension ability?</title>
   <author>Mézière, D., Yu, L., Reichle, E., von der Malsburg, Titus, &amp; McArthur, G.</author>
   <description><![CDATA[<p>Mézière, D., Yu, L., Reichle, E., von der Malsburg, Titus, &amp; McArthur, G. (2021). Can eye movements be used to predict reading comprehension ability? In G. Turco, G. Thiberge, C. Pozniak, T. Poppels, B. Hemforth, S. Colonna, &amp; A. Abeillé, Proceedings of the 27th Architectures and Mechanisms for Language Processing Conference (AMLaP) (pp. ). Paris, France: Université de Paris.</p><p><b>BibTeX:</b><pre>@inproceedings{MeziereEtAl2021AMLaP,
@@ -651,6 +638,28 @@
   <pubDate>Thu, 01 Jul 2021 00:00:00 GMT</pubDate>
   <category>inproceedings</category>
   <guid>ParshinaEtAl2021ISB</guid>
+</item>
+<item>
+  <title>Incremental language comprehension difficulty predicts activity in the language network but not the multiple demand network</title>
+  <author>Wehbe, L., Blank, I. A., Shain, C., Futrell, R., Levy, R., von der Malsburg, Titus, Smith, N., …</author>
+  <description><![CDATA[<p>Wehbe, L., Blank, I. A., Shain, C., Futrell, R., Levy, R., von der Malsburg, Titus, Smith, N., … (2021). Incremental language comprehension difficulty predicts activity in the language network but not the multiple demand network. Cerebral Cortex, 31(9), 4006–4023. http://dx.doi.org/10.1093/cercor/bhab065</p><p><b>Abstract:</b> What role do domain-general executive functions play in human language comprehension? To address this question, we examine the relationship between behavioral measures of comprehension and neural activity in the domain-general “multiple demand” (MD) network, which has been linked to constructs like attention, working memory, inhibitory control, and selection, and implicated in diverse goal-directed behaviors. Specifically, fMRI data collected during naturalistic story listening are compared to theory-neutral measures of online comprehension difficulty and incremental processing load (reading times and eye-fixation durations). Critically, to ensure that variance in these measures is driven by features of the linguistic stimulus rather than reflecting participant-or trial-level variability, the neuroimaging and behavioral datasets were collected in non-overlapping samples. We find no behavioral-neural link in functionally localized MD regions; instead, this link is found in the domain-specific, fronto-temporal “core language network”, in both left hemispheric areas and their right hemispheric homologues. These results argue against strong involvement of domain-general executive circuits in language comprehension.</p><p><b>BibTeX:</b><pre>@article{WehbeEtAl2021,
+  author = {Wehbe, Leila and Blank, Idan A and Shain, Cory and Futrell, Richard and Levy, Roger and {von der Malsburg}, Titus and Smith, Nathaniel and Gibson, Edward and Fedorenko, Evelina},
+  title = {Incremental language comprehension difficulty predicts activity in the language network but not the multiple demand network},
+  journal = {Cerebral Cortex},
+  volume = {31},
+  number = {9},
+  pages = {4006–4023},
+  month = {apr},
+  year = {2021},
+  doi = {10.1093/cercor/bhab065},
+  url = {https://www.biorxiv.org/content/early/2020/04/17/2020.04.15.043844},
+  abstract = {What role do domain-general executive functions play in human language comprehension? To address this question, we examine the relationship between behavioral measures of comprehension and neural activity in the domain-general “multiple demand” (MD) network, which has been linked to constructs like attention, working memory, inhibitory control, and selection, and implicated in diverse goal-directed behaviors. Specifically, fMRI data collected during naturalistic story listening are compared to theory-neutral measures of online comprehension difficulty and incremental processing load (reading times and eye-fixation durations). Critically, to ensure that variance in these measures is driven by features of the linguistic stimulus rather than reflecting participant-or trial-level variability, the neuroimaging and behavioral datasets were collected in non-overlapping samples. We find no behavioral-neural link in functionally localized MD regions; instead, this link is found in the domain-specific, fronto-temporal “core language network”, in both left hemispheric areas and their right hemispheric homologues. These results argue against strong involvement of domain-general executive circuits in language comprehension.},
+}
+</pre></p>]]></description>
+  <link>https://www.biorxiv.org/content/early/2020/04/17/2020.04.15.043844</link>
+  <pubDate>Thu, 01 Apr 2021 00:00:00 GMT</pubDate>
+  <category>article</category>
+  <guid>WehbeEtAl2021</guid>
 </item>
 <item>
   <title>Bias against “she” pronouns can be rapidly overcome by changing event expectations</title>
