@@ -4,12 +4,31 @@
 <title>Titus von der Malsburg’s publications</title>
 <link>https://tmalsburg.github.io/</link>
 <item>
+  <title>Limits of dependency length minimization</title>
+  <author>Ranjan, S., &amp; von der Malsburg, Titus</author>
+  <description><![CDATA[<p>Ranjan, S., &amp; von der Malsburg, Titus (2025). Limits of dependency length minimization. In R. Bader, S. {Degaetano-Ortlieb}, K. Haeuser, R. Lemke, &amp; I. Yuen, Proceedings of the Conference on Rational Approaches in Language Science (RAILS) (pp. ). Saarbrücken, Germany: Saarland University.</p><p><b>BibTeX:</b><pre>@inproceedings{RanjanMalsburg2025RAILS,
+  author = {Sidharth Ranjan and {von der Malsburg}, Titus},
+  title = {Limits of Dependency Length Minimization},
+  booktitle = {Proceedings of the Conference on Rational Approaches in Language Science (RAILS)},
+  year = {2025},
+  editor = {Regine Bader and Stefania {Degaetano-Ortlieb} and Katja Haeuser and Robin Lemke and Ivan Yuen},
+  address = {Saarbrücken, Germany},
+  organization = {SFB 1102},
+  publisher = {Saarland University},
+}
+</pre></p>]]></description>
+  <pubDate>Mon, 01 Dec 2025 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
+  <guid>RanjanMalsburg2025RAILS</guid>
+</item>
+<item>
   <title>Using eye movements from a ‘read-only’ task to predict text comprehension</title>
   <author>Mézière, D., Yu, L., von der Malsburg, T., Reichle, E., &amp; McArthur, G.</author>
   <description><![CDATA[<p>Mézière, D., Yu, L., von der Malsburg, T., Reichle, E., &amp; McArthur, G. (2024). Using eye movements from a ‘read-only’ task to predict text comprehension. Unpublished manuscript.</p><p><b>Abstract:</b> Purpose: Recent research on the use of eye movements to predict performance on reading comprehension tasks suggests that while eye movements may be used to measure comprehension, the relationship between eye-movement behaviour and comprehension is influenced by differences in task demands between comprehension measures. In this study, we examined the usefulness of eye movements collected during reading with no additional task demands (a ‘read-only’ condition) to predict comprehension ability as measured by a recall task. Method: We collected eye-movement behaviour from adult native speakers of English (N = 62, 46 females, mean age 26 years) while they read nine passages of fictional text in two conditions: a read-only condition with no additional task, and a recall condition where participants were asked the recall the story after reading it. We ran Bayesian logistic regression models to predict performance on the recall tasks from standard eye-tracking measures collected during the two reading conditions (read-only and recall). Results: Eye-tracking measures collected in the read-only and recall conditions were both useful in predicting reading comprehension as measured by recall scores. Additionally, the relationship between eye-movement behaviour and recall performance was similar for both reading conditions. In both cases, a combination of early and late measures were the best predictors of performance on the recall task. Conclusion: These findings demonstrate the usefulness of eye movements collected during reading with no additional task as predictors of reading comprehension ability.</p><p><b>BibTeX:</b><pre>@unpublished{MeziereEtAl2024MS,
   author = {Diane Mézière and Lili Yu and von der Malsburg, Titus and Erik Reichle and Genevieve McArthur},
   title = {Using Eye Movements from a ‘Read-Only’ Task to Predict Text Comprehension},
   year = {2024},
+  doi = {10.31234/osf.io/sb2z8},
   url = {https://osf.io/preprints/psyarxiv/sb2z8},
   abstract = {Purpose: Recent research on the use of eye movements to predict performance on reading comprehension tasks suggests that while eye movements may be used to measure comprehension, the relationship between eye-movement behaviour and comprehension is influenced by differences in task demands between comprehension measures. In this study, we examined the usefulness of eye movements collected during reading with no additional task demands (a ‘read-only’ condition) to predict comprehension ability as measured by a recall task. Method: We collected eye-movement behaviour from adult native speakers of English (N = 62, 46 females, mean age 26 years) while they read nine passages of fictional text in two conditions: a read-only condition with no additional task, and a recall condition where participants were asked the recall the story after reading it. We ran Bayesian logistic regression models to predict performance on the recall tasks from standard eye-tracking measures collected during the two reading conditions (read-only and recall). Results: Eye-tracking measures collected in the read-only and recall conditions were both useful in predicting reading comprehension as measured by recall scores. Additionally, the relationship between eye-movement behaviour and recall performance was similar for both reading conditions. In both cases, a combination of early and late measures were the best predictors of performance on the recall task. Conclusion: These findings demonstrate the usefulness of eye movements collected during reading with no additional task as predictors of reading comprehension ability.},
 }
