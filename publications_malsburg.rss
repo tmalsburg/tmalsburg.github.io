@@ -22,6 +22,38 @@
   <guid>RanjanMalsburg2025RAILS</guid>
 </item>
 <item>
+  <title>Implicit gender bias in linguistic descriptions for expected events: The case of the 2024 United States presidential election</title>
+  <author>Vigly, J., Boyce, V., Socolof, M., Michaelov, J., von der Malsburg, &amp; Levy, R.</author>
+  <description><![CDATA[<p>Vigly, J., Boyce, V., Socolof, M., Michaelov, J., von der Malsburg, &amp; Levy, R. (2025). Implicit gender bias in linguistic descriptions for expected events: The case of the 2024 United States presidential election. In D. Gagne, Y. T. Huang, R. Newman, J. Novick, P. Plummer, &amp; L. R. Slevc, Proceedings of the 38th Annual Conference on Human Sentence Processing (pp. ). College Park, Maryland: University of Maryland.</p><p><b>BibTeX:</b><pre>@inproceedings{ViglyEtAl2025HSP,
+  author = {Jacob Vigly and Veronica Boyce and Michaela Socolof and James Michaelov and {von der Malsburg} and Roger Levy},
+  title = {Implicit gender bias in linguistic descriptions for expected events: {The} case of the 2024 {United States} presidential election},
+  booktitle = {{Proceedings of the 38th Annual Conference on Human Sentence Processing}},
+  year = {2025},
+  editor = {Deanna Gagne and Huang, Yi Ting and Rochelle Newman and Jared Novick and Patrick Plummer and Slevc, L. Robert},
+  month = {mar},
+  address = {College Park, Maryland},
+  publisher = {University of Maryland},
+  keywords = {gender bias, gender stereotypes, implicit bias, pronouns, production, comprehension},
+}
+</pre></p>]]></description>
+  <pubDate>Sat, 01 Mar 2025 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
+  <guid>ViglyEtAl2025HSP</guid>
+</item>
+<item>
+  <title>Serial or parallel? Sub-lexical scanpath analysis of eye movement sequences in single word reading</title>
+  <author>Lahoud, H., Shechter, A., von der Malsburg, Titus, &amp; Share, D.</author>
+  <description><![CDATA[<p>Lahoud, H., Shechter, A., von der Malsburg, Titus, &amp; Share, D. (2024). Serial or parallel? Sub-lexical scanpath analysis of eye movement sequences in single word reading. Unpublished manuscript.</p><p><b>BibTeX:</b><pre>@unpublished{LahoudEtAl2024MS,
+  author = {Hend Lahoud and Adi Shechter and {von der Malsburg}, Titus and David Share},
+  title = {Serial or parallel? {Sub}-lexical scanpath analysis of eye movement sequences in single word reading},
+  year = {2024},
+}
+</pre></p>]]></description>
+  <pubDate>Sun, 01 Dec 2024 00:00:00 GMT</pubDate>
+  <category>unpublished</category>
+  <guid>LahoudEtAl2024MS</guid>
+</item>
+<item>
   <title>Using eye movements from a ‘read-only’ task to predict text comprehension</title>
   <author>Mézière, D., Yu, L., von der Malsburg, T., Reichle, E., &amp; McArthur, G.</author>
   <description><![CDATA[<p>Mézière, D., Yu, L., von der Malsburg, T., Reichle, E., &amp; McArthur, G. (2024). Using eye movements from a ‘read-only’ task to predict text comprehension. Unpublished manuscript.</p><p><b>Abstract:</b> Purpose: Recent research on the use of eye movements to predict performance on reading comprehension tasks suggests that while eye movements may be used to measure comprehension, the relationship between eye-movement behaviour and comprehension is influenced by differences in task demands between comprehension measures. In this study, we examined the usefulness of eye movements collected during reading with no additional task demands (a ‘read-only’ condition) to predict comprehension ability as measured by a recall task. Method: We collected eye-movement behaviour from adult native speakers of English (N = 62, 46 females, mean age 26 years) while they read nine passages of fictional text in two conditions: a read-only condition with no additional task, and a recall condition where participants were asked the recall the story after reading it. We ran Bayesian logistic regression models to predict performance on the recall tasks from standard eye-tracking measures collected during the two reading conditions (read-only and recall). Results: Eye-tracking measures collected in the read-only and recall conditions were both useful in predicting reading comprehension as measured by recall scores. Additionally, the relationship between eye-movement behaviour and recall performance was similar for both reading conditions. In both cases, a combination of early and late measures were the best predictors of performance on the recall task. Conclusion: These findings demonstrate the usefulness of eye movements collected during reading with no additional task as predictors of reading comprehension ability.</p><p><b>BibTeX:</b><pre>@unpublished{MeziereEtAl2024MS,
@@ -61,7 +93,7 @@
   <description><![CDATA[<p>Prysłopska, A., &amp; von der Malsburg, Titus (2024). Severe storm warnings for four-story homeowners: Towards a processing model of bracketing paradoxes. In L. K. Samuelson, S. Frank, M. Toneva, A. Mackey, &amp; E. Hazeltine, Proceedings of the 46th Annual Meeting of the Cognitive Science Society (pp. ). Rotterdam, Netherlands: Cognitive Science Society.</p><p><b>Abstract:</b> Some German adjective-compound-noun constructions (‘severe storm.warning’) exhibit a bracketing paradox where an adjective semantically modifies the first noun N1 instead of the grammatically required last noun N2 thus violating compositionality. We present two experiments that examined the interpretation of nominal compounds and bracketing paradoxes. Experiment 1 showed that the semantic match of N1 and the adjective has a significant impact on the acceptability of Adj-N1N2 constructions. Experiment 2 probed the participants’ adjective attachment choices as well as the relationship between and attachment and acceptability: While N2 attachments were most common, many constructions received mixed and some consistently bracketing paradox interpretations. High ratings for Adj-N2 were predictive of N2 attachment, but high Adj-N1 ratings led to bracketing paradox interpretations. These results are partially against grammatical expectations and suggest competition between the nouns for modification, likely due to semantic and/or pragmatic factors.</p><p><b>BibTeX:</b><pre>@inproceedings{PryslopskaMalsburg2024CogSci,
   author = {Anna Prysłopska and {von der Malsburg}, Titus},
   title = {Severe Storm Warnings for Four-Story Homeowners: {Towards} a Processing Model of Bracketing Paradoxes},
-  booktitle = {Proceedings of the 46th Annual Meeting of the Cognitive Science Society},
+  booktitle = {{Proceedings of the 46th Annual Meeting of the Cognitive Science Society}},
   year = {2024},
   editor = {Larissa K Samuelson and Stefan Frank and Mariya Toneva and Allyson Mackey and Eliot Hazeltine},
   address = {Rotterdam, Netherlands},
@@ -82,7 +114,7 @@
   <description><![CDATA[<p>Ranjan, S., &amp; von der Malsburg, Titus (2024). Work smarter … not harder: Efficient minimization of dependency length in SOV languages. In L. K. Samuelson, S. Frank, M. Toneva, A. Mackey, &amp; E. Hazeltine, Proceedings of the 46th Annual Meeting of the Cognitive Science Society (pp. ). Rotterdam, Netherlands: Cognitive Science Society.</p><p><b>BibTeX:</b><pre>@inproceedings{RanjanMalsburg2024CogSci,
   author = {Sidharth Ranjan and {von der Malsburg}, Titus},
   title = {Work Smarter … Not Harder: {Efficient} Minimization of Dependency Length in {SOV} Languages},
-  booktitle = {Proceedings of the 46th Annual Meeting of the Cognitive Science Society},
+  booktitle = {{Proceedings of the 46th Annual Meeting of the Cognitive Science Society}},
   year = {2024},
   editor = {Larissa K Samuelson and Stefan Frank and Mariya Toneva and Allyson Mackey and Eliot Hazeltine},
   address = {Rotterdam, Netherlands},
