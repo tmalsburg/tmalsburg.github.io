@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2025-02-05 Wed 11:00 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>We use a GitHub repository for project and knowledge management</title>
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<nav id="preamble" class="status">
+<a href="index.html"><img src="titus_fern_canyon_small.png" alt="Photo of Titus von der Malsburg" id="profilepic1"></a><ul id="menu"><li><a href="index.html">Contact</a></li><li><a href="index.html#news">News</a></li><li><a href="index.html#bio">Bio</a></li><li><a href="index.html#lab">Lab</a></li><li><a href="index.html#blog">Blog</a></li><li><a href="index.html#software">Software</a></li><li><a href="index.html#publications">Publications</a></li></ul>
+</nav>
+<main id="content" class="content">
+<header>
+<h1 class="title">We use a GitHub repository for project and knowledge management</h1>
+</header><p>
+We don’t use Microsoft Teams, Slack, or any other fancy corporate productivity tool for project and knowledge management in our research group.  🤯 Shocking, I know!<br>
+</p>
+
+<p>
+Instead, we use a simple GitHub repository, and here is how we do it:<br>
+</p>
+
+<p>
+The GitHub repository is the single place where the lab and everything that relates to it is documented.  No dropboxes, no Google docs, no Google calendar, no information that only exists in our e-mail inboxes, etc.  In general, we try to avoid scattering information across multiple different platforms and instead try to collect everything in this repository, our single source of truth.<br>
+</p>
+
+<p>
+We use three components of the GitHub repository:<br>
+</p>
+<ol class="org-ol">
+<li>The issue tracker<br></li>
+<li>The wiki<br></li>
+<li>The git file repository.<br></li>
+</ol>
+<p>
+At this time, we do not use pull requests, actions, and projects.  But these may become useful once the group is bigger and when we work on more complex projects.<br>
+</p>
+
+<p>
+The <b>issue tracker</b> serves two purposes:<br>
+</p>
+<ol class="org-ol">
+<li>We use it to organize our work, to discuss, and to track progress on individual tasks.<br></li>
+</ol>
+
+<p>
+The <b>wiki</b> is a store of knowledge for our future selves and new lab members.  This includes technical documentation, guidelines, meeting notes, consent forms, templates, instructions for participants, etc.<br>
+</p>
+
+<p>
+The <b>git file repository</b> is used for code (analysis scripts, experiment templates, etc.), data, and documents that contain information that can't be stored in the wiki, e.g., because it needs to be in a specific file format.<br>
+</p>
+
+<p>
+Details and specific guidelines below.<br>
+</p>
+<div id="outline-container-orgf2c5865" class="outline-2">
+<h2 id="orgf2c5865">Issue Tracker</h2>
+<div class="outline-text-2" id="text-orgf2c5865">
+<p>
+Here's how we use the issue tracker:<br>
+</p>
+
+<ul class="org-ul">
+<li>Don’t hesitate to create new issues.  But avoid duplicates.  As a general rule, all non-trivial tasks should have an issue, especially if they require discussion and if they can't be dealt with immediately.<br></li>
+<li>When you create an issue:<br>
+<ul class="org-ul">
+<li>Make sure it corresponds to a single, clearly-defined task.<br></li>
+<li>The title of the issue should clearly describe the task and ideally start with a verb, e.g., “Write guidelines for XYZ.”<br></li>
+<li>The description of the task should be concise but detailed enough so that someone else could address it without your input.<br></li>
+</ul></li>
+<li>Assign every issue to someone.  Unassigned issues risk falling through the cracks or not being addressed in time.  Encourage re-assignment if necessary.<br></li>
+<li>Select a milestone, if relevant, to attribute deadlines automatically. Feel free to create new milestones but make sure they’re not redundant or too fine-grained.  Managing milestones should not itself become task.<br></li>
+<li>Optionally, assign labels (e.g., "administration", "lab", "teaching"). Keep labels few and high-level for simplicity.<br></li>
+<li>Upon closing an issue, review the discussion for reusable information and add it to the wiki if needed.<br></li>
+<li>@mention collaborators for input.<br></li>
+<li>Refer to related issues by their ID, e.g., `#9`.<br></li>
+<li>Keep discussions focused. Avoid using the tracker for personal communication or irrelevant topics.<br></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org3e2ad17" class="outline-2">
+<h2 id="org3e2ad17">Wiki</h2>
+<div class="outline-text-2" id="text-org3e2ad17">
+<p>
+The wiki serves multiple purposes:<br>
+</p>
+
+<ol class="org-ol">
+<li>Help with onboarding new members.<br></li>
+<li>Standardize workflows to reduce friction.<br></li>
+<li>Document and improve workflows to enhance productivity and robustness of research artifacts.<br></li>
+<li>Explicitly state our goals and values.<br></li>
+</ol>
+
+<p>
+Specific guidance:<br>
+</p>
+<ul class="org-ul">
+<li>Use short, memorable names for wiki pages, e.g., `ConsentEyeTracking`.<br></li>
+<li>Use CamelCase for wiki names based on specific content words.<br></li>
+<li>For related topics, use parallel names , e.g., `ConsentEyeTracking` and `ConsentWebStudies`.<br></li>
+<li>Example page title: "How we manage consent in eye-tracking studies" (How we VERB XYZ)<br></li>
+<li><p>
+How-to pages should include:<br>
+</p>
+<ol class="org-ol">
+<li>Goals<br></li>
+<li>Principles that we apply to reach those goals<br></li>
+<li>Concrete guidance on how to implement these principles<br></li>
+</ol>
+<p>
+The goals are usually fixed, the principles change rarely, but the<br>
+concrete implementation can change often (as we learn how to do<br>
+things more effectively). That’s one motivation for keeping these<br>
+three things separate.<br>
+</p></li>
+<li>Do not attach files to wiki pages unless they are hyper-specific to the page. Otherwise, use the git repo and link files.<br></li>
+<li>Consider inlining content (e.g., consent forms) instead of creating separate files for simplicity.<br></li>
+<li>Fix outdated or incomplete content immediately when you see it.<br></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org8a6c8d4" class="outline-2">
+<h2 id="org8a6c8d4">Git File Repository</h2>
+<div class="outline-text-2" id="text-org8a6c8d4">
+<p>
+We haven’t yet established clear conventions for the file repository.<br>
+Open questions include:<br>
+</p>
+
+<ul class="org-ul">
+<li>File naming conventions<br></li>
+<li>Directory structure<br></li>
+<li>Which file types to include/avoid<br></li>
+<li>What information to store here vs. in the wiki<br></li>
+</ul>
+
+<p>
+Happy to hear everyone’s thoughts on this and everything else?<br>
+</p>
+</div>
+</div>
+</main>
+</body>
+</html>
