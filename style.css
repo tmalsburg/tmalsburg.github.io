@@ -677,3 +677,49 @@ figure img {
 #footnotes {
     margin-bottom: 2rem;
 }
+
+/* For portraits: */
+
+.organizers {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  text-align: center;
+  flex-wrap: wrap; /* Allow wrapping to create new rows on small screens */
+}
+
+.organizer {
+  flex: 1;
+  max-width: 400px;
+  margin-bottom: 20px; /* Add spacing between rows on mobile */
+}
+
+.organizer-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.organizer a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.organizer span {
+  font-size: 0.9em;
+}
+
+/* Mobile-specific styling: Stack items vertically on narrow screens */
+@media screen and (max-width: 700px) {
+  .organizers {
+    flex-direction: column; /* Stack organizers vertically */
+    align-items: center; /* Center each organizer */
+  }
+
+  .organizer {
+    max-width: 100%; /* Allow full width for each item */
+  }
+
+}
