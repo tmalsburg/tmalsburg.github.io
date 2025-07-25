@@ -9,7 +9,7 @@
   <description><![CDATA[<p>Ranjan, S., &amp; von der Malsburg, Titus (2025). Limits of dependency length minimization. In R. Bader, S. {Degaetano-Ortlieb}, K. Haeuser, R. Lemke, &amp; I. Yuen, Proceedings of the Conference on Rational Approaches in Language Science (RAILS) (pp. ). Saarbrücken, Germany: Saarland University.</p><p><b>BibTeX:</b><pre>@inproceedings{RanjanMalsburg2025RAILS,
   author = {Sidharth Ranjan and {von der Malsburg}, Titus},
   title = {Limits of Dependency Length Minimization},
-  booktitle = {Proceedings of the Conference on Rational Approaches in Language Science (RAILS)},
+  booktitle = {{Proceedings of the Conference on Rational Approaches in Language Science (RAILS)}},
   year = {2025},
   editor = {Regine Bader and Stefania {Degaetano-Ortlieb} and Katja Haeuser and Robin Lemke and Ivan Yuen},
   address = {Saarbrücken, Germany},
@@ -20,6 +20,75 @@
   <pubDate>Mon, 01 Dec 2025 00:00:00 GMT</pubDate>
   <category>inproceedings</category>
   <guid>RanjanMalsburg2025RAILS</guid>
+</item>
+<item>
+  <title>Using eye movements from a ‘read-only’ task to predict text comprehension</title>
+  <author>Mézière, D., Yu, L., von der Malsburg, T., Reichle, E., &amp; McArthur, G.</author>
+  <description><![CDATA[<p>Mézière, D., Yu, L., von der Malsburg, T., Reichle, E., &amp; McArthur, G. (2025). Using eye movements from a ‘read-only’ task to predict text comprehension. Reading Research Quarterly, (), .</p><p><b>BibTeX:</b><pre>@article{MeziereEtAl2025,
+  author = {Diane Mézière and Lili Yu and von der Malsburg, Titus and Erik Reichle and Genevieve McArthur},
+  title = {Using Eye Movements from a ‘Read-Only’ Task to Predict Text Comprehension},
+  journal = {Reading Research Quarterly},
+  year = {2025},
+}
+</pre></p>]]></description>
+  <pubDate>Mon, 01 Dec 2025 00:00:00 GMT</pubDate>
+  <category>article</category>
+  <guid>MeziereEtAl2025</guid>
+</item>
+<item>
+  <title>Predicting reading comprehension from eye-tracking measures with random forests</title>
+  <author>Mézière, D., &amp; von der Malsburg, Titus</author>
+  <description><![CDATA[<p>Mézière, D., &amp; von der Malsburg, Titus (2025). Predicting reading comprehension from eye-tracking measures with random forests. In J. Chromý, K. Chládková, A. Chromá, M. Filip, K. Matiasovitsová, R. Lacina, N. Paillereau, …, Proceedings of the 31th Architectures and Mechanisms for Language Processing Conference (AMLaP) (pp. ). Praha, Czech Republic: Univerzita Karlova.</p><p><b>BibTeX:</b><pre>@inproceedings{MeziereMalsburg2025AMLaP,
+  author = {Diane Mézière and {von der Malsburg, Titus}},
+  title = {Predicting reading comprehension from eye-tracking measures with random forests},
+  booktitle = {{Proceedings of the 31th Architectures and Mechanisms for Language Processing Conference ({AMLaP})}},
+  year = {2025},
+  editor = {Jan Chromý and Kateřina Chládková and Anna Chromá and Maroš Filip and Klára Matiasovitsová and Radim Lacina and Nikola Paillereau and Mikuláš Preininger and Filip Smolík},
+  month = {sep},
+  address = {Praha, Czech Republic},
+  publisher = {Univerzita Karlova},
+}
+</pre></p>]]></description>
+  <pubDate>Mon, 01 Sep 2025 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
+  <guid>MeziereMalsburg2025AMLaP</guid>
+</item>
+<item>
+  <title>Transformers fail to predict consistent effects for agreement attraction configurations</title>
+  <author>von der Malsburg, Titus, &amp; Padó, S.</author>
+  <description><![CDATA[<p>von der Malsburg, Titus, &amp; Padó, S. (2025). Transformers fail to predict consistent effects for agreement attraction configurations. In J. Chromý, K. Chládková, A. Chromá, M. Filip, K. Matiasovitsová, R. Lacina, N. Paillereau, …, Proceedings of the 31th Architectures and Mechanisms for Language Processing Conference (AMLaP) (pp. ). Praha, Czech Republic: Univerzita Karlova.</p><p><b>BibTeX:</b><pre>@inproceedings{MalsburgPado2025AMLaP,
+  author = {{von der Malsburg, Titus} and Padó, Sebastian},
+  title = {Transformers fail to predict consistent effects for agreement attraction configurations},
+  booktitle = {{Proceedings of the 31th Architectures and Mechanisms for Language Processing Conference ({AMLaP})}},
+  year = {2025},
+  editor = {Jan Chromý and Kateřina Chládková and Anna Chromá and Maroš Filip and Klára Matiasovitsová and Radim Lacina and Nikola Paillereau and Mikuláš Preininger and Filip Smolík},
+  month = {sep},
+  address = {Praha, Czech Republic},
+  publisher = {Univerzita Karlova},
+}
+</pre></p>]]></description>
+  <pubDate>Mon, 01 Sep 2025 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
+  <guid>MalsburgPado2025AMLaP</guid>
+</item>
+<item>
+  <title>A diachronic analysis of human and model predictions on audience gender in how-to guides</title>
+  <author>Fanton, N., Ranjan, S., von der Malsburg, Titus, &amp; Roth, M.</author>
+  <description><![CDATA[<p>Fanton, N., Ranjan, S., von der Malsburg, Titus, &amp; Roth, M. (2025). A diachronic analysis of human and model predictions on audience gender in how-to guides. In C. Basta, M. R. Costa-jussà, A. Faleńska, D. Nozza, &amp; K. Stańczak, 6th Workshop on Gender Bias in Natural Language Processing (pp. ). Vienna, Austria: .</p><p><b>Abstract:</b> We examine audience-specific how-to guides on wikiHow, in English, diachronically by comparing predictions from fine-tuned language models and human judgments. Using both early and revised versions, we quantitatively and qualitatively study how gender-specific features are identified over time. While language model performance remains relatively stable in terms of macro F1-scores, we observe an increased reliance on stereotypical tokens. Notably, both models and human raters tend to overpredict women as an audience, raising questions about bias in the evaluation of educational systems and resources.</p><p><b>BibTeX:</b><pre>@inproceedings{FantonEtAl2025GeBNLP,
+  author = {Nicola Fanton and Sidharth Ranjan and {von der Malsburg}, Titus and Michael Roth},
+  title = {A Diachronic Analysis of Human and Model Predictions on Audience Gender in How-to Guides},
+  booktitle = {6th Workshop on Gender Bias in Natural Language Processing},
+  year = {2025},
+  editor = {Christine Basta and Marta R. Costa-jussà and Agnieszka Faleńska and Debora Nozza and Karolina Stańczak},
+  month = {jul},
+  address = {Vienna, Austria},
+  organization = {Association of Computational Linguistics},
+  abstract = {We examine audience-specific how-to guides on wikiHow, in English, diachronically by comparing predictions from fine-tuned language models and human judgments. Using both early and revised versions, we quantitatively and qualitatively study how gender-specific features are identified over time. While language model performance remains relatively stable in terms of macro F1-scores, we observe an increased reliance on stereotypical tokens. Notably, both models and human raters tend to overpredict women as an audience, raising questions about bias in the evaluation of educational systems and resources.},
+}
+</pre></p>]]></description>
+  <pubDate>Tue, 01 Jul 2025 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
+  <guid>FantonEtAl2025GeBNLP</guid>
 </item>
 <item>
   <title>Implicit gender bias in linguistic descriptions for expected events: The case of the 2024 United States presidential election</title>
@@ -52,23 +121,6 @@
   <pubDate>Sun, 01 Dec 2024 00:00:00 GMT</pubDate>
   <category>unpublished</category>
   <guid>LahoudEtAl2024MS</guid>
-</item>
-<item>
-  <title>Using eye movements from a ‘read-only’ task to predict text comprehension</title>
-  <author>Mézière, D., Yu, L., von der Malsburg, T., Reichle, E., &amp; McArthur, G.</author>
-  <description><![CDATA[<p>Mézière, D., Yu, L., von der Malsburg, T., Reichle, E., &amp; McArthur, G. (2024). Using eye movements from a ‘read-only’ task to predict text comprehension. Unpublished manuscript.</p><p><b>Abstract:</b> Purpose: Recent research on the use of eye movements to predict performance on reading comprehension tasks suggests that while eye movements may be used to measure comprehension, the relationship between eye-movement behaviour and comprehension is influenced by differences in task demands between comprehension measures. In this study, we examined the usefulness of eye movements collected during reading with no additional task demands (a ‘read-only’ condition) to predict comprehension ability as measured by a recall task. Method: We collected eye-movement behaviour from adult native speakers of English (N = 62, 46 females, mean age 26 years) while they read nine passages of fictional text in two conditions: a read-only condition with no additional task, and a recall condition where participants were asked the recall the story after reading it. We ran Bayesian logistic regression models to predict performance on the recall tasks from standard eye-tracking measures collected during the two reading conditions (read-only and recall). Results: Eye-tracking measures collected in the read-only and recall conditions were both useful in predicting reading comprehension as measured by recall scores. Additionally, the relationship between eye-movement behaviour and recall performance was similar for both reading conditions. In both cases, a combination of early and late measures were the best predictors of performance on the recall task. Conclusion: These findings demonstrate the usefulness of eye movements collected during reading with no additional task as predictors of reading comprehension ability.</p><p><b>BibTeX:</b><pre>@unpublished{MeziereEtAl2024MS,
-  author = {Diane Mézière and Lili Yu and von der Malsburg, Titus and Erik Reichle and Genevieve McArthur},
-  title = {Using Eye Movements from a ‘Read-Only’ Task to Predict Text Comprehension},
-  year = {2024},
-  doi = {10.31234/osf.io/sb2z8},
-  url = {https://osf.io/preprints/psyarxiv/sb2z8},
-  abstract = {Purpose: Recent research on the use of eye movements to predict performance on reading comprehension tasks suggests that while eye movements may be used to measure comprehension, the relationship between eye-movement behaviour and comprehension is influenced by differences in task demands between comprehension measures. In this study, we examined the usefulness of eye movements collected during reading with no additional task demands (a ‘read-only’ condition) to predict comprehension ability as measured by a recall task. Method: We collected eye-movement behaviour from adult native speakers of English (N = 62, 46 females, mean age 26 years) while they read nine passages of fictional text in two conditions: a read-only condition with no additional task, and a recall condition where participants were asked the recall the story after reading it. We ran Bayesian logistic regression models to predict performance on the recall tasks from standard eye-tracking measures collected during the two reading conditions (read-only and recall). Results: Eye-tracking measures collected in the read-only and recall conditions were both useful in predicting reading comprehension as measured by recall scores. Additionally, the relationship between eye-movement behaviour and recall performance was similar for both reading conditions. In both cases, a combination of early and late measures were the best predictors of performance on the recall task. Conclusion: These findings demonstrate the usefulness of eye movements collected during reading with no additional task as predictors of reading comprehension ability.},
-}
-</pre></p>]]></description>
-  <link>https://osf.io/preprints/psyarxiv/sb2z8</link>
-  <pubDate>Sun, 01 Dec 2024 00:00:00 GMT</pubDate>
-  <category>unpublished</category>
-  <guid>MeziereEtAl2024MS</guid>
 </item>
 <item>
   <title>Semantics vs agreement: What determines the interpretation of German bracketing paradoxes?</title>
