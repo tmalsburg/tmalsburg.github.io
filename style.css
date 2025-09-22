@@ -280,11 +280,11 @@ iframe {
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
 }
 
-.timestamp-wrapper {
-    float: right;
-    display: none;
-    text-align: right;
-}
+/* .timestamp-wrapper { */
+/*     float: right; */
+/*     display: none; */
+/*     text-align: right; */
+/* } */
 .timestamp {
     color: gray;
     font-size: 80%;
