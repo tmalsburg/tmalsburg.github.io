@@ -695,6 +695,11 @@ figure img {
   margin-bottom: 20px; /* Add spacing between rows on mobile */
 }
 
+.titus-img {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
+}
 .organizer-img {
   width: 150px;
   height: 150px;
