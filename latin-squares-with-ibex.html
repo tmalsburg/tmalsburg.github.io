@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2024-03-28 Thu 10:08 -->
+<!-- 2026-01-23 Fri 12:04 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Latin square designs in Ibex experiments</title>
 <meta name="description" content="Ibex does Latin squares in a way that can potentially have serious unintended consequences in the form of spurious effects." />
 <meta name="generator" content="Org Mode" />
-<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 <nav id="preamble" class="status">
-<a href="index.html"><img src="titus_fern_canyon_small.png" alt="Photo of Titus von der Malsburg" id="profilepic1"/></a><ul id="menu"><li><a href="index.html">Contact</a></li><li><a href="index.html#news">News</a></li><li><a href="index.html#bio">Bio</a></li><li><a href="index.html#lab">Lab</a></li><li><a href="index.html#blog">Blog</a></li><li><a href="index.html#software">Software</a></li><li><a href="index.html#publications">Publications</a></li></ul>
+<a href="index.html"><img src="titus.jpg" class="titus-img" alt="Photo of Titus von der Malsburg" id="profilepic1"></a><ul id="menu"><li><a href="index.html">Contact</a></li><li><a href="index.html#news">News</a></li><li><a href="index.html#bio">Bio</a></li><li><a href="index.html#lab">Lab</a></li><li><a href="index.html#blog">Blog</a></li><li><a href="index.html#software">Software</a></li><li><a href="index.html#publications">Publications</a></li></ul>
 </nav>
 <main id="content" class="content">
 <header>
@@ -29,14 +29,14 @@ The solution is fortunately very simple:  There is an undocumented method to con
 </p>
 
 <div class="org-src-container">
-<pre class="src src-JavaScript">var shuffleSequence = seq("welcome", "setcounter", …);
+<pre class="src src-JavaScript"><code>var shuffleSequence = seq("welcome", "setcounter", …);
 
 var items = [
     ["welcome", "Message", {html: 'Welcome to this experiment'}],
     ["setcounter", "__SetCounter__", { }],
     …
 ]
-</pre>
+</code></pre>
 </div>
 
 <p>

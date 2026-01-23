@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2024-04-16 Tue 12:53 -->
+<!-- 2026-01-23 Fri 12:04 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Cohen’s $d$ in simple linear regression models</title>
@@ -42,7 +42,7 @@
 </head>
 <body>
 <nav id="preamble" class="status">
-<a href="index.html"><img src="titus_fern_canyon_small.png" alt="Photo of Titus von der Malsburg" id="profilepic1"></a><ul id="menu"><li><a href="index.html">Contact</a></li><li><a href="index.html#news">News</a></li><li><a href="index.html#bio">Bio</a></li><li><a href="index.html#lab">Lab</a></li><li><a href="index.html#blog">Blog</a></li><li><a href="index.html#software">Software</a></li><li><a href="index.html#publications">Publications</a></li></ul>
+<a href="index.html"><img src="titus.jpg" class="titus-img" alt="Photo of Titus von der Malsburg" id="profilepic1"></a><ul id="menu"><li><a href="index.html">Contact</a></li><li><a href="index.html#news">News</a></li><li><a href="index.html#bio">Bio</a></li><li><a href="index.html#lab">Lab</a></li><li><a href="index.html#blog">Blog</a></li><li><a href="index.html#software">Software</a></li><li><a href="index.html#publications">Publications</a></li></ul>
 </nav>
 <main id="content" class="content">
 <header>
@@ -84,12 +84,12 @@ Here’s an example to illustrate this.  We use data from Annette Dobson (1990),
 </p>
 
 <div class="org-src-container">
-<pre class="src src-R">ctl    &lt;- c(4.17,5.58,5.18,6.11,4.50,4.61,5.17,4.53,5.33,5.14)
+<pre class="src src-R"><code>ctl    &lt;- c(4.17,5.58,5.18,6.11,4.50,4.61,5.17,4.53,5.33,5.14)
 trt    &lt;- c(4.81,4.17,4.41,3.59,5.87,3.83,6.03,4.89,4.32,4.69)
 group  &lt;- gl(2, 10, 20, labels=c("Ctl", "Trt"))
 weight &lt;- c(ctl, trt)
 n      &lt;- length(weight)
-</pre>
+</code></pre>
 </div>
 
 <p>
@@ -97,8 +97,8 @@ The by-conditions means and the plot below show that the average weight was some
 </p>
 
 <div class="org-src-container">
-<pre class="src src-R">tapply(weight, group, mean)
-</pre>
+<pre class="src src-R"><code>tapply(weight, group, mean)
+</code></pre>
 </div>
 
 <pre class="example">
@@ -106,13 +106,12 @@ The by-conditions means and the plot below show that the average weight was some
 5.032 4.661
 </pre>
 
-
 <p>
 The standard deviation in the treatment condition (red) was also higher than in the control condition (blue).<br>
 </p>
 
 
-<figure id="orgbbbb800">
+<figure id="orgcce55ba">
 <img src="plots/paKMP0.png" alt="paKMP0.png"><br>
 
 </figure>
@@ -122,12 +121,12 @@ Next, we fit a simple linear model to estimate this effect.<br>
 </p>
 
 <div class="org-src-container">
-<pre class="src src-R">lm(weight ~ group) -&gt; m
+<pre class="src src-R"><code>lm(weight ~ group) -&gt; m
 summary(m)
-</pre>
+</code></pre>
 </div>
 
-<pre class="example" id="org77dee01">
+<pre class="example" id="org35f0afb">
 
 Call:
 lm(formula = weight ~ group)
@@ -161,10 +160,10 @@ The approach below is going to look a bit different from the conventional defini
 </p>
 
 <div class="org-src-container">
-<pre class="src src-R">coef(m)[2]          -&gt; b  # Coefficient of interest
+<pre class="src src-R"><code>coef(m)[2]          -&gt; b  # Coefficient of interest
 model.matrix(m)[,2] -&gt; x  # Corresponding column of the design matrix
 weight - b * x      -&gt; y  # The data minus the effect of interest
-</pre>
+</code></pre>
 </div>
 
 <p>
@@ -182,32 +181,30 @@ We’ll do this in two steps: First, we calculate the sum of squared errors (the
 </p>
 
 <div class="org-src-container">
-<pre class="src src-R">sum((y - mean(y))^2) -&gt; sse
+<pre class="src src-R"><code>sum((y - mean(y))^2) -&gt; sse
 sqrt(sse / (n-2))    -&gt; sd.pooled
 sd.pooled
-</pre>
+</code></pre>
 </div>
 
 <pre class="example">
 [1] 0.6963895
 </pre>
 
-
 <p>
 Now, Cohen’s \(d\) is simply:<br>
 </p>
 
 <div class="org-src-container">
-<pre class="src src-R">b / sd.pooled -&gt; d
+<pre class="src src-R"><code>b / sd.pooled -&gt; d
 d
-</pre>
+</code></pre>
 </div>
 
 <pre class="example">
-groupTrt 
+  groupTrt 
 -0.5327478
 </pre>
-
 
 <p>
 The result, \(-0.53\), is negative because the effect is negative-going.  The magnitude (around ±0.5) is conventionally interpreted as a medium effect size.  Note, however, that while the effect is of medium size, it’s at the same time not significant.  It may be confusing to talk about the size of <i>the</i> effect when it’s not even clear whether the effect exists at all, but that’s simply a consequence of the fact that the word “effect” is doing double duty here.  We use it to describe the observed difference in the sample, but in the context of inferential statistics, we use it for the hypothetical effect in the larger population, which may not exist.<br>
@@ -218,16 +215,15 @@ While the procedure above produces the correct result, there is an alternative w
 </p>
 
 <div class="org-src-container">
-<pre class="src src-R">sum(residuals(m)^2) -&gt; sse
+<pre class="src src-R"><code>sum(residuals(m)^2) -&gt; sse
 sqrt(sse / (n-2))   -&gt; sd.pooled
 sd.pooled
-</pre>
+</code></pre>
 </div>
 
 <pre class="example">
 [1] 0.6963895
 </pre>
-
 
 <p>
 The result is exactly the same as before.  What this illustrates is that, in this particular scenario (single regression), Cohen’s \(d\) is really just the magnitude of the effect (in terms of the outcome scale) divided by the residual standard deviation, with the small difference that the standard deviation is the pooled variety, i.e. using division by \(n-2\) instead of \(n-1\), which makes the estimate unbiased.<br>

@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- 2024-03-28 Thu 10:39 -->
+<!-- 2026-01-23 Fri 12:04 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Bayesian mixed-effects models using MCMCglmm (obsolete)</title>
 <meta name="generator" content="Org Mode" />
-<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 <nav id="preamble" class="status">
-<a href="index.html"><img src="titus_fern_canyon_small.png" alt="Photo of Titus von der Malsburg" id="profilepic1"/></a><ul id="menu"><li><a href="index.html">Contact</a></li><li><a href="index.html#news">News</a></li><li><a href="index.html#bio">Bio</a></li><li><a href="index.html#lab">Lab</a></li><li><a href="index.html#blog">Blog</a></li><li><a href="index.html#software">Software</a></li><li><a href="index.html#publications">Publications</a></li></ul>
+<a href="index.html"><img src="titus.jpg" class="titus-img" alt="Photo of Titus von der Malsburg" id="profilepic1"></a><ul id="menu"><li><a href="index.html">Contact</a></li><li><a href="index.html#news">News</a></li><li><a href="index.html#bio">Bio</a></li><li><a href="index.html#lab">Lab</a></li><li><a href="index.html#blog">Blog</a></li><li><a href="index.html#software">Software</a></li><li><a href="index.html#publications">Publications</a></li></ul>
 </nav>
 <main id="content" class="content">
 <header>
@@ -48,9 +48,9 @@ Also feel free to use GitHub’s issue tracker to ask questions or to point out 
 <p>
 Finally, note that the complete code used in this tutorial is also available in a separate R file (<a href="README.R">README.R</a>).  You can download this file and execute the code in your favorite editor for R.  The data can be found <a href="data/data.tsv">here</a>.<br>
 </p>
-<div id="outline-container-org6af2efe" class="outline-2">
-<h2 id="org6af2efe">Overview</h2>
-<div class="outline-text-2" id="text-org6af2efe">
+<div id="outline-container-org25b816a" class="outline-2">
+<h2 id="org25b816a">Overview</h2>
+<div class="outline-text-2" id="text-org25b816a">
 <p>
 To illustrate the use of MCMCglmm, we will analyze a data set from a language production experiment.  In this experiment, the participants had to describe visual scenes.  The aim was to determine the factors governing the participant’s use of pronouns (<i>he</i>, <i>she</i>, <i>it</i>, …) in their descriptions.<br>
 </p>
@@ -60,9 +60,9 @@ We first attempt an analysis using lme4 and we will see how and why this fails. 
 </p>
 </div>
 </div>
-<div id="outline-container-orgfaee9fe" class="outline-2">
-<h2 id="orgfaee9fe">Design of the study and data</h2>
-<div class="outline-text-2" id="text-orgfaee9fe">
+<div id="outline-container-orge251ebe" class="outline-2">
+<h2 id="orge251ebe">Design of the study and data</h2>
+<div class="outline-text-2" id="text-orge251ebe">
 <p>
 The experiment had a 2×2×2 design and the factors were <code>a</code>, <code>b</code>, and <code>c</code>.  (The description of the experiment is censored because the study is not yet published.  We might add more details once that has happened.)  The factors <code>a</code> and <code>b</code> were within-item and <code>c</code> was between-items.  All three factors are coded using -1 and 1.  There were 71 subjects and 36 items, and each subject saw one version of each item.  The dependent variable indicates for each trial whether or not the participant used a pronoun in his description of a visual scene (1 if a pronoun was used, 0 otherwise).<br>
 </p>
@@ -72,10 +72,10 @@ We first load the data and whip it into shape:<br>
 </p>
 
 <div class="org-src-container">
-<pre class="src src-R">d &lt;- read.table("data/data.tsv", sep="\t", head=T)
+<pre class="src src-R"><code>d &lt;- read.table("data/data.tsv", sep="\t", head=T)
 d$pronoun &lt;- as.logical(d$pronoun)
 head(d)
-</pre>
+</code></pre>
 </div>
 
 <table>
@@ -162,8 +162,8 @@ head(d)
 </table>
 
 <div class="org-src-container">
-<pre class="src src-R">summary(d)
-</pre>
+<pre class="src src-R"><code>summary(d)
+</code></pre>
 </div>
 
 <pre class="example">
@@ -177,16 +177,15 @@ Max.   :71.00   Max.   :36.00   Max.   : 1.0000   Max.   : 1.00000   Max.   : 1.
 </pre>
 
 
-
 <p>
 Proportions of pronoun responses per cell of the design:<br>
 </p>
 
 <div class="org-src-container">
-<pre class="src src-R">x &lt;- with(d, tapply(pronoun, list(a, b, c), mean))
+<pre class="src src-R"><code>x &lt;- with(d, tapply(pronoun, list(a, b, c), mean))
 dimnames(x) &lt;- list(c("not-a", "a"), c("not-b", "b"), c("not-c", "c"))
 x
-</pre>
+</code></pre>
 </div>
 
 <table>
@@ -205,7 +204,7 @@ x
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&nbsp;</th>
 <th scope="col" class="org-right">not.b.not.c</th>
 <th scope="col" class="org-right">b.not.c</th>
 <th scope="col" class="org-right">not.b.c</th>
@@ -237,8 +236,8 @@ Looking at the contingency table below, we see that some cells of the design had
 </p>
 
 <div class="org-src-container">
-<pre class="src src-R">with(d, table(a, b, c))
-</pre>
+<pre class="src src-R"><code>with(d, table(a, b, c))
+</code></pre>
 </div>
 
 <table>
@@ -257,7 +256,7 @@ Looking at the contingency table below, we see that some cells of the design had
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="org-right">&#xa0;</th>
+<th scope="col" class="org-right">&nbsp;</th>
 <th scope="col" class="org-right">a</th>
 <th scope="col" class="org-right">b</th>
 <th scope="col" class="org-right">c</th>
@@ -333,14 +332,14 @@ Looking at the contingency table below, we see that some cells of the design had
 
 
 <div class="org-src-container">
-<pre class="src src-R">library(dplyr)
+<pre class="src src-R"><code>library(dplyr)
 
 x &lt;- d %&gt;%
     group_by(subject) %&gt;%
     summarize(nc = length(unique(paste(a,b,c))))
 
 table(x$nc)
-</pre>
+</code></pre>
 </div>
 
 <table>
@@ -390,7 +389,7 @@ The following plot shows the proportion of pronoun responses in all cells of the
 </p>
 
 <div class="org-src-container">
-<pre class="src src-R">subject.means &lt;- d %&gt;%
+<pre class="src src-R"><code>subject.means &lt;- d %&gt;%
     group_by(subject, c, a, b) %&gt;%
     summarize(prop = mean(pronoun))
 
@@ -407,19 +406,19 @@ ggplot(condition.means, aes(x=interaction(c, b), fill=factor(a), y=mean)) +
   ylim(c(0,1)) +
   theme_bw(base_size=12) +
   ylab("Proportion of pronouns")
-</pre>
+</code></pre>
 </div>
 
 
-<figure id="orgf243e56">
+<figure id="orgf9fbae2">
 <img src="three_way_mean.png" alt="three_way_mean.png"><br>
 
 </figure>
 </div>
 </div>
-<div id="outline-container-orgb566347" class="outline-2">
-<h2 id="orgb566347">Attempt to model the data with lme4</h2>
-<div class="outline-text-2" id="text-orgb566347">
+<div id="outline-container-org023fed1" class="outline-2">
+<h2 id="org023fed1">Attempt to model the data with lme4</h2>
+<div class="outline-text-2" id="text-org023fed1">
 <p>
 In principle, lme4 can deal with unbalanced data sets but the low number of data points in some cells of the design means that it is hard to estimate some of the effects.  One of these effects is the three-way interaction which depends on the proportions of pronouns in all cells of the design.  Unfortunately, this three-way interaction was precisely the effect of interest in the study.<br>
 </p>
@@ -429,16 +428,16 @@ We start with the maximal model justified by the design:<br>
 </p>
 
 <div class="org-src-container">
-<pre class="src src-R">library(lme4)
-</pre>
+<pre class="src src-R"><code>library(lme4)
+</code></pre>
 </div>
 
 <div class="org-src-container">
-<pre class="src src-R">m1 &lt;- glmer(pronoun ~  (a + b + c)^3            +
+<pre class="src src-R"><code>m1 &lt;- glmer(pronoun ~  (a + b + c)^3            +
                       ((a + b + c)^3 | subject) +
                       ((a + b    )^2 | item),
             data=d, family="binomial")
-</pre>
+</code></pre>
 </div>
 
 <p>
@@ -453,7 +452,7 @@ The model above is the most complex model that can be fit given the design.  The
 The attempt to fit this model takes about 30 minutes on my machine and ultimately fails with one of the most colorful collections of warning messages I have ever seen from lme4:<br>
 </p>
 
-<pre class="example" id="org7eb758e">
+<pre class="example" id="orgaa03070">
 Warning messages:
 1: In commonArgs(par, fn, control, environment()) :
   maxfun &lt; 10 * length(par)^2 is not recommended.
@@ -473,11 +472,11 @@ Ben Bolker, the current maintainer of the lme4 package, somewhere pointed out th
 </p>
 
 <div class="org-src-container">
-<pre class="src src-R">summary(m1)
-</pre>
+<pre class="src src-R"><code>summary(m1)
+</code></pre>
 </div>
 
-<pre class="example" id="org7e3d45a">
+<pre class="example" id="org7bca687">
 Generalized linear mixed model fit by maximum likelihood (Laplace Approximation) ['glmerMod']
  Family: binomial  ( logit )
 Formula: pronoun ~ (a + b + c)^3 + ((a + b + c)^3 | subject) + ((a + b)^2 |      item)
@@ -551,14 +550,14 @@ In our case, the effect of interest is the three-way interaction and the simples
 </p>
 
 <div class="org-src-container">
-<pre class="src src-R">m2 &lt;- glmer(pronoun ~ (a + b + c)^3 +
+<pre class="src src-R"><code>m2 &lt;- glmer(pronoun ~ (a + b + c)^3 +
                       (0 + a : b : c|subject) +
                       (0 + a : b : c|item),
             data=d, family="binomial")
-</pre>
+</code></pre>
 </div>
 
-<pre class="example" id="org0fbff7f">
+<pre class="example" id="org3ddd879">
 Warning messages:
 1: In commonArgs(par, fn, control, environment()) :
   maxfun &lt; 10 * length(par)^2 is not recommended.
@@ -575,7 +574,7 @@ Warning messages:
 Unfortunately, this model also fails to converge as do all other variations that we tried, including the intercepts-only model.  The model fit (see below) looks more reasonable this time but we clearly can’t rely on this model.  Since we are already using the simplest permissible model, we reached the end of the line of what we can do with lme4.<br>
 </p>
 
-<pre class="example" id="orgb3b06f6">
+<pre class="example" id="orga86e7da">
 Generalized linear mixed model fit by maximum likelihood (Laplace Approximation) ['glmerMod']
  Family: binomial  ( logit )
 Formula: pronoun ~ (a + b + c)^3 + (0 + a:b:c | subject) + (0 + a:b:c |      item)
@@ -626,9 +625,9 @@ As indicated above, Bayesian mixed models may help in this situation.  However, 
 </p>
 </div>
 </div>
-<div id="outline-container-org452ba16" class="outline-2">
-<h2 id="org452ba16">Using MCMCglmm</h2>
-<div class="outline-text-2" id="text-org452ba16">
+<div id="outline-container-orgbe88a68" class="outline-2">
+<h2 id="orgbe88a68">Using MCMCglmm</h2>
+<div class="outline-text-2" id="text-orgbe88a68">
 <p>
 The way models are specified with MCMCglmm is similar to lme4.  There are two main differences, though.  First, we need to specify prior distributions for some parameters.  These priors help to keep the model fitting process in the plausible areas of the parameter space.  Specifically, this helps to avoid the pathological correlations between random effects found in the first lme4 model.  Second, we have to take control of some aspects of the model fitting process which lme4 handles automatically.<br>
 </p>
@@ -638,12 +637,12 @@ Below is the definition of the maximal model corresponding to the first lme4 mod
 </p>
 
 <div class="org-src-container">
-<pre class="src src-R">library(MCMCglmm)
-</pre>
+<pre class="src src-R"><code>library(MCMCglmm)
+</code></pre>
 </div>
 
 <div class="org-src-container">
-<pre class="src src-R">set.seed(14)
+<pre class="src src-R"><code>set.seed(14)
 prior.m3 &lt;- list(
   R=list(V=1, n=1, fix=1),
   G=list(G1=list(V        = diag(8),
@@ -664,7 +663,7 @@ m3 &lt;- MCMCglmm(pronoun ~ (a + b + c)^3,
                thin   = 1,
                burnin = 3000,
                nitt   = 4000)
-</pre>
+</code></pre>
 </div>
 
 <p>
@@ -700,11 +699,11 @@ Below we see the posterior means and quantiles obtained with the above model.  T
 </p>
 
 <div class="org-src-container">
-<pre class="src src-R">summary(m3$Sol)
-</pre>
+<pre class="src src-R"><code>summary(m3$Sol)
+</code></pre>
 </div>
 
-<pre class="example" id="orgc7574e0">
+<pre class="example" id="orgbb2ce4a">
 
 Iterations = 3001:4000
 Thinning interval = 1 
@@ -738,21 +737,21 @@ a:b:c       -1.50290 -1.2142 -1.01716 -0.78711 -0.4160
 </pre>
 </div>
 </div>
-<div id="outline-container-orgcdf2512" class="outline-2">
-<h2 id="orgcdf2512">Diagnosing the results using plots</h2>
-<div class="outline-text-2" id="text-orgcdf2512">
+<div id="outline-container-org42cddb6" class="outline-2">
+<h2 id="org42cddb6">Diagnosing the results using plots</h2>
+<div class="outline-text-2" id="text-org42cddb6">
 <p>
 One way to get a sense of whether the samples drawn by MCMCglmm could be an accurate representation of the true posterior is to plot them.  In the panels on the left, we see the traces of the parameters showing which values the parameters assumed throughout the sampling process; the index of the sample is on the x-axis (starting with 3000 because we discarded the first 3000 samples) and the value of the parameter in that sample is on the y-axis.  In the panels on the right, we see the distribution of the values that the parameters assumed over the course of the sampling process (again ignoring burn-in samples), i.e. the posterior distribution.<br>
 </p>
 
 <div class="org-src-container">
-<pre class="src src-R">par(mfrow=c(8,2), mar=c(2,2,1,0))
+<pre class="src src-R"><code>par(mfrow=c(8,2), mar=c(2,2,1,0))
 plot(m3$Sol, auto.layout=F)
-</pre>
+</code></pre>
 </div>
 
 
-<figure id="orgb945f0d">
+<figure id="orgf938af6">
 <img src="samples_1.png" alt="samples_1.png"><br>
 
 </figure>
@@ -766,16 +765,16 @@ Ideally, we would like to have something like the following:<br>
 </p>
 
 <div class="org-src-container">
-<pre class="src src-R">set.seed(1)
+<pre class="src src-R"><code>set.seed(1)
 par(mfrow=c(1,2), mar=c(2,2,1,0))
 x &lt;- rnorm(1000)
 plot(3001:4000, x, t="l", main="Trace of x")
 plot(density(x), main="Density of x")
-</pre>
+</code></pre>
 </div>
 
 
-<figure id="org96f861b">
+<figure id="orgd11770a">
 <img src="samples_2.png" alt="samples_2.png"><br>
 
 </figure>
@@ -793,7 +792,7 @@ Let’s have a look at the autocorrelation of samples obtained with the model ab
 </p>
 
 <div class="org-src-container">
-<pre class="src src-R">plot.acfs &lt;- function(x) {
+<pre class="src src-R"><code>plot.acfs &lt;- function(x) {
   n &lt;- dim(x)[2]
   par(mfrow=c(ceiling(n/2),2), mar=c(3,2,3,0))
   for (i in 1:n) {
@@ -802,11 +801,11 @@ Let’s have a look at the autocorrelation of samples obtained with the model ab
   }
 }
 plot.acfs(m3$Sol)
-</pre>
+</code></pre>
 </div>
 
 
-<figure id="orge210d5b">
+<figure id="orge769b1b">
 <img src="autocorrelation_1.png" alt="autocorrelation_1.png"><br>
 
 </figure>
@@ -816,7 +815,7 @@ Now let’s see what happens when we increase the thinning factor from 1 to 20 (
 </p>
 
 <div class="org-src-container">
-<pre class="src src-R">set.seed(1)
+<pre class="src src-R"><code>set.seed(1)
 m4 &lt;- MCMCglmm(pronoun ~ (a + b + c)^3,
                        ~ us(1 + (a + b + c)^3):subject +
                          us(1 + (a + b    )^2):item,
@@ -826,7 +825,7 @@ m4 &lt;- MCMCglmm(pronoun ~ (a + b + c)^3,
                thin   = 20,
                burnin = 3000,
                nitt   = 23000)
-</pre>
+</code></pre>
 </div>
 
 <p>
@@ -834,7 +833,7 @@ Examining the plots of the traces, we see that the autocorrelation is indeed muc
 </p>
 
 <div class="org-src-container">
-<pre class="src src-R">trace.plots &lt;- function(x) {
+<pre class="src src-R"><code>trace.plots &lt;- function(x) {
   n &lt;- dim(x)[2]
   par(mfrow=c(ceiling(n/2),2), mar=c(0,0.5,1,0.5))
   for (i in 1:n) {
@@ -842,22 +841,22 @@ Examining the plots of the traces, we see that the autocorrelation is indeed muc
   }
 }
 trace.plots(m4$Sol)
-</pre>
+</code></pre>
 </div>
 
 
-<figure id="org815a8f7">
+<figure id="orgef8836a">
 <img src="samples_3.png" alt="samples_3.png"><br>
 
 </figure>
 
 <div class="org-src-container">
-<pre class="src src-R">plot.acfs(m4$Sol)
-</pre>
+<pre class="src src-R"><code>plot.acfs(m4$Sol)
+</code></pre>
 </div>
 
 
-<figure id="org5512b7e">
+<figure id="org95ac684">
 <img src="autocorrelation_2.png" alt="autocorrelation_2.png"><br>
 
 </figure>
@@ -867,7 +866,7 @@ At this point, we have to ask: What is the cause of the high autocorrelation?  T
 </p>
 
 <div class="org-src-container">
-<pre class="src src-R">prior.m5 &lt;- list(
+<pre class="src src-R"><code>prior.m5 &lt;- list(
   R=list(V=1, n=1, fix=1),
   G=list(G1=list(V        = diag(2),
                  n        = 2,
@@ -887,27 +886,27 @@ m5 &lt;- MCMCglmm(pronoun ~ (a + b + c)^3,
                thin   = 20,
                burnin = 3000,
                nitt   = 23000)
-</pre>
+</code></pre>
 </div>
 
 <div class="org-src-container">
-<pre class="src src-R">trace.plots(m5$Sol)
-</pre>
+<pre class="src src-R"><code>trace.plots(m5$Sol)
+</code></pre>
 </div>
 
 
-<figure id="orge56e865">
+<figure id="org042f53a">
 <img src="samples_4.png" alt="samples_4.png"><br>
 
 </figure>
 
 <div class="org-src-container">
-<pre class="src src-R">plot.acfs(m5$Sol)
-</pre>
+<pre class="src src-R"><code>plot.acfs(m5$Sol)
+</code></pre>
 </div>
 
 
-<figure id="org35c5155">
+<figure id="orgf2e5f72">
 <img src="autocorrelation_3.png" alt="autocorrelation_3.png"><br>
 
 </figure>
@@ -917,9 +916,9 @@ This looks much better than what we had before but the situation is still somewh
 </p>
 </div>
 </div>
-<div id="outline-container-orgea4c298" class="outline-2">
-<h2 id="orgea4c298">Gelman-Rubin criterion</h2>
-<div class="outline-text-2" id="text-orgea4c298">
+<div id="outline-container-orge8e69ef" class="outline-2">
+<h2 id="orge8e69ef">Gelman-Rubin criterion</h2>
+<div class="outline-text-2" id="text-orge8e69ef">
 <p>
 The idea is to run multiple chains and to check whether they converged to the same posterior distribution.  Since the sampling process is stochastic this is not expected to happen by chance but only when the data was constraining enough to actually tell us something about likely parameter values.<br>
 </p>
@@ -929,7 +928,7 @@ Below we use the package <code>parallel</code> to run four chains concurrently. 
 </p>
 
 <div class="org-src-container">
-<pre class="src src-R">library(parallel)
+<pre class="src src-R"><code>library(parallel)
 
 set.seed(1)
 m6 &lt;- mclapply(1:4, function(i) {
@@ -946,7 +945,7 @@ m6 &lt;- mclapply(1:4, function(i) {
 
 m6 &lt;- lapply(m6, function(m) m$Sol)
 m6 &lt;- do.call(mcmc.list, m6)
-</pre>
+</code></pre>
 </div>
 
 <p>
@@ -958,15 +957,15 @@ The test statistic is called the scale reduction factor.  The closer this factor
 </p>
 
 <div class="org-src-container">
-<pre class="src src-R">library(coda)
+<pre class="src src-R"><code>library(coda)
 
 par(mfrow=c(4,2), mar=c(2,2,1,2))
 gelman.plot(m6, auto.layout=F)
-</pre>
+</code></pre>
 </div>
 
 
-<figure id="orgd72d1af">
+<figure id="orge2700ab">
 <img src="gelman_rubin.png" alt="gelman_rubin.png"><br>
 
 </figure>
@@ -976,11 +975,11 @@ The plots suggest that the chains converged well enough after roughly half of th
 </p>
 
 <div class="org-src-container">
-<pre class="src src-R">gelman.diag(m6)
-</pre>
+<pre class="src src-R"><code>gelman.diag(m6)
+</code></pre>
 </div>
 
-<pre class="example" id="org09840ea">
+<pre class="example" id="org1f33bec">
 Potential scale reduction factors:
 
             Point est. Upper C.I.
@@ -1003,31 +1002,31 @@ We can also visually confirm that the chains are mixing.  Below each chain is pl
 </p>
 
 <div class="org-src-container">
-<pre class="src src-R">par(mfrow=c(8,2), mar=c(2, 1, 1, 1))
+<pre class="src src-R"><code>par(mfrow=c(8,2), mar=c(2, 1, 1, 1))
 plot(m6, ask=F, auto.layout=F)
-</pre>
+</code></pre>
 </div>
 
 
-<figure id="orge16674f">
+<figure id="orgabdd0ce">
 <img src="samples_5.png" alt="samples_5.png"><br>
 
 </figure>
 </div>
 </div>
-<div id="outline-container-org2bca39f" class="outline-2">
-<h2 id="org2bca39f">Results</h2>
-<div class="outline-text-2" id="text-org2bca39f">
+<div id="outline-container-org9474a0d" class="outline-2">
+<h2 id="org9474a0d">Results</h2>
+<div class="outline-text-2" id="text-org9474a0d">
 <p>
 Having established that our sample is a good approximation of the posterior distribution, we can now move on and examine the results.  We first look at the posterior means and the quantiles for each parameter.<br>
 </p>
 
 <div class="org-src-container">
-<pre class="src src-R">summary(m6)
-</pre>
+<pre class="src src-R"><code>summary(m6)
+</code></pre>
 </div>
 
-<pre class="example" id="org9bd7906">
+<pre class="example" id="org9dd1c35">
 
 Iterations = 3001:22981
 Thinning interval = 20 
@@ -1065,7 +1064,7 @@ And here is a plot of the posterior means along with 95% credible intervals:<br>
 </p>
 
 <div class="org-src-container">
-<pre class="src src-R">plot.estimates &lt;- function(x) {
+<pre class="src src-R"><code>plot.estimates &lt;- function(x) {
   if (class(x) != "summary.mcmc")
     x &lt;- summary(x)
   n &lt;- dim(x$statistics)[1]
@@ -1082,11 +1081,11 @@ And here is a plot of the posterior means along with 95% credible intervals:<br>
 }
 
 plot.estimates(m6)
-</pre>
+</code></pre>
 </div>
 
 
-<figure id="orgdbcba2a">
+<figure id="org6d2c310">
 <img src="parameter_estimates.png" alt="parameter_estimates.png"><br>
 
 </figure>
@@ -1096,17 +1095,17 @@ As we can see, the three-way interaction is significant.  Some other effects are
 </p>
 </div>
 </div>
-<div id="outline-container-org33e3ca5" class="outline-2">
-<h2 id="org33e3ca5">Summary</h2>
-<div class="outline-text-2" id="text-org33e3ca5">
+<div id="outline-container-org7327596" class="outline-2">
+<h2 id="org7327596">Summary</h2>
+<div class="outline-text-2" id="text-org7327596">
 <p>
 Our attempts to analyze the data with lme4 failed due to convergence errors.  Even a radical simplification of the random effects structure did not help.  In contrast to that the Bayesian mixed-effects model converged fine after a simplification of the model and a few adjustments to the sampling process.  The price for this was that we had to take more control of the model fitting process than we have to when working with lme4 which tries to handle all that automatically.  In sum, MCMCglmm is a powerful tool that can be used when lme4 has convergence problems or when models are desired that are outside the scope of what lme4 can do.<br>
 </p>
 </div>
 </div>
-<div id="outline-container-org6703404" class="outline-2">
-<h2 id="org6703404">References</h2>
-<div class="outline-text-2" id="text-org6703404">
+<div id="outline-container-org0915a8f" class="outline-2">
+<h2 id="org0915a8f">References</h2>
+<div class="outline-text-2" id="text-org0915a8f">
 <ul class="org-ul">
 <li>Barr, D. J., Levy, R., Scheepers, C., &amp; Tily, H. J. (2013). Random effects structure for confirmatory hypothesis testing: Keep it maximal. Journal of Memory and Language, 68(3), 255–278. <a href="http://dx.doi.org/10.1016/j.jml.2012.11.001">http://dx.doi.org/10.1016/j.jml.2012.11.001</a><br></li>
 <li>Bates, D., Kliegl, R., Vasishth, S., &amp; Baayen, H. (2015). Parsimonious mixed models. Manuscript published on arXiv. <a href="http://arxiv.org/abs/1506.04967">http://arxiv.org/abs/1506.04967</a><br></li>
