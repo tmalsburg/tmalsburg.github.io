@@ -4,6 +4,37 @@
 <title>Titus von der Malsburg’s publications</title>
 <link>https://tmalsburg.github.io/</link>
 <item>
+  <title>A simple spatial bias modification to increase statistical power in concurrent two alternatives choice tasks</title>
+  <author>Ehinger, B. V., Bernhardt, M. D., Enkel, S., Hilser, C., Ossandón, J. P., Schepers, J., &amp; von der Malsburg, Titus</author>
+  <description><![CDATA[<p>Ehinger, B. V., Bernhardt, M. D., Enkel, S., Hilser, C., Ossandón, J. P., Schepers, J., &amp; von der Malsburg, Titus (2026). A simple spatial bias modification to increase statistical power in concurrent two alternatives choice tasks. Unpublished manuscript.</p><p><b>BibTeX:</b><pre>@unpublished{EhingerEtAl2026MS,
+  author = {Ehinger, Benedikt V and Bernhardt, Maximilian D and Enkel, Simon and Hilser, Claudius and Ossandón, José P and Schepers, Judith and {von der Malsburg}, Titus},
+  title = {A simple spatial bias modification to increase statistical power in concurrent two alternatives choice tasks},
+  month = {Feb},
+  year = {2026},
+  url = {http://osf.io/preprints/psyarxiv/p8gz7_v1},
+  doi = {10.31234/osf.io/p8gz7_v1},
+  publisher = {PsyArXiv},
+}
+</pre></p>]]></description>
+  <link>http://osf.io/preprints/psyarxiv/p8gz7_v1</link>
+  <pubDate>Sun, 01 Feb 2026 00:00:00 GMT</pubDate>
+  <category>unpublished</category>
+  <guid>EhingerEtAl2026MS</guid>
+</item>
+<item>
+  <title>Serial or parallel? Sub-lexical scanpath analysis of eye movement sequences in single word reading</title>
+  <author>Lahoud, H., Shechter, A., von der Malsburg, Titus, &amp; Share, D.</author>
+  <description><![CDATA[<p>Lahoud, H., Shechter, A., von der Malsburg, Titus, &amp; Share, D. (2025). Serial or parallel? Sub-lexical scanpath analysis of eye movement sequences in single word reading. Unpublished manuscript.</p><p><b>BibTeX:</b><pre>@unpublished{LahoudEtAl2025MS,
+  author = {Hend Lahoud and Adi Shechter and {von der Malsburg}, Titus and David Share},
+  title = {Serial or parallel? {Sub}-lexical scanpath analysis of eye movement sequences in single word reading},
+  year = {2025},
+}
+</pre></p>]]></description>
+  <pubDate>Mon, 01 Dec 2025 00:00:00 GMT</pubDate>
+  <category>unpublished</category>
+  <guid>LahoudEtAl2025MS</guid>
+</item>
+<item>
   <title>Predicting reading comprehension from eye-tracking measures with random forests</title>
   <author>Mézière, D., &amp; von der Malsburg, Titus</author>
   <description><![CDATA[<p>Mézière, D., &amp; von der Malsburg, Titus (2025). Predicting reading comprehension from eye-tracking measures with random forests. In J. Chromý, K. Chládková, A. Chromá, M. Filip, K. Matiasovitsová, R. Lacina, N. Paillereau, …, Proceedings of the 31th Architectures and Mechanisms for Language Processing Conference (AMLaP) (pp. ). Praha, Czech Republic: Univerzita Karlova.</p><p><b>BibTeX:</b><pre>@inproceedings{MeziereMalsburg2025AMLaP,
@@ -116,19 +147,6 @@
   <pubDate>Sat, 01 Feb 2025 00:00:00 GMT</pubDate>
   <category>inproceedings</category>
   <guid>RanjanMalsburg2025RAILS</guid>
-</item>
-<item>
-  <title>Serial or parallel? Sub-lexical scanpath analysis of eye movement sequences in single word reading</title>
-  <author>Lahoud, H., Shechter, A., von der Malsburg, Titus, &amp; Share, D.</author>
-  <description><![CDATA[<p>Lahoud, H., Shechter, A., von der Malsburg, Titus, &amp; Share, D. (2024). Serial or parallel? Sub-lexical scanpath analysis of eye movement sequences in single word reading. Unpublished manuscript.</p><p><b>BibTeX:</b><pre>@unpublished{LahoudEtAl2024MS,
-  author = {Hend Lahoud and Adi Shechter and {von der Malsburg}, Titus and David Share},
-  title = {Serial or parallel? {Sub}-lexical scanpath analysis of eye movement sequences in single word reading},
-  year = {2024},
-}
-</pre></p>]]></description>
-  <pubDate>Sun, 01 Dec 2024 00:00:00 GMT</pubDate>
-  <category>unpublished</category>
-  <guid>LahoudEtAl2024MS</guid>
 </item>
 <item>
   <title>Semantics vs agreement: What determines the interpretation of German bracketing paradoxes?</title>
