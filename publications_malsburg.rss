@@ -25,7 +25,7 @@
   <title>A simple spatial bias modification to increase statistical power in concurrent two alternatives choice tasks</title>
   <author>Ehinger, B. V., Bernhardt, M. D., Enkel, S., Hilser, C., Ossandón, J. P., Schepers, J., &amp; von der Malsburg, Titus</author>
   <description><![CDATA[<p>Ehinger, B. V., Bernhardt, M. D., Enkel, S., Hilser, C., Ossandón, J. P., Schepers, J., &amp; von der Malsburg, Titus (2026). A simple spatial bias modification to increase statistical power in concurrent two alternatives choice tasks. Unpublished manuscript.</p><p><b>BibTeX:</b><pre>@unpublished{EhingerEtAl2026MS,
-  author = {Ehinger, Benedikt V and Bernhardt, Maximilian D and Enkel, Simon and Hilser, Claudius and Ossandón, José P and Schepers, Judith and {von der Malsburg}, Titus},
+  author = {Ehinger, Benedikt Valerian and Bernhardt, Maximilian Dominik and Enkel, Simon and Hilser, Claudius and Ossandón, José Pablo and Schepers, Judith and {von der Malsburg}, Titus},
   title = {A simple spatial bias modification to increase statistical power in concurrent two alternatives choice tasks},
   month = {Feb},
   year = {2026},
@@ -38,6 +38,40 @@
   <pubDate>Sun, 01 Feb 2026 00:00:00 GMT</pubDate>
   <category>unpublished</category>
   <guid>EhingerEtAl2026MS</guid>
+</item>
+<item>
+  <title>Using eye movements to predict reading comprehension: A re-analysis with random forests</title>
+  <author>Mézière, D., &amp; von der Malsburg, Titus</author>
+  <description><![CDATA[<p>Mézière, D., &amp; von der Malsburg, Titus (2025). Using eye movements to predict reading comprehension: A re-analysis with random forests. In T. {von der Malsburg}, L. Jäger, &amp; Y. Berzak, Processings of The 3rd Workshop on Eye Movements and the Assessment of Reading Comprehension (pp. ). Stuttgart, Germany: .</p><p><b>BibTeX:</b><pre>@inproceedings{MeziereMalsburg2025EMARC,
+  author = {Diane Mézière and {von der Malsburg}, Titus},
+  title = {Using Eye Movements to Predict Reading Comprehension: {A} Re-analysis with Random Forests},
+  booktitle = {Processings of The 3rd Workshop on Eye Movements and the Assessment of Reading Comprehension},
+  year = {2025},
+  editor = {{von der Malsburg}, Titus and Lena Jäger and Yevgeni Berzak},
+  address = {Stuttgart, Germany},
+  organization = {University of Stuttgart},
+}
+</pre></p>]]></description>
+  <pubDate>Mon, 01 Dec 2025 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
+  <guid>MeziereMalsburg2025EMARC</guid>
+</item>
+<item>
+  <title>Overt spatial biases in a concurrent two alternatives choice task</title>
+  <author>Bernhardt, M. D., Enkel, S., Hilser, C., Schepers, J., von der Malsburg, Titus, Ossandón, J. P., &amp; Ehinger, B. V.</author>
+  <description><![CDATA[<p>Bernhardt, M. D., Enkel, S., Hilser, C., Schepers, J., von der Malsburg, Titus, Ossandón, J. P., &amp; Ehinger, B. V. (2025). Overt spatial biases in a concurrent two alternatives choice task. In C. {von Castell}, H. Hecht, G. Meinhardt, E. Wögerbauer, M. Wessels, &amp; C. Hunt-Radej, Proceedings of the European Conference on Visual Perception (ECVP) (pp. ). Mainz, Germany: .</p><p><b>BibTeX:</b><pre>@inproceedings{BernhardtEtAl2025ECVP,
+  author = {Bernhardt, Maximilian Dominik and Simon Enkel and Claudius Hilser and Judith Schepers and {von der Malsburg}, Titus and Ossandón, José Pablo and Ehinger, Benedikt Valerian},
+  title = {Overt spatial biases in a concurrent two alternatives choice task},
+  booktitle = {Proceedings of the European Conference on Visual Perception (ECVP)},
+  year = {2025},
+  editor = {{von Castell}, Christoph and Heiko Hecht and Günter Meinhardt and Elisabeth Wögerbauer and Marlene Wessels and Cordula Hunt-Radej},
+  address = {Mainz, Germany},
+  organization = {University of Mainz},
+}
+</pre></p>]]></description>
+  <pubDate>Mon, 01 Dec 2025 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
+  <guid>BernhardtEtAl2025ECVP</guid>
 </item>
 <item>
   <title>Serial or parallel? Sub-lexical scanpath analysis of eye movement sequences in single word reading</title>
@@ -257,11 +291,11 @@
   <guid>MeziereEtAl2024ECEM</guid>
 </item>
 <item>
-  <title>Concurrent comparison of EyeLink 1000+ and TRACKPixx3 on a benchmark test battery</title>
+  <title>Concurrent comparison of EyeLink 1000 Plus and TRACKPixx3 on a benchmark test battery</title>
   <author>Prysłopska, A., Ehinger, B., &amp; von der Malsburg, Titus</author>
-  <description><![CDATA[<p>Prysłopska, A., Ehinger, B., &amp; von der Malsburg, Titus (2024). Concurrent comparison of EyeLink 1000+ and TRACKPixx3 on a benchmark test battery. In R. Reilly, &amp; R. Radach, Proceedings of the 22th European Conference on Eye Movements (ECEM) (pp. ). : Journal of Eye Movement Research.</p><p><b>BibTeX:</b><pre>@inproceedings{PryslopskaEtAl2024ECEM,
+  <description><![CDATA[<p>Prysłopska, A., Ehinger, B., &amp; von der Malsburg, Titus (2024). Concurrent comparison of EyeLink 1000 Plus and TRACKPixx3 on a benchmark test battery. In R. Reilly, &amp; R. Radach, Proceedings of the 22th European Conference on Eye Movements (ECEM) (pp. ). : Journal of Eye Movement Research.</p><p><b>BibTeX:</b><pre>@inproceedings{PryslopskaEtAl2024ECEM,
   author = {Prysłopska, Anna and Ehinger, Benedikt and {von der Malsburg}, Titus},
-  title = {Concurrent Comparison of {EyeLink 1000+ and TRACKPixx3} on a Benchmark Test Battery},
+  title = {Concurrent Comparison of {EyeLink 1000 Plus and TRACKPixx3} on a Benchmark Test Battery},
   booktitle = {{Proceedings of the 22th European Conference on Eye Movements (ECEM)}},
   year = {2024},
   editor = {Ronan Reilly and Ralph Radach},
