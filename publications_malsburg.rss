@@ -6,16 +6,18 @@
 <item>
   <title>Diverging transformer predictions for human sentence processing: A comprehensive analysis of agreement attraction effects</title>
   <author>von der Malsburg, Titus, &amp; Padó, S.</author>
-  <description><![CDATA[<p>von der Malsburg, Titus, &amp; Padó, S. (2026). Diverging transformer predictions for human sentence processing: A comprehensive analysis of agreement attraction effects. Unpublished manuscript.</p><p><b>BibTeX:</b><pre>@unpublished{MalsburgPadó2026MS,
+  <description><![CDATA[<p>von der Malsburg, Titus, &amp; Padó, S. (2026). Diverging transformer predictions for human sentence processing: A comprehensive analysis of agreement attraction effects. Unpublished manuscript.</p><p><b>BibTeX:</b><pre>@unpublished{MalsburgPado2026MS,
   author = {{von der Malsburg}, Titus and Sebastian Padó},
   title = {Diverging Transformer Predictions for Human Sentence Processing: {A} Comprehensive Analysis of Agreement Attraction Effects},
   year = {2026},
   publisher = {arXiv},
+  url = {https://arxiv.org/abs/2603.16574},
 }
 </pre></p>]]></description>
+  <link>https://arxiv.org/abs/2603.16574</link>
   <pubDate>Tue, 01 Dec 2026 00:00:00 GMT</pubDate>
   <category>unpublished</category>
-  <guid>MalsburgPadó2026MS</guid>
+  <guid>MalsburgPado2026MS</guid>
 </item>
 <item>
   <title>A comprehensive evaluation of the TRACKPixx3 eye-tracker</title>
