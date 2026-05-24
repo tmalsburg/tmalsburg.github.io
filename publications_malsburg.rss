@@ -18,19 +18,91 @@
   <guid>LahoudEtAl2026</guid>
 </item>
 <item>
+  <title>A simple spatial bias modification to increase statistical power in concurrent two alternatives choice tasks</title>
+  <author>Ehinger, B., Bernhard, M. D., Enkel, S., Ossandón, J. P., Schepers, J., &amp; von der Malsburg, Titus</author>
+  <description><![CDATA[<p>Ehinger, B., Bernhard, M. D., Enkel, S., Ossandón, J. P., Schepers, J., &amp; von der Malsburg, Titus (2026). A simple spatial bias modification to increase statistical power in concurrent two alternatives choice tasks. In A. Huckauf, M. Nyström, &amp; M. Sauter, Proceedings of the 23rd European Conference on Eye Movements (ECEM) (pp. ). Ulm, Germany: University of Ulm.</p><p><b>BibTeX:</b><pre>@inproceedings{EhingerEtAl2026ECEM,
+  author = {Benedict Ehinger and Bernhard, Maximilian Dominik and Enkel, Simon and Ossandón, José P. and Schepers, Judith and {von der Malsburg}, Titus},
+  title = {A simple spatial bias modification to increase statistical power in concurrent two alternatives choice tasks},
+  booktitle = {Proceedings of the 23rd European Conference on Eye Movements (ECEM)},
+  year = {2026},
+  editor = {Anke Huckauf and Marcus Nyström and Marian Sauter},
+  month = {sep},
+  address = {Ulm, Germany},
+  publisher = {University of Ulm},
+}
+</pre></p>]]></description>
+  <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
+  <guid>EhingerEtAl2026ECEM</guid>
+</item>
+<item>
+  <title>Dynamic scanpath analyses of eye movements in word-problem solving provide an advanced understanding of underlying cognitive processes</title>
+  <author>Daróczy, G., Nürk, H., &amp; von der Malsburg, Titus</author>
+  <description><![CDATA[<p>Daróczy, G., Nürk, H., &amp; von der Malsburg, Titus (2026). Dynamic scanpath analyses of eye movements in word-problem solving provide an advanced understanding of underlying cognitive processes. In A. Huckauf, M. Nyström, &amp; M. Sauter, Proceedings of the 23rd European Conference on Eye Movements (ECEM) (pp. ). Ulm, Germany: University of Ulm.</p><p><b>BibTeX:</b><pre>@inproceedings{DaroczyEtAl2026ECEM,
+  author = {Daróczy, Gabriella and Hans-Christoph Nürk and {von der Malsburg}, Titus},
+  title = {Dynamic Scanpath Analyses of Eye Movements in Word-Problem Solving Provide an Advanced Understanding of Underlying Cognitive Processes},
+  booktitle = {Proceedings of the 23rd European Conference on Eye Movements (ECEM)},
+  year = {2026},
+  editor = {Anke Huckauf and Marcus Nyström and Marian Sauter},
+  month = {sep},
+  address = {Ulm, Germany},
+  publisher = {University of Ulm},
+}
+</pre></p>]]></description>
+  <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
+  <guid>DaroczyEtAl2026ECEM</guid>
+</item>
+<item>
+  <title>Syntactic boundary effects in connected texts: Processing delays occur at the beginning and end of syntactic clauses</title>
+  <author>Drobil, O., &amp; von der Malsburg, Titus</author>
+  <description><![CDATA[<p>Drobil, O., &amp; von der Malsburg, Titus (2026). Syntactic boundary effects in connected texts: Processing delays occur at the beginning and end of syntactic clauses. In A. Huckauf, M. Nyström, &amp; M. Sauter, Proceedings of the 23rd European Conference on Eye Movements (ECEM) (pp. ). Ulm, Germany: University of Ulm.</p><p><b>Abstract:</b> Studies on sentence processing frequently cite the wrap-up effect – the slowdown in reading times at clause or sentence boundaries – to justify excluding sentence-final regions from analysis. Yet, direct empirical evidence for this effect remains sparse, often confounded by the end of experimental trials, with recent findings (Xue et al., 2025, QJEP) even challenging the very existence of wrap-up. Here, we investigate a large eye-tracking corpus of German scientific texts (POTEC) to establish: (1) whether the wrap-up effect exists in passages reading and (2) how large the effect is compared to other predictors of reading times. We modeled the effects of word position on gaze duration and go-past time while controlling for word-, clause- and text-level properties, alongside spillover effects. Final words in clauses and sentences were associated with longer reading times compared to the grand mean of individual words. The wrap-up effect explained significant variance in reading times above and beyond word surprisal and other predictors. Additionally, we observed a slowdown on clause-initial words, which may reflect ahead-of-time structure-building. To our knowledge, this is the first demonstration that syntactic boundaries elicit slowdowns in connected texts and that the effects occur both at the beginning and end of clauses.</p><p><b>BibTeX:</b><pre>@inproceedings{DrobilMalsburg2026ECEM,
+  author = {Ondrej Drobil and {von der Malsburg}, Titus},
+  title = {Syntactic Boundary Effects in Connected Texts: {Processing} Delays Occur at the Beginning and End of Syntactic Clauses},
+  booktitle = {Proceedings of the 23rd European Conference on Eye Movements (ECEM)},
+  year = {2026},
+  editor = {Anke Huckauf and Marcus Nyström and Marian Sauter},
+  month = {sep},
+  address = {Ulm, Germany},
+  publisher = {University of Ulm},
+  abstract = {Studies on sentence processing frequently cite the wrap-up effect – the slowdown in reading times at clause or sentence boundaries – to justify excluding sentence-final regions from analysis. Yet, direct empirical evidence for this effect remains sparse, often confounded by the end of experimental trials, with recent findings (Xue et al., 2025, QJEP) even challenging the very existence of wrap-up. Here, we investigate a large eye-tracking corpus of German scientific texts (POTEC) to establish: (1) whether the wrap-up effect exists in passages reading and (2) how large the effect is compared to other predictors of reading times. We modeled the effects of word position on gaze duration and go-past time while controlling for word-, clause- and text-level properties, alongside spillover effects. Final words in clauses and sentences were associated with longer reading times compared to the grand mean of individual words. The wrap-up effect explained significant variance in reading times above and beyond word surprisal and other predictors. Additionally, we observed a slowdown on clause-initial words, which may reflect ahead-of-time structure-building. To our knowledge, this is the first demonstration that syntactic boundaries elicit slowdowns in connected texts and that the effects occur both at the beginning and end of clauses.},
+}
+</pre></p>]]></description>
+  <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
+  <guid>DrobilMalsburg2026ECEM</guid>
+</item>
+<item>
+  <title>Clause boundary effects connected text: readers slow down at the beginning and end of syntactic clauses</title>
+  <author>Drobil, O., &amp; von der Malsburg, Titus</author>
+  <description><![CDATA[<p>Drobil, O., &amp; von der Malsburg, Titus (2026). Clause boundary effects connected text: readers slow down at the beginning and end of syntactic clauses. In M. Stegenwallner-Schütz, L. Jäger, Y. Berzak, &amp; T. {von der Malsburg}, Proceedings of the 4th Workshop on Eye Movements and the Assessment of Reading Comprehension (pp. ). Koblenz, Germany: .</p><p><b>BibTeX:</b><pre>@inproceedings{DrobilMalsburg2026EMARC,
+  author = {Ondřej Drobil and {von der Malsburg}, Titus},
+  title = {Clause Boundary Effects Connected Text: Readers Slow Down at the Beginning and End of Syntactic Clauses},
+  booktitle = {{Proceedings of the 4th Workshop on Eye Movements and the Assessment of Reading Comprehension}},
+  year = {2026},
+  editor = {Maja Stegenwallner-Schütz and Lena Jäger and Yevgeni Berzak and {von der Malsburg}, Titus},
+  month = {jun},
+  address = {Koblenz, Germany},
+  organization = {University of Koblenz},
+}
+</pre></p>]]></description>
+  <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
+  <guid>DrobilMalsburg2026EMARC</guid>
+</item>
+<item>
   <title>The role of conversational principles in cognitive biases: The case of overprecision in interval estimation</title>
   <author>Meyer, M., &amp; von der Malsburg, Titus</author>
-  <description><![CDATA[<p>Meyer, M., &amp; von der Malsburg, Titus (2026). The role of conversational principles in cognitive biases: The case of overprecision in interval estimation. Unpublished manuscript.</p><p><b>Abstract:</b> Conversational principles such as Grice's maxim of Quantity (roughly: be informative) are essential to our ability to communicate efficiently. Due to their ubiquitous nature in language-based communication, they may interfere in a large variety of other cognitive tasks which at first glance may not seem linguistic in nature. Here, we report three experiments that investigated the role of the Quantity maxim in the overconfidence bias in interval estimation (also referred to as overprecision). Experiment 1 (N=309) used a chat paradigm to bias participants against providing the most informative answer, as would be required by Quantity, resulting in a reduced overprecision bias. Experiment 2 (N=322) and Experiment 3 (N=309) tested whether this effect depends on explicit social cues, specifically, the presence of a conversational partner. Both experiments replicated Experiment 1 in the absence of a full conversational context, thus showing that linguistic cues alone are sufficient. Taken together, these results suggest that conversational principles – extensively studied in linguistics, but largely ignored in research on cognitive biases – play an important role in the overprecision bias and, as we argue, likely in other biases as well.</p><p><b>BibTeX:</b><pre>@unpublished{MeyerMalsburg2026MS,
+  <description><![CDATA[<p>Meyer, M., &amp; von der Malsburg, Titus (2026). The role of conversational principles in cognitive biases: The case of overprecision in interval estimation. Unpublished manuscript.</p><p><b>BibTeX:</b><pre>@unpublished{MeyerMalsburg2026MS,
   author = {Marie-Christine Meyer and {von der Malsburg}, Titus},
   title = {The Role of Conversational Principles in Cognitive Biases: {The} Case of Overprecision in Interval Estimation},
-  month = {may},
+  month = {apr},
   year = {2026},
-  abstract = {Conversational principles such as Grice's maxim of Quantity (roughly: be informative) are essential to our ability to communicate efficiently. Due to their ubiquitous nature in language-based communication, they may interfere in a large variety of other cognitive tasks which at first glance may not seem linguistic in nature. Here, we report three experiments that investigated the role of the Quantity maxim in the overconfidence bias in interval estimation (also referred to as overprecision). Experiment 1 (N=309) used a chat paradigm to bias participants against providing the most informative answer, as would be required by Quantity, resulting in a reduced overprecision bias. Experiment 2 (N=322) and Experiment 3 (N=309) tested whether this effect depends on explicit social cues, specifically, the presence of a conversational partner. Both experiments replicated Experiment 1 in the absence of a full conversational context, thus showing that linguistic cues alone are sufficient. Taken together, these results suggest that conversational principles – extensively studied in linguistics, but largely ignored in research on cognitive biases – play an important role in the overprecision bias and, as we argue, likely in other biases as well.},
   url = {https://osf.io/preprints/psyarxiv/rsuzd},
 }
 </pre></p>]]></description>
   <link>https://osf.io/preprints/psyarxiv/rsuzd</link>
-  <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
+  <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
   <category>unpublished</category>
   <guid>MeyerMalsburg2026MS</guid>
 </item>
@@ -40,7 +112,7 @@
   <description><![CDATA[<p>Prysłopska, A., &amp; von der Malsburg, Titus (2026). Breaking the brackets: Semantic and morphosyntactic cues in the interpretation of bracketing paradoxes. Unpublished manuscript.</p><p><b>BibTeX:</b><pre>@unpublished{PryslopskaMalsburg2026MS,
   author = {Anna Prysłopska and {von der Malsburg}, Titus},
   title = {Breaking the brackets: {Semantic} and morphosyntactic cues in the interpretation of bracketing paradoxes},
-  month = {Mar},
+  month = {mar},
   year = {2026},
   day = {24},
   publisher = {Open Science Framework},
@@ -58,7 +130,7 @@
   <description><![CDATA[<p>von der Malsburg, Titus, &amp; Padó, S. (2026). Diverging transformer predictions for human sentence processing: A comprehensive analysis of agreement attraction effects. Unpublished manuscript.</p><p><b>BibTeX:</b><pre>@unpublished{MalsburgPado2026MS,
   author = {{von der Malsburg}, Titus and Sebastian Padó},
   title = {Diverging Transformer Predictions for Human Sentence Processing: {A} Comprehensive Analysis of Agreement Attraction Effects},
-  month = {Mar},
+  month = {mar},
   year = {2026},
   day = {17},
   publisher = {arXiv},
@@ -76,19 +148,19 @@
 <item>
   <title>Patterns in the phonology of Mandarin Chinese: Basic color terms and beyond</title>
   <author>Hole, D., &amp; von der Malsburg, Titus</author>
-  <description><![CDATA[<p>Hole, D., &amp; von der Malsburg, Titus (2026). Patterns in the phonology of Mandarin Chinese: Basic color terms and beyond. Unpublished manuscript.</p><p><b>BibTeX:</b><pre>@unpublished{HoleMalsburg2026MS,
+  <description><![CDATA[<p>Hole, D., &amp; von der Malsburg, Titus (2026). Patterns in the phonology of Mandarin Chinese: Basic color terms and beyond.</p><p><b>BibTeX:</b><pre>@misc{HoleMalsburg2026MS,
   author = {Daniel Hole and {von der Malsburg}, Titus},
   title = {Patterns in the phonology of {Mandarin Chinese}: {B}asic color terms and beyond},
   month = {mar},
   year = {2026},
   day = {24},
   url = {https://lingbuzz.net/lingbuzz/009858},
-  howpublished = {lingbuzz/009858},
+  howpublished = {Working paper, LingBuzz 009858},
 }
 </pre></p>]]></description>
   <link>https://lingbuzz.net/lingbuzz/009858</link>
   <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
-  <category>unpublished</category>
+  <category>misc</category>
   <guid>HoleMalsburg2026MS</guid>
 </item>
 <item>
@@ -97,7 +169,7 @@
   <description><![CDATA[<p>Ehinger, B. V., Prysłopska, A., Adusei, C., &amp; von der Malsburg, Titus (2026). A comprehensive evaluation of the TRACKPixx3 eye-tracker. Unpublished manuscript.</p><p><b>BibTeX:</b><pre>@unpublished{EhingerEtAl2026MSb,
   author = {Ehinger, Benedikt V and Anna Prysłopska and Candy Adusei and {von der Malsburg}, Titus},
   title = {A Comprehensive Evaluation of the {TRACKPixx3} Eye-Tracker},
-  month = {Feb},
+  month = {feb},
   day = {8},
   year = {2026},
   url = {https://osf.io/preprints/psyarxiv/vucg3_v1},
@@ -116,7 +188,7 @@
   <description><![CDATA[<p>Ehinger, B. V., Bernhardt, M. D., Enkel, S., Hilser, C., Ossandón, J. P., Schepers, J., &amp; von der Malsburg, Titus (2026). A simple spatial bias modification to increase statistical power in concurrent two alternatives choice tasks. Unpublished manuscript.</p><p><b>BibTeX:</b><pre>@unpublished{EhingerEtAl2026MS,
   author = {Ehinger, Benedikt Valerian and Bernhardt, Maximilian Dominik and Enkel, Simon and Hilser, Claudius and Ossandón, José Pablo and Schepers, Judith and {von der Malsburg}, Titus},
   title = {A simple spatial bias modification to increase statistical power in concurrent two alternatives choice tasks},
-  month = {Feb},
+  month = {feb},
   year = {2026},
   day = {3},
   url = {http://osf.io/preprints/psyarxiv/p8gz7_v1},
@@ -128,23 +200,6 @@
   <pubDate>Sun, 01 Feb 2026 00:00:00 GMT</pubDate>
   <category>unpublished</category>
   <guid>EhingerEtAl2026MS</guid>
-</item>
-<item>
-  <title>Using eye movements to predict reading comprehension: A re-analysis with random forests</title>
-  <author>Mézière, D., &amp; von der Malsburg, Titus</author>
-  <description><![CDATA[<p>Mézière, D., &amp; von der Malsburg, Titus (2025). Using eye movements to predict reading comprehension: A re-analysis with random forests. In T. {von der Malsburg}, L. Jäger, &amp; Y. Berzak, Processings of The 3rd Workshop on Eye Movements and the Assessment of Reading Comprehension (pp. ). Stuttgart, Germany: .</p><p><b>BibTeX:</b><pre>@inproceedings{MeziereMalsburg2025EMARC,
-  author = {Diane Mézière and {von der Malsburg}, Titus},
-  title = {Using Eye Movements to Predict Reading Comprehension: {A} Re-analysis with Random Forests},
-  booktitle = {Processings of The 3rd Workshop on Eye Movements and the Assessment of Reading Comprehension},
-  year = {2025},
-  editor = {{von der Malsburg}, Titus and Lena Jäger and Yevgeni Berzak},
-  address = {Stuttgart, Germany},
-  organization = {University of Stuttgart},
-}
-</pre></p>]]></description>
-  <pubDate>Mon, 01 Dec 2025 00:00:00 GMT</pubDate>
-  <category>inproceedings</category>
-  <guid>MeziereMalsburg2025EMARC</guid>
 </item>
 <item>
   <title>Overt spatial biases in a concurrent two alternatives choice task</title>
@@ -219,11 +274,29 @@
   <guid>FantonEtAl2025GeBNLP</guid>
 </item>
 <item>
-  <title>Using eye movements from a “read‐only” task to predict text comprehension</title>
+  <title>Using eye movements to predict reading comprehension: A re-analysis with random forests</title>
+  <author>Mézière, D., &amp; von der Malsburg, Titus</author>
+  <description><![CDATA[<p>Mézière, D., &amp; von der Malsburg, Titus (2025). Using eye movements to predict reading comprehension: A re-analysis with random forests. In T. {von der Malsburg}, L. Jäger, &amp; Y. Berzak, Proceedings of the 3th Workshop on Eye Movements and the Assessment of Reading Comprehension (pp. ). Stuttgart, Germany: .</p><p><b>BibTeX:</b><pre>@inproceedings{MeziereMalsburg2025EMARC,
+  author = {Diane Mézière and {von der Malsburg}, Titus},
+  title = {Using Eye Movements to Predict Reading Comprehension: {A} Re-analysis with Random Forests},
+  booktitle = {{Proceedings of the 3th Workshop on Eye Movements and the Assessment of Reading Comprehension}},
+  year = {2025},
+  editor = {{von der Malsburg}, Titus and Lena Jäger and Yevgeni Berzak},
+  month = {jun},
+  address = {Stuttgart, Germany},
+  organization = {University of Stuttgart},
+}
+</pre></p>]]></description>
+  <pubDate>Sun, 01 Jun 2025 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
+  <guid>MeziereMalsburg2025EMARC</guid>
+</item>
+<item>
+  <title>Using eye movements from a “read-only” task to predict text comprehension</title>
   <author>Mézière, D. C., Yu, L., von der Malsburg, T., Reichle, E. D., &amp; McArthur, G.</author>
-  <description><![CDATA[<p>Mézière, D. C., Yu, L., von der Malsburg, T., Reichle, E. D., &amp; McArthur, G. (2025). Using eye movements from a “read‐only” task to predict text comprehension. Reading Research Quarterly, 60(3), . http://dx.doi.org/10.1002/rrq.70023</p><p><b>BibTeX:</b><pre>@article{MeziereEtAl2025,
+  <description><![CDATA[<p>Mézière, D. C., Yu, L., von der Malsburg, T., Reichle, E. D., &amp; McArthur, G. (2025). Using eye movements from a “read-only” task to predict text comprehension. Reading Research Quarterly, 60(3), . http://dx.doi.org/10.1002/rrq.70023</p><p><b>BibTeX:</b><pre>@article{MeziereEtAl2025,
   author = {Mézière, Diane C. and Yu, Lili and von der Malsburg, Titus and Reichle, Erik D. and McArthur, Genevieve},
-  title = {Using Eye Movements From a “Read‐Only” Task to Predict Text Comprehension},
+  title = {Using Eye Movements From a “Read-Only” Task to Predict Text Comprehension},
   journal = {Reading Research Quarterly},
   year = {2025},
   volume = {60},
@@ -392,6 +465,24 @@
   <pubDate>Thu, 01 Aug 2024 00:00:00 GMT</pubDate>
   <category>article</category>
   <guid>LaurinavichyuteMalsburg2024</guid>
+</item>
+<item>
+  <title>Predicting recall from eye movements during a read-only task</title>
+  <author>Mézière, D., Yu, L., von der Malsburg, Titus, Reichle, E., &amp; McArthur, G.</author>
+  <description><![CDATA[<p>Mézière, D., Yu, L., von der Malsburg, Titus, Reichle, E., &amp; McArthur, G. (2024). Predicting recall from eye movements during a read-only task. In L. Jäger, T. {von der Malsburg}, &amp; Y. Berzak, Proceedings of the 2th Workshop on Eye Movements and the Assessment of Reading Comprehension (pp. ). Zurich, Switzerland: .</p><p><b>BibTeX:</b><pre>@inproceedings{MeziereEtAl2024EMARC,
+  author = {Diane Mézière and Lili Yu and {von der Malsburg}, Titus and Erik Reichle and Genevieve McArthur},
+  title = {Predicting recall from eye movements during a read-only task},
+  booktitle = {{Proceedings of the 2th Workshop on Eye Movements and the Assessment of Reading Comprehension}},
+  year = {2024},
+  editor = {Lena Jäger and {von der Malsburg}, Titus and Yevgeni Berzak},
+  month = {jun},
+  address = {Zurich, Switzerland},
+  organization = {University of Zurich},
+}
+</pre></p>]]></description>
+  <pubDate>Sat, 01 Jun 2024 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
+  <guid>MeziereEtAl2024EMARC</guid>
 </item>
 <item>
   <title>Towards a psycholinguistic model of bracketing paradoxes</title>
@@ -686,18 +777,19 @@
 <item>
   <title>Shannon entropy is a more comprehensive and principled morphological productivity measure than the standard alternatives</title>
   <author>Pankratz, E., von der Malsburg, Titus, &amp; Vasishth, S.</author>
-  <description><![CDATA[<p>Pankratz, E., von der Malsburg, Titus, &amp; Vasishth, S. (2022). Shannon entropy is a more comprehensive and principled morphological productivity measure than the standard alternatives. Unpublished manuscript.</p><p><b>Abstract:</b> Existing corpus-based measures of morphological productivity all exhibit problematic dependences on sample size. Here, we show that another measure, the Shannon entropy of a type frequency distribution, has a different relationship with sample size, one that allows meaningful analysis in a wider range of circumstances. Once the sample gets large enough, entropy stabilises at interpretable values. In contrast to the existing measures, this behaviour allows the entropy scores of samples of different sizes to be sensibly compared. Entropy's stabilisation is due to an intriguing property of type frequency distributions, namely their self-similarity: even when sample size changes, the shape of the distribution itself does not. We also include empirical comparisons of entropy to three standard productivity measures—type count, potential productivity, and S—and provide a tentative conceptual validation of entropy as a productivity measure, showing with a Bayesian regression model that entropy picks up on important aspects of what it means for a morpheme to be productive.</p><p><b>BibTeX:</b><pre>@unpublished{PankratzEtAl2022MS,
+  <description><![CDATA[<p>Pankratz, E., von der Malsburg, Titus, &amp; Vasishth, S. (2022). Shannon entropy is a more comprehensive and principled morphological productivity measure than the standard alternatives.</p><p><b>Abstract:</b> Existing corpus-based measures of morphological productivity all exhibit problematic dependences on sample size. Here, we show that another measure, the Shannon entropy of a type frequency distribution, has a different relationship with sample size, one that allows meaningful analysis in a wider range of circumstances. Once the sample gets large enough, entropy stabilises at interpretable values. In contrast to the existing measures, this behaviour allows the entropy scores of samples of different sizes to be sensibly compared. Entropy's stabilisation is due to an intriguing property of type frequency distributions, namely their self-similarity: even when sample size changes, the shape of the distribution itself does not. We also include empirical comparisons of entropy to three standard productivity measures—type count, potential productivity, and S—and provide a tentative conceptual validation of entropy as a productivity measure, showing with a Bayesian regression model that entropy picks up on important aspects of what it means for a morpheme to be productive.</p><p><b>BibTeX:</b><pre>@misc{PankratzEtAl2022MS,
   author = {Elizabeth Pankratz and {von der Malsburg}, Titus and Shravan Vasishth},
   title = {Shannon entropy is a more comprehensive and principled morphological productivity measure than the standard alternatives},
   year = {2022},
   url = {https://psyarxiv.com/vkyug},
   doi = {10.31234/osf.io/vkyug},
+  howpublished = {Working paper, PsyArXiv},
   abstract = {Existing corpus-based measures of morphological productivity all exhibit problematic dependences on sample size. Here, we show that another measure, the Shannon entropy of a type frequency distribution, has a different relationship with sample size, one that allows meaningful analysis in a wider range of circumstances. Once the sample gets large enough, entropy stabilises at interpretable values. In contrast to the existing measures, this behaviour allows the entropy scores of samples of different sizes to be sensibly compared. Entropy's stabilisation is due to an intriguing property of type frequency distributions, namely their self-similarity: even when sample size changes, the shape of the distribution itself does not. We also include empirical comparisons of entropy to three standard productivity measures—type count, potential productivity, and S—and provide a tentative conceptual validation of entropy as a productivity measure, showing with a Bayesian regression model that entropy picks up on important aspects of what it means for a morpheme to be productive.},
 }
 </pre></p>]]></description>
   <link>https://psyarxiv.com/vkyug</link>
   <pubDate>Thu, 01 Dec 2022 00:00:00 GMT</pubDate>
-  <category>unpublished</category>
+  <category>misc</category>
   <guid>PankratzEtAl2022MS</guid>
 </item>
 <item>
