@@ -18,12 +18,48 @@
   <guid>LahoudEtAl2026</guid>
 </item>
 <item>
+  <title>Sentence and clause boundary effects challenge strict incrementality in sentence comprehension</title>
+  <author>Drobil, O., &amp; von der Malsburg, Titus</author>
+  <description><![CDATA[<p>Drobil, O., &amp; von der Malsburg, Titus (2026). Sentence and clause boundary effects challenge strict incrementality in sentence comprehension. In M. Crocker, K. Häuser, T. Jachmann, M. Kühne, R. Lemke, M. Nakamura, &amp; L. Pissani, Proceedings of the 32nd Architectures and Mechanisms for Language Processing Conference (AMLaP) (pp. ). Saarbrücken, Germany: Saarland University.</p><p><b>BibTeX:</b><pre>@inproceedings{DrobilMalsburg2026AMLaP,
+  author = {Drobil, Ondřej and {von der Malsburg}, Titus},
+  title = {Sentence and clause boundary effects challenge strict incrementality in sentence comprehension},
+  booktitle = {{Proceedings of the 32nd Architectures and Mechanisms for Language Processing Conference ({AMLaP})}},
+  year = {2026},
+  editor = {Matthew Crocker and Katja Häuser and Torsten Jachmann and Marie-Ann Kühne and Robin Lemke and Masato Nakamura and Laura Pissani},
+  month = {sep},
+  address = {Saarbrücken, Germany},
+  publisher = {Saarland University},
+}
+</pre></p>]]></description>
+  <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
+  <guid>DrobilMalsburg2026AMLaP</guid>
+</item>
+<item>
+  <title>False positives in Bayesian analyses of eye movements in reading: The impact of regularizing priors and credible interval sizes</title>
+  <author>von der Malsburg, Titus, &amp; Angele, B.</author>
+  <description><![CDATA[<p>von der Malsburg, Titus, &amp; Angele, B. (2026). False positives in Bayesian analyses of eye movements in reading: The impact of regularizing priors and credible interval sizes. In M. Crocker, K. Häuser, T. Jachmann, M. Kühne, R. Lemke, M. Nakamura, &amp; L. Pissani, Proceedings of the 32nd Architectures and Mechanisms for Language Processing Conference (AMLaP) (pp. ). Saarbrücken, Germany: Saarland University.</p><p><b>BibTeX:</b><pre>@inproceedings{MalsburgAngele2026AMLaP,
+  author = {{von der Malsburg}, Titus and Angele, Bernhard},
+  title = {False Positives in {Bayesian} Analyses of Eye Movements in Reading: {The} Impact of Regularizing Priors and Credible Interval Sizes},
+  booktitle = {{Proceedings of the 32nd Architectures and Mechanisms for Language Processing Conference ({AMLaP})}},
+  year = {2026},
+  editor = {Matthew Crocker and Katja Häuser and Torsten Jachmann and Marie-Ann Kühne and Robin Lemke and Masato Nakamura and Laura Pissani},
+  month = {sep},
+  address = {Saarbrücken, Germany},
+  publisher = {Saarland University},
+}
+</pre></p>]]></description>
+  <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
+  <guid>MalsburgAngele2026AMLaP</guid>
+</item>
+<item>
   <title>A simple spatial bias modification to increase statistical power in concurrent two alternatives choice tasks</title>
   <author>Ehinger, B., Bernhard, M. D., Enkel, S., Ossandón, J. P., Schepers, J., &amp; von der Malsburg, Titus</author>
   <description><![CDATA[<p>Ehinger, B., Bernhard, M. D., Enkel, S., Ossandón, J. P., Schepers, J., &amp; von der Malsburg, Titus (2026). A simple spatial bias modification to increase statistical power in concurrent two alternatives choice tasks. In A. Huckauf, M. Nyström, &amp; M. Sauter, Proceedings of the 23rd European Conference on Eye Movements (ECEM) (pp. ). Ulm, Germany: University of Ulm.</p><p><b>BibTeX:</b><pre>@inproceedings{EhingerEtAl2026ECEM,
   author = {Benedict Ehinger and Bernhard, Maximilian Dominik and Enkel, Simon and Ossandón, José P. and Schepers, Judith and {von der Malsburg}, Titus},
   title = {A simple spatial bias modification to increase statistical power in concurrent two alternatives choice tasks},
-  booktitle = {Proceedings of the 23rd European Conference on Eye Movements (ECEM)},
+  booktitle = {{Proceedings of the 23rd European Conference on Eye Movements (ECEM)}},
   year = {2026},
   editor = {Anke Huckauf and Marcus Nyström and Marian Sauter},
   month = {sep},
@@ -41,7 +77,7 @@
   <description><![CDATA[<p>Daróczy, G., Nürk, H., &amp; von der Malsburg, Titus (2026). Dynamic scanpath analyses of eye movements in word-problem solving provide an advanced understanding of underlying cognitive processes. In A. Huckauf, M. Nyström, &amp; M. Sauter, Proceedings of the 23rd European Conference on Eye Movements (ECEM) (pp. ). Ulm, Germany: University of Ulm.</p><p><b>BibTeX:</b><pre>@inproceedings{DaroczyEtAl2026ECEM,
   author = {Daróczy, Gabriella and Hans-Christoph Nürk and {von der Malsburg}, Titus},
   title = {Dynamic Scanpath Analyses of Eye Movements in Word-Problem Solving Provide an Advanced Understanding of Underlying Cognitive Processes},
-  booktitle = {Proceedings of the 23rd European Conference on Eye Movements (ECEM)},
+  booktitle = {{Proceedings of the 23rd European Conference on Eye Movements (ECEM)}},
   year = {2026},
   editor = {Anke Huckauf and Marcus Nyström and Marian Sauter},
   month = {sep},
@@ -59,7 +95,7 @@
   <description><![CDATA[<p>Drobil, O., &amp; von der Malsburg, Titus (2026). Syntactic boundary effects in connected texts: Processing delays occur at the beginning and end of syntactic clauses. In A. Huckauf, M. Nyström, &amp; M. Sauter, Proceedings of the 23rd European Conference on Eye Movements (ECEM) (pp. ). Ulm, Germany: University of Ulm.</p><p><b>Abstract:</b> Studies on sentence processing frequently cite the wrap-up effect – the slowdown in reading times at clause or sentence boundaries – to justify excluding sentence-final regions from analysis. Yet, direct empirical evidence for this effect remains sparse, often confounded by the end of experimental trials, with recent findings (Xue et al., 2025, QJEP) even challenging the very existence of wrap-up. Here, we investigate a large eye-tracking corpus of German scientific texts (POTEC) to establish: (1) whether the wrap-up effect exists in passages reading and (2) how large the effect is compared to other predictors of reading times. We modeled the effects of word position on gaze duration and go-past time while controlling for word-, clause- and text-level properties, alongside spillover effects. Final words in clauses and sentences were associated with longer reading times compared to the grand mean of individual words. The wrap-up effect explained significant variance in reading times above and beyond word surprisal and other predictors. Additionally, we observed a slowdown on clause-initial words, which may reflect ahead-of-time structure-building. To our knowledge, this is the first demonstration that syntactic boundaries elicit slowdowns in connected texts and that the effects occur both at the beginning and end of clauses.</p><p><b>BibTeX:</b><pre>@inproceedings{DrobilMalsburg2026ECEM,
   author = {Ondrej Drobil and {von der Malsburg}, Titus},
   title = {Syntactic Boundary Effects in Connected Texts: {Processing} Delays Occur at the Beginning and End of Syntactic Clauses},
-  booktitle = {Proceedings of the 23rd European Conference on Eye Movements (ECEM)},
+  booktitle = {{Proceedings of the 23rd European Conference on Eye Movements (ECEM)}},
   year = {2026},
   editor = {Anke Huckauf and Marcus Nyström and Marian Sauter},
   month = {sep},
@@ -207,7 +243,7 @@
   <description><![CDATA[<p>Bernhardt, M. D., Enkel, S., Hilser, C., Schepers, J., von der Malsburg, Titus, Ossandón, J. P., &amp; Ehinger, B. V. (2025). Overt spatial biases in a concurrent two alternatives choice task. In C. {von Castell}, H. Hecht, G. Meinhardt, E. Wögerbauer, M. Wessels, &amp; C. Hunt-Radej, Proceedings of the European Conference on Visual Perception (ECVP) (pp. ). Mainz, Germany: .</p><p><b>BibTeX:</b><pre>@inproceedings{BernhardtEtAl2025ECVP,
   author = {Bernhardt, Maximilian Dominik and Simon Enkel and Claudius Hilser and Judith Schepers and {von der Malsburg}, Titus and Ossandón, José Pablo and Ehinger, Benedikt Valerian},
   title = {Overt spatial biases in a concurrent two alternatives choice task},
-  booktitle = {Proceedings of the European Conference on Visual Perception (ECVP)},
+  booktitle = {{Proceedings of the European Conference on Visual Perception (ECVP)}},
   year = {2025},
   editor = {{von Castell}, Christoph and Heiko Hecht and Günter Meinhardt and Elisabeth Wögerbauer and Marlene Wessels and Cordula Hunt-Radej},
   address = {Mainz, Germany},
