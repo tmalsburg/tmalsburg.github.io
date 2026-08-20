@@ -109,6 +109,27 @@
   <guid>DrobilMalsburg2026ECEM</guid>
 </item>
 <item>
+  <title>Gaze behavior in visual world experiments can be modeled with off-the-shelf language-vision encoders</title>
+  <author>Shankar, R. M., von der Malsburg, Titus, &amp; Padó, S.</author>
+  <description><![CDATA[<p>Shankar, R. M., von der Malsburg, Titus, &amp; Padó, S. (2026). Gaze behavior in visual world experiments can be modeled with off-the-shelf language-vision encoders. Unpublished manuscript.</p><p><b>BibTeX:</b><pre>@unpublished{ShankarEtAl2026MS,
+  author = {Shankar, Rahul Murali and {von der Malsburg}, Titus and Sebastian Padó},
+  title = {Gaze Behavior in Visual World Experiments Can be Modeled With Off-the-shelf Language-Vision Encoders},
+  month = {Aug},
+  year = {2026},
+  day = {07},
+  publisher = {arXiv},
+  eprint = {2608.07282},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.CL},
+  doi = {10.48550/arXiv.2608.07282},
+}
+</pre></p>]]></description>
+  <link>http://dx.doi.org/10.48550/arXiv.2608.07282</link>
+  <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
+  <category>unpublished</category>
+  <guid>ShankarEtAl2026MS</guid>
+</item>
+<item>
   <title>Clause boundary effects connected text: readers slow down at the beginning and end of syntactic clauses</title>
   <author>Drobil, O., &amp; von der Malsburg, Titus</author>
   <description><![CDATA[<p>Drobil, O., &amp; von der Malsburg, Titus (2026). Clause boundary effects connected text: readers slow down at the beginning and end of syntactic clauses. In M. Stegenwallner-Schütz, L. Jäger, Y. Berzak, &amp; T. {von der Malsburg}, Proceedings of the 4th Workshop on Eye Movements and the Assessment of Reading Comprehension (pp. ). Koblenz, Germany: .</p><p><b>BibTeX:</b><pre>@inproceedings{DrobilMalsburg2026EMARC,
@@ -168,6 +189,7 @@
   title = {Diverging Transformer Predictions for Human Sentence Processing: {A} Comprehensive Analysis of Agreement Attraction Effects},
   month = {mar},
   year = {2026},
+  sortname = {Malsburg},
   day = {17},
   publisher = {arXiv},
   eprint = {2603.16574},
