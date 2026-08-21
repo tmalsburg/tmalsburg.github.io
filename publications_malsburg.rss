@@ -18,6 +18,29 @@
   <guid>LahoudEtAl2026</guid>
 </item>
 <item>
+  <title>Diverging transformer predictions for human sentence processing: A comprehensive analysis of agreement attraction effects</title>
+  <author>von der Malsburg, Titus, &amp; Padó, S.</author>
+  <description><![CDATA[<p>von der Malsburg, Titus, &amp; Padó, S. (2026). Diverging transformer predictions for human sentence processing: A comprehensive analysis of agreement attraction effects. In , Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (pp. ). Budapest, Hungary: Association for Computational Linguistics.</p><p><b>BibTeX:</b><pre>@inproceedings{MalsburgPado2026EMNLP,
+  author = {{von der Malsburg}, Titus and Sebastian Padó},
+  title = {Diverging Transformer Predictions for Human Sentence Processing: {A} Comprehensive Analysis of Agreement Attraction Effects},
+  booktitle = {Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing},
+  year = {2026},
+  month = {oct},
+  address = {Budapest, Hungary},
+  publisher = {Association for Computational Linguistics},
+  sortname = {Malsburg},
+  eprint = {2603.16574},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.CL},
+  doi = {10.48550/arXiv.2603.16574},
+}
+</pre></p>]]></description>
+  <link>http://dx.doi.org/10.48550/arXiv.2603.16574</link>
+  <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+  <category>inproceedings</category>
+  <guid>MalsburgPado2026EMNLP</guid>
+</item>
+<item>
   <title>Sentence and clause boundary effects challenge strict incrementality in sentence comprehension</title>
   <author>Drobil, O., &amp; von der Malsburg, Titus</author>
   <description><![CDATA[<p>Drobil, O., &amp; von der Malsburg, Titus (2026). Sentence and clause boundary effects challenge strict incrementality in sentence comprehension. In M. Crocker, K. Häuser, T. Jachmann, M. Kühne, R. Lemke, M. Nakamura, &amp; L. Pissani, Proceedings of the 32nd Architectures and Mechanisms for Language Processing Conference (AMLaP) (pp. ). Saarbrücken, Germany: Saarland University.</p><p><b>BibTeX:</b><pre>@inproceedings{DrobilMalsburg2026AMLaP,
@@ -180,28 +203,6 @@
   <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
   <category>unpublished</category>
   <guid>PryslopskaMalsburg2026MS</guid>
-</item>
-<item>
-  <title>Diverging transformer predictions for human sentence processing: A comprehensive analysis of agreement attraction effects</title>
-  <author>von der Malsburg, Titus, &amp; Padó, S.</author>
-  <description><![CDATA[<p>von der Malsburg, Titus, &amp; Padó, S. (2026). Diverging transformer predictions for human sentence processing: A comprehensive analysis of agreement attraction effects. Unpublished manuscript.</p><p><b>BibTeX:</b><pre>@unpublished{MalsburgPado2026MS,
-  author = {{von der Malsburg}, Titus and Sebastian Padó},
-  title = {Diverging Transformer Predictions for Human Sentence Processing: {A} Comprehensive Analysis of Agreement Attraction Effects},
-  month = {mar},
-  year = {2026},
-  sortname = {Malsburg},
-  day = {17},
-  publisher = {arXiv},
-  eprint = {2603.16574},
-  archivePrefix = {arXiv},
-  primaryClass = {cs.CL},
-  doi = {10.48550/arXiv.2603.16574},
-}
-</pre></p>]]></description>
-  <link>http://dx.doi.org/10.48550/arXiv.2603.16574</link>
-  <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
-  <category>unpublished</category>
-  <guid>MalsburgPado2026MS</guid>
 </item>
 <item>
   <title>Patterns in the phonology of Mandarin Chinese: Basic color terms and beyond</title>
